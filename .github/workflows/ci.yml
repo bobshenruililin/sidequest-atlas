@@ -40,7 +40,10 @@ jobs:
           node-version-file: ".nvmrc"
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Build static site for GitHub Pages
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: /sidequest-atlas
       - uses: actions/upload-artifact@v4
         with:
           name: static-site

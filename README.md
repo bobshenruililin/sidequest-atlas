@@ -71,6 +71,15 @@ Cursor commands (`/create-trip`, `/validate-trip`, …) only shell out to this C
 **Nordic Fieldwork — August 2026** (Oslo → Stockholm → Helsinki).  
 Many transport times and event details remain **traveler-provided / needs live verification** — see Sources and Claims in the app.
 
+## Deploy to GitHub Pages
+
+1. **Settings → Pages → Source → GitHub Actions** (one-time):  
+   https://github.com/bobshenruililin/sidequest-atlas/settings/pages
+2. Merge to `main`. CI builds `apps/web/out` and deploys.
+3. Site: **https://bobshenruililin.github.io/sidequest-atlas/**
+
+Full steps: [docs/deployment.md](docs/deployment.md).
+
 ## Docs
 
 - [Philosophy](docs/philosophy.md)

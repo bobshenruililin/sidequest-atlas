@@ -1,187 +1,229 @@
-schemaVersion: "1.0.0"
-tripId: "trip-nordics-2026"
-slug: "nordics-2026"
-module: "logistics"
-generatedAt: "2026-07-16T08:00:00Z"
-status: "draft"
+schemaVersion: 1.0.0
+tripId: trip-nordics-2026
+slug: nordics-2026
+module: logistics
+generatedAt: '2026-07-16T08:00:00Z'
+status: draft
 verificationPolicy:
-  - "No confirmation numbers are stored in this file."
-  - "Transport times are traveler-provided unless explicitly reverified through official channels."
-  - "Local transit, restaurants, public venues, and campus access need live verification near the relevant day."
+- No confirmation numbers are stored in this file.
+- Oslo–Stockholm train and Stockholm–Helsinki ferry are booked; identifiers remain vault-only.
+- Local transit, restaurants, public venues, and campus access need live verification near the relevant
+  day.
 accommodation:
-  - id: "acc-oslo-okern"
-    city: "Oslo"
-    label: "Oslo accommodation around Økern"
-    status: "candidate"
-    verificationStatus: "traveler-provided"
-    startDate: "2026-08-06"
-    endDate: "2026-08-08"
-    timeZone: "Europe/Oslo"
-    notes:
-      - "Editable neighborhood anchor."
-      - "No confirmation code stored."
-      - "Primary logistics question is edge-to-core transit reliability."
-  - id: "acc-stockholm-scandic-wallin"
-    city: "Stockholm"
-    label: "Stockholm accommodation: Scandic Wallin"
-    status: "selected"
-    verificationStatus: "traveler-provided"
-    startDate: "2026-08-08"
-    endDate: "2026-08-15"
-    timeZone: "Europe/Stockholm"
-    notes:
-      - "Hotel label only."
-      - "No confirmation code stored."
-      - "Use as base for Norrmalm, KTH, AG, and ferry departure planning."
-  - id: "acc-helsinki-configurable"
-    city: "Helsinki"
-    label: "Helsinki accommodation configurable"
-    status: "candidate"
-    verificationStatus: "unresearched"
-    startDate: "2026-08-16"
-    endDate: "2026-08-20"
-    timeZone: "Europe/Helsinki"
-    notes:
-      - "Choose based on ferry arrival, Aalto access, final-meal plan, and onward departure."
-      - "No confirmation code stored."
+- id: acc-oslo-okern
+  city: Oslo
+  label: Oslo accommodation around Økern
+  status: candidate
+  verificationStatus: traveler-provided
+  startDate: '2026-08-06'
+  endDate: '2026-08-08'
+  timeZone: Europe/Oslo
+  notes:
+  - Editable neighborhood anchor.
+  - No confirmation code stored.
+  - Primary logistics question is edge-to-core transit reliability.
+- id: acc-stockholm-scandic-wallin
+  city: Stockholm
+  label: 'Stockholm accommodation: Scandic Wallin'
+  status: selected
+  verificationStatus: traveler-provided
+  startDate: '2026-08-08'
+  endDate: '2026-08-15'
+  timeZone: Europe/Stockholm
+  notes:
+  - Hotel label only.
+  - No confirmation code stored.
+  - Use as base for Norrmalm, KTH, AG, and ferry departure planning.
+- id: acc-helsinki-configurable
+  city: Helsinki
+  label: Helsinki accommodation configurable
+  status: candidate
+  verificationStatus: unresearched
+  startDate: '2026-08-16'
+  endDate: '2026-08-20'
+  timeZone: Europe/Helsinki
+  notes:
+  - Choose based on ferry arrival, Aalto access, final-meal plan, and onward departure.
+  - No confirmation code stored.
 longDistanceTransport:
-  - id: "train-oslo-stockholm-2026-08-08"
-    mode: "train"
-    from: "Oslo"
-    to: "Stockholm"
-    departureDate: "2026-08-08"
-    travelerProvidedDepartureTime: "11:34"
-    travelerProvidedArrivalTime: "17:16"
-    departureTimeZone: "Europe/Oslo"
-    arrivalTimeZone: "Europe/Stockholm"
-    verificationStatus: "traveler-provided"
-    confidence: "low"
-    reverifyAfter: "2026-08-01"
-    sourceIds:
-      - "src-sj"
-    claimIds:
-      - "claim-train-oslo-stockholm-time"
-    actionItems:
-      - "Confirm operator, train number, route, transfer requirements, and ticket status."
-      - "Check disruptions and replacement transport close to travel."
-      - "Do not publish platform, fare, or exact train number until confirmed."
-  - id: "ferry-stockholm-helsinki-2026-08-15"
-    mode: "ferry"
-    from: "Stockholm"
-    to: "Helsinki"
-    departureDate: "2026-08-15"
-    travelerProvidedDepartureTime: "16:30"
-    arrivalDate: "2026-08-16"
-    travelerProvidedArrivalTime: "10:30"
-    departureTimeZone: "Europe/Stockholm"
-    arrivalTimeZone: "Europe/Helsinki"
-    verificationStatus: "traveler-provided"
-    confidence: "low"
-    reverifyAfter: "2026-08-01"
-    sourceIds:
-      - "src-tallink-silja"
-      - "src-viking-line"
-    claimIds:
-      - "claim-ferry-stockholm-helsinki-time"
-    actionItems:
-      - "Identify operator, terminal, check-in deadline, arrival terminal, and cabin/seat status."
-      - "Confirm food options only through current onboard/operator information."
-      - "Do not store or publish cabin, ticket, or confirmation references."
+- id: train-oslo-stockholm-2026-08-08
+  mode: train
+  from: Oslo
+  to: Stockholm
+  departureDate: '2026-08-08'
+  travelerProvidedDepartureTime: '11:34'
+  travelerProvidedArrivalTime: '17:16'
+  departureTimeZone: Europe/Oslo
+  arrivalTimeZone: Europe/Stockholm
+  verificationStatus: traveler-provided
+  confidence: low
+  reverifyAfter: '2026-08-01'
+  sourceIds:
+  - src-sj
+  claimIds:
+  - claim-train-oslo-stockholm-time
+  actionItems:
+  - Confirm operator, train number, route, transfer requirements, and ticket status.
+  - Check disruptions and replacement transport close to travel.
+  - Do not publish platform, fare, or exact train number until confirmed.
+- id: ferry-stockholm-helsinki-2026-08-15
+  mode: ferry
+  from: Stockholm
+  to: Helsinki
+  departureDate: '2026-08-15'
+  travelerProvidedDepartureTime: '16:30'
+  arrivalDate: '2026-08-16'
+  travelerProvidedArrivalTime: '10:30'
+  departureTimeZone: Europe/Stockholm
+  arrivalTimeZone: Europe/Helsinki
+  verificationStatus: traveler-provided
+  confidence: low
+  reverifyAfter: '2026-08-01'
+  sourceIds:
+  - src-tallink-silja
+  - src-viking-line
+  claimIds:
+  - claim-ferry-stockholm-helsinki-time
+  actionItems:
+  - Identify operator, terminal, check-in deadline, arrival terminal, and cabin/seat status.
+  - Confirm food options only through current onboard/operator information.
+  - Do not store or publish cabin, ticket, or confirmation references.
 localTransport:
-  - city: "Oslo"
-    sourceIds:
-      - "src-ruter"
-    verificationStatus: "researched"
-    confidence: "medium"
-    reverifyAfter: "2026-08-01"
-    fieldworkUse: "Økern-to-center trust and legibility test."
-    liveChecks:
-      - "Airport/station to Økern-area transfer."
-      - "Ticket medium and validation norms."
-      - "Waterfront and University of Oslo access."
-  - city: "Stockholm"
-    sourceIds:
-      - "src-sl"
-    verificationStatus: "researched"
-    confidence: "medium"
-    reverifyAfter: "2026-08-01"
-    fieldworkUse: "Daily movement among hotel, KTH, central districts, crayfish recon, and ferry terminal."
-    liveChecks:
-      - "Station-to-hotel transfer on Aug 8."
-      - "Hotel-to-ferry terminal path and buffer on Aug 15."
-      - "Ticket medium and inspection norms."
-  - city: "Helsinki"
-    sourceIds:
-      - "src-hsl"
-      - "src-vr"
-    verificationStatus: "researched"
-    confidence: "medium"
-    reverifyAfter: "2026-08-01"
-    fieldworkUse: "Port arrival, Aalto campus access, public library, final meal logistics, and onward rail context."
-    liveChecks:
-      - "Ferry terminal to accommodation path."
-      - "Aalto transit route."
-      - "Any onward departure from Helsinki."
+- city: Oslo
+  sourceIds:
+  - src-ruter
+  verificationStatus: researched
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+  fieldworkUse: Økern-to-center trust and legibility test.
+  liveChecks:
+  - Airport/station to Økern-area transfer.
+  - Ticket medium and validation norms.
+  - Waterfront and University of Oslo access.
+- city: Stockholm
+  sourceIds:
+  - src-sl
+  verificationStatus: researched
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+  fieldworkUse: Daily movement among hotel, KTH, central districts, crayfish recon, and ferry terminal.
+  liveChecks:
+  - Station-to-hotel transfer on Aug 8.
+  - Hotel-to-ferry terminal path and buffer on Aug 15.
+  - Ticket medium and inspection norms.
+- city: Helsinki
+  sourceIds:
+  - src-hsl
+  - src-vr
+  verificationStatus: researched
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+  fieldworkUse: Port arrival, Aalto campus access, public library, final meal logistics, and onward rail
+    context.
+  liveChecks:
+  - Ferry terminal to accommodation path.
+  - Aalto transit route.
+  - Any onward departure from Helsinki.
 currencyAndBudget:
-  - city: "Oslo"
-    currency: "NOK"
+- city: Oslo
+  currency: NOK
+  minorUnit: 2
+  normalDay:
+    lowMinor: 30000
+    highMinor: 70000
+    currency: NOK
     minorUnit: 2
-    normalDay:
-      lowMinor: 30000
-      highMinor: 70000
-      currency: "NOK"
-      minorUnit: 2
-      includes:
-        - "local meals"
-        - "local transit"
-      excludes:
-        - "accommodation"
-        - "long-distance transport"
-      confidence: "low"
-  - city: "Stockholm"
-    currency: "SEK"
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+- city: Stockholm
+  currency: SEK
+  minorUnit: 2
+  normalDay:
+    lowMinor: 35000
+    highMinor: 80000
+    currency: SEK
     minorUnit: 2
-    normalDay:
-      lowMinor: 35000
-      highMinor: 80000
-      currency: "SEK"
-      minorUnit: 2
-      includes:
-        - "local meals"
-        - "local transit"
-      excludes:
-        - "accommodation"
-        - "long-distance transport"
-      confidence: "low"
-  - city: "Helsinki"
-    currency: "EUR"
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+- city: Helsinki
+  currency: EUR
+  minorUnit: 2
+  normalDay:
+    lowMinor: 3500
+    highMinor: 9000
+    currency: EUR
     minorUnit: 2
-    normalDay:
-      lowMinor: 3500
-      highMinor: 9000
-      currency: "EUR"
-      minorUnit: 2
-      includes:
-        - "local meals"
-        - "local transit"
-      excludes:
-        - "accommodation"
-        - "long-distance transport"
-      confidence: "low"
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
 preTripReverificationChecklist:
-  - due: "2026-08-01"
-    items:
-      - "Oslo-Stockholm train time and operator"
-      - "Stockholm-Helsinki ferry operator, terminal, check-in, and arrival terminal"
-      - "AG availability on Aug 10"
-      - "Whether crayfish options around Aug 13 are real and accessible"
-      - "Campus/public venue access for August"
-  - due: "2026-08-10"
-    items:
-      - "Helsinki final meal availability and current concept for Nolla, Finnjävel, and Grön"
-      - "Helsinki accommodation location if not yet selected"
-      - "Onward departure logistics from Helsinki"
+- due: '2026-08-01'
+  items:
+  - Oslo-Stockholm train time and operator
+  - Stockholm-Helsinki ferry operator, terminal, check-in, and arrival terminal
+  - AG availability on Aug 10
+  - Whether crayfish options around Aug 13 are real and accessible
+  - Campus/public venue access for August
+- due: '2026-08-10'
+  items:
+  - Helsinki final meal availability and current concept for Nolla, Finnjävel, and Grön
+  - Helsinki accommodation location if not yet selected
+  - Onward departure logistics from Helsinki
 privacyNotes:
-  - "No booking confirmation numbers."
-  - "No private accommodation address unless intentionally made public."
-  - "Do not publish traveler contact details."
+- No booking confirmation numbers.
+- No private accommodation address unless intentionally made public.
+- Do not publish traveler contact details.
+bookedLongDistance:
+  train:
+    operator: SJ
+    service: SJ 3000 Snabbtåg 638
+    date: '2026-08-08'
+    depart:
+      localDate: '2026-08-08'
+      localTime: '11:34'
+      timeZone: Europe/Oslo
+      station: Oslo S
+    arrive:
+      localDate: '2026-08-08'
+      localTime: '17:16'
+      timeZone: Europe/Stockholm
+      station: Stockholm Central
+    class: 2nd class reserved
+    rebookable: false
+    confirmationStatus: booked
+    notes: Public file omits booking/ticket numbers. Fare excluded from day budgets.
+  ferry:
+    operator: Tallink Silja
+    vessel: Silja Symphony
+    cabin: B-Standard Inside
+    depart:
+      localDate: '2026-08-15'
+      localTime: '16:30'
+      timeZone: Europe/Stockholm
+      terminal: Värtahamnen, Hamnpirsvägen 10
+    arrive:
+      localDate: '2026-08-16'
+      localTime: '10:30'
+      timeZone: Europe/Helsinki
+      terminal: Olympia Terminal, Olympiaranta 1
+    paidTotalEURMinor: 13790
+    breakdownEURMinor:
+      cabin: 12100
+      emissionFuelSurcharge: 1690
+    checkInClosesMinutesBefore: 20
+    confirmationStatus: booked
+    notes: Public file omits reservation/security codes.

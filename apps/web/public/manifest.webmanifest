@@ -1,0 +1,17 @@
+{
+  "name": "Sidequest Atlas",
+  "short_name": "Atlas",
+  "description": "The Life and Field Notes of Shen Ruililin.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5efe3",
+  "theme_color": "#211d18",
+  "icons": [
+    {
+      "src": "/globe.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

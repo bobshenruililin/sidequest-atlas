@@ -1,26 +1,262 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #f5efe3;
+  --paper-elevated: #fffaf0;
+  --ink: #211d18;
+  --rule: #d7c9b3;
+  --muted: #6f6254;
+  --accent-no: #9f2f24;
+  --accent-se: #1f5f90;
+  --accent-fi: #2f7668;
+  --shadow-soft: 0 22px 60px rgb(54 43 29 / 0.12);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-paper-elevated: var(--paper-elevated);
+  --color-ink: var(--ink);
+  --color-rule: var(--rule);
+  --color-muted: var(--muted);
+  --color-accent-no: var(--accent-no);
+  --color-accent-se: var(--accent-se);
+  --color-accent-fi: var(--accent-fi);
+  --font-sans: var(--font-plex-sans);
+  --font-serif: var(--font-source-serif);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --paper: #15120f;
+    --paper-elevated: #1f1a15;
+    --ink: #f0e4d0;
+    --rule: #493f33;
+    --muted: #b7a894;
+    --accent-no: #df7467;
+    --accent-se: #7fb3d7;
+    --accent-fi: #83c5b8;
+    --shadow-soft: 0 22px 60px rgb(0 0 0 / 0.28);
   }
 }
 
+html.dark {
+  --paper: #15120f;
+  --paper-elevated: #1f1a15;
+  --ink: #f0e4d0;
+  --rule: #493f33;
+  --muted: #b7a894;
+  --accent-no: #df7467;
+  --accent-se: #7fb3d7;
+  --accent-fi: #83c5b8;
+  --shadow-soft: 0 22px 60px rgb(0 0 0 / 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  background:
+    linear-gradient(90deg, rgb(33 29 24 / 0.035) 1px, transparent 1px),
+    linear-gradient(180deg, rgb(33 29 24 / 0.026) 1px, transparent 1px),
+    var(--paper);
+  background-size: 34px 34px;
+  color: var(--ink);
+  font-family: var(--font-plex-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent-se) 25%, transparent);
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.site-header {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--paper) 94%, transparent), transparent),
+    var(--paper);
+}
+
+.eyebrow {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--ink);
+  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.32em;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible,
+.nav-link-muted:hover,
+.nav-link-muted:focus-visible,
+.underline-link:hover,
+.underline-link:focus-visible {
+  color: var(--accent-se);
+  text-decoration: underline;
+}
+
+.nav-link-muted,
+.underline-link {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 0.28em;
+}
+
+.notebook-card {
+  border: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--paper-elevated) 86%, transparent);
+  box-shadow: var(--shadow-soft);
+}
+
+.rule-y > * + * {
+  border-top: 1px solid var(--rule);
+}
+
+.accent-no {
+  --city-accent: var(--accent-no);
+}
+
+.accent-se {
+  --city-accent: var(--accent-se);
+}
+
+.accent-fi {
+  --city-accent: var(--accent-fi);
+}
+
+.accent-neutral {
+  --city-accent: var(--muted);
+}
+
+.field-input {
+  width: 100%;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper-elevated) 74%, transparent);
+  color: var(--ink);
+  padding: 0.62rem 0.9rem;
+}
+
+.field-input:focus {
+  border-color: var(--accent-se);
+  outline: 2px solid color-mix(in srgb, var(--accent-se) 24%, transparent);
+  outline-offset: 2px;
+}
+
+.field-checkbox {
+  accent-color: var(--accent-se);
+}
+
+.ink-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.72rem 1rem;
+  text-transform: uppercase;
+}
+
+.ink-button:hover,
+.ink-button:focus-visible {
+  transform: translateY(-1px);
+}
+
+.ghost-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.72rem 1rem;
+  text-transform: uppercase;
+}
+
+.ghost-button:hover,
+.ghost-button:focus-visible {
+  border-color: var(--accent-se);
+  color: var(--accent-se);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  :root {
+    --paper: #ffffff;
+    --paper-elevated: #ffffff;
+    --ink: #111111;
+    --rule: #bbbbbb;
+    --muted: #555555;
+  }
+
+  body {
+    background: #ffffff;
+    font-size: 11pt;
+  }
+
+  a {
+    color: #111111;
+    text-decoration: none;
+  }
+
+  .notebook-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  main {
+    padding: 0 !important;
+  }
 }

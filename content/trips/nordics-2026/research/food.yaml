@@ -1,0 +1,179 @@
+schemaVersion: "1.0.0"
+tripId: "trip-nordics-2026"
+slug: "nordics-2026"
+module: "food"
+generatedAt: "2026-07-16T08:00:00Z"
+status: "draft"
+researchPrinciples:
+  - "Do not treat menus, prices, or opening hours as confirmed until checked through official channels close to travel."
+  - "Keep all planning amounts as integer minor units."
+  - "Use food as field evidence for seasonality, labor cost, trust, welfare, design, and constraint."
+budgetTargets:
+  - city: "Oslo"
+    normalDay:
+      lowMinor: 30000
+      highMinor: 70000
+      currency: "NOK"
+      minorUnit: 2
+      includes:
+        - "local meals"
+        - "local transit"
+        - "modest activities"
+      excludes:
+        - "accommodation"
+        - "long-distance transport"
+      confidence: "low"
+    notes: "Planning range only; Oslo seafood experiment may consume more of the daily food allocation."
+  - city: "Stockholm"
+    normalDay:
+      lowMinor: 35000
+      highMinor: 80000
+      currency: "SEK"
+      minorUnit: 2
+      includes:
+        - "local meals"
+        - "local transit"
+        - "modest activities"
+      excludes:
+        - "accommodation"
+        - "long-distance transport"
+        - "AG or crayfish overage beyond normal-day target"
+      confidence: "low"
+    notes: "AG and crayfish are thesis meals; preserve uncertainty around cost and availability."
+  - city: "Helsinki"
+    normalDay:
+      lowMinor: 3500
+      highMinor: 9000
+      currency: "EUR"
+      minorUnit: 2
+      includes:
+        - "local meals"
+        - "local transit"
+        - "modest activities"
+      excludes:
+        - "accommodation"
+        - "long-distance transport"
+        - "final-meal overage beyond normal-day target"
+      confidence: "low"
+    notes: "Final meal can exceed the normal-day target only if deliberately chosen and verified."
+foodExperiments:
+  - id: "oslo-fjord-seafood-tribunal"
+    city: "Oslo"
+    targetDate: "2026-08-07"
+    title: "Oslo Fjord Seafood Tribunal"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-06"
+    provenanceClaimId: "claim-oslo-seafood-tribunal"
+    hypothesis: "Norwegian seafood retail should reveal how nature, labeling, regulation, and consumer trust are linked."
+    method:
+      - "Buy two or three seafood samples only from sources that appear fresh and legible."
+      - "Score label clarity, origin claims, packaging trust, price visibility, and taste."
+      - "Record uncertainty rather than ranking as objective fact."
+    planningBudget:
+      lowMinor: 15000
+      highMinor: 35000
+      currency: "NOK"
+      minorUnit: 2
+      includes:
+        - "seafood samples"
+        - "simple accompaniments"
+      excludes:
+        - "restaurant service"
+      confidence: "low"
+    safety:
+      - "Buy shortly before eating."
+      - "Skip shellfish if freshness or storage is doubtful."
+  - id: "stockholm-crayfish-night"
+    city: "Stockholm"
+    targetDate: "2026-08-13"
+    title: "Crayfish night without false certainty"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-01"
+    provenanceClaimId: "claim-crayfish-aug13"
+    hypothesis: "Crayfish season exposes Swedish seasonality, private social ritual, retail packaging, and the boundary between resident culture and tourist access."
+    acceptableFormats:
+      - "Market or supermarket-sourced crayfish meal if storage and quality are credible."
+      - "Restaurant crayfish menu only if verified through current official information."
+      - "Skip the meal and document retail/menu evidence if no honest route exists."
+    planningBudget:
+      lowMinor: 25000
+      highMinor: 65000
+      currency: "SEK"
+      minorUnit: 2
+      includes:
+        - "crayfish-focused meal"
+      excludes:
+        - "alcohol"
+      confidence: "low"
+  - id: "helsinki-final-meal"
+    city: "Helsinki"
+    targetDate: "2026-08-20"
+    title: "Final meal: Nolla, Finnjävel, or Grön"
+    verificationStatus: "researched"
+    confidence: "low"
+    reverifyAfter: "2026-08-10"
+    provenanceClaimId: "claim-helsinki-final-meal-options"
+    provisionalDecision: "Nolla"
+    rationale: "Nolla is the provisional first choice because zero-waste design most directly closes the constraint-to-systems thesis."
+    alternatives:
+      - restaurant: "Finnjävel"
+        thesisFit: "Finnish heritage and national cuisine as designed memory."
+      - restaurant: "Grön"
+        thesisFit: "Nordic seasonality and produce-driven craft."
+    planningBudget:
+      lowMinor: 6000
+      highMinor: 18000
+      currency: "EUR"
+      minorUnit: 2
+      includes:
+        - "final meal planning range"
+      excludes:
+        - "drinks"
+      confidence: "low"
+venueTargets:
+  - id: "restaurant-ag"
+    name: "Restaurant AG"
+    city: "Stockholm"
+    targetDate: "2026-08-10"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-01"
+    sourceIds:
+      - "src-restaurant-ag"
+    claimIds:
+      - "claim-ag-aug10"
+    notes: "Planning target only; no reservation, price, or opening time is confirmed."
+  - id: "nolla"
+    name: "Nolla"
+    city: "Helsinki"
+    verificationStatus: "researched"
+    confidence: "low"
+    reverifyAfter: "2026-08-10"
+    sourceIds:
+      - "src-nolla"
+    notes: "Official site exists as verification path; availability and current offering not confirmed."
+  - id: "finnjavel"
+    name: "Finnjävel"
+    city: "Helsinki"
+    verificationStatus: "researched"
+    confidence: "low"
+    reverifyAfter: "2026-08-10"
+    sourceIds:
+      - "src-finnjavel"
+    notes: "Official site exists as verification path; availability and current offering not confirmed."
+  - id: "gron"
+    name: "Grön"
+    city: "Helsinki"
+    verificationStatus: "researched"
+    confidence: "low"
+    reverifyAfter: "2026-08-10"
+    sourceIds:
+      - "src-gron"
+    notes: "Official site exists as verification path; availability and current offering not confirmed."
+fieldworkQuestions:
+  - "Which foods are presented as nature, heritage, design, convenience, or moral choice?"
+  - "How do high labor costs reshape self-service, menus, and portion formats?"
+  - "When does sustainability feel like hospitality, ideology, or operational competence?"
+  - "Which food experiences require social access rather than money?"

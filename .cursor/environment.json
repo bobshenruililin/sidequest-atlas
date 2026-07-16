@@ -1,0 +1,9 @@
+{
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "Sidequest Atlas",
+      "command": "npm run dev --workspace=@sidequest-atlas/web"
+    }
+  ]
+}

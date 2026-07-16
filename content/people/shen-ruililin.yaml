@@ -1,0 +1,27 @@
+schemaVersion: "1.0.0"
+id: "shen-ruililin"
+name: "Shen Ruililin"
+biography: "Traveler and fieldworker using Sidequest Atlas to study high-trust systems, design, food, institutions, education, and technology through daily observation."
+home: "Unspecified"
+interests:
+  - "Northern European welfare states and high-trust institutions"
+  - "AI-era strategy, education, and labor markets"
+  - "Food systems, seasonal rituals, and everyday economics"
+  - "Urban design, transit, housing, and public space"
+  - "Universities, patient capital, and globally influential small-country companies"
+travelValues:
+  - "Preserve uncertainty until verified"
+  - "Favor field observation over checklist tourism"
+  - "Balance serious systems research with food experiments and sidequests"
+  - "Keep booking references and private notes out of public content"
+foodPreferences:
+  - "Local seasonal foods"
+  - "Seafood and market experiments"
+  - "Student cafeteria and worker-lunch comparisons"
+  - "One or two high-signal splurge meals when they reveal the system"
+constraints:
+  - "No public booking confirmation numbers"
+  - "Long-distance transport and accommodation excluded from normal daily budgets"
+  - "Schedules, prices, and opening hours must be reverified before use"
+defaultPace: "balanced"
+defaultBudgetMode: "balanced"

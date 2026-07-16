@@ -1,0 +1,15 @@
+---
+description: Research and source standards
+alwaysApply: false
+---
+
+# Research standards
+
+Source priority: official venue/company pages → government/transit → universities →
+annual reports → statistical agencies → OECD/academic → reputable local press →
+community (subjective texture only).
+
+Every volatile claim needs a Claim record with sourceIds, accessed/verified dates,
+confidence, and reverifyAfter.
+
+Distinguish traveler-provided, researched, inferred, and confirmed.

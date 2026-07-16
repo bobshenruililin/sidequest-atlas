@@ -1,0 +1,3061 @@
+schemaVersion: 1.0.0
+id: trip-nordics-2026
+slug: nordics-2026
+title: Nordic Fieldwork August 2026
+subtitle: Oslo, Stockholm, and Helsinki as small-society systems labs
+travelerId: shen-ruililin
+startDate: '2026-08-06'
+endDate: '2026-08-20'
+status: planned
+destinations:
+- city: Oslo
+  country: Norway
+  countryCode: 'NO'
+  arrivalDate: '2026-08-06'
+  departureDate: '2026-08-08'
+  timeZone: Europe/Oslo
+  accommodation:
+    id: acc-oslo-okern
+    label: Oslo accommodation around Økern
+    provider: Editable
+    status: candidate
+    verificationStatus: traveler-provided
+    notes: Neighborhood anchor only; editable and no confirmation code.
+  themes:
+  - fjord food systems
+  - oil wealth and public trust
+  - public transport from edge neighborhoods
+  coreQuestion: How does Norway convert nature, energy wealth, and institutional trust into everyday urban
+    life?
+  foodStrategy:
+    seasonalFoods:
+    - id: norwegian-shrimp
+      name: Norwegian cold-water shrimp
+      category: seafood
+      seasonal: true
+      notes: Use only as a fieldwork target; price and availability require live verification.
+    - id: brown-cheese
+      name: Brunost / brown cheese
+      category: grocery
+      seasonal: false
+      notes: Good supermarket baseline for sweetness, dairy policy, and national taste.
+    supermarketExperiments:
+    - id: oslo-fjord-seafood-tribunal
+      title: Oslo Fjord Seafood Tribunal
+      description: Compare supermarket or market seafood items by origin, labeling clarity, price display,
+        convenience, and perceived trust.
+      items:
+      - id: shrimp-sample
+        name: Cold-water shrimp sample
+        category: seafood
+        seasonal: true
+      - id: smoked-salmon-sample
+        name: Smoked salmon sample
+        category: seafood
+        seasonal: false
+      - id: mackerel-sample
+        name: Mackerel or herring sample
+        category: seafood
+        seasonal: true
+      accompaniments:
+      - id: rye-or-crispbread
+        name: Rye bread or crispbread
+        category: bread
+      scoringCriteria:
+      - Label transparency
+      - Cold-chain and packaging trust
+      - Affordability for a normal resident
+      - Taste-to-system insight ratio
+      budget:
+        lowMinor: 15000
+        highMinor: 35000
+        currency: NOK
+        minorUnit: 2
+        includes:
+        - seafood samples
+        - simple accompaniments
+        excludes:
+        - restaurant service
+        confidence: low
+      storageWarnings:
+      - Buy shortly before eating; keep chilled.
+      foodSafetyNotes:
+      - Avoid shellfish if storage or freshness is uncertain.
+    studentCafeterias: []
+    workerLunches: []
+    markets:
+    - id: oslo-food-hall-candidate
+      name: Oslo food hall or fish counter candidate
+      city: Oslo
+      description: Candidate venue class for observing seafood pricing and presentation; exact venue unconfirmed.
+      budget:
+        lowMinor: 15000
+        highMinor: 45000
+        currency: NOK
+        minorUnit: 2
+        includes:
+        - one market meal or samples
+        excludes:
+        - splurge dinner
+        confidence: low
+      planningStatus: candidate
+      verificationStatus: unresearched
+    picnicCombinations: []
+    worthySplurges: []
+    avoidOverpayingFor:
+    - generic waterfront meals without fieldwork value
+    discountTerms:
+    - term: dagens
+      meaning: daily special
+      language: Norwegian
+    normalDailyBudget:
+      lowMinor: 30000
+      highMinor: 70000
+      currency: NOK
+      minorUnit: 2
+      includes:
+      - local meals
+      - local transit
+      - modest activities
+      excludes:
+      - accommodation
+      - long-distance transport
+      confidence: low
+  universities:
+  - id: uio
+    name: University of Oslo
+    type: university
+    city: Oslo
+    description: Norway's major research university and public knowledge institution.
+    whyItMatters: A window into how resource wealth, public education, and research capacity connect.
+    whatItReveals: Whether high trust is reproduced through accessible institutions and public-facing
+      campuses.
+    aiEraQuestion: How does a public university prepare a small labor market for AI-driven restructuring?
+    visitability: public
+    sourceIds:
+    - src-uio
+    verificationStatus: researched
+  companies: []
+  publicInstitutions:
+  - id: norwegian-welfare-state
+    name: Norwegian welfare-state interface
+    type: government
+    city: Oslo
+    description: Observed through transit, libraries, waterfront, and everyday public services.
+    whyItMatters: High-trust systems are encountered through ordinary interfaces, not only policy papers.
+    whatItReveals: How institutional competence feels at street level.
+    visitability: public
+    verificationStatus: unresearched
+  localSystems:
+  - id: oslo-fjord-food-system
+    name: Oslo fjord seafood and labeling system
+    category: food-production
+    description: Seafood as a connection between nature, regulation, wealth, and consumer trust.
+    whyItMatters: The field experiment tests whether abundance becomes legible and affordable.
+    claimIds:
+    - claim-oslo-seafood-tribunal
+- city: Stockholm
+  country: Sweden
+  countryCode: SE
+  arrivalDate: '2026-08-08'
+  departureDate: '2026-08-15'
+  timeZone: Europe/Stockholm
+  accommodation:
+    id: acc-stockholm-scandic-wallin
+    label: 'Stockholm accommodation: Scandic Wallin'
+    provider: Scandic
+    status: selected
+    verificationStatus: traveler-provided
+    notes: No confirmation code stored.
+  themes:
+  - capital-city trust systems
+  - labor-market softness and AI
+  - design, food rituals, and patient capital
+  coreQuestion: How does Sweden's consensus-and-design operating system adapt when growth, labor, and
+    security assumptions change?
+  foodStrategy:
+    seasonalFoods:
+    - id: crayfish
+      name: Crayfish
+      category: seasonal ritual
+      seasonal: true
+      notes: August crayfish night target; date, venue, price, and availability are unconfirmed.
+    - id: herring
+      name: Herring
+      category: seafood
+      seasonal: false
+    supermarketExperiments: []
+    studentCafeterias:
+    - id: stockholm-student-cafeteria-candidate
+      name: KTH or university-area cafeteria candidate
+      city: Stockholm
+      description: Use as a price and social baseline if publicly accessible.
+      budget:
+        lowMinor: 9000
+        highMinor: 18000
+        currency: SEK
+        minorUnit: 2
+        includes:
+        - one lunch
+        excludes:
+        - campus access fees
+        confidence: low
+      planningStatus: candidate
+      verificationStatus: unresearched
+    workerLunches:
+    - id: stockholm-dagens-lunch-candidate
+      name: Dagens lunch candidate
+      city: Stockholm
+      description: Worker-lunch baseline near the hotel or CBD; exact venue to verify live.
+      budget:
+        lowMinor: 12000
+        highMinor: 22000
+        currency: SEK
+        minorUnit: 2
+        includes:
+        - one lunch
+        excludes:
+        - alcohol
+        confidence: low
+      planningStatus: candidate
+      verificationStatus: unresearched
+    markets: []
+    picnicCombinations:
+    - id: crayfish-night-flex
+      title: Flexible crayfish night
+      items:
+      - id: crayfish-pack
+        name: Crayfish pack or restaurant plate
+        category: seasonal seafood
+        seasonal: true
+      - id: crispbread-cheese-dill
+        name: Crispbread, cheese, dill, and simple sides
+        category: accompaniment
+      locationIdeas:
+      - Public picnic if weather allows
+      - Reservation-based restaurant if verified
+      budget:
+        lowMinor: 25000
+        highMinor: 65000
+        currency: SEK
+        minorUnit: 2
+        includes:
+        - crayfish-focused meal
+        excludes:
+        - alcohol
+        confidence: low
+      weatherDependency: medium
+    worthySplurges:
+    - id: restaurant-ag
+      name: Restaurant AG
+      city: Stockholm
+      description: Meat-focused Stockholm restaurant targeted for Aug 10 as a contrast to welfare-state
+        everyday food.
+      budget:
+        lowMinor: 50000
+        highMinor: 120000
+        currency: SEK
+        minorUnit: 2
+        includes:
+        - meal planning range
+        excludes:
+        - drinks
+        confidence: low
+      planningStatus: recommended
+      verificationStatus: researched
+      whyItMatters: A controlled splurge to observe capital-city service, protein culture, and premium
+        trust signals.
+      claimIds:
+      - claim-ag-aug10
+    avoidOverpayingFor:
+    - tourist fika with no neighborhood signal
+    - generic old-town meals at peak crowd times
+    discountTerms:
+    - term: dagens lunch
+      meaning: daily lunch special
+      language: Swedish
+    normalDailyBudget:
+      lowMinor: 35000
+      highMinor: 80000
+      currency: SEK
+      minorUnit: 2
+      includes:
+      - local meals
+      - local transit
+      - modest activities
+      excludes:
+      - accommodation
+      - long-distance transport
+      confidence: low
+  universities:
+  - id: kth
+    name: KTH Royal Institute of Technology
+    type: university
+    city: Stockholm
+    description: Technical university central to Swedish engineering and innovation capacity.
+    whyItMatters: Connects education, industrial competitiveness, and AI-era skills.
+    whatItReveals: How a small country turns technical education into global companies.
+    aiEraQuestion: Can Swedish engineering education stay globally relevant as AI changes entry-level
+      work?
+    visitability: public
+    sourceIds:
+    - src-kth
+    verificationStatus: researched
+  - id: sse
+    name: Stockholm School of Economics
+    type: university
+    city: Stockholm
+    description: Business school linked to Swedish management, finance, and entrepreneurship networks.
+    whyItMatters: Useful for patient capital and labor-market questions.
+    whatItReveals: Elite human-capital formation in a consensus-oriented society.
+    aiEraQuestion: How does management education adapt when AI compresses analytical work?
+    visitability: exterior-only
+    verificationStatus: unresearched
+  companies:
+  - id: spotify
+    name: Spotify
+    type: company
+    city: Stockholm
+    description: Global consumer technology company born in a small Nordic market.
+    whyItMatters: Tests the thesis that small high-trust societies can produce global platforms.
+    whatItReveals: The exportability of design, engineering, and licensing competence.
+    aiEraQuestion: How does a platform company from Sweden reposition as AI changes music creation and
+      discovery?
+    visitability: exterior-only
+    verificationStatus: unresearched
+  publicInstitutions: []
+  localSystems:
+  - id: stockholm-transit-trust
+    name: Stockholm transit trust system
+    category: transport
+    description: A daily test of fare compliance, signage, crowd norms, and regional accessibility.
+    whyItMatters: Transit reveals how trust becomes operational infrastructure.
+- city: Helsinki
+  country: Finland
+  countryCode: FI
+  arrivalDate: '2026-08-16'
+  departureDate: '2026-08-20'
+  timeZone: Europe/Helsinki
+  accommodation:
+    id: acc-helsinki-configurable
+    label: Helsinki accommodation configurable
+    provider: TBD
+    status: candidate
+    verificationStatus: unresearched
+    notes: No confirmation code; choose based on final logistics.
+  themes:
+  - education and design under demographic pressure
+  - public-sector foresight
+  - AI, security, and small-country resilience
+  coreQuestion: How does Finland combine education, design, technology, and strategic patience under demographic
+    and geopolitical pressure?
+  foodStrategy:
+    seasonalFoods:
+    - id: finnish-berries
+      name: Finnish berries
+      category: seasonal produce
+      seasonal: true
+    - id: rye-bread
+      name: Finnish rye bread
+      category: bread
+      seasonal: false
+    supermarketExperiments: []
+    studentCafeterias:
+    - id: aalto-student-cafeteria-candidate
+      name: Aalto or University of Helsinki cafeteria candidate
+      city: Helsinki
+      description: Student-food baseline if public access and August service are verified.
+      budget:
+        lowMinor: 800
+        highMinor: 1800
+        currency: EUR
+        minorUnit: 2
+        includes:
+        - one lunch
+        excludes:
+        - restricted student pricing
+        confidence: low
+      planningStatus: candidate
+      verificationStatus: unresearched
+    workerLunches: []
+    markets:
+    - id: helsinki-market-candidate
+      name: Helsinki market hall candidate
+      city: Helsinki
+      description: Market observation for berries, fish, lunch pricing, and tourist/resident split.
+      budget:
+        lowMinor: 1000
+        highMinor: 3000
+        currency: EUR
+        minorUnit: 2
+        includes:
+        - market lunch or samples
+        excludes:
+        - souvenirs
+        confidence: low
+      planningStatus: candidate
+      verificationStatus: unresearched
+    picnicCombinations: []
+    worthySplurges:
+    - id: nolla
+      name: Nolla
+      city: Helsinki
+      description: Zero-waste Helsinki restaurant candidate for final meal.
+      budget:
+        lowMinor: 6000
+        highMinor: 13000
+        currency: EUR
+        minorUnit: 2
+        includes:
+        - final meal planning range
+        excludes:
+        - drinks
+        confidence: low
+      planningStatus: recommended
+      verificationStatus: researched
+      whyItMatters: Strongest fit for design, constraint, and systems thesis if available.
+      claimIds:
+      - claim-helsinki-final-meal-options
+    - id: finnjavel
+      name: Finnjävel
+      city: Helsinki
+      description: Finnish food heritage candidate for final meal.
+      budget:
+        lowMinor: 8000
+        highMinor: 18000
+        currency: EUR
+        minorUnit: 2
+        includes:
+        - final meal planning range
+        excludes:
+        - drinks
+        confidence: low
+      planningStatus: shortlisted
+      verificationStatus: researched
+    - id: gron
+      name: Grön
+      city: Helsinki
+      description: Nordic seasonal restaurant candidate for final meal.
+      budget:
+        lowMinor: 8000
+        highMinor: 18000
+        currency: EUR
+        minorUnit: 2
+        includes:
+        - final meal planning range
+        excludes:
+        - drinks
+        confidence: low
+      planningStatus: shortlisted
+      verificationStatus: researched
+    avoidOverpayingFor:
+    - waterfront meals chosen only for view
+    discountTerms:
+    - term: lounas
+      meaning: lunch
+      language: Finnish
+    normalDailyBudget:
+      lowMinor: 3500
+      highMinor: 9000
+      currency: EUR
+      minorUnit: 2
+      includes:
+      - local meals
+      - local transit
+      - modest activities
+      excludes:
+      - accommodation
+      - long-distance transport
+      confidence: low
+  universities:
+  - id: aalto
+    name: Aalto University
+    type: university
+    city: Helsinki
+    description: Design, engineering, and business university in the Helsinki region.
+    whyItMatters: Embodies the Finnish link between design, technology, and applied education.
+    whatItReveals: How Finland turns constraints into interdisciplinary capability.
+    aiEraQuestion: How does Aalto teach design and engineering when AI shifts both prototyping and labor
+      demand?
+    visitability: public
+    sourceIds:
+    - src-aalto
+    verificationStatus: researched
+  - id: university-of-helsinki
+    name: University of Helsinki
+    type: university
+    city: Helsinki
+    description: Major Finnish research university and public knowledge institution.
+    whyItMatters: Central to education, science, and democratic capacity.
+    whatItReveals: How a small-language society scales research relevance.
+    aiEraQuestion: How does AI affect a national university's public mission?
+    visitability: public
+    sourceIds:
+    - src-university-helsinki
+    verificationStatus: researched
+  companies:
+  - id: nokia
+    name: Nokia
+    type: company
+    city: Helsinki
+    description: Finnish technology company and symbol of small-country global reach.
+    whyItMatters: A classic case of patient technical capability and reinvention.
+    whatItReveals: How national technology narratives survive platform shifts.
+    aiEraQuestion: What does AI mean for telecom infrastructure and Finnish industrial identity?
+    visitability: exterior-only
+    verificationStatus: unresearched
+  publicInstitutions:
+  - id: sitra
+    name: Sitra
+    type: foundation
+    city: Helsinki
+    description: Finnish public future fund and foresight institution.
+    whyItMatters: A direct case of patient public capital and long-horizon systems thinking.
+    whatItReveals: How a small state institutionalizes future orientation.
+    aiEraQuestion: Can foresight institutions help societies adapt to AI and demographic pressure?
+    visitability: unknown
+    sourceIds:
+    - src-sitra
+    verificationStatus: researched
+  localSystems:
+  - id: helsinki-education-design-system
+    name: Helsinki education-design system
+    category: design
+    description: Universities, libraries, design districts, and public services as one learning system.
+    whyItMatters: Tests whether education and design are everyday infrastructure, not just brand identity.
+thesis: How do small, high-trust Northern European societies turn constraints, nature, education, design,
+  and patient capital into globally influential systems-and what happens when those systems face the AI
+  era, demographic pressure, labor-market weakness, and geopolitical change?
+questions:
+- Where does high trust show up as an operational advantage rather than a slogan?
+- Which constraints produce design discipline, and which constraints now produce fragility?
+- How do universities translate public investment into global competence?
+- How do food rituals expose climate, labor, welfare, and identity?
+- What happens when AI weakens the labor-market bargain that underpins welfare states?
+- How are geopolitical pressure and security concerns changing everyday openness?
+principles:
+- Treat every schedule, price, and opening hour as provisional until live verification.
+- 'Use daily life as evidence: transit, lunch, signage, queues, public space, and small transactions.'
+- Anchor each city around one systems question and one food experiment.
+- Keep normal-day budgets separate from accommodation and long-distance transport.
+- Prefer reversible plans with weather and low-energy fallbacks.
+anchors:
+- id: anchor-oslo-okern
+  title: Oslo accommodation around Økern
+  kind: accommodation
+  fixed: false
+  start:
+    localDate: '2026-08-06'
+    timeZone: Europe/Oslo
+    precision: date
+    confirmationStatus: traveler-provided
+  notes: Editable neighborhood anchor; no confirmation code.
+- id: anchor-train-oslo-stockholm
+  title: SJ 3000 Oslo S to Stockholm Central
+  kind: train
+  fixed: true
+  start:
+    localDate: '2026-08-08'
+    localTime: '11:34'
+    timeZone: Europe/Oslo
+    precision: confirmed-time
+    confirmationStatus: booked
+  notes: Booked SJ 3000 Snabbtåg 638, Saturday 2026-08-08, Oslo S 11:34 → Stockholm Central 17:16, 2nd
+    class reserved seat. Ticket sold via Vy; non-rebookable (Kan ej ombokas). Public trip data omits booking/ticket
+    numbers. Fare is long-distance transport (excluded from day budgets).
+  claimIds:
+  - claim-train-oslo-stockholm-time
+  - claim-train-oslo-stockholm-booked
+- id: anchor-stockholm-scandic-wallin
+  title: 'Stockholm accommodation: Scandic Wallin'
+  kind: accommodation
+  fixed: false
+  start:
+    localDate: '2026-08-08'
+    timeZone: Europe/Stockholm
+    precision: date
+    confirmationStatus: traveler-provided
+  notes: Hotel label only; no confirmation code.
+- id: anchor-ag-aug10
+  title: Restaurant AG dinner target
+  kind: reservation
+  fixed: false
+  start:
+    localDate: '2026-08-10'
+    localTime: '19:00'
+    timeZone: Europe/Stockholm
+    precision: approximate-time
+    confirmationStatus: traveler-provided
+  notes: 'Traveler-intended splurge on Mon 2026-08-10. Official summer hours: Mon 17:00–00:00. A la carte
+    steaks commonly ~495–1195 SEK; Chef''s table menus 1750 / 2750 / 5000 SEK (drinks extra). Seat time
+    still editable; reservation status must be confirmed separately. No confirmation code stored.'
+  claimIds:
+  - claim-ag-aug10
+  - claim-ag-hours
+  - claim-ag-price-range
+- id: anchor-crayfish-aug13
+  title: Tennstopet crayfish party option
+  kind: other
+  fixed: false
+  start:
+    localDate: '2026-08-13'
+    localTime: '19:00'
+    timeZone: Europe/Stockholm
+    precision: approximate-time
+    confirmationStatus: traveler-provided
+  notes: 'Official Tennstopet listing (accessed 2026-07-16): kräftskiva on 13 August with live music,
+    985 SEK per person, pre-book required. Not yet booked in this public record — choose among Tennstopet
+    booking, other restaurant crayfish menu, or supermarket/market format.'
+  claimIds:
+  - claim-crayfish-aug13
+  - claim-tennstopet-kraftskiva-2026
+- id: anchor-ferry-stockholm-helsinki
+  title: Tallink Silja Symphony Stockholm to Helsinki
+  kind: ferry
+  fixed: true
+  start:
+    localDate: '2026-08-15'
+    localTime: '16:30'
+    timeZone: Europe/Stockholm
+    precision: confirmed-time
+    confirmationStatus: booked
+  notes: Booked Silja Symphony, B-Standard Inside cabin for 1 adult. Depart Stockholm Värtahamnen (Hamnpirsvägen
+    10) Sat 2026-08-15 16:30 local; arrive Helsinki Olympia Terminal (Olympiaranta 1) Sun 2026-08-16 10:30
+    local. Paid total 137.90 EUR (cabin 121.00 + emission/fuel surcharge 16.90). Check-in closes 20 minutes
+    before departure. Public data omits reservation/security codes. Long-distance transport excluded from
+    day budgets.
+  claimIds:
+  - claim-ferry-stockholm-helsinki-time
+  - claim-ferry-stockholm-helsinki-booked
+  - claim-ferry-stockholm-helsinki-price
+majorChoices:
+- id: choice-final-helsinki-meal
+  title: Final Helsinki meal
+  deadline: '2026-08-18'
+  options:
+  - id: final-meal-nolla
+    label: Nolla
+    meaning: Zero-waste systems thesis; official site does not publish a fixed menu price (secondary reports
+      ~59–69 EUR).
+    pros:
+    - Directly matches constraint-to-design thesis
+    - Makes the final meal a systems observation
+    cons:
+    - Availability and current format unconfirmed
+    estimatedCostMinor: 6500
+    currency: EUR
+  - id: final-meal-finnjavel
+    label: Finnjävel
+    meaning: Official Salonki menus 108 € (5-course) / 138 € (8-course); drinks extra.
+    pros:
+    - Strong national identity signal
+    cons:
+    - May be less directly about constraint systems
+    estimatedCostMinor: 13800
+    currency: EUR
+  - id: final-meal-gron
+    label: Grön
+    meaning: Official Summer 2026 Grön menu 188 €; wine pairing 142 €.
+    pros:
+    - Seasonality and craft signal
+    cons:
+    - Availability and current offering unconfirmed
+    estimatedCostMinor: 18800
+    currency: EUR
+  recommendation: 'Choices with researched food-only prices: Nolla ~€59–69 (secondary; confirm), Finnjävel
+    €108/€138 (official), Grön €188 (official). Book soon; availability not confirmed.'
+  decisionStatus: open
+- id: choice-crayfish-format
+  title: Crayfish night format
+  deadline: '2026-08-11'
+  options:
+  - id: crayfish-tennstopet
+    label: Tennstopet kräftskiva (13 Aug, 985 SEK)
+    meaning: Verified hosted ritual with live music; requires booking.
+    estimatedCostMinor: 98500
+    currency: SEK
+    pros:
+    - Official date+price
+    - Social/ritual intensity
+    cons:
+    - Expensive
+    - Needs reservation
+    - Less DIY fieldwork
+  - id: crayfish-flexible-market
+    label: Market/supermarket crayfish meal
+    meaning: Observe packaging, pricing, and etiquette without a party booking.
+    estimatedCostMinor: 25000
+    currency: SEK
+    pros:
+    - Cheaper
+    - Strong retail fieldwork
+    cons:
+    - Less social
+  - id: crayfish-skip
+    label: Skip if booking fails
+    meaning: Do not invent a ritual.
+    pros:
+    - Integrity
+    cons:
+    - Misses August signal
+  recommendation: 'Preferred: book Tennstopet 985 SEK party if seats remain; else market/supermarket format.
+    Do not assume booking until confirmed.'
+  decisionStatus: open
+decisions:
+- id: decision-final-helsinki-meal
+  question: Which final Helsinki meal best closes the thesis?
+  options:
+  - id: final-meal-nolla
+    label: Nolla (~€59–69 secondary estimate)
+    estimatedCostMinor: 6500
+    currency: EUR
+  - id: final-meal-finnjavel
+    label: Finnjävel Salonki (€108/€138 official)
+    estimatedCostMinor: 13800
+    currency: EUR
+  - id: final-meal-gron
+    label: Grön (€188 official Summer 2026)
+    estimatedCostMinor: 18800
+    currency: EUR
+  selectedOptionId: final-meal-nolla
+  decidedAt: '2026-07-16'
+  rationale: Keep Nolla as thesis-first provisional choice; price must be confirmed with restaurant. Finnjävel
+    and Grön have clearer published menu prices as of 2026-07-16.
+  expectedOutcome: A final-meal observation about whether sustainability design feels like ideology, hospitality,
+    or practical operating system.
+  reconsiderAfter: '2026-08-18'
+- id: decision-crayfish-night
+  question: How should the Stockholm crayfish night be handled?
+  options:
+  - id: crayfish-tennstopet
+    label: Tennstopet kräftskiva 985 SEK
+  - id: crayfish-flexible-market
+    label: Market/supermarket crayfish meal
+  - id: crayfish-skip
+    label: Skip if booking fails
+  selectedOptionId: crayfish-tennstopet
+  decidedAt: '2026-07-16'
+  rationale: Tennstopet officially advertises a 13 August 2026 crayfish party at 985 SEK/person. Select
+    as primary option pending booking; fall back to market format if sold out.
+  expectedOutcome: Experience a hosted Swedish crayfish ritual with music, or document retail seasonality
+    if booking fails.
+  reconsiderAfter: '2026-07-25'
+days:
+- id: day-2026-08-06
+  date: '2026-08-06'
+  city: Oslo
+  country: Norway
+  title: Arrival through the edge city
+  theme: First contact with Norwegian trust infrastructure
+  thesisQuestion: What does high trust feel like before any institution explains itself?
+  coherenceNote: Use Økern, transit, and a simple dinner to calibrate Norway at street level.
+  weatherDependency: medium
+  expectedEnergy: light
+  blocks:
+  - id: d0806-morning
+    period: morning
+    title: Arrival buffer and orientation
+    description: Land, check bags if possible, and note first impressions of airport or station signage,
+      ticketing, and public manners.
+    whyItMatters: Arrival friction is a clean test of systems legibility.
+    observationPrompt: Where does the system assume competence, honesty, or prior local knowledge?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: traveler-provided
+    status: planned
+  - id: d0806-lunch
+    period: lunch
+    title: Økern-area worker lunch baseline
+    description: Find a modest lunch near the accommodation area; do not force a destination meal.
+    whyItMatters: Peripheral neighborhoods reveal normal prices and service expectations.
+    observationPrompt: What does an ordinary resident lunch cost and how is value signaled?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0806-afternoon
+    period: afternoon
+    title: Transit transect from Økern to waterfront
+    description: Ride from the northeast edge toward the center, watching transfers, platform trust, and
+      neighborhood gradients.
+    whyItMatters: Transit shows how a wealthy small society connects edge and core.
+    observationPrompt: Where does design reduce enforcement needs?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0806-dinner
+    period: dinner
+    title: Low-stakes grocery dinner
+    description: Buy bread, dairy, fish, or prepared food from a supermarket for a first price-and-label
+      baseline.
+    whyItMatters: Grocery labels expose trust in food systems more clearly than restaurants.
+    observationPrompt: Which claims on packaging are trusted without explanation?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0806-night
+    period: night
+    title: Jet-lag notes and thesis calibration
+    description: 'Write a short baseline memo: what feels expensive, efficient, lonely, warm, or over-designed?'
+    whyItMatters: First impressions are biased but valuable if labeled.
+    observationPrompt: What surprised you before you knew enough to interpret it?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - worker-lunch
+  - supermarket
+  budget:
+    lowMinor: 30000
+    highMinor: 70000
+    currency: NOK
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 3
+  fieldworkPrompts:
+  - What does the city expect newcomers to understand without asking?
+  - Where is trust embedded in signs, payment, and queues?
+  fallbackPlans:
+  - id: d0806-weather
+    trigger: weather
+    title: Covered transit and grocery study
+    description: Stay on covered transit nodes and compare grocery stores instead of waterfront walking.
+  - id: d0806-low-energy
+    trigger: low-energy
+    title: Neighborhood-only reset
+    description: Keep the day within Økern and write a short arrival memo.
+  sourceIds:
+  - src-ruter
+- id: day-2026-08-07
+  date: '2026-08-07'
+  city: Oslo
+  country: Norway
+  title: Fjord, seafood, and public wealth
+  theme: Nature converted into institutions
+  thesisQuestion: How does Norway make nature feel governed, abundant, and trustworthy?
+  coherenceNote: The Oslo Fjord Seafood Tribunal turns lunch into a systems experiment.
+  weatherDependency: high
+  expectedEnergy: balanced
+  blocks:
+  - id: d0807-morning
+    period: morning
+    title: Waterfront and fjord observation walk
+    description: Walk the harbor edge and note ferries, public access, redevelopment, and who appears
+      to own the view.
+    whyItMatters: The fjord is both nature and an urban asset.
+    observationPrompt: How is public access protected or monetized?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0807-lunch
+    period: lunch
+    title: Oslo Fjord Seafood Tribunal
+    description: Buy two or three seafood items from verified fresh or packaged sources and score labeling,
+      trust, price, and taste.
+    whyItMatters: Seafood makes natural abundance, regulation, and consumer confidence visible.
+    observationPrompt: Which seafood claim would an ordinary shopper have to trust?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: traveler-provided
+    status: planned
+    claimIds:
+    - claim-oslo-seafood-tribunal
+  - id: d0807-afternoon
+    period: afternoon
+    title: University of Oslo or library public-institution pass
+    description: Visit a public-facing campus or library area if practical; focus on access, signage,
+      and civic tone.
+    whyItMatters: Education and public knowledge are key high-trust reproduction mechanisms.
+    observationPrompt: Does the institution invite citizens in or keep them at the edge?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: researched
+    status: idea
+  - id: d0807-dinner
+    period: dinner
+    title: Modest Norwegian dinner or supermarket extension
+    description: Keep dinner normal unless the seafood experiment underperforms.
+    whyItMatters: A restrained dinner protects the budget and avoids false luxury signals.
+    observationPrompt: What does normality cost after the tourist waterfront is removed?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0807-night
+    period: night
+    title: Oil wealth without oil derricks memo
+    description: 'Write notes on where wealth appears indirectly: cleanliness, maintenance, transit, food
+      prices, and silence.'
+    whyItMatters: The system may be most visible in what does not break.
+    observationPrompt: What would be impossible here without trust or wealth?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - market
+  - picnic
+  - supermarket
+  budget:
+    lowMinor: 30000
+    highMinor: 70000
+    currency: NOK
+    minorUnit: 2
+    includes:
+    - seafood samples
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - What does seafood labeling reveal about institutional trust?
+  - How does waterfront design balance residents, tourists, and capital?
+  fallbackPlans:
+  - id: d0807-weather
+    trigger: weather
+    title: Indoor seafood and library version
+    description: Use covered food halls, supermarkets, and a library instead of extended fjord walking.
+  - id: d0807-low-energy
+    trigger: low-energy
+    title: Single-store seafood tribunal
+    description: Run the tribunal from one nearby supermarket and skip the campus/library.
+  sourceIds:
+  - src-visit-oslo
+  - src-norwegian-seafood-council
+  claimIds:
+  - claim-oslo-seafood-tribunal
+- id: day-2026-08-08
+  date: '2026-08-08'
+  city: Stockholm
+  country: Sweden
+  title: Oslo to Stockholm by SJ 3000
+  theme: Border crossing and systems shift
+  thesisQuestion: What changed immediately when crossing from Norway to Sweden?
+  coherenceNote: Booked SJ 3000 638 departs Oslo S 11:34 and arrives Stockholm Central 17:16. Non-rebookable
+    2nd-class seat. Train fare excluded from day budget as long-distance transport.
+  weatherDependency: low
+  expectedEnergy: balanced
+  blocks:
+  - id: d0808-morning
+    period: morning
+    title: Supermarket provisions for the train
+    description: Buy a simple picnic and water before heading to Oslo S with margin for the fixed 11:34
+      departure.
+    whyItMatters: Student-mode provisioning turns the train into fieldwork, not just transit.
+    observationPrompt: What Norwegian supermarket cues disappear on the Swedish side later?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  - id: d0808-lunch
+    period: lunch
+    startTime: '11:34'
+    endTime: '17:16'
+    title: SJ 3000 638 Oslo S → Stockholm Central
+    description: Board booked SJ 3000 Snabbtåg 638 at Oslo S 11:34; arrive Stockholm Central 17:16. 2nd-class
+      reserved seat; ticket non-rebookable. Train picnic for lunch. Fare excluded from day budget.
+    whyItMatters: The corridor itself is a lesson in cross-border rail systems and landscape.
+    observationPrompt: Where does Norway end and Sweden begin in signage, language, and service style?
+    bookingRequired: true
+    fixed: true
+    planningStatus: booked
+    verificationStatus: confirmed
+    status: booked
+    claimIds:
+    - claim-train-oslo-stockholm-time
+    - claim-train-oslo-stockholm-booked
+  - id: d0808-afternoon
+    period: afternoon
+    title: Ten-observation Norway summary
+    description: On the train or just after arrival, write ten observations about Norway before Stockholm
+      overwrites them.
+    whyItMatters: Synthesis while the contrast is still sharp.
+    observationPrompt: What will I forget about Norway if I wait until Helsinki?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  - id: d0808-dinner
+    period: dinner
+    title: Simple Stockholm arrival meal
+    description: Neighborhood walk and a simple local meal near Scandic Wallin area; do not force a destination
+      dinner.
+    whyItMatters: Arrival night should calibrate Sweden at ordinary volume.
+    observationPrompt: What feels immediately different about Swedish street life?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  - id: d0808-night
+    period: night
+    title: First Stockholm contrast memo
+    description: Note price signals, public manners, and design cues that differ from Oslo.
+    whyItMatters: The thesis needs early contrast hypotheses.
+    observationPrompt: What changed immediately when crossing from Norway to Sweden?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  foodMode:
+  - supermarket
+  - cafe
+  - worker-lunch
+  budget:
+    lowMinor: 20000
+    highMinor: 50000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - provisions
+    - arrival dinner
+    - local transit
+    excludes:
+    - accommodation
+    - SJ long-distance ticket already purchased
+    confidence: medium
+  sidequestPotential: 2
+  fieldworkPrompts:
+  - Which parts of the train schedule remain unverified?
+  - How does Stockholm teach a newcomer its rules?
+  fallbackPlans:
+  - id: d0808-weather
+    trigger: weather
+    title: Indoor transfer and hotel-area dinner
+    description: Keep arrival logistics indoor and postpone walking.
+  - id: d0808-low-energy
+    trigger: low-energy
+    title: Station-to-hotel minimum viable day
+    description: Skip evening fieldwork beyond a short arrival memo.
+  sourceIds:
+  - src-sj
+  - src-sj-oslo-stockholm-guide
+  claimIds:
+  - claim-train-oslo-stockholm-time
+  - claim-train-oslo-stockholm-booked
+- id: day-2026-08-09
+  date: '2026-08-09'
+  city: Stockholm
+  country: Sweden
+  title: Capital of design and consensus
+  theme: Urban design as social contract
+  thesisQuestion: How does Sweden make design carry moral and social expectations?
+  coherenceNote: A Sunday design-and-public-space day sets the Stockholm baseline before institutions.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0809-morning
+    period: morning
+    title: Norrmalm-to-water design walk
+    description: Walk from the hotel area toward water and central public spaces, watching signage, street
+      furniture, and cyclist/pedestrian norms.
+    whyItMatters: Design becomes governance when it changes behavior without visible enforcement.
+    observationPrompt: Where does design substitute for instruction?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0809-lunch
+    period: lunch
+    title: Swedish cafe or simple lunch baseline
+    description: Use a cafe or casual lunch to observe ordering, self-service, and pricing.
+    whyItMatters: Cafe norms reveal equality, autonomy, and labor costs.
+    observationPrompt: What labor has been moved from staff to customer?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0809-afternoon
+    period: afternoon
+    title: Museum or design-store field pass
+    description: Choose one design-heavy public venue or retail cluster after verifying hours live.
+    whyItMatters: Swedish influence often travels through objects and taste.
+    observationPrompt: What values are encoded in ordinary objects?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0809-dinner
+    period: dinner
+    title: Neighborhood dinner without spectacle
+    description: Eat near the hotel or a residential-feeling area; compare service scripts with Oslo.
+    whyItMatters: Normal dinner anchors the week before AG and crayfish.
+    observationPrompt: Does service feel egalitarian, distant, warm, or efficient?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0809-night
+    period: night
+    title: Design-as-governance notes
+    description: Summarize examples where visual order replaced explicit enforcement.
+    whyItMatters: This becomes the interpretive key for Sweden.
+    observationPrompt: When does design create freedom, and when does it discipline?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - cafe
+  - restaurant
+  budget:
+    lowMinor: 35000
+    highMinor: 80000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    - one modest paid venue if verified
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - What norms are encoded in furniture, signage, and self-service?
+  - How does the city make social compliance feel voluntary?
+  fallbackPlans:
+  - id: d0809-weather
+    trigger: weather
+    title: Indoor design-store and cafe loop
+    description: Use covered galleries, shops, and cafes.
+  - id: d0809-low-energy
+    trigger: low-energy
+    title: Hotel-neighborhood design audit
+    description: Observe only the local area and write from a cafe.
+- id: day-2026-08-10
+  date: '2026-08-10'
+  city: Stockholm
+  country: Sweden
+  title: KTH, labor markets, and AG
+  theme: Technical education and premium service
+  thesisQuestion: Can Sweden's education and service systems keep producing global competence as AI changes
+    work?
+  coherenceNote: KTH frames the day; AG is a deliberately unconfirmed splurge target and contrast case.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0810-morning
+    period: morning
+    title: KTH campus public pass
+    description: Visit public campus areas if accessible; focus on engineering culture, internationalization,
+      and student infrastructure.
+    whyItMatters: Technical education is a bridge between welfare investment and global firms.
+    observationPrompt: How does the campus signal ambition, equality, and specialization?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: planned
+  - id: d0810-lunch
+    period: lunch
+    title: Student or worker lunch near KTH
+    description: Attempt a campus-area lunch only after verifying public access and August operations.
+    whyItMatters: Lunch pricing tests the social infrastructure around education.
+    observationPrompt: Who is the lunch system designed to include?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0810-afternoon
+    period: afternoon
+    title: AI and labor-market notes
+    description: Find a quiet work block to map Swedish labor-market softness, tech employment, and AI
+      questions for later synthesis.
+    whyItMatters: The thesis needs explicit pressure points, not just admiration.
+    observationPrompt: Which jobs or services feel vulnerable to automation?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0810-dinner
+    period: dinner
+    startTime: '19:00'
+    title: Restaurant AG dinner
+    description: 'AG dinner target Mon 2026-08-10 (open 17:00–00:00 summer hours). Planning spend: a la
+      carte dinner often ~1000–1500+ SEK/person food; Chef''s table menus 1750/2750/5000 SEK (drinks extra).
+      Confirm reservation separately.'
+    whyItMatters: A premium meat restaurant contrasts with everyday welfare-state food and tests service-capital
+      signals.
+    observationPrompt: 'What does high-end Stockholm sell: product, service, status, craft, or trust?'
+    bookingRequired: true
+    fixed: false
+    planningStatus: selected
+    verificationStatus: researched
+    status: planned
+    claimIds:
+    - claim-ag-aug10
+    - claim-ag-hours
+    - claim-ag-price-range
+    estimatedCost:
+      lowMinor: 100000
+      highMinor: 175000
+      currency: SEK
+      minorUnit: 2
+      includes:
+      - food
+      excludes:
+      - extensive wine
+      confidence: medium
+  - id: d0810-night
+    period: night
+    title: Premium service vs public equality memo
+    description: Compare campus publicness, lunch, and AG or fallback dinner through the equality/status
+      lens.
+    whyItMatters: Sweden's contradictions are often subtle rather than theatrical.
+    observationPrompt: Where does status appear despite egalitarian norms?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - student-cafeteria
+  - splurge
+  - restaurant
+  budget:
+    lowMinor: 35000
+    highMinor: 180000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - light lunch
+    - local transit
+    - AG dinner food estimate
+    excludes:
+    - accommodation
+    - long-distance transport
+    - wine pairings beyond estimate
+    confidence: medium
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - How does technical education become national economic strategy?
+  - What visible labor is required for premium hospitality?
+  fallbackPlans:
+  - id: d0810-weather
+    trigger: weather
+    title: Indoor campus and cafe research
+    description: Keep campus observation and labor-market notes indoors.
+  - id: d0810-low-energy
+    trigger: low-energy
+    title: Skip AG; preserve the thesis
+    description: Use a nearby normal dinner and write the contrast memo without a splurge.
+  sourceIds:
+  - src-kth
+  - src-restaurant-ag
+  claimIds:
+  - claim-ag-aug10
+- id: day-2026-08-11
+  date: '2026-08-11'
+  city: Stockholm
+  country: Sweden
+  title: Patient capital and platform exports
+  theme: Small market, global influence
+  thesisQuestion: How does a small society produce firms that shape global behavior?
+  coherenceNote: Use company exteriors, finance districts, and public observation without pretending private
+    access.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0811-morning
+    period: morning
+    title: Platform-company exterior pass
+    description: Observe a public exterior or district associated with Swedish tech; do not seek private
+      access.
+    whyItMatters: Global companies still sit in local labor, housing, and transit systems.
+    observationPrompt: What local advantages could a global platform inherit?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0811-lunch
+    period: lunch
+    title: 'Dagens lunch: worker-economy benchmark'
+    description: Find a daily lunch special and record price, included items, payment flow, and table
+      turnover.
+    whyItMatters: Worker lunch shows the real economy behind knowledge work.
+    observationPrompt: How much social coordination is compressed into a lunch special?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0811-afternoon
+    period: afternoon
+    title: Patient-capital reading block
+    description: Map Sweden's family foundations, pension capital, listed companies, and startup ecosystem
+      as hypotheses.
+    whyItMatters: Capital structure may explain global reach as much as culture does.
+    observationPrompt: 'What is patient here: money, institutions, families, or employees?'
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0811-dinner
+    period: dinner
+    title: Simple dinner near residential Stockholm
+    description: Choose a non-splurge dinner in a residential-feeling area.
+    whyItMatters: After capital research, return to household economics.
+    observationPrompt: Do normal residents appear priced into or out of the neighborhood?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0811-night
+    period: night
+    title: Global-company local-roots memo
+    description: List three ways Sweden might help and three ways Sweden might constrain a global platform
+      company.
+    whyItMatters: The thesis needs both advantages and limits.
+    observationPrompt: What would break if trust fell?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - worker-lunch
+  - restaurant
+  budget:
+    lowMinor: 35000
+    highMinor: 80000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 3
+  fieldworkPrompts:
+  - What does a global company keep from its home society?
+  - How does everyday Stockholm support or resist startup intensity?
+  fallbackPlans:
+  - id: d0811-weather
+    trigger: weather
+    title: Indoor finance and company research
+    description: Use libraries, cafes, and covered transit instead of exterior walks.
+  - id: d0811-low-energy
+    trigger: low-energy
+    title: One district only
+    description: Keep observation to one company-adjacent district plus the reading block.
+- id: day-2026-08-12
+  date: '2026-08-12'
+  city: Stockholm
+  country: Sweden
+  title: Welfare interfaces and everyday compliance
+  theme: Trust as routine behavior
+  thesisQuestion: Which parts of Swedish trust are habit, enforcement, design, or prosperity?
+  coherenceNote: A lower-intensity systems day tests public services and ordinary routines.
+  weatherDependency: medium
+  expectedEnergy: light
+  blocks:
+  - id: d0812-morning
+    period: morning
+    title: Library or civic-space observation
+    description: Visit a public library or civic interior after verifying access; observe quiet norms
+      and inclusion.
+    whyItMatters: Libraries are practical welfare-state interfaces.
+    observationPrompt: Who is trusted to use the space, and under what implicit conditions?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0812-lunch
+    period: lunch
+    title: Budget lunch and price audit
+    description: Choose a modest lunch and record what is included, whether tap water is normal, and how
+      payment works.
+    whyItMatters: Affordability tests whether welfare-state normality still feels broad.
+    observationPrompt: What seems expensive because of wages, rent, taxes, or tourist capture?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0812-afternoon
+    period: afternoon
+    title: Transit compliance and signage audit
+    description: Ride several short transit legs and observe validation, fare gates, passenger behavior,
+      and accessibility.
+    whyItMatters: Trust becomes measurable through compliance when no one is watching.
+    observationPrompt: Where is enforcement visible, hidden, or unnecessary?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: planned
+  - id: d0812-dinner
+    period: dinner
+    title: Supermarket dinner comparison
+    description: Build a low-cost dinner from groceries and compare with Oslo pricing and labeling.
+    whyItMatters: Grocery comparison separates Nordic sameness from national systems.
+    observationPrompt: Which products assume shared national taste?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0812-night
+    period: night
+    title: Trust taxonomy notes
+    description: Classify the day's evidence into design trust, enforcement trust, welfare trust, and
+      market trust.
+    whyItMatters: A taxonomy prevents the word trust from becoming vague.
+    observationPrompt: Which trust type is strongest and which is most fragile?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - worker-lunch
+  - supermarket
+  budget:
+    lowMinor: 35000
+    highMinor: 80000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 3
+  fieldworkPrompts:
+  - What everyday behavior would be costly in a low-trust society?
+  - Where do high wages appear in service design?
+  fallbackPlans:
+  - id: d0812-weather
+    trigger: weather
+    title: Library, covered transit, supermarket
+    description: Keep the full day indoors or under cover.
+  - id: d0812-low-energy
+    trigger: low-energy
+    title: Trust taxonomy from nearby routines
+    description: Do one transit ride, one grocery trip, and notes.
+  sourceIds:
+  - src-sl
+- id: day-2026-08-13
+  date: '2026-08-13'
+  city: Stockholm
+  country: Sweden
+  title: Crayfish, seasonality, and social ritual
+  theme: Food ritual as systems evidence
+  thesisQuestion: What does a seasonal food ritual reveal about climate, leisure, equality, and belonging?
+  coherenceNote: 'Primary option: Tennstopet kräftskiva 13 Aug with live music at 985 SEK/person (official
+    listing). Book ASAP; fallback to market/supermarket crayfish fieldwork if sold out.'
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0813-morning
+    period: morning
+    title: Seasonality reconnaissance
+    description: Check markets, supermarkets, and menus for crayfish signs without assuming availability.
+    whyItMatters: Retail display shows when a ritual becomes a market.
+    observationPrompt: How is seasonality packaged for residents versus visitors?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: traveler-provided
+    status: planned
+    claimIds:
+    - claim-crayfish-aug13
+  - id: d0813-lunch
+    period: lunch
+    title: Light lunch to preserve dinner budget
+    description: Use a simple cafe, supermarket, or worker lunch.
+    whyItMatters: The day's food budget should serve the ritual rather than random snacking.
+    observationPrompt: What budget choices make the evening possible?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0813-afternoon
+    period: afternoon
+    title: Crayfish format decision point
+    description: Confirm Tennstopet booking status; if unavailable, assemble market crayfish plan.
+    whyItMatters: Good fieldwork refuses fake certainty.
+    observationPrompt: Which option is most honest today?
+    bookingRequired: false
+    fixed: false
+    planningStatus: selected
+    verificationStatus: researched
+    status: planned
+    claimIds:
+    - claim-crayfish-aug13
+  - id: d0813-dinner
+    period: dinner
+    startTime: '19:00'
+    title: Tennstopet crayfish party (or fallback)
+    description: 'Preferred: Tennstopet kräftskiva with live music, 985 SEK/person — requires pre-booking.
+      Fallback: supermarket/market crayfish meal if seats unavailable.'
+    whyItMatters: The presence or absence of a ritual is itself evidence.
+    observationPrompt: Does the ritual feel communal, commercial, nostalgic, or exclusionary?
+    bookingRequired: true
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: planned
+    claimIds:
+    - claim-crayfish-aug13
+    - claim-tennstopet-kraftskiva-2026
+    estimatedCost:
+      lowMinor: 25000
+      highMinor: 98500
+      currency: SEK
+      minorUnit: 2
+      includes:
+      - dinner
+      excludes: []
+      confidence: high
+  - id: d0813-night
+    period: night
+    title: Ritual and belonging memo
+    description: Write the crayfish findings without upgrading any uncertain detail to fact.
+    whyItMatters: Food rituals often reveal who is inside the society.
+    observationPrompt: What would a newcomer misunderstand about this ritual?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - market
+  - picnic
+  - restaurant
+  budget:
+    lowMinor: 35000
+    highMinor: 120000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - light lunch
+    - local transit
+    - crayfish dinner option
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: medium
+  sidequestPotential: 5
+  fieldworkPrompts:
+  - How does a seasonal ritual move through retail, restaurants, and private homes?
+  - What does the ritual assume about weather, leisure, and social networks?
+  fallbackPlans:
+  - id: d0813-weather
+    trigger: weather
+    title: Indoor crayfish or seasonal grocery version
+    description: Use a market hall, supermarket, or restaurant if outdoor picnic is poor.
+  - id: d0813-low-energy
+    trigger: low-energy
+    title: Crayfish display audit only
+    description: Skip dinner execution and document retail/menu evidence.
+  sourceIds:
+  - src-visitsweden-crayfish
+  claimIds:
+  - claim-crayfish-aug13
+- id: day-2026-08-14
+  date: '2026-08-14'
+  city: Stockholm
+  country: Sweden
+  title: Archipelago, security, and the open society
+  theme: Nature, openness, and geopolitical pressure
+  thesisQuestion: How does a beautiful open society change when the security environment hardens?
+  coherenceNote: The last full Stockholm day tests public nature and strategic anxiety before the ferry.
+  weatherDependency: high
+  expectedEnergy: balanced
+  blocks:
+  - id: d0814-morning
+    period: morning
+    title: Water or archipelago-adjacent observation
+    description: Choose a public waterfront or easy ferry/boat-adjacent route only after verifying schedules
+      and weather.
+    whyItMatters: Swedish nature access is part of national identity and public trust.
+    observationPrompt: Who gets access to beauty, and how is it organized?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0814-lunch
+    period: lunch
+    title: Picnic or waterfront lunch
+    description: Use a picnic if weather allows; otherwise pick a modest indoor lunch.
+    whyItMatters: Public nature changes the economics of a good day.
+    observationPrompt: What infrastructure makes a cheap beautiful lunch possible?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0814-afternoon
+    period: afternoon
+    title: Security-and-openness reflection block
+    description: Map observations about NATO-era Sweden, public openness, civil preparedness, and everyday
+      calm.
+    whyItMatters: Geopolitical change is part of the thesis pressure test.
+    observationPrompt: Where is security visible, and where is it deliberately invisible?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0814-dinner
+    period: dinner
+    title: Last full Stockholm dinner
+    description: 'Choose a meal that fills a missing evidence gap: design, seafood, immigrant food, or
+      worker economy.'
+    whyItMatters: The last dinner should complete the Stockholm evidence set.
+    observationPrompt: Which Stockholm claim still lacks food evidence?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0814-night
+    period: night
+    title: Stockholm synthesis draft
+    description: Draft three Swedish strengths and three Swedish vulnerabilities before the transition
+      day.
+    whyItMatters: Synthesis is easier before ferry fatigue.
+    observationPrompt: What is the Swedish model good at hiding?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - picnic
+  - restaurant
+  budget:
+    lowMinor: 35000
+    highMinor: 80000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    - modest activity if verified
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 5
+  fieldworkPrompts:
+  - How does public nature support equality?
+  - How does geopolitical pressure show up in daily life?
+  fallbackPlans:
+  - id: d0814-weather
+    trigger: weather
+    title: Indoor museum/cafe security reflection
+    description: Use indoor public venues and postpone water exposure.
+  - id: d0814-low-energy
+    trigger: low-energy
+    title: One waterfront, one memo
+    description: Do a short waterfront walk and write the Stockholm synthesis.
+- id: day-2026-08-15
+  date: '2026-08-15'
+  city: Stockholm
+  country: Sweden
+  title: Leaving Stockholm by water
+  theme: Archipelago departure ritual
+  thesisQuestion: What did Sweden teach me about scale?
+  coherenceNote: Morning buffer and lunch ashore; board Silja Symphony at Värtahamnen for the booked 16:30
+    departure (access closes 20 minutes prior). Ferry fare already paid and excluded from day budget.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0815-morning
+    period: morning
+    title: Final Stockholm walk or bakery
+    description: One last neighborhood walk or bakery stop; pack and leave luggage logistics clean for
+      the ferry.
+    whyItMatters: Closing rituals make the city legible as a chapter, not a blur.
+    observationPrompt: What ordinary detail do I want to remember about Stockholm?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  - id: d0815-lunch
+    period: lunch
+    title: Eat before boarding
+    description: Simple lunch ashore so ferry evening can be observational rather than hunger-driven.
+    whyItMatters: Protects energy and budget on a transition day.
+    observationPrompt: What is the last Swedish meal texture before the ship?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  - id: d0815-afternoon
+    period: afternoon
+    startTime: '15:00'
+    title: Board Silja Symphony at Värtahamnen
+    description: Travel to Värtahamnen (Hamnpirsvägen 10). Ship access closes 20 minutes before 16:30
+      departure. Booked B-Standard Inside on Silja Symphony. Paid 137.90 EUR total (excluded from day
+      budget).
+    whyItMatters: The archipelago departure is itself a Nordic systems experience.
+    observationPrompt: Who boards for transport, who boards for leisure, and how is class signaled by
+      cabin choice?
+    bookingRequired: true
+    fixed: true
+    planningStatus: booked
+    verificationStatus: confirmed
+    status: booked
+    claimIds:
+    - claim-ferry-stockholm-helsinki-time
+    - claim-ferry-stockholm-helsinki-booked
+    - claim-ferry-stockholm-helsinki-price
+  - id: d0815-dinner
+    period: dinner
+    title: Onboard meal (student/balanced)
+    description: Use a modest onboard meal or provisions; optional sparkling-wine bar offer was included
+      on the booking as a promotional note.
+    whyItMatters: Ship food economy reveals tourist vs transit pricing.
+    observationPrompt: What is sold as necessity versus cruise theater?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    estimatedCost:
+      lowMinor: 1500
+      highMinor: 3500
+      currency: EUR
+      minorUnit: 2
+      includes:
+      - onboard dinner
+      excludes:
+      - cabin fare already paid
+      confidence: low
+    claimIds: []
+  - id: d0815-night
+    period: night
+    title: Baltic night notes
+    description: 'Write Sweden synthesis: scale, ownership, ritual, and what Finland will need to answer.'
+    whyItMatters: Overnight water crossings create reflection space between national systems.
+    observationPrompt: What did Sweden teach me about scale?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+    claimIds: []
+  foodMode:
+  - cafe
+  - restaurant
+  - supermarket
+  budget:
+    lowMinor: 2000
+    highMinor: 6000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - lunch ashore
+    - onboard dinner
+    - local transit to port
+    excludes:
+    - accommodation
+    - ferry cabin already paid 137.90 EUR
+    confidence: medium
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - How does an overnight ferry compress tourism, logistics, and national branding?
+  - What disappears when Stockholm ends at the waterline?
+  fallbackPlans:
+  - id: d0815-weather
+    trigger: weather
+    title: Indoor cafe then direct to terminal
+    description: Skip outdoor farewell walk if rain; protect boarding buffer.
+  - id: d0815-low-energy
+    trigger: low-energy
+    title: Early terminal buffer
+    description: Go to Värtahamnen early and rest onboard.
+  sourceIds:
+  - src-tallink-silja
+  - src-sl
+  claimIds:
+  - claim-ferry-stockholm-helsinki-time
+  - claim-ferry-stockholm-helsinki-booked
+  - claim-ferry-stockholm-helsinki-price
+  socialPrompts:
+  - If energy allows, one short conversation with another passenger about why they are crossing.
+- id: day-2026-08-16
+  date: '2026-08-16'
+  city: Helsinki
+  country: Finland
+  title: Arrival in Helsinki
+  theme: Finland after the Baltic threshold
+  thesisQuestion: 'What changes when the Nordic model becomes Finnish: quieter, more strategic, more exposed?'
+  coherenceNote: Arrival fatigue is expected; the day focuses on first impressions and accommodation setup.
+  weatherDependency: medium
+  expectedEnergy: light
+  blocks:
+  - id: d0816-morning
+    period: morning
+    startTime: '10:30'
+    title: Ferry arrival target and port-to-city transfer
+    description: Arrive Olympia Terminal Helsinki ~10:30 local on Silja Symphony. Luggage logistics, then
+      market lunch. Ferry fare already paid.
+    whyItMatters: The port is Finland's first systems interface.
+    observationPrompt: How does Helsinki receive maritime arrivals?
+    bookingRequired: true
+    fixed: true
+    planningStatus: selected
+    verificationStatus: confirmed
+    status: planned
+    claimIds:
+    - claim-ferry-stockholm-helsinki-booked
+    - claim-ferry-stockholm-helsinki-time
+  - id: d0816-lunch
+    period: lunch
+    title: Market or simple Finnish lunch
+    description: Find an easy lunch near the port or center; verify venues live.
+    whyItMatters: The first meal separates ferry fatigue from Finnish baseline.
+    observationPrompt: What tastes, prices, and service scripts differ from Sweden?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0816-afternoon
+    period: afternoon
+    title: Accommodation setup and city orientation
+    description: Settle into configurable Helsinki accommodation and take a short transit-orientation
+      loop.
+    whyItMatters: Housing location will shape the final days' evidence.
+    observationPrompt: What is easy or hard before language confidence builds?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0816-dinner
+    period: dinner
+    title: Low-pressure Finnish dinner
+    description: Choose a modest dinner and postpone all final-meal decisions.
+    whyItMatters: Recovery protects the deeper Helsinki days.
+    observationPrompt: Does Helsinki feel austere, efficient, warm, or reserved?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0816-night
+    period: night
+    title: Sweden-to-Finland contrast memo
+    description: Write early contrasts without over-interpreting fatigue.
+    whyItMatters: Transition impressions are useful only if uncertainty is explicit.
+    observationPrompt: Which differences might be real systems differences rather than arrival fatigue?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - market
+  - restaurant
+  - cafe
+  budget:
+    lowMinor: 3500
+    highMinor: 9000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - ferry ticket
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 3
+  fieldworkPrompts:
+  - How does Helsinki's arrival interface differ from Stockholm's?
+  - What is the first visible sign of Finnish strategic restraint?
+  fallbackPlans:
+  - id: d0816-weather
+    trigger: weather
+    title: Indoor market and transit version
+    description: Use covered market/cafe spaces and short transit only.
+  - id: d0816-low-energy
+    trigger: low-energy
+    title: Recovery arrival
+    description: Eat simply, settle in, and write a short contrast memo.
+  sourceIds:
+  - src-hsl
+  - src-vr
+  claimIds:
+  - claim-ferry-stockholm-helsinki-time
+- id: day-2026-08-17
+  date: '2026-08-17'
+  city: Helsinki
+  country: Finland
+  title: Aalto and design under constraint
+  theme: Education plus design as national capability
+  thesisQuestion: How does Finland turn constraint into design discipline and technical education?
+  coherenceNote: Aalto anchors the day, with public access and August operations to verify.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0817-morning
+    period: morning
+    title: Aalto campus public pass
+    description: Visit public campus areas if accessible; observe interdisciplinary design, engineering,
+      and student infrastructure.
+    whyItMatters: Aalto is a concentrated version of the Finnish design-technology thesis.
+    observationPrompt: How does the campus make disciplines collide?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: planned
+  - id: d0817-lunch
+    period: lunch
+    title: Student cafeteria candidate
+    description: Try a student cafeteria only if public access and August service are verified.
+    whyItMatters: Student food measures how education is subsidized, standardized, and dignified.
+    observationPrompt: What is the difference between student price, visitor price, and public value?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0817-afternoon
+    period: afternoon
+    title: Design district or library comparison
+    description: Compare campus design with a public library or design district after verifying access.
+    whyItMatters: The question is whether design is elite branding or public infrastructure.
+    observationPrompt: Where does design become everyday competence?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0817-dinner
+    period: dinner
+    title: Finnish everyday dinner
+    description: Eat a normal meal and record language, service, and price differences.
+    whyItMatters: Normal dinner grounds the institutional observations.
+    observationPrompt: What does Finnish reserve change about hospitality?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0817-night
+    period: night
+    title: Constraint-to-design memo
+    description: Write three examples of constraint becoming capability, and one example of constraint
+      becoming burden.
+    whyItMatters: Finland should not be romanticized as pure competence.
+    observationPrompt: When does constraint stop helping?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - student-cafeteria
+  - restaurant
+  budget:
+    lowMinor: 3500
+    highMinor: 9000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - How does interdisciplinary education appear in space?
+  - What is Finnish design solving that Swedish design may simply beautify?
+  fallbackPlans:
+  - id: d0817-weather
+    trigger: weather
+    title: Campus interiors and library
+    description: Stay in public indoor campus/library spaces.
+  - id: d0817-low-energy
+    trigger: low-energy
+    title: Aalto-only day
+    description: Do the campus pass and skip the extra design district.
+  sourceIds:
+  - src-aalto
+  - src-hsl
+- id: day-2026-08-18
+  date: '2026-08-18'
+  city: Helsinki
+  country: Finland
+  title: Foresight, AI, and demographic pressure
+  theme: Strategic patience under stress
+  thesisQuestion: Can a small high-trust society plan its way through AI, aging, and security shocks?
+  coherenceNote: Sitra and public foresight frame the day even if visits remain exterior or reading-based.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0818-morning
+    period: morning
+    title: Sitra and foresight reading block
+    description: Use public materials and exterior/public-area observation if appropriate; do not imply
+      meetings.
+    whyItMatters: Finland institutionalizes future thinking more explicitly than many larger countries.
+    observationPrompt: What problems does foresight make visible before markets do?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: planned
+  - id: d0818-lunch
+    period: lunch
+    title: Worker lunch or market hall baseline
+    description: Choose lunch for price, speed, and resident signal rather than aesthetics.
+    whyItMatters: Labor-market pressure is visible in service design and prices.
+    observationPrompt: Where do labor scarcity and high wages appear?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0818-afternoon
+    period: afternoon
+    title: Final meal availability check
+    description: Check Nolla, Finnjävel, and Grön availability, current concept, price range, and booking
+      requirements using official channels.
+    whyItMatters: The final meal decision must remain honest until verified.
+    observationPrompt: Which restaurant currently best expresses the thesis?
+    bookingRequired: false
+    fixed: false
+    planningStatus: selected
+    verificationStatus: researched
+    status: planned
+    claimIds:
+    - claim-helsinki-final-meal-options
+  - id: d0818-dinner
+    period: dinner
+    title: Low-key Finnish dinner
+    description: Keep dinner modest while preserving budget flexibility for Aug 20.
+    whyItMatters: Avoid letting the final meal distort all Helsinki food evidence.
+    observationPrompt: What does an ordinary Helsinki evening meal reveal about restraint?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0818-night
+    period: night
+    title: AI pressure memo
+    description: Write a thesis note on AI, aging, labor scarcity, and education in Finland.
+    whyItMatters: This is the explicit pressure-test day.
+    observationPrompt: Which Finnish strengths could become liabilities in the AI era?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - worker-lunch
+  - restaurant
+  budget:
+    lowMinor: 3500
+    highMinor: 9000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - local meals
+    - local transit
+    excludes:
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 3
+  fieldworkPrompts:
+  - What kind of future does Finland seem to be planning for?
+  - Where does demographic pressure appear in everyday services?
+  fallbackPlans:
+  - id: d0818-weather
+    trigger: weather
+    title: Indoor foresight and restaurant verification
+    description: Use cafes/libraries and official restaurant sites.
+  - id: d0818-low-energy
+    trigger: low-energy
+    title: Research-only pressure test
+    description: Skip exterior passes and complete the AI pressure memo.
+  sourceIds:
+  - src-sitra
+  - src-nolla
+  - src-finnjavel
+  - src-gron
+  claimIds:
+  - claim-helsinki-final-meal-options
+- id: day-2026-08-19
+  date: '2026-08-19'
+  city: Helsinki
+  country: Finland
+  title: Libraries, markets, and the public mind
+  theme: Education beyond school
+  thesisQuestion: How does Finland make learning feel public, ordinary, and lifelong?
+  coherenceNote: The day connects public interiors, markets, and final-synthesis evidence.
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0819-morning
+    period: morning
+    title: Public library or civic interior
+    description: Observe a major library or public interior after verifying access.
+    whyItMatters: Libraries are education policy made spatial.
+    observationPrompt: What kinds of citizens does the space assume?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0819-lunch
+    period: lunch
+    title: Market hall lunch and berry/fish observation
+    description: Use a market hall or market-adjacent lunch if verified; look for berries, fish, rye,
+      and tourist/resident split.
+    whyItMatters: Markets connect seasonality, trade, and everyday affordability.
+    observationPrompt: Which foods look like heritage, convenience, or export branding?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0819-afternoon
+    period: afternoon
+    title: University of Helsinki public pass
+    description: Visit public campus areas if practical and compare with Aalto.
+    whyItMatters: A research university and design-tech university reveal different education logics.
+    observationPrompt: Which university feels more public, more elite, or more strategic?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: researched
+    status: idea
+  - id: d0819-dinner
+    period: dinner
+    title: Final-meal fallback rehearsal
+    description: If the Aug 20 final meal remains uncertain, choose or hold a realistic fallback reservation
+      path now.
+    whyItMatters: Decision quality improves before departure pressure.
+    observationPrompt: Which final meal choice is most honest after three Helsinki days?
+    bookingRequired: false
+    fixed: false
+    planningStatus: selected
+    verificationStatus: unresearched
+    status: planned
+  - id: d0819-night
+    period: night
+    title: Nordic comparison matrix
+    description: Draft Oslo/Stockholm/Helsinki comparison across nature, trust, education, design, capital,
+      and AI pressure.
+    whyItMatters: The final day should close, not begin, synthesis.
+    observationPrompt: Which city best answered the thesis, and which complicated it?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - market
+  - restaurant
+  budget:
+    lowMinor: 3500
+    highMinor: 22000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - picnic/lunch
+    - local transit
+    - final dinner food
+    excludes:
+    - accommodation
+    - long-distance transport
+    - wine pairings
+    confidence: medium
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - How does public learning infrastructure differ from university prestige?
+  - What foods feel like Finnish identity rather than tourist packaging?
+  fallbackPlans:
+  - id: d0819-weather
+    trigger: weather
+    title: Indoor library-market-campus loop
+    description: Keep the day indoors or on short covered transfers.
+  - id: d0819-low-energy
+    trigger: low-energy
+    title: Library plus synthesis
+    description: Skip the campus and prioritize the comparison matrix.
+  sourceIds:
+  - src-university-helsinki
+  - src-hsl
+- id: day-2026-08-20
+  date: '2026-08-20'
+  city: Helsinki
+  country: Finland
+  title: Final synthesis and Finnish meal
+  theme: Closing the Nordic systems argument
+  thesisQuestion: What should be learned from small high-trust societies without copying them naively?
+  coherenceNote: 'The final meal decision is provisional: Nolla first, Finnjävel or Grön if live verification
+    points elsewhere.'
+  weatherDependency: medium
+  expectedEnergy: balanced
+  blocks:
+  - id: d0820-morning
+    period: morning
+    title: Departure logistics and final gaps
+    description: Confirm onward logistics separately and list unresolved claims, especially any unverified
+      prices or schedules.
+    whyItMatters: Clean endings protect public content from accidental certainty.
+    observationPrompt: Which claims still need to be downgraded or removed?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0820-lunch
+    period: lunch
+    title: Last everyday lunch
+    description: Eat a normal lunch rather than optimizing for novelty.
+    whyItMatters: The final contrast should include ordinary life as well as fine dining.
+    observationPrompt: What now feels normal that felt strange on arrival?
+    bookingRequired: false
+    fixed: false
+    planningStatus: candidate
+    verificationStatus: unresearched
+    status: idea
+  - id: d0820-afternoon
+    period: afternoon
+    title: Final synthesis walk
+    description: Take one gentle Helsinki walk and record the closing argument in fragments.
+    whyItMatters: Synthesis needs embodied evidence, not just notes.
+    observationPrompt: What does Helsinki add that Oslo and Stockholm did not?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  - id: d0820-dinner
+    period: dinner
+    title: 'Final Helsinki meal: Nolla provisional, Finnjävel/Grön backups'
+    description: Use Nolla if official availability and current concept fit; otherwise choose Finnjävel
+      for heritage or Grön for seasonality. No booking is implied here.
+    whyItMatters: 'The final meal should make the thesis edible: constraint, design, season, and trust.'
+    observationPrompt: Does the meal resolve the thesis or expose its limits?
+    bookingRequired: true
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: researched
+    status: idea
+    claimIds:
+    - claim-helsinki-final-meal-options
+  - id: d0820-night
+    period: night
+    title: 'Closing note: admiration without imitation'
+    description: 'Write the final fieldwork note: what Northern Europe teaches, what it hides, and what
+      AI/geopolitics may change.'
+    whyItMatters: The trip ends by turning observation into portable judgment.
+    observationPrompt: Which lesson travels, and which depends on history that cannot be copied?
+    bookingRequired: false
+    fixed: false
+    planningStatus: recommended
+    verificationStatus: unresearched
+    status: planned
+  foodMode:
+  - worker-lunch
+  - splurge
+  - restaurant
+  budget:
+    lowMinor: 3500
+    highMinor: 9000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - normal local meals and transit
+    excludes:
+    - final-meal overage beyond normal-day target
+    - accommodation
+    - long-distance transport
+    confidence: low
+  sidequestPotential: 4
+  fieldworkPrompts:
+  - What is the final answer to the thesis after all three cities?
+  - Which Nordic advantage looks most fragile under AI, demography, and security pressure?
+  fallbackPlans:
+  - id: d0820-weather
+    trigger: weather
+    title: Indoor synthesis and verified dinner
+    description: Use a cafe/library for synthesis and keep transfers simple.
+  - id: d0820-low-energy
+    trigger: low-energy
+    title: Final meal only
+    description: Skip the walk and preserve energy for closing notes.
+  sourceIds:
+  - src-nolla
+  - src-finnjavel
+  - src-gron
+  claimIds:
+  - claim-helsinki-final-meal-options
+sidequests:
+- id: sq-oslo-seafood-tribunal
+  title: Oslo Fjord Seafood Tribunal
+  city: Oslo
+  categories:
+  - food
+  - systems
+  description: Run a small seafood labeling and taste comparison to test Norway's nature-to-trust pipeline.
+  durationMinutes: 90
+  budget:
+    lowMinor: 15000
+    highMinor: 35000
+    currency: NOK
+    minorUnit: 2
+    includes:
+    - samples
+    excludes:
+    - restaurant meal
+    confidence: low
+  placeSpecificity: 2
+  storyPotential: 5
+  socialPotential: 2
+  weatherDependency: medium
+  bestTime: Lunch on Aug 7 if freshness and storage are easy.
+  foodPairing: Rye or crispbread, water, and simple notes.
+  observationPrompt: Which label would you trust enough to feed someone else?
+  fallback: Use packaged supermarket seafood only.
+  sourceIds:
+  - src-norwegian-seafood-council
+  claimIds:
+  - claim-oslo-seafood-tribunal
+- id: sq-stockholm-design-governance
+  title: Design-as-governance walk
+  city: Stockholm
+  categories:
+  - design
+  - trust
+  description: Audit signs, crossings, furniture, ticketing, and self-service as invisible governance.
+  durationMinutes: 120
+  budget:
+    lowMinor: 0
+    highMinor: 15000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - optional cafe stop
+    excludes:
+    - museum tickets
+    confidence: low
+  placeSpecificity: 3
+  storyPotential: 4
+  socialPotential: 2
+  weatherDependency: medium
+  observationPrompt: Where does design ask people to behave well without saying so?
+  fallback: Run the audit inside transit stations and cafes.
+- id: sq-stockholm-crayfish
+  title: Crayfish night without false certainty
+  city: Stockholm
+  categories:
+  - food
+  - ritual
+  description: Use Aug 13 as a flexible target for observing crayfish season through retail, menus, or
+    a verified meal.
+  durationMinutes: 150
+  budget:
+    lowMinor: 25000
+    highMinor: 65000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - crayfish-oriented meal
+    excludes:
+    - alcohol
+    confidence: low
+  placeSpecificity: 2
+  storyPotential: 5
+  socialPotential: 4
+  weatherDependency: medium
+  bestTime: Target Aug 13 dinner; reverify by Aug 11.
+  foodPairing: Crispbread, cheese, dill, and notes on ritual packaging.
+  observationPrompt: Does the ritual feel private, public, commercial, or national?
+  fallback: Document displays and eat a seasonal Swedish dinner.
+  sourceIds:
+  - src-visitsweden-crayfish
+  claimIds:
+  - claim-crayfish-aug13
+- id: sq-baltic-ferry-night
+  title: Baltic ferry as moving institution
+  city: Stockholm
+  categories:
+  - transport
+  - geopolitics
+  description: Observe the Stockholm-Helsinki overnight ferry as transport, border, hotel, mall, and regional
+    ritual.
+  durationMinutes: 1080
+  budget:
+    lowMinor: 0
+    highMinor: 30000
+    currency: SEK
+    minorUnit: 2
+    includes:
+    - onboard observation buffer
+    excludes:
+    - ferry ticket
+    - cabin
+    confidence: low
+  placeSpecificity: 5
+  storyPotential: 5
+  socialPotential: 3
+  weatherDependency: low
+  observationPrompt: What kind of Nordic region exists onboard?
+  fallback: If ferry timing changes, preserve the same observation prompts for the verified sailing.
+  sourceIds:
+  - src-tallink-silja
+  - src-viking-line
+  claimIds:
+  - claim-ferry-stockholm-helsinki-time
+- id: sq-aalto-constraint-design
+  title: Aalto constraint-to-design pass
+  city: Helsinki
+  categories:
+  - education
+  - design
+  description: Use Aalto's public campus to ask how Finland links design, engineering, business, and national
+    capability.
+  durationMinutes: 180
+  budget:
+    lowMinor: 500
+    highMinor: 2500
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - local transit or cafe
+    excludes:
+    - restricted events
+    confidence: low
+  placeSpecificity: 4
+  storyPotential: 4
+  socialPotential: 2
+  weatherDependency: medium
+  observationPrompt: When does constraint produce elegance, and when does it produce scarcity?
+  fallback: Use online materials and a public library if campus access is poor.
+  sourceIds:
+  - src-aalto
+- id: sq-helsinki-final-meal
+  title: Final Helsinki meal decision
+  city: Helsinki
+  categories:
+  - food
+  - synthesis
+  description: Choose among Nolla, Finnjävel, and Grön based on verified availability and thesis fit.
+  durationMinutes: 150
+  budget:
+    lowMinor: 6000
+    highMinor: 18000
+    currency: EUR
+    minorUnit: 2
+    includes:
+    - meal planning range
+    excludes:
+    - drinks
+    confidence: low
+  placeSpecificity: 3
+  storyPotential: 5
+  socialPotential: 3
+  weatherDependency: low
+  bestTime: Aug 20 dinner if verified.
+  observationPrompt: Which restaurant makes the thesis most concrete without forcing it?
+  fallback: Choose a verified normal Finnish dinner and write why the splurge was not justified.
+  sourceIds:
+  - src-nolla
+  - src-finnjavel
+  - src-gron
+  claimIds:
+  - claim-helsinki-final-meal-options
+budget:
+  baseCurrency: EUR
+  citySubtotals:
+  - city: Oslo
+    currency: NOK
+    balanced:
+      lowMinor: 60000
+      highMinor: 140000
+      currency: NOK
+      minorUnit: 2
+      includes:
+      - two normal local days
+      excludes:
+      - accommodation
+      - Oslo-Stockholm train
+      confidence: low
+    food:
+      lowMinor: 40000
+      highMinor: 100000
+      currency: NOK
+      minorUnit: 2
+      includes:
+      - meals and seafood experiment
+      excludes:
+      - splurges
+      confidence: low
+  - city: Stockholm
+    currency: SEK
+    balanced:
+      lowMinor: 280000
+      highMinor: 640000
+      currency: SEK
+      minorUnit: 2
+      includes:
+      - eight local planning days
+      excludes:
+      - accommodation
+      - overnight ferry ticket
+      - AG overage beyond normal-day target
+      confidence: low
+    food:
+      lowMinor: 220000
+      highMinor: 520000
+      currency: SEK
+      minorUnit: 2
+      includes:
+      - daily meals and crayfish planning target
+      excludes:
+      - alcohol
+      confidence: low
+  - city: Helsinki
+    currency: EUR
+    balanced:
+      lowMinor: 17500
+      highMinor: 45000
+      currency: EUR
+      minorUnit: 2
+      includes:
+      - five local planning days
+      excludes:
+      - accommodation
+      - long-distance transport
+      - final-meal overage beyond normal-day target
+      confidence: low
+    food:
+      lowMinor: 12500
+      highMinor: 35000
+      currency: EUR
+      minorUnit: 2
+      includes:
+      - daily meals
+      excludes:
+      - optional final splurge overage
+      confidence: low
+  exclusions:
+  - prepaid or future accommodation
+  - Oslo-Stockholm train
+  - Stockholm-Helsinki overnight ferry ticket and cabin
+  - booking confirmation numbers
+  - prepaid accommodation
+  - long-distance transport
+  - SJ Oslo–Stockholm ticket (already purchased; exact fare private)
+  - Tallink Silja ferry 137.90 EUR already paid
+  actualSpend: []
+  confidence: medium
+sources:
+- id: src-sj
+  title: SJ journey planning and booking
+  publisher: SJ
+  url: https://www.sj.se/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official SJ operator for Oslo–Stockholm SJ 3000 services; ticket instance already booked for 2026-08-08.
+  confidence: high
+  reverifyAfter: '2026-08-07'
+- id: src-ruter
+  title: Ruter public transport information
+  publisher: Ruter
+  url: https://ruter.no/en/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Oslo local transit; live verification still required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-sl
+  title: SL public transport information
+  publisher: Storstockholms Lokaltrafik
+  url: https://sl.se/en/in-english
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Stockholm local transit; live verification still required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-tallink-silja
+  title: Tallink Silja Line Stockholm–Helsinki
+  publisher: Tallink Silja
+  url: https://www.tallink.com/travelling/one-way/stockholm-helsinki-ferry
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official Tallink Silja Stockholm–Helsinki overnight route; traveler holds booked Silja Symphony sailing
+    2026-08-15/16.
+  confidence: high
+  reverifyAfter: '2026-08-14'
+- id: src-viking-line
+  title: Viking Line route information
+  publisher: Viking Line
+  url: https://www.vikingline.com/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for alternative Stockholm-Helsinki ferry verification; live verification
+    still required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-hsl
+  title: HSL Helsinki region transport
+  publisher: Helsinki Region Transport
+  url: https://www.hsl.fi/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Helsinki local transit; live verification still required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-vr
+  title: VR Finnish rail information
+  publisher: VR
+  url: https://www.vr.fi/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Finnish rail context and onward logistics; live verification still
+    required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-restaurant-ag
+  title: Restaurang AG — menu and hours
+  publisher: Restaurant AG
+  url: https://restaurangag.se/en/menu
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official AG summer opening hours (Mon 17:00–00:00) and venue contact; menu pages for a la carte /
+    Chef's table pricing references.
+  confidence: high
+  reverifyAfter: '2026-08-08'
+- id: src-visitsweden-crayfish
+  title: All about crayfish
+  publisher: Visit Sweden
+  url: https://visitsweden.com/what-to-do/food-drink/swedish-kitchen/all-about-crayfish/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - General source placeholder for Swedish crayfish-season context; local events, dates, venues, and prices
+    require live verification.
+  confidence: low
+  reverifyAfter: '2026-08-01'
+- id: src-nolla
+  title: Restaurant Nolla
+  publisher: Restaurant Nolla
+  url: https://restaurantnolla.com/menu/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official Nolla concept and seasonal menu structure; fixed EUR price not published on official menu
+    page as of access date.
+  confidence: medium
+  reverifyAfter: '2026-08-10'
+- id: src-finnjavel
+  title: Finnjävel Salonki menus
+  publisher: Finnjävel
+  url: https://finnjavel.fi/en/fine-dining-helsinki/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official Salonki menus 108 EUR / 138 EUR; wine packages listed separately.
+  confidence: high
+  reverifyAfter: '2026-08-15'
+- id: src-gron
+  title: Grön — Summer Season 2026 menu
+  publisher: Grön
+  url: https://www.restaurantgron.com/menu
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official Grön menu 188 EUR (Summer 2026); wine pairing 142 EUR.
+  confidence: high
+  reverifyAfter: '2026-08-15'
+- id: src-uio
+  title: University of Oslo
+  publisher: University of Oslo
+  url: https://www.uio.no/english/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for University of Oslo fieldwork context; live visitability verification
+    required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-kth
+  title: KTH Royal Institute of Technology
+  publisher: KTH
+  url: https://www.kth.se/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for KTH public campus context; live visitability verification required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-aalto
+  title: Aalto University
+  publisher: Aalto University
+  url: https://www.aalto.fi/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Aalto public campus context; live visitability verification required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-university-helsinki
+  title: University of Helsinki
+  publisher: University of Helsinki
+  url: https://www.helsinki.fi/en
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for University of Helsinki public campus context; live visitability verification
+    required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-sitra
+  title: Sitra
+  publisher: Sitra
+  url: https://www.sitra.fi/en/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official source placeholder for Finnish foresight and future fund context; live visitability verification
+    required.
+  confidence: medium
+  reverifyAfter: '2026-08-01'
+- id: src-visit-oslo
+  title: Visit Oslo
+  publisher: Visit Oslo
+  url: https://www.visitoslo.com/en/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official tourism source placeholder for Oslo waterfront and public-space context; live verification
+    still required.
+  confidence: low
+  reverifyAfter: '2026-08-01'
+- id: src-norwegian-seafood-council
+  title: Norwegian Seafood Council
+  publisher: Norwegian Seafood Council
+  url: https://en.seafood.no/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - Official industry source placeholder for Norwegian seafood context; does not confirm local prices
+    or availability.
+  confidence: low
+  reverifyAfter: '2026-08-01'
+- id: src-tennstopet
+  title: Tennstopet — kräftskiva 13 August
+  publisher: Tennstopet
+  url: https://tennstopet.se/
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - 'Official listing: crayfish party on 13 August with live music at 985 SEK per person; pre-book.'
+  confidence: high
+  reverifyAfter: '2026-07-30'
+- id: src-ag-chefs-table
+  title: Restaurang AG — Chef's table
+  publisher: Restaurang AG
+  url: https://restaurangag.se/chefs-table
+  accessedAt: '2026-07-16'
+  sourceType: official
+  supports:
+  - 'Official Chef''s table menus: 1750 / 2750 / 5000 SEK per person (drinks extra).'
+  confidence: high
+  reverifyAfter: '2026-08-08'
+- id: src-nolla-price-secondary
+  title: Secondary reports of Nolla menu price bands
+  publisher: Local food guides / visitor reports
+  url: https://parastastadissa.com/ravintola-nolla-kestavan-kehityksen-edellakavija-helsingissa/
+  accessedAt: '2026-07-16'
+  sourceType: reputable-secondary
+  supports:
+  - Secondary estimate that Nolla tasting menus often fall around €60–70; must reconfirm with restaurant.
+  confidence: low
+  reverifyAfter: '2026-08-01'
+- id: src-sj-oslo-stockholm-guide
+  title: Oslo–Stockholm SJ fare context
+  publisher: TrainFYI / SJ ecosystem guides
+  url: https://trainfyi.com/guides/stockholm-oslo/
+  accessedAt: '2026-07-16'
+  sourceType: reputable-secondary
+  supports:
+  - Advance SJ fares often from ~195 SEK; standard second class often ~350–500 SEK when not heavily discounted.
+    Traveler ticket already purchased — exact paid fare kept private.
+  confidence: medium
+  reverifyAfter: '2026-08-07'
+claims:
+- id: claim-train-oslo-stockholm-time
+  subjectType: transport
+  subjectId: anchor-train-oslo-stockholm
+  fieldPath: anchors[anchor-train-oslo-stockholm].start
+  statement: SJ 3000 service departs Oslo S at 11:34 and arrives Stockholm Central at 17:16 on 2026-08-08.
+  status: researched
+  sourceIds:
+  - src-sj
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-08'
+  validUntil: '2026-08-08'
+  reverifyAfter: '2026-08-07'
+  confidence: high
+  notes: Confirmed from traveler ticket document; public record omits ticket identifiers.
+- id: claim-ferry-stockholm-helsinki-time
+  subjectType: transport
+  subjectId: anchor-ferry-stockholm-helsinki
+  fieldPath: anchors[anchor-ferry-stockholm-helsinki].start
+  statement: Silja Symphony departs Stockholm Värtahamnen 16:30 local on 2026-08-15 and arrives Helsinki
+    Olympia Terminal 10:30 local on 2026-08-16.
+  status: researched
+  sourceIds:
+  - src-tallink-silja
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-15'
+  validUntil: '2026-08-16'
+  reverifyAfter: '2026-08-14'
+  confidence: high
+  notes: Confirmed from traveler Tallink booking confirmation; public record omits reservation/security
+    codes.
+- id: claim-ag-aug10
+  subjectType: event
+  subjectId: anchor-ag-aug10
+  fieldPath: anchors[anchor-ag-aug10].start
+  statement: Restaurant AG is a planning target for dinner on 2026-08-10 in Stockholm; reservation not
+    stored as confirmed in public data.
+  status: traveler-provided
+  sourceIds:
+  - src-restaurant-ag
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-10'
+  validUntil: '2026-08-10'
+  reverifyAfter: '2026-08-08'
+  confidence: medium
+  notes: 'Claim-level provenance: traveler requested AG Aug 10; official restaurant site listed only as
+    re-verification path.'
+- id: claim-crayfish-aug13
+  subjectType: event
+  subjectId: anchor-crayfish-aug13
+  fieldPath: anchors[anchor-crayfish-aug13].start
+  statement: Tennstopet advertises a crayfish party on 13 August with live music at 985 SEK per person.
+  status: researched
+  sourceIds:
+  - src-tennstopet
+  - src-visitsweden-crayfish
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-13'
+  validUntil: '2026-08-13'
+  reverifyAfter: '2026-07-30'
+  confidence: high
+  notes: Official venue listing accessed 2026-07-16; booking still required.
+- id: claim-oslo-seafood-tribunal
+  subjectType: event
+  subjectId: sq-oslo-seafood-tribunal
+  fieldPath: sidequests[sq-oslo-seafood-tribunal].description
+  statement: The Oslo Fjord Seafood Tribunal is a traveler-designed food experiment for Aug 7, not a scheduled
+    public event; prices and product availability must be verified in the field.
+  status: traveler-provided
+  sourceIds:
+  - src-norwegian-seafood-council
+  - src-visit-oslo
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-07'
+  validUntil: '2026-08-07'
+  reverifyAfter: '2026-08-06'
+  confidence: low
+  notes: 'Claim-level provenance: traveler requested the experiment; official sources are contextual only.'
+- id: claim-helsinki-final-meal-options
+  subjectType: venue
+  subjectId: choice-final-helsinki-meal
+  fieldPath: majorChoices[choice-final-helsinki-meal].options
+  statement: Nolla, Finnjävel, and Grön are shortlisted final Helsinki meal options; Nolla is the provisional
+    thesis-fit choice, but availability, current concept, price, and booking status need live verification.
+  status: researched
+  sourceIds:
+  - src-nolla
+  - src-finnjavel
+  - src-gron
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-18'
+  validUntil: '2026-08-20'
+  reverifyAfter: '2026-08-10'
+  confidence: low
+  notes: Official sites are included for re-verification; no reservation is implied.
+- id: claim-train-oslo-stockholm-booked
+  subjectType: transport
+  subjectId: anchor-train-oslo-stockholm
+  fieldPath: anchors[anchor-train-oslo-stockholm].start.confirmationStatus
+  statement: Traveler holds a booked non-rebookable 2nd-class seat on SJ 3000 638 for 2026-08-08 Oslo–Stockholm.
+  status: researched
+  sourceIds:
+  - src-sj
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-07'
+  confidence: high
+  notes: Booking identifiers intentionally omitted from public content.
+- id: claim-ferry-stockholm-helsinki-booked
+  subjectType: transport
+  subjectId: anchor-ferry-stockholm-helsinki
+  fieldPath: anchors[anchor-ferry-stockholm-helsinki].start.confirmationStatus
+  statement: Traveler holds a booked B-Standard Inside cabin on Silja Symphony Stockholm–Helsinki for
+    2026-08-15/16.
+  status: researched
+  sourceIds:
+  - src-tallink-silja
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-14'
+  confidence: high
+  notes: Reservation/security codes omitted from public content.
+- id: claim-ferry-stockholm-helsinki-price
+  subjectType: price
+  subjectId: anchor-ferry-stockholm-helsinki
+  fieldPath: budget.longDistance.ferry
+  statement: Paid ferry total is 137.90 EUR including 121.00 EUR cabin and 16.90 EUR emission/fuel surcharge.
+  status: researched
+  sourceIds:
+  - src-tallink-silja
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-14'
+  confidence: high
+  notes: Excluded from day budgets as long-distance transport.
+- id: claim-tennstopet-kraftskiva-2026
+  subjectType: event
+  subjectId: stockholm-crayfish-night
+  fieldPath: days[day-2026-08-13].blocks[d0813-dinner].estimatedCost
+  statement: Tennstopet lists kräftskiva on 13 August at 985 SEK per person with live music; pre-booking
+    required.
+  status: researched
+  sourceIds:
+  - src-tennstopet
+  verifiedAt: '2026-07-16'
+  validFrom: '2026-08-13'
+  validUntil: '2026-08-13'
+  reverifyAfter: '2026-07-30'
+  confidence: high
+- id: claim-ag-hours
+  subjectType: venue
+  subjectId: restaurant-ag
+  fieldPath: openingHours.summer
+  statement: Restaurant AG summer hours list Monday open 17:00–00:00 (Sunday closed).
+  status: researched
+  sourceIds:
+  - src-restaurant-ag
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-08'
+  confidence: high
+- id: claim-ag-price-range
+  subjectType: price
+  subjectId: restaurant-ag
+  fieldPath: menu.priceRange
+  statement: AG Chef's table menus are officially 1750 / 2750 / 5000 SEK per person (drinks extra); a
+    la carte steak mains commonly hundreds of SEK each.
+  status: researched
+  sourceIds:
+  - src-ag-chefs-table
+  - src-restaurant-ag
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-08'
+  confidence: high
+- id: claim-gron-menu-price
+  subjectType: price
+  subjectId: restaurant-gron
+  fieldPath: menu.price
+  statement: Grön Summer Season 2026 menu is officially 188 EUR; wine pairing 142 EUR.
+  status: researched
+  sourceIds:
+  - src-gron
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-15'
+  confidence: high
+- id: claim-finnjavel-menu-price
+  subjectType: price
+  subjectId: restaurant-finnjavel
+  fieldPath: menu.price
+  statement: Finnjävel Salonki menus are officially 108 EUR (5-course) and 138 EUR (8-course).
+  status: researched
+  sourceIds:
+  - src-finnjavel
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-15'
+  confidence: high
+- id: claim-nolla-price-band
+  subjectType: price
+  subjectId: restaurant-nolla
+  fieldPath: menu.priceEstimate
+  statement: Nolla does not publish a fixed menu price on its official menu page; secondary reports commonly
+    cite roughly €59–69 — reconfirm before booking.
+  status: researched
+  sourceIds:
+  - src-nolla
+  - src-nolla-price-secondary
+  verifiedAt: '2026-07-16'
+  reverifyAfter: '2026-08-01'
+  confidence: low
+observations: []

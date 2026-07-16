@@ -1,0 +1,11 @@
+---
+description: Data contract rules
+alwaysApply: false
+---
+
+# Data contracts
+
+All persisted documents need schemaVersion. Money uses integer minor units.
+Times use IANA time zones and confirmationStatus. Claims link fieldPath statements
+to sources. Use the atlas CLI for create/validate/publish — do not hand-edit
+published registry inconsistently.

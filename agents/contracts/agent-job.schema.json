@@ -1,0 +1,7 @@
+{
+  "$ref": "#/definitions/AgentJob",
+  "definitions": {
+    "AgentJob": {}
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.npm/
+.pnp.*
+
+# Build
+dist/
+build/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Private vault — never commit vault contents
+vault/**
+!vault/.gitkeep
+!vault/README.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test / playwright
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Generated local artifacts (keep structure)
+generated/**/*
+!generated/**/.gitkeep
+
+# Jobs runtime locks (keep structure)
+jobs/running/*
+!jobs/running/.gitkeep
+jobs/awaiting-review/*
+!jobs/awaiting-review/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# Turbo / cache
+.turbo/
+.cache/

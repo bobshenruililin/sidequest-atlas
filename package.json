@@ -1,0 +1,35 @@
+{
+  "name": "sidequest-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sidequest Atlas — the life and field notes of Shen Ruililin",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "doctor": "tsx scripts/doctor.ts",
+    "atlas": "tsx packages/cli/src/index.ts",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:contract": "vitest run --config vitest.contract.config.ts",
+    "test:e2e": "playwright test",
+    "build": "npm run build --workspace=@sidequest-atlas/domain && npm run build --workspace=@sidequest-atlas/content && npm run build --workspace=@sidequest-atlas/intelligence && npm run build --workspace=@sidequest-atlas/exporters && npm run build --workspace=@sidequest-atlas/cli && npm run build --workspace=@sidequest-atlas/web",
+    "dev": "npm run dev --workspace=@sidequest-atlas/web",
+    "schema:generate": "tsx scripts/generate-json-schemas.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2",
+    "zod-to-json-schema": "^3.24.5"
+  }
+}

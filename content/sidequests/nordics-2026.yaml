@@ -1,0 +1,192 @@
+schemaVersion: "1.0.0"
+tripId: "trip-nordics-2026"
+slug: "nordics-2026"
+generatedAt: "2026-07-16T08:00:00Z"
+sidequests:
+  - id: "sq-oslo-seafood-tribunal"
+    title: "Oslo Fjord Seafood Tribunal"
+    city: "Oslo"
+    categories:
+      - "food"
+      - "systems"
+      - "trust"
+    description: "Run a small seafood labeling and taste comparison to test Norway's nature-to-trust pipeline."
+    durationMinutes: 90
+    budget:
+      lowMinor: 15000
+      highMinor: 35000
+      currency: "NOK"
+      minorUnit: 2
+      includes:
+        - "seafood samples"
+        - "simple accompaniments"
+      excludes:
+        - "restaurant service"
+      confidence: "low"
+    weatherDependency: "medium"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-06"
+    sourceIds:
+      - "src-norwegian-seafood-council"
+      - "src-visit-oslo"
+    claimIds:
+      - "claim-oslo-seafood-tribunal"
+    bestTime: "Aug 7 lunch if freshness, storage, and weather cooperate."
+    observationPrompt: "Which seafood claim would you trust enough to feed someone else?"
+    fallback: "Use packaged supermarket seafood only, or skip shellfish if freshness is uncertain."
+  - id: "sq-stockholm-design-governance"
+    title: "Design-as-governance walk"
+    city: "Stockholm"
+    categories:
+      - "design"
+      - "trust"
+      - "public-space"
+    description: "Audit signs, crossings, street furniture, ticketing, queues, and self-service as invisible governance."
+    durationMinutes: 120
+    budget:
+      lowMinor: 0
+      highMinor: 15000
+      currency: "SEK"
+      minorUnit: 2
+      includes:
+        - "optional cafe stop"
+      excludes:
+        - "museum tickets"
+      confidence: "low"
+    weatherDependency: "medium"
+    verificationStatus: "unresearched"
+    confidence: "low"
+    reverifyAfter: "2026-08-01"
+    sourceIds: []
+    claimIds: []
+    bestTime: "Aug 9 morning or any dry Stockholm morning."
+    observationPrompt: "Where does design ask people to behave well without saying so?"
+    fallback: "Run the audit inside transit stations, department stores, libraries, and cafes."
+  - id: "sq-stockholm-crayfish"
+    title: "Crayfish night without false certainty"
+    city: "Stockholm"
+    categories:
+      - "food"
+      - "ritual"
+      - "seasonality"
+    description: "Use Aug 13 as a flexible target for observing crayfish season through retail, menus, or a verified meal."
+    durationMinutes: 150
+    budget:
+      lowMinor: 25000
+      highMinor: 65000
+      currency: "SEK"
+      minorUnit: 2
+      includes:
+        - "crayfish-oriented meal"
+      excludes:
+        - "alcohol"
+      confidence: "low"
+    weatherDependency: "medium"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-01"
+    sourceIds:
+      - "src-visitsweden-crayfish"
+    claimIds:
+      - "claim-crayfish-aug13"
+    bestTime: "Target Aug 13 dinner; decide format by Aug 11."
+    observationPrompt: "Does the ritual feel private, public, commercial, nostalgic, or national?"
+    fallback: "Document retail/menu displays and eat a seasonal Swedish dinner without claiming a crayfish event."
+  - id: "sq-baltic-ferry-night"
+    title: "Baltic ferry as moving institution"
+    city: "Stockholm"
+    categories:
+      - "transport"
+      - "geopolitics"
+      - "regional-integration"
+    description: "Observe the Stockholm-Helsinki overnight ferry as transport, border, hotel, mall, tourism, and regional ritual."
+    durationMinutes: 1080
+    budget:
+      lowMinor: 0
+      highMinor: 30000
+      currency: "SEK"
+      minorUnit: 2
+      includes:
+        - "onboard observation food buffer"
+      excludes:
+        - "ferry ticket"
+        - "cabin"
+      confidence: "low"
+    weatherDependency: "low"
+    verificationStatus: "traveler-provided"
+    confidence: "low"
+    reverifyAfter: "2026-08-01"
+    sourceIds:
+      - "src-tallink-silja"
+      - "src-viking-line"
+    claimIds:
+      - "claim-ferry-stockholm-helsinki-time"
+    bestTime: "Aug 15-16 if the traveler-provided ferry window is confirmed."
+    observationPrompt: "What kind of Nordic region exists onboard?"
+    fallback: "If timing or operator changes, keep the prompts and update only verified logistics."
+  - id: "sq-aalto-constraint-design"
+    title: "Aalto constraint-to-design pass"
+    city: "Helsinki"
+    categories:
+      - "education"
+      - "design"
+      - "technology"
+    description: "Use Aalto's public campus to ask how Finland links design, engineering, business, and national capability."
+    durationMinutes: 180
+    budget:
+      lowMinor: 500
+      highMinor: 2500
+      currency: "EUR"
+      minorUnit: 2
+      includes:
+        - "local transit or cafe"
+      excludes:
+        - "restricted events"
+      confidence: "low"
+    weatherDependency: "medium"
+    verificationStatus: "researched"
+    confidence: "medium"
+    reverifyAfter: "2026-08-01"
+    sourceIds:
+      - "src-aalto"
+    claimIds: []
+    bestTime: "Aug 17 morning if public campus access is practical."
+    observationPrompt: "When does constraint produce elegance, and when does it produce scarcity?"
+    fallback: "Use public Aalto materials and a Helsinki library if campus access is poor."
+  - id: "sq-helsinki-final-meal"
+    title: "Final Helsinki meal decision"
+    city: "Helsinki"
+    categories:
+      - "food"
+      - "synthesis"
+      - "design"
+    description: "Choose among Nolla, Finnjävel, and Grön based on verified availability and thesis fit."
+    durationMinutes: 150
+    budget:
+      lowMinor: 6000
+      highMinor: 18000
+      currency: "EUR"
+      minorUnit: 2
+      includes:
+        - "meal planning range"
+      excludes:
+        - "drinks"
+      confidence: "low"
+    weatherDependency: "low"
+    verificationStatus: "researched"
+    confidence: "low"
+    reverifyAfter: "2026-08-10"
+    sourceIds:
+      - "src-nolla"
+      - "src-finnjavel"
+      - "src-gron"
+    claimIds:
+      - "claim-helsinki-final-meal-options"
+    provisionalDecision: "Nolla"
+    alternatives:
+      - "Finnjävel"
+      - "Grön"
+    bestTime: "Aug 20 dinner if verified."
+    observationPrompt: "Which restaurant makes constraint, design, season, and trust most concrete without forcing the thesis?"
+    fallback: "Choose a verified normal Finnish dinner and write why the splurge was not justified."

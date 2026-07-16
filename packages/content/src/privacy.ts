@@ -33,12 +33,15 @@ export const PRIVACY_PATTERNS: PrivacyPattern[] = [
   },
   {
     kind: "booking-reference",
-    regex: /\b(?:PNR|BOOKING|CONFIRMATION|CONF|REF)[-_:\s]*[A-Z0-9]{5,12}\b/gi,
+    // Require an explicit separator so words like "confidence" / "confirmationStatus" do not match.
+    regex:
+      /\b(?:PNR|BOOKING|CONFIRMATION|CONF|REF)(?:\s*(?:NO|NUM|NUMBER|#|ID|CODE))?\s*[-:=#]\s*[A-Z0-9]{5,12}\b/gi,
     replacement: "[REDACTED_BOOKING_REF]",
   },
   {
     kind: "phone",
-    regex: /\b(?:\+?\d{1,3}[-.\s]?)?(?:\(?\d{2,4}\)?[-.\s]?)?\d{3,4}[-.\s]?\d{3,4}\b/g,
+    // International-style numbers only (avoid matching dates like 2026-08-06).
+    regex: /\+(?:[0-9][-\s]?){8,15}\d\b/g,
     replacement: "[REDACTED_PHONE]",
   },
 ];

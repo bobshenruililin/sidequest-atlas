@@ -1,0 +1,48 @@
+schemaVersion: "1.0.0"
+tripId: future-example
+slug: future-example
+title: Future Example Trip
+generatedAt: "2026-07-16T00:00:00.000Z"
+travelerId: shen-ruililin
+destinations:
+  - city: Copenhagen
+    country: Denmark
+    countryCode: DK
+    arrival: "2027-06-01"
+    departure: "2027-06-05"
+    timeZone: Europe/Copenhagen
+dates:
+  start: "2027-06-01"
+  end: "2027-06-05"
+existingBookings: []
+budget:
+  currency: DKK
+  preferredMode: balanced
+  excludes:
+    - prepaid accommodation
+    - long-distance transport
+interests:
+  - universities
+  - food fieldwork
+  - design
+mustDo: []
+dislikes:
+  - tourist traps without ordinary-life context
+openQuestions:
+  - How does Copenhagen balance livability marketing with housing pressure?
+requestedModules:
+  - food
+  - universities
+  - companies
+  - economics
+  - culture
+  - events
+  - sidequests
+  - logistics
+companiesAndInstitutions: []
+foodPreferences:
+  - supermarket experiments
+  - worker lunches
+constraints: []
+desiredPace: balanced
+desiredSocialLevel: flexible

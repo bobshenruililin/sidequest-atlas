@@ -39,11 +39,16 @@ blob-report/
 generated/**/*
 !generated/**/.gitkeep
 
-# Jobs runtime locks (keep structure)
+# Jobs runtime locks / ephemeral job files (keep structure)
 jobs/running/*
 !jobs/running/.gitkeep
 jobs/awaiting-review/*
 !jobs/awaiting-review/.gitkeep
+jobs/completed/*
+!jobs/completed/.gitkeep
+jobs/failed/*
+!jobs/failed/.gitkeep
+jobs/*.yaml
 
 # Logs
 *.log

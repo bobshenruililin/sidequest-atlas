@@ -1,0 +1,11 @@
+---
+description: Source policy
+alwaysApply: false
+---
+
+# Source policy
+
+Never fabricate an event, price, schedule, or opening hour.
+Store access dates. Prefer exact dates over relative expressions.
+For the Nordic trip, August dates mean August 2026.
+Old annual reports must be labeled by period.

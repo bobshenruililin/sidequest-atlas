@@ -31,13 +31,20 @@ export default async function Home() {
             society than a polished landmark.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/atlas/" className="ink-button">
+            <Link href="/calendar/" className="ink-button">
+              Where is Shen?
+            </Link>
+            <Link href="/atlas/" className="ghost-button">
               Open atlas
             </Link>
             <Link href="/trips/nordics-2026/" className="ghost-button">
               Nordics 2026
             </Link>
           </div>
+          <p className="mt-4 max-w-xl text-sm leading-6 text-muted">
+            Family shortcut: city, hotel, and transit nights on one calm page —
+            no booking codes.
+          </p>
         </div>
         <aside className="notebook-card rounded-[2rem] p-5">
           <p className="eyebrow">current dossier</p>

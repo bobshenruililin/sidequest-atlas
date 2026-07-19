@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const primaryNav = [
+  { href: "/calendar/", label: "Where is Shen?" },
   { href: "/atlas/", label: "Atlas" },
   { href: "/sidequests/", label: "Sidequests" },
   { href: "/food/", label: "Food" },

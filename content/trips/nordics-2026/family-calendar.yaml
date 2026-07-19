@@ -1,0 +1,276 @@
+# Family-facing location schedule for Shen Ruililin / Nordic Fieldwork 2026.
+# Public-safe only: no booking references, ticket numbers, frequent-flyer IDs,
+# passport details, or payment data.
+schemaVersion: "1.0.0"
+tripSlug: nordics-2026
+travelerName: Shen Ruililin
+travelerShortName: Shen
+title: Where is Shen?
+subtitle: A simple location calendar for family
+updatedAt: "2026-07-19"
+timezoneNote: All local times use the city he is leaving or arriving in.
+privacyNote: Hotel names and public transit times are shown. Booking codes stay private.
+
+phases:
+  - id: fly-out
+    kind: transit
+    label: Flying to Europe
+    city: In the air / Helsinki
+    country: International
+    countryCode: XX
+    accent: transit
+    startDate: "2026-07-28"
+    endDate: "2026-07-29"
+    sleepPlace: Overnight on Finnair HKG → HEL
+    summary: Leaves Hong Kong on the evening of 28 July, lands Helsinki next morning, then connects to Oslo.
+    movements:
+      - when: "2026-07-28 20:55"
+        timeZone: Asia/Hong_Kong
+        title: Depart Hong Kong
+        detail: Finnair AY100 · Hong Kong International → Helsinki Vantaa
+        precision: confirmed-time
+      - when: "2026-07-29 05:35"
+        timeZone: Europe/Helsinki
+        title: Arrive Helsinki
+        detail: Same ticket · connection toward Oslo
+        precision: confirmed-time
+      - when: "2026-07-29 07:25"
+        timeZone: Europe/Helsinki
+        title: Depart Helsinki for Oslo
+        detail: Finnair AY911 · Helsinki Vantaa → Oslo Gardermoen
+        precision: confirmed-time
+      - when: "2026-07-29 07:50"
+        timeZone: Europe/Oslo
+        title: Arrive Oslo
+        detail: Oslo Airport (Gardermoen)
+        precision: confirmed-time
+
+  - id: oslo-preface
+    kind: stay
+    label: Oslo · before the atlas hotels
+    city: Oslo
+    country: Norway
+    countryCode: NO
+    accent: no
+    startDate: "2026-07-29"
+    endDate: "2026-08-06"
+    sleepPlace: Oslo area (pre-fieldwork lodging not listed publicly)
+    summary: In Norway from 29 July. Public hotel listing for the atlas chapter begins 6 August at Økern.
+    movements: []
+
+  - id: oslo-fieldwork
+    kind: stay
+    label: Oslo
+    city: Oslo
+    country: Norway
+    countryCode: NO
+    accent: no
+    startDate: "2026-08-06"
+    endDate: "2026-08-08"
+    sleepPlace: Radisson RED Oslo Økern
+    summary: Nordic Fieldwork chapter opens. Sleeps at Radisson RED Oslo Økern (Økern area).
+    movements: []
+
+  - id: train-to-stockholm
+    kind: transit
+    label: Train to Stockholm
+    city: Oslo → Stockholm
+    country: Norway / Sweden
+    countryCode: XX
+    accent: transit
+    startDate: "2026-08-08"
+    endDate: "2026-08-08"
+    sleepPlace: Scandic Wallin, Stockholm (after arrival)
+    summary: Day train across the border; evening in Stockholm.
+    movements:
+      - when: "2026-08-08 11:34"
+        timeZone: Europe/Oslo
+        title: Depart Oslo Central
+        detail: SJ 3000 · Snabbtåg 638 · Oslo S → Stockholm Central
+        precision: confirmed-time
+      - when: "2026-08-08 17:16"
+        timeZone: Europe/Stockholm
+        title: Arrive Stockholm Central
+        detail: Then to Scandic Wallin
+        precision: confirmed-time
+
+  - id: stockholm
+    kind: stay
+    label: Stockholm
+    city: Stockholm
+    country: Sweden
+    countryCode: SE
+    accent: se
+    startDate: "2026-08-08"
+    endDate: "2026-08-15"
+    sleepPlace: Scandic Wallin
+    summary: Week in Stockholm — fieldwork, AG night (10 Aug target), archipelago / crayfish week.
+    movements: []
+
+  - id: ferry-to-helsinki
+    kind: transit
+    label: Overnight ferry to Helsinki
+    city: Stockholm → Helsinki
+    country: Sweden / Finland
+    countryCode: XX
+    accent: transit
+    startDate: "2026-08-15"
+    endDate: "2026-08-16"
+    sleepPlace: Cabin on Silja Symphony (at sea)
+    summary: Boards Saturday afternoon in Stockholm; wakes Sunday morning in Helsinki.
+    movements:
+      - when: "2026-08-15 16:30"
+        timeZone: Europe/Stockholm
+        title: Ferry departs Stockholm
+        detail: Tallink Silja Symphony · Värtahamnen → Olympia Terminal, Helsinki
+        precision: confirmed-time
+      - when: "2026-08-16 10:30"
+        timeZone: Europe/Helsinki
+        title: Ferry arrives Helsinki
+        detail: Olympia Terminal · Olympiaranta 1
+        precision: confirmed-time
+
+  - id: helsinki
+    kind: stay
+    label: Helsinki
+    city: Helsinki
+    country: Finland
+    countryCode: FI
+    accent: fi
+    startDate: "2026-08-16"
+    endDate: "2026-08-20"
+    sleepPlace: Bob W Helsinki Kaarti
+    summary: Helsinki / Espoo fieldwork nights at Bob W Helsinki Kaarti until departure day.
+    movements: []
+
+  - id: fly-home
+    kind: transit
+    label: Flying home via Bangkok
+    city: Helsinki → Bangkok → Hong Kong
+    country: International
+    countryCode: XX
+    accent: transit
+    startDate: "2026-08-20"
+    endDate: "2026-08-21"
+    sleepPlace: Overnight on Finnair HEL → BKK
+    summary: Leaves Helsinki afternoon of 20 August; reaches Hong Kong on 21 August via Bangkok.
+    movements:
+      - when: "2026-08-20 14:05"
+        timeZone: Europe/Helsinki
+        title: Depart Helsinki
+        detail: Finnair AY141 · Helsinki Vantaa → Bangkok Suvarnabhumi
+        precision: confirmed-time
+      - when: "2026-08-21 05:30"
+        timeZone: Asia/Bangkok
+        title: Arrive Bangkok
+        detail: Connection toward Hong Kong
+        precision: confirmed-time
+      - when: "2026-08-21 07:35"
+        timeZone: Asia/Bangkok
+        title: Depart Bangkok
+        detail: Finnair AY5102 operated by Cathay Pacific · BKK → HKG
+        precision: confirmed-time
+      - when: "2026-08-21 11:35"
+        timeZone: Asia/Hong_Kong
+        title: Arrive Hong Kong
+        detail: Hong Kong International · Terminal 1
+        precision: confirmed-time
+
+nights:
+  # Each night answers: where does he sleep?
+  - date: "2026-07-28"
+    city: In the air
+    place: Finnair overnight HKG → HEL
+    phaseId: fly-out
+  - date: "2026-07-29"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-07-30"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-07-31"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-01"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-02"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-03"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-04"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-05"
+    city: Oslo
+    place: Oslo area (pre-fieldwork)
+    phaseId: oslo-preface
+  - date: "2026-08-06"
+    city: Oslo
+    place: Radisson RED Oslo Økern
+    phaseId: oslo-fieldwork
+  - date: "2026-08-07"
+    city: Oslo
+    place: Radisson RED Oslo Økern
+    phaseId: oslo-fieldwork
+  - date: "2026-08-08"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-09"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-10"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-11"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-12"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-13"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-14"
+    city: Stockholm
+    place: Scandic Wallin
+    phaseId: stockholm
+  - date: "2026-08-15"
+    city: Baltic Sea
+    place: Silja Symphony cabin · Stockholm → Helsinki
+    phaseId: ferry-to-helsinki
+  - date: "2026-08-16"
+    city: Helsinki
+    place: Bob W Helsinki Kaarti
+    phaseId: helsinki
+  - date: "2026-08-17"
+    city: Helsinki
+    place: Bob W Helsinki Kaarti
+    phaseId: helsinki
+  - date: "2026-08-18"
+    city: Helsinki
+    place: Bob W Helsinki Kaarti
+    phaseId: helsinki
+  - date: "2026-08-19"
+    city: Helsinki
+    place: Bob W Helsinki Kaarti
+    phaseId: helsinki
+  - date: "2026-08-20"
+    city: In the air
+    place: Finnair overnight HEL → BKK
+    phaseId: fly-home

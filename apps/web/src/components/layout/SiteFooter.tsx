@@ -14,6 +14,7 @@ export function SiteFooter() {
           <FooterList
             title="Trip"
             links={[
+              { href: "/calendar/", label: "Where is Shen?" },
               { href: "/atlas/", label: "Atlas" },
               { href: "/trips/nordics-2026/", label: "Nordics 2026" },
               { href: "/budget/", label: "Budget" },

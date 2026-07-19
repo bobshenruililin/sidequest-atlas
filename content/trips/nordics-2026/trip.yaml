@@ -15,12 +15,22 @@ destinations:
   departureDate: '2026-08-08'
   timeZone: Europe/Oslo
   accommodation:
-    id: acc-oslo-okern
-    label: Oslo accommodation around Økern
-    provider: Editable
-    status: candidate
-    verificationStatus: traveler-provided
-    notes: Neighborhood anchor only; editable and no confirmation code.
+    id: acc-oslo-radisson-red-okern
+    label: Radisson RED Oslo Økern
+    provider: Radisson RED
+    status: booked
+    verificationStatus: confirmed
+    start:
+      localDate: '2026-08-06'
+      timeZone: Europe/Oslo
+      precision: date
+      confirmationStatus: booked
+    end:
+      localDate: '2026-08-08'
+      timeZone: Europe/Oslo
+      precision: date
+      confirmationStatus: booked
+    notes: Confirmed hotel for Oslo fieldwork nights. Booking reference omitted from public content. Non-refundable.
   themes:
   - fjord food systems
   - oil wealth and public trust
@@ -162,11 +172,21 @@ destinations:
   timeZone: Europe/Stockholm
   accommodation:
     id: acc-stockholm-scandic-wallin
-    label: 'Stockholm accommodation: Scandic Wallin'
+    label: Scandic Wallin
     provider: Scandic
-    status: selected
-    verificationStatus: traveler-provided
-    notes: No confirmation code stored.
+    status: booked
+    verificationStatus: confirmed
+    start:
+      localDate: '2026-08-08'
+      timeZone: Europe/Stockholm
+      precision: date
+      confirmationStatus: booked
+    end:
+      localDate: '2026-08-15'
+      timeZone: Europe/Stockholm
+      precision: date
+      confirmationStatus: booked
+    notes: Confirmed hotel for Stockholm nights. Booking reference omitted from public content. Non-refundable.
   themes:
   - capital-city trust systems
   - labor-market softness and AI
@@ -337,12 +357,23 @@ destinations:
   departureDate: '2026-08-20'
   timeZone: Europe/Helsinki
   accommodation:
-    id: acc-helsinki-configurable
-    label: Helsinki accommodation configurable
-    provider: TBD
-    status: candidate
-    verificationStatus: unresearched
-    notes: No confirmation code; choose based on final logistics.
+    id: acc-helsinki-bob-w-kaarti
+    label: Bob W Helsinki Kaarti
+    provider: Bob W
+    status: booked
+    verificationStatus: confirmed
+    start:
+      localDate: '2026-08-16'
+      timeZone: Europe/Helsinki
+      precision: date
+      confirmationStatus: booked
+    end:
+      localDate: '2026-08-20'
+      timeZone: Europe/Helsinki
+      precision: date
+      confirmationStatus: booked
+    notes: Confirmed hotel for Helsinki nights after ferry arrival. Booking reference omitted from public
+      content. Non-refundable.
   themes:
   - education and design under demographic pressure
   - public-sector foresight
@@ -540,16 +571,16 @@ principles:
 - Keep normal-day budgets separate from accommodation and long-distance transport.
 - Prefer reversible plans with weather and low-energy fallbacks.
 anchors:
-- id: anchor-oslo-okern
-  title: Oslo accommodation around Økern
+- id: anchor-oslo-radisson-red
+  title: Radisson RED Oslo Økern
   kind: accommodation
-  fixed: false
+  fixed: true
   start:
     localDate: '2026-08-06'
     timeZone: Europe/Oslo
     precision: date
-    confirmationStatus: traveler-provided
-  notes: Editable neighborhood anchor; no confirmation code.
+    confirmationStatus: booked
+  notes: Confirmed Oslo hotel 6–8 Aug. No confirmation code stored.
 - id: anchor-train-oslo-stockholm
   title: SJ 3000 Oslo S to Stockholm Central
   kind: train
@@ -569,13 +600,13 @@ anchors:
 - id: anchor-stockholm-scandic-wallin
   title: 'Stockholm accommodation: Scandic Wallin'
   kind: accommodation
-  fixed: false
+  fixed: true
   start:
     localDate: '2026-08-08'
     timeZone: Europe/Stockholm
     precision: date
-    confirmationStatus: traveler-provided
-  notes: Hotel label only; no confirmation code.
+    confirmationStatus: booked
+  notes: Confirmed Stockholm hotel 8–15 Aug. No confirmation code stored.
 - id: anchor-ag-aug10
   title: Restaurant AG dinner target
   kind: reservation
@@ -628,6 +659,45 @@ anchors:
   - claim-ferry-stockholm-helsinki-time
   - claim-ferry-stockholm-helsinki-booked
   - claim-ferry-stockholm-helsinki-price
+- id: anchor-helsinki-bob-w
+  title: Bob W Helsinki Kaarti
+  kind: accommodation
+  fixed: true
+  start:
+    localDate: '2026-08-16'
+    timeZone: Europe/Helsinki
+    precision: date
+    confirmationStatus: booked
+  notes: Confirmed Helsinki hotel 16–20 Aug. No confirmation code stored.
+  claimIds:
+  - claim-helsinki-hotel-bob-w
+- id: anchor-flight-out
+  title: Finnair Hong Kong → Oslo via Helsinki
+  kind: flight
+  fixed: true
+  start:
+    localDate: '2026-07-28'
+    localTime: '20:55'
+    timeZone: Asia/Hong_Kong
+    precision: confirmed-time
+    confirmationStatus: booked
+  notes: AY100 HKG 20:55 → HEL 05:35 (+1); AY911 HEL 07:25 → OSL 07:50. Ticket identifiers omitted.
+  claimIds:
+  - claim-flight-out
+- id: anchor-flight-home
+  title: Finnair Helsinki → Hong Kong via Bangkok
+  kind: flight
+  fixed: true
+  start:
+    localDate: '2026-08-20'
+    localTime: '14:05'
+    timeZone: Europe/Helsinki
+    precision: confirmed-time
+    confirmationStatus: booked
+  notes: AY141 HEL 14:05 → BKK 05:30 (+1); AY5102 (Cathay) BKK 07:35 → HKG 11:35 on 21 Aug. Ticket identifiers
+    omitted.
+  claimIds:
+  - claim-flight-home
 majorChoices:
 - id: choice-final-helsinki-meal
   title: Final Helsinki meal
@@ -3058,4 +3128,50 @@ claims:
   verifiedAt: '2026-07-16'
   reverifyAfter: '2026-08-01'
   confidence: low
+- id: claim-helsinki-hotel-bob-w
+  subjectType: venue
+  subjectId: acc-helsinki-bob-w-kaarti
+  fieldPath: destinations[Helsinki].accommodation
+  statement: Helsinki lodging for 16–20 Aug 2026 is Bob W Helsinki Kaarti (confirmed).
+  status: traveler-provided
+  sourceIds: []
+  verifiedAt: '2026-07-19'
+  confidence: high
+  notes: From traveler hotel confirmation UI; booking codes omitted. Status traveler-provided from booking
+    documents held privately.
+- id: claim-oslo-hotel-radisson-red
+  subjectType: venue
+  subjectId: acc-oslo-radisson-red-okern
+  fieldPath: destinations[Oslo].accommodation
+  statement: Oslo lodging for 6–8 Aug 2026 is Radisson RED Oslo Økern (confirmed).
+  status: traveler-provided
+  sourceIds: []
+  verifiedAt: '2026-07-19'
+  confidence: high
+  notes: From traveler hotel confirmation UI; booking codes omitted. Status traveler-provided from booking
+    documents held privately.
+- id: claim-flight-out
+  subjectType: transport
+  subjectId: anchor-flight-out
+  fieldPath: anchors[anchor-flight-out]
+  statement: 'Outbound: Finnair AY100 HKG→HEL 28 Jul 20:55–29 Jul 05:35; AY911 HEL→OSL 29 Jul 07:25–07:50.'
+  status: traveler-provided
+  sourceIds: []
+  verifiedAt: '2026-07-19'
+  reverifyAfter: '2026-07-27'
+  confidence: high
+  notes: From Finnair e-ticket receipt; booking/ticket numbers omitted from public content. Status traveler-provided
+    from booking documents held privately.
+- id: claim-flight-home
+  subjectType: transport
+  subjectId: anchor-flight-home
+  fieldPath: anchors[anchor-flight-home]
+  statement: 'Return: Finnair AY141 HEL→BKK 20 Aug 14:05–21 Aug 05:30; AY5102 BKK→HKG 21 Aug 07:35–11:35.'
+  status: traveler-provided
+  sourceIds: []
+  verifiedAt: '2026-07-19'
+  reverifyAfter: '2026-08-19'
+  confidence: high
+  notes: From Finnair e-ticket receipt; booking/ticket numbers omitted from public content. Status traveler-provided
+    from booking documents held privately.
 observations: []

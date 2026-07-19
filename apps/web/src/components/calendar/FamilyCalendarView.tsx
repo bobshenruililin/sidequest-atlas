@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import type {
   CalendarAccent,
   CalendarNight,
@@ -38,6 +38,24 @@ function ymdToday(): string {
   return `${y}-${m}-${d}`;
 }
 
+function subscribeToDayChange(onStoreChange: () => void): () => void {
+  const now = new Date();
+  const nextMidnight = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate() + 1,
+    0,
+    0,
+    1,
+  );
+  const timeoutId = window.setTimeout(onStoreChange, nextMidnight.getTime() - now.getTime());
+  const intervalId = window.setInterval(onStoreChange, 60 * 60 * 1000);
+  return () => {
+    window.clearTimeout(timeoutId);
+    window.clearInterval(intervalId);
+  };
+}
+
 function daysBetween(a: string, b: string): number {
   return Math.round((parseYmd(b).getTime() - parseYmd(a).getTime()) / 86400000);
 }
@@ -50,14 +68,12 @@ function phaseForDate(
   phases: CalendarPhase[],
   date: string,
 ): CalendarPhase | undefined {
-  // Prefer the most specific overnight/stay match from nights, then phase windows.
   return phases.find((phase) => date >= phase.startDate && date <= phase.endDate);
 }
 
 function buildMonth(year: number, monthIndex: number): (string | null)[] {
   const first = new Date(Date.UTC(year, monthIndex, 1));
   const daysInMonth = new Date(Date.UTC(year, monthIndex + 1, 0)).getUTCDate();
-  // Monday-first
   const startPad = (first.getUTCDay() + 6) % 7;
   const cells: (string | null)[] = Array.from({ length: startPad }, () => null);
   for (let day = 1; day <= daysInMonth; day += 1) {
@@ -78,11 +94,7 @@ function phaseById(phases: CalendarPhase[]): Map<string, CalendarPhase> {
 }
 
 export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
-  const [today, setToday] = useState<string | null>(null);
-
-  useEffect(() => {
-    setToday(ymdToday());
-  }, []);
+  const today = useSyncExternalStore(subscribeToDayChange, ymdToday, () => null);
 
   const nightsMap = useMemo(() => nightByDate(calendar.nights), [calendar.nights]);
   const phasesMap = useMemo(() => phaseById(calendar.phases), [calendar.phases]);
@@ -94,10 +106,10 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
   const status = useMemo(() => {
     if (!today || !firstDate || !lastDate) {
       return {
-        label: "Loading…",
-        detail: "Checking today's date on this device.",
-        city: "—",
-        place: "—",
+        label: "Location calendar",
+        detail: "Dates below are fixed; tonight highlights after the page loads.",
+        city: calendar.travelerShortName,
+        place: "Nordic Fieldwork 2026",
         tone: "muted" as const,
       };
     }
@@ -107,7 +119,7 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
         label: "Not departed yet",
         detail: `Leaves in ${days} day${days === 1 ? "" : "s"} · first flight ${formatLong(firstDate)}`,
         city: "Hong Kong",
-        place: "Home base before departure",
+        place: "Home before departure",
         tone: "ahead" as const,
       };
     }
@@ -131,7 +143,7 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
       place: night?.place ?? phase?.sleepPlace ?? "See timeline below",
       tone: "now" as const,
     };
-  }, [today, firstDate, lastDate, nightsMap, phasesMap, calendar.phases]);
+  }, [today, firstDate, lastDate, nightsMap, phasesMap, calendar.phases, calendar.travelerShortName]);
 
   const july = buildMonth(2026, 6);
   const august = buildMonth(2026, 7);
@@ -144,8 +156,8 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
           {calendar.title}
         </h1>
         <p className="mt-4 max-w-2xl text-lg leading-8 text-muted">
-          {calendar.subtitle}. One glance: city, hotel or cabin, and the next
-          big move — without booking codes.
+          One calm page for girlfriend and mom: city, hotel or cabin, and the
+          next big move — no booking codes.
         </p>
 
         <div className="status-panel mt-8">
@@ -163,7 +175,9 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
             <div>
               <dt>Window</dt>
               <dd>
-                {formatShort(firstDate!)} – {formatShort(lastDate!)}
+                {firstDate && lastDate
+                  ? `${formatShort(firstDate)} – ${formatShort(lastDate)}`
+                  : "—"}
               </dd>
             </div>
             <div>
@@ -193,7 +207,7 @@ export function FamilyCalendarView({ calendar }: { calendar: FamilyCalendar }) {
           ))}
         </ol>
         <p className="mt-3 text-sm text-muted">
-          * Connection only — brief airport transit, not a hotel night.
+          * Connection only — airport transit, not a hotel night.
         </p>
       </section>
 

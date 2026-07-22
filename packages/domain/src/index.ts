@@ -4,6 +4,7 @@ export * from "./schemas/datetime.js";
 export * from "./schemas/sources.js";
 export * from "./schemas/entities.js";
 export * from "./schemas/trip.js";
+export * from "./schemas/capture.js";
 export * from "./schemas/jobs.js";
 export * from "./validation/validate-trip.js";
 export * from "./migrations/index.js";

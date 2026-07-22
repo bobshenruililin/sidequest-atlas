@@ -1,0 +1,214 @@
+{
+  "$ref": "#/definitions/CaptureRecord",
+  "definitions": {
+    "CaptureRecord": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "default": "1.0.0"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "capturedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rawText": {
+          "type": "string",
+          "minLength": 1
+        },
+        "spark": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "career",
+              "travel",
+              "opportunity",
+              "research",
+              "capital",
+              "relationship",
+              "idea",
+              "health",
+              "other"
+            ]
+          },
+          "minItems": 1
+        },
+        "ask": {
+          "type": "string",
+          "enum": [
+            "use",
+            "defer",
+            "ignore",
+            "synthesize",
+            "investigate"
+          ],
+          "default": "investigate"
+        },
+        "visibility": {
+          "type": "string",
+          "enum": [
+            "public",
+            "operator",
+            "vault"
+          ],
+          "default": "operator"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "inbox",
+            "triaged",
+            "acted",
+            "archived"
+          ],
+          "default": "inbox"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "default": []
+        },
+        "relatedTrips": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "relatedRepos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "relatedCaptures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "triangulation": {
+          "type": "object",
+          "properties": {
+            "againstCanon": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "informationGaps": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "opportunityGaps": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "falseBargains": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "corrections": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "suggestedImplementations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "action": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "rationale": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "effort": {
+                    "type": "string",
+                    "enum": [
+                      "S",
+                      "M",
+                      "L"
+                    ]
+                  },
+                  "leverage": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high"
+                    ]
+                  },
+                  "owner": {
+                    "type": "string",
+                    "enum": [
+                      "bob",
+                      "agent",
+                      "shared"
+                    ],
+                    "default": "shared"
+                  }
+                },
+                "required": [
+                  "action",
+                  "rationale",
+                  "effort",
+                  "leverage"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            }
+          },
+          "additionalProperties": false
+        },
+        "privacyNote": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "capturedAt",
+        "title",
+        "rawText",
+        "domains"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

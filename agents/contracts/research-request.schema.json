@@ -1,7 +1,431 @@
 {
   "$ref": "#/definitions/ResearchRequest",
   "definitions": {
-    "ResearchRequest": {}
+    "ResearchRequest": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "default": "1.0.0"
+        },
+        "tripId": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string"
+        },
+        "travelerId": {
+          "type": "string"
+        },
+        "traveler": {
+          "type": "object",
+          "properties": {
+            "schemaVersion": {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "default": "1.0.0"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "biography": {
+              "type": "string"
+            },
+            "home": {
+              "type": "string"
+            },
+            "interests": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "travelValues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "foodPreferences": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "constraints": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "defaultPace": {
+              "type": "string",
+              "enum": [
+                "slow",
+                "balanced",
+                "intense"
+              ]
+            },
+            "defaultBudgetMode": {
+              "type": "string",
+              "enum": [
+                "student",
+                "balanced",
+                "splurge"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "interests",
+            "travelValues",
+            "foodPreferences",
+            "constraints",
+            "defaultPace",
+            "defaultBudgetMode"
+          ],
+          "additionalProperties": false
+        },
+        "destinations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string"
+              },
+              "countryCode": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2
+              },
+              "arrival": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "departure": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "timeZone": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "city",
+              "country",
+              "arrival",
+              "departure"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "dates": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "end": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        },
+        "existingBookings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "provider": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "candidate",
+                  "shortlisted",
+                  "recommended",
+                  "selected",
+                  "booked",
+                  "completed",
+                  "skipped",
+                  "cancelled"
+                ]
+              },
+              "verificationStatus": {
+                "type": "string",
+                "enum": [
+                  "unresearched",
+                  "traveler-provided",
+                  "researched",
+                  "confirmed",
+                  "stale",
+                  "conflicting"
+                ]
+              },
+              "start": {
+                "type": "object",
+                "properties": {
+                  "localDate": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "localTime": {
+                    "type": "string",
+                    "pattern": "^\\d{2}:\\d{2}$"
+                  },
+                  "timeZone": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "utc": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "precision": {
+                    "type": "string",
+                    "enum": [
+                      "date",
+                      "approximate-time",
+                      "confirmed-time"
+                    ]
+                  },
+                  "confirmationStatus": {
+                    "type": "string",
+                    "enum": [
+                      "traveler-provided",
+                      "sourced",
+                      "booked"
+                    ]
+                  }
+                },
+                "required": [
+                  "localDate",
+                  "timeZone",
+                  "precision",
+                  "confirmationStatus"
+                ],
+                "additionalProperties": false
+              },
+              "end": {
+                "type": "object",
+                "properties": {
+                  "localDate": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "localTime": {
+                    "type": "string",
+                    "pattern": "^\\d{2}:\\d{2}$"
+                  },
+                  "timeZone": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "utc": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "precision": {
+                    "type": "string",
+                    "enum": [
+                      "date",
+                      "approximate-time",
+                      "confirmed-time"
+                    ]
+                  },
+                  "confirmationStatus": {
+                    "type": "string",
+                    "enum": [
+                      "traveler-provided",
+                      "sourced",
+                      "booked"
+                    ]
+                  }
+                },
+                "required": [
+                  "localDate",
+                  "timeZone",
+                  "precision",
+                  "confirmationStatus"
+                ],
+                "additionalProperties": false
+              },
+              "placeId": {
+                "type": "string"
+              },
+              "privateRef": {
+                "type": "string"
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "verificationStatus"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "budget": {
+          "type": "object",
+          "properties": {
+            "amountMinor": {
+              "type": "integer"
+            },
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string",
+              "minLength": 3,
+              "maxLength": 3
+            },
+            "excludes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "preferredMode": {
+              "type": "string",
+              "enum": [
+                "student",
+                "balanced",
+                "splurge"
+              ],
+              "default": "balanced"
+            }
+          },
+          "required": [
+            "currency"
+          ],
+          "additionalProperties": false
+        },
+        "interests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "mustDo": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "dislikes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "openQuestions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "requestedModules": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "food",
+              "universities",
+              "companies",
+              "economics",
+              "culture",
+              "events",
+              "sidequests",
+              "logistics"
+            ]
+          }
+        },
+        "companiesAndInstitutions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "foodPreferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "desiredPace": {
+          "type": "string",
+          "enum": [
+            "slow",
+            "balanced",
+            "intense"
+          ],
+          "default": "balanced"
+        },
+        "desiredSocialLevel": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "tripId",
+        "generatedAt",
+        "destinations",
+        "dates",
+        "budget",
+        "requestedModules"
+      ],
+      "additionalProperties": false
+    }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

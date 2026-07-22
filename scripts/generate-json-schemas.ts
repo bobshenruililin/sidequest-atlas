@@ -3,6 +3,7 @@ import { createRequire } from "node:module";
 import path from "node:path";
 import {
   AgentJobSchema,
+  CaptureRecordSchema,
   ClaimSchema,
   ResearchRequestSchema,
   ResearchResultSchema,
@@ -18,6 +19,7 @@ const { zodToJsonSchema } = require("zod-to-json-schema") as typeof import("zod-
 const outputDir = path.join(process.cwd(), "agents", "contracts");
 const schemas = [
   { file: "agent-job.schema.json", name: "AgentJob", schema: AgentJobSchema },
+  { file: "capture-record.schema.json", name: "CaptureRecord", schema: CaptureRecordSchema },
   { file: "claim.schema.json", name: "Claim", schema: ClaimSchema },
   { file: "research-request.schema.json", name: "ResearchRequest", schema: ResearchRequestSchema },
   { file: "research-result.schema.json", name: "ResearchResult", schema: ResearchResultSchema },

@@ -23,6 +23,7 @@ export const AgentJobSchema = z.object({
     "revise",
     "publish",
     "archive",
+    "capture",
   ]),
   requestedAt: z.string(),
   requestedBy: z.string(),

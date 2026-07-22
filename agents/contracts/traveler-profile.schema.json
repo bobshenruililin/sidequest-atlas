@@ -1,7 +1,81 @@
 {
   "$ref": "#/definitions/TravelerProfile",
   "definitions": {
-    "TravelerProfile": {}
+    "TravelerProfile": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "default": "1.0.0"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "biography": {
+          "type": "string"
+        },
+        "home": {
+          "type": "string"
+        },
+        "interests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "travelValues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "foodPreferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "defaultPace": {
+          "type": "string",
+          "enum": [
+            "slow",
+            "balanced",
+            "intense"
+          ]
+        },
+        "defaultBudgetMode": {
+          "type": "string",
+          "enum": [
+            "student",
+            "balanced",
+            "splurge"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "interests",
+        "travelValues",
+        "foodPreferences",
+        "constraints",
+        "defaultPace",
+        "defaultBudgetMode"
+      ],
+      "additionalProperties": false
+    }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

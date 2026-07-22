@@ -1,9 +1,11 @@
 # Tung & Ngai Interview — Cantonese Speakable Script Pack
 
-**Audience:** Shen Ruililin (Bob)
-**Use case:** 15-minute Foundation panel interview; spoken Cantonese support track
-**Core frame:** 背景 → 成就 → 志向
-**Tone:** 自然、謙虛、具體、服務先行
+**Audience:** Shen Ruililin (Bob)  
+**Use case:** 15-minute Foundation panel; **speak-not-think** support when Cantonese is required  
+**Rehearse third** after English + Mandarin (you think well in those; Cantonese costs working memory)  
+**Core frame:** 背景 → 成就 → 志向  
+**Service bank:** 無止橋 + 甘南；Laidlaw = 服務前提；LiA/makesense Americas = 即將／計劃  
+**Tone:** 自然、謙虛、具體、服務先行  
 **Hard rule:** 唔好一開口就講「上海出世、香港長大」。身份只喺被問到先短短講，平靜講。
 
 ---

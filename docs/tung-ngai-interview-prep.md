@@ -7,7 +7,10 @@
 
 | Track | File |
 |-------|------|
+| **Read-back profile (start here)** | `docs/tung-ngai-bob-profile.md` |
+| Competitiveness + ADAPT complements | `docs/tung-ngai-complements-and-competitiveness.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
+| Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |
 | English scripts | `docs/tung-ngai-english-interview-scripts.md` |
 | Mandarin scripts | `docs/tung-ngai-mandarin-interview-scripts.md` |
 | Cantonese scripts (chunked + Jyutping) | `docs/tung-ngai-cantonese-interview-scripts.md` |
@@ -64,15 +67,13 @@ Three concrete proofs (from your file + Learning Proposal):
 
 Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Development at HKU.
 
-Taking the three things in your email: **background, achievements, aspirations.**
+**Background.** I’ve done research since secondary school; Laidlaw since January on heat and cardiovascular admissions. In May–June I completed Wu Zhi Qiao Mainland rural health and infrastructure service, after Gannan fieldwork that taught me trust comes before protocols.
 
-**Background:** I learn by going to where health systems meet ordinary life — volunteering, peer teaching, and Mainland rural service through Wu Zhi Qiao, after fieldwork in Gannan that taught me trust is built before any protocol works.
+**Achievements.** Year GPA 4.24/4.30. The thread I care about is research as prerequisite for service. This October: Laidlaw conference in London, and GEST in Valencia as invited speaker.
 
-**Achievements:** My Year GPA is 4.24 out of 4.30. Through Laidlaw I study heat and cardiovascular admissions in Hong Kong — not as a CV line, but as the evidence base for hospital preparedness. I treat research as a prerequisite for service: understand first, then act.
+**Aspirations.** Serve at the Hong Kong–Mainland public-health interface — toward CHP cross-boundary work; aiming for a China CDC field placement in my degree. Winter: LINK-S Shanghai. Next summer: makesense LiA in Medellín / Mexico City. I want to be held to affection for Hong Kong and commitment to China’s development — returning capacity, not collecting stamps.
 
-**Aspirations:** I want to serve at the public-health interface between Hong Kong and the Mainland — long term at the Centre for Health Protection on cross-boundary disease control. Upcoming Laidlaw Leadership in Action with makesense Americas will let me practise climate-health community mobilization in a Global South setting, so Hong Kong lessons travel as South-South learning, not one-way export.
-
-I’m here because this Foundation asks scholars to return capacity to Hong Kong and China — that is the standard I want to be held to.
+Full complements + competitiveness: `docs/tung-ngai-complements-and-competitiveness.md`.
 
 ---
 
@@ -81,9 +82,9 @@ I’m here because this Foundation asks scholars to return capacity to Hong Kong
 | Min | Focus |
 |-----|--------|
 | 0–1 | Soft open: background / achievements / aspirations |
-| 1–4 | **Service bank:** Wu Zhi Qiao + Gannan stories |
-| 4–7 | **Research → service:** Laidlaw heat-health + upcoming Colombia LiA |
-| 7–10 | Aspirations: Hong Kong role, CHP, Foundation fit |
+| 1–4 | **Service bank:** Wu Zhi Qiao (**done** May–Jun) + Gannan stories |
+| 4–7 | **Research → service:** Laidlaw + Oct London/Valencia + LiA roadmap |
+| 7–10 | Aspirations: LINK-S Shanghai, China CDC aim, CHP, Foundation fit |
 | 10–13 | Hard-Q buffer (need, concurrent awards, breadth, China) |
 | 13–15 | Return to Hong Kong + close |
 

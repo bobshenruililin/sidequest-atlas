@@ -1,0 +1,85 @@
+schemaVersion: 1.0.0
+id: 2026-07-22-tung-ngai-interview
+capturedAt: 2026-07-22T12:00:00.000Z
+title: Tung & Ngai Foundation Scholarship final interview shortlist
+rawText: >-
+  Shortlisted for Tung & Ngai Foundation Scholarship Selection Panel interview.
+  Slot confirmed 28 July 2026 15:40–15:55 (15 minutes); interview window 27–28 July.
+  Application thesis already submitted: HK–Mainland public-health seam; Laidlaw
+  heat–cardiovascular research; CHP cross-boundary destination; JD only after UG
+  as regulatory training. Request: craft irresistible honest narrative; estimate
+  Cantonese vs English likelihood; estimate competition and seats. Godspeed framing.
+spark: >-
+  Life-scale opportunity already past uni nomination — interview is the remaining
+  gate. Narrative exists in application; execution risk is bilingual delivery and
+  avoiding Year-1 law-transfer or need-overclaim false bargains.
+domains:
+  - opportunity
+  - career
+  - research
+ask: use
+visibility: operator
+status: acted
+links:
+  - https://tungngaifoundation.org/
+  - https://tungngaifoundation.org/eligibility/
+  - https://tungngaifoundation.org/application-timeline/
+  - https://tungngaifoundation.org/mission/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+  - https://github.com/bobshenruililin/My-Life
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+triangulation:
+  againstCanon:
+    - Medicine closed without surgery floor — do not reopen in scholarship interview
+    - Law without Magic Circle OK — but JD after UG only in T&N narrative
+    - Enough abundance = rate of optionality — this scholarship compounds Mainland/GBA optionality
+    - Family capital = advantage and distortion — do not overclaim financial need
+    - Depth over speed; fieldwork-first travel doctrine matches Gannan/Wu Zhi Qiao story
+  informationGaps:
+    - Official current-cycle seat count with five partner universities
+    - HKU foundation-interview finalist count
+    - Explicit interview language instruction (none published)
+    - Operational rule on concurrent awards vs Laidlaw stipend
+  opportunityGaps:
+    - Use 15 minutes to lock Foundation-fit narrative already in PS/Learning Proposal
+    - Rehearse Cantonese/Putonghua openings — softest language risk vs English strength
+    - Clarify concurrent-scholarship compliance before interview day
+  falseBargains:
+    - Pitching Year-1 law transfer in a public-health scholarship final
+    - Overclaiming financial need when need is only a tie-breaker
+    - Treating shortlist as award; under-preparing bilingual delivery
+    - Spreading 15 minutes across CV laundry list instead of one seam thesis
+  corrections:
+    - >-
+      Submitted Learning Proposal already places JD after undergraduate — keep that
+      frame; private transfer optionality stays out of this room
+    - Language estimate is inference from eligibility, not confirmed panel rule
+    - Seat/odds numbers are scenarios, not Foundation announcements
+  suggestedImplementations:
+    - action: Rehearse 90s Cantonese + English openings and 60s Putonghua daily until 28 July
+      rationale: Softest documented language risk; eligibility requires all three
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Confirm Laidlaw concurrent-award rule with HKU Scholarships
+      rationale: Declaration forbids concurrent scholarships during tenure — clarify before panel
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Use docs/tung-ngai-interview-prep.md as cue-card source; one-page paper card only
+      rationale: 15 minutes rewards compression; prevent CV laundry
+      effort: S
+      leverage: high
+      owner: bob
+    - action: After result (early August), capture outcome + what panel actually asked/language used
+      rationale: Compounds future scholarship interviews; falsifies language/seat estimates
+      effort: S
+      leverage: medium
+      owner: shared
+privacyNote: >-
+  Operator-plane record. No HKID, phone, email, address, DOB, bank refs, or exact
+  household income. Detailed prep lives in vault locally and sanitized docs/.

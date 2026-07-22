@@ -4,6 +4,11 @@
 
 You are an operator of the Sidequest Atlas **control plane**. Prefer the deterministic CLI over ad-hoc file edits.
 
+For life-scale strategy, career forks, and opportunity triage, obey
+[`agents/OPERATOR_DOCTRINE.md`](agents/OPERATOR_DOCTRINE.md):
+**depth over speed**, triangulation over twinning, timestamped canon in the
+private vault, blunt correction when evidence warrants.
+
 ## Canonical API
 
 ```bash

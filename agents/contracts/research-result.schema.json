@@ -1,7 +1,4496 @@
 {
   "$ref": "#/definitions/ResearchResult",
   "definitions": {
-    "ResearchResult": {}
+    "ResearchResult": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "default": "1.0.0"
+        },
+        "requestId": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "needs-review",
+            "validated"
+          ]
+        },
+        "generatedAt": {
+          "type": "string"
+        },
+        "trip": {
+          "type": "object",
+          "properties": {
+            "schemaVersion": {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "default": "1.0.0"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "slug": {
+              "type": "string",
+              "minLength": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "travelerId": {
+              "type": "string",
+              "minLength": 1
+            },
+            "startDate": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "endDate": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "idea",
+                "researching",
+                "planned",
+                "active",
+                "completed"
+              ]
+            },
+            "destinations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "city": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "country": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "countryCode": {
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 2
+                  },
+                  "arrivalDate": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "departureDate": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "timeZone": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "accommodation": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "label": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "provider": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "candidate",
+                          "shortlisted",
+                          "recommended",
+                          "selected",
+                          "booked",
+                          "completed",
+                          "skipped",
+                          "cancelled"
+                        ]
+                      },
+                      "verificationStatus": {
+                        "type": "string",
+                        "enum": [
+                          "unresearched",
+                          "traveler-provided",
+                          "researched",
+                          "confirmed",
+                          "stale",
+                          "conflicting"
+                        ]
+                      },
+                      "start": {
+                        "type": "object",
+                        "properties": {
+                          "localDate": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          },
+                          "localTime": {
+                            "type": "string",
+                            "pattern": "^\\d{2}:\\d{2}$"
+                          },
+                          "timeZone": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "utc": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "precision": {
+                            "type": "string",
+                            "enum": [
+                              "date",
+                              "approximate-time",
+                              "confirmed-time"
+                            ]
+                          },
+                          "confirmationStatus": {
+                            "type": "string",
+                            "enum": [
+                              "traveler-provided",
+                              "sourced",
+                              "booked"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "localDate",
+                          "timeZone",
+                          "precision",
+                          "confirmationStatus"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "end": {
+                        "type": "object",
+                        "properties": {
+                          "localDate": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          },
+                          "localTime": {
+                            "type": "string",
+                            "pattern": "^\\d{2}:\\d{2}$"
+                          },
+                          "timeZone": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "utc": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "precision": {
+                            "type": "string",
+                            "enum": [
+                              "date",
+                              "approximate-time",
+                              "confirmed-time"
+                            ]
+                          },
+                          "confirmationStatus": {
+                            "type": "string",
+                            "enum": [
+                              "traveler-provided",
+                              "sourced",
+                              "booked"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "localDate",
+                          "timeZone",
+                          "precision",
+                          "confirmationStatus"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "placeId": {
+                        "type": "string"
+                      },
+                      "privateRef": {
+                        "type": "string"
+                      },
+                      "notes": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "label",
+                      "status",
+                      "verificationStatus"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "themes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "coreQuestion": {
+                    "type": "string"
+                  },
+                  "foodStrategy": {
+                    "type": "object",
+                    "properties": {
+                      "seasonalFoods": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "category": {
+                              "type": "string"
+                            },
+                            "seasonal": {
+                              "type": "boolean"
+                            },
+                            "notes": {
+                              "type": "string"
+                            },
+                            "typicalPrice": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "supermarketExperiments": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "title": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "category": {
+                                    "type": "string"
+                                  },
+                                  "seasonal": {
+                                    "type": "boolean"
+                                  },
+                                  "notes": {
+                                    "type": "string"
+                                  },
+                                  "typicalPrice": {
+                                    "type": "object",
+                                    "properties": {
+                                      "lowMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "highMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "currency": {
+                                        "type": "string",
+                                        "minLength": 3,
+                                        "maxLength": 3,
+                                        "pattern": "^[A-Z]{3}$"
+                                      },
+                                      "minorUnit": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 4,
+                                        "default": 2
+                                      },
+                                      "includes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "excludes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "confidence": {
+                                        "type": "string",
+                                        "enum": [
+                                          "low",
+                                          "medium",
+                                          "high"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "lowMinor",
+                                      "highMinor",
+                                      "currency",
+                                      "confidence"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "id",
+                                  "name"
+                                ],
+                                "additionalProperties": false
+                              }
+                            },
+                            "accompaniments": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "category": {
+                                    "type": "string"
+                                  },
+                                  "seasonal": {
+                                    "type": "boolean"
+                                  },
+                                  "notes": {
+                                    "type": "string"
+                                  },
+                                  "typicalPrice": {
+                                    "type": "object",
+                                    "properties": {
+                                      "lowMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "highMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "currency": {
+                                        "type": "string",
+                                        "minLength": 3,
+                                        "maxLength": 3,
+                                        "pattern": "^[A-Z]{3}$"
+                                      },
+                                      "minorUnit": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 4,
+                                        "default": 2
+                                      },
+                                      "includes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "excludes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "confidence": {
+                                        "type": "string",
+                                        "enum": [
+                                          "low",
+                                          "medium",
+                                          "high"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "lowMinor",
+                                      "highMinor",
+                                      "currency",
+                                      "confidence"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "id",
+                                  "name"
+                                ],
+                                "additionalProperties": false
+                              },
+                              "default": []
+                            },
+                            "idealLocation": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "nameLocal": {
+                                  "type": "string"
+                                },
+                                "city": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "country": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "countryCode": {
+                                  "type": "string",
+                                  "minLength": 2,
+                                  "maxLength": 2
+                                },
+                                "address": {
+                                  "type": "string"
+                                },
+                                "lat": {
+                                  "type": "number",
+                                  "minimum": -90,
+                                  "maximum": 90
+                                },
+                                "lon": {
+                                  "type": "number",
+                                  "minimum": -180,
+                                  "maximum": 180
+                                },
+                                "locationPrecision": {
+                                  "type": "string",
+                                  "enum": [
+                                    "exact",
+                                    "neighborhood",
+                                    "city",
+                                    "country",
+                                    "private"
+                                  ],
+                                  "default": "city"
+                                },
+                                "notes": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "name",
+                                "city",
+                                "country",
+                                "countryCode"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "scoringCriteria": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "storageWarnings": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "foodSafetyNotes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "title",
+                            "description",
+                            "items",
+                            "scoringCriteria",
+                            "budget"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "studentCafeterias": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "location": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "nameLocal": {
+                                  "type": "string"
+                                },
+                                "city": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "country": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "countryCode": {
+                                  "type": "string",
+                                  "minLength": 2,
+                                  "maxLength": 2
+                                },
+                                "address": {
+                                  "type": "string"
+                                },
+                                "lat": {
+                                  "type": "number",
+                                  "minimum": -90,
+                                  "maximum": 90
+                                },
+                                "lon": {
+                                  "type": "number",
+                                  "minimum": -180,
+                                  "maximum": 180
+                                },
+                                "locationPrecision": {
+                                  "type": "string",
+                                  "enum": [
+                                    "exact",
+                                    "neighborhood",
+                                    "city",
+                                    "country",
+                                    "private"
+                                  ],
+                                  "default": "city"
+                                },
+                                "notes": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "name",
+                                "city",
+                                "country",
+                                "countryCode"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "planningStatus": {
+                              "type": "string",
+                              "enum": [
+                                "candidate",
+                                "shortlisted",
+                                "recommended",
+                                "selected",
+                                "booked",
+                                "completed",
+                                "skipped",
+                                "cancelled"
+                              ],
+                              "default": "candidate"
+                            },
+                            "verificationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "unresearched",
+                                "traveler-provided",
+                                "researched",
+                                "confirmed",
+                                "stale",
+                                "conflicting"
+                              ],
+                              "default": "unresearched"
+                            },
+                            "whyItMatters": {
+                              "type": "string"
+                            },
+                            "claimIds": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "city",
+                            "description",
+                            "budget"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "workerLunches": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "location": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "nameLocal": {
+                                  "type": "string"
+                                },
+                                "city": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "country": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "countryCode": {
+                                  "type": "string",
+                                  "minLength": 2,
+                                  "maxLength": 2
+                                },
+                                "address": {
+                                  "type": "string"
+                                },
+                                "lat": {
+                                  "type": "number",
+                                  "minimum": -90,
+                                  "maximum": 90
+                                },
+                                "lon": {
+                                  "type": "number",
+                                  "minimum": -180,
+                                  "maximum": 180
+                                },
+                                "locationPrecision": {
+                                  "type": "string",
+                                  "enum": [
+                                    "exact",
+                                    "neighborhood",
+                                    "city",
+                                    "country",
+                                    "private"
+                                  ],
+                                  "default": "city"
+                                },
+                                "notes": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "name",
+                                "city",
+                                "country",
+                                "countryCode"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "planningStatus": {
+                              "type": "string",
+                              "enum": [
+                                "candidate",
+                                "shortlisted",
+                                "recommended",
+                                "selected",
+                                "booked",
+                                "completed",
+                                "skipped",
+                                "cancelled"
+                              ],
+                              "default": "candidate"
+                            },
+                            "verificationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "unresearched",
+                                "traveler-provided",
+                                "researched",
+                                "confirmed",
+                                "stale",
+                                "conflicting"
+                              ],
+                              "default": "unresearched"
+                            },
+                            "whyItMatters": {
+                              "type": "string"
+                            },
+                            "claimIds": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "city",
+                            "description",
+                            "budget"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "markets": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "location": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "nameLocal": {
+                                  "type": "string"
+                                },
+                                "city": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "country": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "countryCode": {
+                                  "type": "string",
+                                  "minLength": 2,
+                                  "maxLength": 2
+                                },
+                                "address": {
+                                  "type": "string"
+                                },
+                                "lat": {
+                                  "type": "number",
+                                  "minimum": -90,
+                                  "maximum": 90
+                                },
+                                "lon": {
+                                  "type": "number",
+                                  "minimum": -180,
+                                  "maximum": 180
+                                },
+                                "locationPrecision": {
+                                  "type": "string",
+                                  "enum": [
+                                    "exact",
+                                    "neighborhood",
+                                    "city",
+                                    "country",
+                                    "private"
+                                  ],
+                                  "default": "city"
+                                },
+                                "notes": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "name",
+                                "city",
+                                "country",
+                                "countryCode"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "planningStatus": {
+                              "type": "string",
+                              "enum": [
+                                "candidate",
+                                "shortlisted",
+                                "recommended",
+                                "selected",
+                                "booked",
+                                "completed",
+                                "skipped",
+                                "cancelled"
+                              ],
+                              "default": "candidate"
+                            },
+                            "verificationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "unresearched",
+                                "traveler-provided",
+                                "researched",
+                                "confirmed",
+                                "stale",
+                                "conflicting"
+                              ],
+                              "default": "unresearched"
+                            },
+                            "whyItMatters": {
+                              "type": "string"
+                            },
+                            "claimIds": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "city",
+                            "description",
+                            "budget"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "picnicCombinations": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "title": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "name": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "category": {
+                                    "type": "string"
+                                  },
+                                  "seasonal": {
+                                    "type": "boolean"
+                                  },
+                                  "notes": {
+                                    "type": "string"
+                                  },
+                                  "typicalPrice": {
+                                    "type": "object",
+                                    "properties": {
+                                      "lowMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "highMinor": {
+                                        "type": "integer",
+                                        "minimum": 0
+                                      },
+                                      "currency": {
+                                        "type": "string",
+                                        "minLength": 3,
+                                        "maxLength": 3,
+                                        "pattern": "^[A-Z]{3}$"
+                                      },
+                                      "minorUnit": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 4,
+                                        "default": 2
+                                      },
+                                      "includes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "excludes": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "string"
+                                        },
+                                        "default": []
+                                      },
+                                      "confidence": {
+                                        "type": "string",
+                                        "enum": [
+                                          "low",
+                                          "medium",
+                                          "high"
+                                        ]
+                                      }
+                                    },
+                                    "required": [
+                                      "lowMinor",
+                                      "highMinor",
+                                      "currency",
+                                      "confidence"
+                                    ],
+                                    "additionalProperties": false
+                                  }
+                                },
+                                "required": [
+                                  "id",
+                                  "name"
+                                ],
+                                "additionalProperties": false
+                              }
+                            },
+                            "locationIdeas": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "weatherDependency": {
+                              "type": "string",
+                              "enum": [
+                                "low",
+                                "medium",
+                                "high"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "title",
+                            "items",
+                            "budget",
+                            "weatherDependency"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "worthySplurges": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string"
+                            },
+                            "location": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "name": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "nameLocal": {
+                                  "type": "string"
+                                },
+                                "city": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "country": {
+                                  "type": "string",
+                                  "minLength": 1
+                                },
+                                "countryCode": {
+                                  "type": "string",
+                                  "minLength": 2,
+                                  "maxLength": 2
+                                },
+                                "address": {
+                                  "type": "string"
+                                },
+                                "lat": {
+                                  "type": "number",
+                                  "minimum": -90,
+                                  "maximum": 90
+                                },
+                                "lon": {
+                                  "type": "number",
+                                  "minimum": -180,
+                                  "maximum": 180
+                                },
+                                "locationPrecision": {
+                                  "type": "string",
+                                  "enum": [
+                                    "exact",
+                                    "neighborhood",
+                                    "city",
+                                    "country",
+                                    "private"
+                                  ],
+                                  "default": "city"
+                                },
+                                "notes": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "name",
+                                "city",
+                                "country",
+                                "countryCode"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "budget": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "planningStatus": {
+                              "type": "string",
+                              "enum": [
+                                "candidate",
+                                "shortlisted",
+                                "recommended",
+                                "selected",
+                                "booked",
+                                "completed",
+                                "skipped",
+                                "cancelled"
+                              ],
+                              "default": "candidate"
+                            },
+                            "verificationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "unresearched",
+                                "traveler-provided",
+                                "researched",
+                                "confirmed",
+                                "stale",
+                                "conflicting"
+                              ],
+                              "default": "unresearched"
+                            },
+                            "whyItMatters": {
+                              "type": "string"
+                            },
+                            "claimIds": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "city",
+                            "description",
+                            "budget"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "avoidOverpayingFor": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "discountTerms": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "term": {
+                              "type": "string"
+                            },
+                            "meaning": {
+                              "type": "string"
+                            },
+                            "language": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "term",
+                            "meaning"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      },
+                      "normalDailyBudget": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "normalDailyBudget"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "universities": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "company",
+                            "university",
+                            "library",
+                            "museum",
+                            "government",
+                            "foundation",
+                            "market",
+                            "startup-hub",
+                            "public-space"
+                          ]
+                        },
+                        "city": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "whyItMatters": {
+                          "type": "string"
+                        },
+                        "whatItReveals": {
+                          "type": "string"
+                        },
+                        "aiEraQuestion": {
+                          "type": "string"
+                        },
+                        "visitability": {
+                          "type": "string",
+                          "enum": [
+                            "public",
+                            "tour-request",
+                            "exterior-only",
+                            "unknown"
+                          ]
+                        },
+                        "relatedPlaces": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "name": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "nameLocal": {
+                                "type": "string"
+                              },
+                              "city": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "country": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "countryCode": {
+                                "type": "string",
+                                "minLength": 2,
+                                "maxLength": 2
+                              },
+                              "address": {
+                                "type": "string"
+                              },
+                              "lat": {
+                                "type": "number",
+                                "minimum": -90,
+                                "maximum": 90
+                              },
+                              "lon": {
+                                "type": "number",
+                                "minimum": -180,
+                                "maximum": 180
+                              },
+                              "locationPrecision": {
+                                "type": "string",
+                                "enum": [
+                                  "exact",
+                                  "neighborhood",
+                                  "city",
+                                  "country",
+                                  "private"
+                                ],
+                                "default": "city"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "name",
+                              "city",
+                              "country",
+                              "countryCode"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "default": []
+                        },
+                        "questionsToAsk": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "claimIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "verificationStatus": {
+                          "type": "string",
+                          "enum": [
+                            "unresearched",
+                            "traveler-provided",
+                            "researched",
+                            "confirmed",
+                            "stale",
+                            "conflicting"
+                          ],
+                          "default": "unresearched"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name",
+                        "type",
+                        "city",
+                        "description",
+                        "whyItMatters",
+                        "whatItReveals",
+                        "visitability"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "companies": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "company",
+                            "university",
+                            "library",
+                            "museum",
+                            "government",
+                            "foundation",
+                            "market",
+                            "startup-hub",
+                            "public-space"
+                          ]
+                        },
+                        "city": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "whyItMatters": {
+                          "type": "string"
+                        },
+                        "whatItReveals": {
+                          "type": "string"
+                        },
+                        "aiEraQuestion": {
+                          "type": "string"
+                        },
+                        "visitability": {
+                          "type": "string",
+                          "enum": [
+                            "public",
+                            "tour-request",
+                            "exterior-only",
+                            "unknown"
+                          ]
+                        },
+                        "relatedPlaces": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "name": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "nameLocal": {
+                                "type": "string"
+                              },
+                              "city": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "country": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "countryCode": {
+                                "type": "string",
+                                "minLength": 2,
+                                "maxLength": 2
+                              },
+                              "address": {
+                                "type": "string"
+                              },
+                              "lat": {
+                                "type": "number",
+                                "minimum": -90,
+                                "maximum": 90
+                              },
+                              "lon": {
+                                "type": "number",
+                                "minimum": -180,
+                                "maximum": 180
+                              },
+                              "locationPrecision": {
+                                "type": "string",
+                                "enum": [
+                                  "exact",
+                                  "neighborhood",
+                                  "city",
+                                  "country",
+                                  "private"
+                                ],
+                                "default": "city"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "name",
+                              "city",
+                              "country",
+                              "countryCode"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "default": []
+                        },
+                        "questionsToAsk": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "claimIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "verificationStatus": {
+                          "type": "string",
+                          "enum": [
+                            "unresearched",
+                            "traveler-provided",
+                            "researched",
+                            "confirmed",
+                            "stale",
+                            "conflicting"
+                          ],
+                          "default": "unresearched"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name",
+                        "type",
+                        "city",
+                        "description",
+                        "whyItMatters",
+                        "whatItReveals",
+                        "visitability"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "publicInstitutions": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "company",
+                            "university",
+                            "library",
+                            "museum",
+                            "government",
+                            "foundation",
+                            "market",
+                            "startup-hub",
+                            "public-space"
+                          ]
+                        },
+                        "city": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "whyItMatters": {
+                          "type": "string"
+                        },
+                        "whatItReveals": {
+                          "type": "string"
+                        },
+                        "aiEraQuestion": {
+                          "type": "string"
+                        },
+                        "visitability": {
+                          "type": "string",
+                          "enum": [
+                            "public",
+                            "tour-request",
+                            "exterior-only",
+                            "unknown"
+                          ]
+                        },
+                        "relatedPlaces": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "name": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "nameLocal": {
+                                "type": "string"
+                              },
+                              "city": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "country": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "countryCode": {
+                                "type": "string",
+                                "minLength": 2,
+                                "maxLength": 2
+                              },
+                              "address": {
+                                "type": "string"
+                              },
+                              "lat": {
+                                "type": "number",
+                                "minimum": -90,
+                                "maximum": 90
+                              },
+                              "lon": {
+                                "type": "number",
+                                "minimum": -180,
+                                "maximum": 180
+                              },
+                              "locationPrecision": {
+                                "type": "string",
+                                "enum": [
+                                  "exact",
+                                  "neighborhood",
+                                  "city",
+                                  "country",
+                                  "private"
+                                ],
+                                "default": "city"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "id",
+                              "name",
+                              "city",
+                              "country",
+                              "countryCode"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "default": []
+                        },
+                        "questionsToAsk": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "sourceIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "claimIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "verificationStatus": {
+                          "type": "string",
+                          "enum": [
+                            "unresearched",
+                            "traveler-provided",
+                            "researched",
+                            "confirmed",
+                            "stale",
+                            "conflicting"
+                          ],
+                          "default": "unresearched"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name",
+                        "type",
+                        "city",
+                        "description",
+                        "whyItMatters",
+                        "whatItReveals",
+                        "visitability"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "localSystems": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "name": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "category": {
+                          "type": "string",
+                          "enum": [
+                            "transport",
+                            "housing",
+                            "energy",
+                            "welfare",
+                            "labor",
+                            "capital",
+                            "food-production",
+                            "design",
+                            "trust",
+                            "other"
+                          ]
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "whyItMatters": {
+                          "type": "string"
+                        },
+                        "claimIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name",
+                        "category",
+                        "description",
+                        "whyItMatters"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  }
+                },
+                "required": [
+                  "city",
+                  "country",
+                  "countryCode",
+                  "arrivalDate",
+                  "departureDate",
+                  "timeZone",
+                  "themes",
+                  "coreQuestion",
+                  "foodStrategy"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "thesis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "principles": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "anchors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "flight",
+                      "train",
+                      "ferry",
+                      "accommodation",
+                      "reservation",
+                      "conference",
+                      "festival",
+                      "friend",
+                      "deadline",
+                      "other"
+                    ]
+                  },
+                  "fixed": {
+                    "type": "boolean"
+                  },
+                  "start": {
+                    "type": "object",
+                    "properties": {
+                      "localDate": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "localTime": {
+                        "type": "string"
+                      },
+                      "timeZone": {
+                        "type": "string"
+                      },
+                      "precision": {
+                        "type": "string",
+                        "enum": [
+                          "date",
+                          "approximate-time",
+                          "confirmed-time"
+                        ]
+                      },
+                      "confirmationStatus": {
+                        "type": "string",
+                        "enum": [
+                          "traveler-provided",
+                          "sourced",
+                          "booked"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "localDate",
+                      "timeZone",
+                      "precision",
+                      "confirmationStatus"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "bookingId": {
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": "string"
+                  },
+                  "claimIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "kind",
+                  "fixed"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "majorChoices": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "deadline": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "label": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "meaning": {
+                          "type": "string"
+                        },
+                        "estimatedCostMinor": {
+                          "type": "integer"
+                        },
+                        "currency": {
+                          "type": "string",
+                          "minLength": 3,
+                          "maxLength": 3
+                        },
+                        "pros": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "cons": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "label"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "recommendation": {
+                    "type": "string"
+                  },
+                  "decisionStatus": {
+                    "type": "string",
+                    "enum": [
+                      "open",
+                      "decided",
+                      "expired"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "options",
+                  "decisionStatus"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "decisions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "question": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "label": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "meaning": {
+                          "type": "string"
+                        },
+                        "estimatedCostMinor": {
+                          "type": "integer"
+                        },
+                        "currency": {
+                          "type": "string",
+                          "minLength": 3,
+                          "maxLength": 3
+                        },
+                        "pros": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "cons": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "label"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "selectedOptionId": {
+                    "type": "string"
+                  },
+                  "decidedAt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "rationale": {
+                    "type": "string"
+                  },
+                  "expectedOutcome": {
+                    "type": "string"
+                  },
+                  "actualOutcome": {
+                    "type": "string"
+                  },
+                  "reconsiderAfter": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  }
+                },
+                "required": [
+                  "id",
+                  "question",
+                  "options"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "days": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "date": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "city": {
+                    "type": "string"
+                  },
+                  "country": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "theme": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "thesisQuestion": {
+                    "type": "string"
+                  },
+                  "coherenceNote": {
+                    "type": "string"
+                  },
+                  "weatherDependency": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high"
+                    ]
+                  },
+                  "expectedEnergy": {
+                    "type": "string",
+                    "enum": [
+                      "recovery",
+                      "light",
+                      "balanced",
+                      "intense"
+                    ]
+                  },
+                  "blocks": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "period": {
+                          "type": "string",
+                          "enum": [
+                            "early-morning",
+                            "morning",
+                            "lunch",
+                            "afternoon",
+                            "dinner",
+                            "night"
+                          ]
+                        },
+                        "startTime": {
+                          "type": "string"
+                        },
+                        "endTime": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "location": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "name": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "nameLocal": {
+                              "type": "string"
+                            },
+                            "city": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "country": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "countryCode": {
+                              "type": "string",
+                              "minLength": 2,
+                              "maxLength": 2
+                            },
+                            "address": {
+                              "type": "string"
+                            },
+                            "lat": {
+                              "type": "number",
+                              "minimum": -90,
+                              "maximum": 90
+                            },
+                            "lon": {
+                              "type": "number",
+                              "minimum": -180,
+                              "maximum": 180
+                            },
+                            "locationPrecision": {
+                              "type": "string",
+                              "enum": [
+                                "exact",
+                                "neighborhood",
+                                "city",
+                                "country",
+                                "private"
+                              ],
+                              "default": "city"
+                            },
+                            "notes": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "id",
+                            "name",
+                            "city",
+                            "country",
+                            "countryCode"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "transportFromPrevious": {
+                          "type": "object",
+                          "properties": {
+                            "mode": {
+                              "type": "string",
+                              "enum": [
+                                "walk",
+                                "metro",
+                                "bus",
+                                "tram",
+                                "train",
+                                "ferry",
+                                "taxi",
+                                "bike",
+                                "other"
+                              ]
+                            },
+                            "from": {
+                              "type": "string"
+                            },
+                            "to": {
+                              "type": "string"
+                            },
+                            "durationMinutes": {
+                              "type": "integer",
+                              "minimum": 0
+                            },
+                            "estimatedCost": {
+                              "type": "object",
+                              "properties": {
+                                "lowMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "highMinor": {
+                                  "type": "integer",
+                                  "minimum": 0
+                                },
+                                "currency": {
+                                  "type": "string",
+                                  "minLength": 3,
+                                  "maxLength": 3,
+                                  "pattern": "^[A-Z]{3}$"
+                                },
+                                "minorUnit": {
+                                  "type": "integer",
+                                  "minimum": 0,
+                                  "maximum": 4,
+                                  "default": 2
+                                },
+                                "includes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "excludes": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "default": []
+                                },
+                                "confidence": {
+                                  "type": "string",
+                                  "enum": [
+                                    "low",
+                                    "medium",
+                                    "high"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "lowMinor",
+                                "highMinor",
+                                "currency",
+                                "confidence"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "notes": {
+                              "type": "string"
+                            },
+                            "verificationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "unresearched",
+                                "traveler-provided",
+                                "researched",
+                                "confirmed",
+                                "stale",
+                                "conflicting"
+                              ],
+                              "default": "unresearched"
+                            }
+                          },
+                          "required": [
+                            "mode"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "estimatedCost": {
+                          "type": "object",
+                          "properties": {
+                            "lowMinor": {
+                              "type": "integer",
+                              "minimum": 0
+                            },
+                            "highMinor": {
+                              "type": "integer",
+                              "minimum": 0
+                            },
+                            "currency": {
+                              "type": "string",
+                              "minLength": 3,
+                              "maxLength": 3,
+                              "pattern": "^[A-Z]{3}$"
+                            },
+                            "minorUnit": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 4,
+                              "default": 2
+                            },
+                            "includes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            },
+                            "excludes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            },
+                            "confidence": {
+                              "type": "string",
+                              "enum": [
+                                "low",
+                                "medium",
+                                "high"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "lowMinor",
+                            "highMinor",
+                            "currency",
+                            "confidence"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "whyItMatters": {
+                          "type": "string"
+                        },
+                        "observationPrompt": {
+                          "type": "string"
+                        },
+                        "bookingRequired": {
+                          "type": "boolean"
+                        },
+                        "fixed": {
+                          "type": "boolean"
+                        },
+                        "planningStatus": {
+                          "type": "string",
+                          "enum": [
+                            "candidate",
+                            "shortlisted",
+                            "recommended",
+                            "selected",
+                            "booked",
+                            "completed",
+                            "skipped",
+                            "cancelled"
+                          ],
+                          "default": "recommended"
+                        },
+                        "verificationStatus": {
+                          "type": "string",
+                          "enum": [
+                            "unresearched",
+                            "traveler-provided",
+                            "researched",
+                            "confirmed",
+                            "stale",
+                            "conflicting"
+                          ],
+                          "default": "unresearched"
+                        },
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "idea",
+                            "planned",
+                            "booked",
+                            "completed",
+                            "skipped"
+                          ]
+                        },
+                        "claimIds": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "period",
+                        "title",
+                        "description",
+                        "whyItMatters",
+                        "bookingRequired",
+                        "fixed",
+                        "status"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "foodMode": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "enum": [
+                        "supermarket",
+                        "student-cafeteria",
+                        "worker-lunch",
+                        "market",
+                        "picnic",
+                        "cafe",
+                        "restaurant",
+                        "splurge",
+                        "skip"
+                      ]
+                    }
+                  },
+                  "budget": {
+                    "type": "object",
+                    "properties": {
+                      "lowMinor": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "highMinor": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      },
+                      "minorUnit": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 4,
+                        "default": 2
+                      },
+                      "includes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "excludes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "low",
+                          "medium",
+                          "high"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "lowMinor",
+                      "highMinor",
+                      "currency",
+                      "confidence"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "actualSpend": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "amountMinor": {
+                          "type": "integer"
+                        },
+                        "currency": {
+                          "type": "string",
+                          "minLength": 3,
+                          "maxLength": 3,
+                          "pattern": "^[A-Z]{3}$"
+                        }
+                      },
+                      "required": [
+                        "amountMinor",
+                        "currency"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "sidequestPotential": {
+                    "type": "number",
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      5
+                    ]
+                  },
+                  "fieldworkPrompts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "socialPrompts": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "fallbackPlans": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "trigger": {
+                          "type": "string",
+                          "enum": [
+                            "weather",
+                            "low-energy",
+                            "closure",
+                            "crowd",
+                            "other"
+                          ]
+                        },
+                        "title": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "estimatedCost": {
+                          "type": "object",
+                          "properties": {
+                            "lowMinor": {
+                              "type": "integer",
+                              "minimum": 0
+                            },
+                            "highMinor": {
+                              "type": "integer",
+                              "minimum": 0
+                            },
+                            "currency": {
+                              "type": "string",
+                              "minLength": 3,
+                              "maxLength": 3,
+                              "pattern": "^[A-Z]{3}$"
+                            },
+                            "minorUnit": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 4,
+                              "default": 2
+                            },
+                            "includes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            },
+                            "excludes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "default": []
+                            },
+                            "confidence": {
+                              "type": "string",
+                              "enum": [
+                                "low",
+                                "medium",
+                                "high"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "lowMinor",
+                            "highMinor",
+                            "currency",
+                            "confidence"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "trigger",
+                        "title",
+                        "description"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "memoryArtifact": {
+                    "type": "string"
+                  },
+                  "reservations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "label": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "status": {
+                          "type": "string",
+                          "enum": [
+                            "candidate",
+                            "shortlisted",
+                            "recommended",
+                            "selected",
+                            "booked",
+                            "completed",
+                            "skipped",
+                            "cancelled"
+                          ]
+                        },
+                        "verificationStatus": {
+                          "type": "string",
+                          "enum": [
+                            "unresearched",
+                            "traveler-provided",
+                            "researched",
+                            "confirmed",
+                            "stale",
+                            "conflicting"
+                          ]
+                        },
+                        "start": {
+                          "type": "object",
+                          "properties": {
+                            "localDate": {
+                              "type": "string",
+                              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                            },
+                            "localTime": {
+                              "type": "string",
+                              "pattern": "^\\d{2}:\\d{2}$"
+                            },
+                            "timeZone": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "utc": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "precision": {
+                              "type": "string",
+                              "enum": [
+                                "date",
+                                "approximate-time",
+                                "confirmed-time"
+                              ]
+                            },
+                            "confirmationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "traveler-provided",
+                                "sourced",
+                                "booked"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "localDate",
+                            "timeZone",
+                            "precision",
+                            "confirmationStatus"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "end": {
+                          "type": "object",
+                          "properties": {
+                            "localDate": {
+                              "type": "string",
+                              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                            },
+                            "localTime": {
+                              "type": "string",
+                              "pattern": "^\\d{2}:\\d{2}$"
+                            },
+                            "timeZone": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "utc": {
+                              "type": "string",
+                              "format": "date-time"
+                            },
+                            "precision": {
+                              "type": "string",
+                              "enum": [
+                                "date",
+                                "approximate-time",
+                                "confirmed-time"
+                              ]
+                            },
+                            "confirmationStatus": {
+                              "type": "string",
+                              "enum": [
+                                "traveler-provided",
+                                "sourced",
+                                "booked"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "localDate",
+                            "timeZone",
+                            "precision",
+                            "confirmationStatus"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "placeId": {
+                          "type": "string"
+                        },
+                        "privateRef": {
+                          "type": "string"
+                        },
+                        "notes": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "label",
+                        "status",
+                        "verificationStatus"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "sourceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "claimIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "required": [
+                  "id",
+                  "date",
+                  "city",
+                  "country",
+                  "title",
+                  "theme",
+                  "thesisQuestion",
+                  "weatherDependency",
+                  "expectedEnergy",
+                  "blocks",
+                  "foodMode",
+                  "budget",
+                  "sidequestPotential",
+                  "fieldworkPrompts"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "sidequests": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "city": {
+                    "type": "string"
+                  },
+                  "categories": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "name": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "nameLocal": {
+                        "type": "string"
+                      },
+                      "city": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "country": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "countryCode": {
+                        "type": "string",
+                        "minLength": 2,
+                        "maxLength": 2
+                      },
+                      "address": {
+                        "type": "string"
+                      },
+                      "lat": {
+                        "type": "number",
+                        "minimum": -90,
+                        "maximum": 90
+                      },
+                      "lon": {
+                        "type": "number",
+                        "minimum": -180,
+                        "maximum": 180
+                      },
+                      "locationPrecision": {
+                        "type": "string",
+                        "enum": [
+                          "exact",
+                          "neighborhood",
+                          "city",
+                          "country",
+                          "private"
+                        ],
+                        "default": "city"
+                      },
+                      "notes": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "name",
+                      "city",
+                      "country",
+                      "countryCode"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "durationMinutes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0
+                  },
+                  "budget": {
+                    "type": "object",
+                    "properties": {
+                      "lowMinor": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "highMinor": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      },
+                      "minorUnit": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 4,
+                        "default": 2
+                      },
+                      "includes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "excludes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "confidence": {
+                        "type": "string",
+                        "enum": [
+                          "low",
+                          "medium",
+                          "high"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "lowMinor",
+                      "highMinor",
+                      "currency",
+                      "confidence"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "placeSpecificity": {
+                    "type": "number",
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      5
+                    ]
+                  },
+                  "storyPotential": {
+                    "type": "number",
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      5
+                    ]
+                  },
+                  "socialPotential": {
+                    "type": "number",
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      5
+                    ]
+                  },
+                  "weatherDependency": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high"
+                    ]
+                  },
+                  "bestTime": {
+                    "type": "string"
+                  },
+                  "seasonalWindow": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "end": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      }
+                    },
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "foodPairing": {
+                    "type": "string"
+                  },
+                  "observationPrompt": {
+                    "type": "string"
+                  },
+                  "socialOpening": {
+                    "type": "string"
+                  },
+                  "memoryArtifact": {
+                    "type": "string"
+                  },
+                  "fallback": {
+                    "type": "string"
+                  },
+                  "sourceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "claimIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "city",
+                  "categories",
+                  "description",
+                  "budget",
+                  "placeSpecificity",
+                  "storyPotential",
+                  "socialPotential",
+                  "weatherDependency",
+                  "observationPrompt"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "budget": {
+              "type": "object",
+              "properties": {
+                "baseCurrency": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 3,
+                  "pattern": "^[A-Z]{3}$"
+                },
+                "exchangeRates": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "baseCurrency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      },
+                      "quoteCurrency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      },
+                      "rate": {
+                        "type": "string",
+                        "pattern": "^\\d+(\\.\\d+)?$"
+                      },
+                      "effectiveDate": {
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                      },
+                      "sourceId": {
+                        "type": "string"
+                      },
+                      "enteredManually": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "baseCurrency",
+                      "quoteCurrency",
+                      "rate",
+                      "effectiveDate",
+                      "enteredManually"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "studentTotal": {
+                  "type": "object",
+                  "properties": {
+                    "lowMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "highMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3,
+                      "pattern": "^[A-Z]{3}$"
+                    },
+                    "minorUnit": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 4,
+                      "default": 2
+                    },
+                    "includes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "excludes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lowMinor",
+                    "highMinor",
+                    "currency",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                },
+                "balancedTotal": {
+                  "type": "object",
+                  "properties": {
+                    "lowMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "highMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3,
+                      "pattern": "^[A-Z]{3}$"
+                    },
+                    "minorUnit": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 4,
+                      "default": 2
+                    },
+                    "includes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "excludes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lowMinor",
+                    "highMinor",
+                    "currency",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                },
+                "splurgeTotal": {
+                  "type": "object",
+                  "properties": {
+                    "lowMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "highMinor": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 3,
+                      "pattern": "^[A-Z]{3}$"
+                    },
+                    "minorUnit": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 4,
+                      "default": 2
+                    },
+                    "includes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "excludes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "confidence": {
+                      "type": "string",
+                      "enum": [
+                        "low",
+                        "medium",
+                        "high"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lowMinor",
+                    "highMinor",
+                    "currency",
+                    "confidence"
+                  ],
+                  "additionalProperties": false
+                },
+                "citySubtotals": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "city": {
+                        "type": "string"
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      },
+                      "student": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "balanced": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "food": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "activities": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "localTransport": {
+                        "type": "object",
+                        "properties": {
+                          "lowMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "highMinor": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "currency": {
+                            "type": "string",
+                            "minLength": 3,
+                            "maxLength": 3,
+                            "pattern": "^[A-Z]{3}$"
+                          },
+                          "minorUnit": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4,
+                            "default": 2
+                          },
+                          "includes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "excludes": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "confidence": {
+                            "type": "string",
+                            "enum": [
+                              "low",
+                              "medium",
+                              "high"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "lowMinor",
+                          "highMinor",
+                          "currency",
+                          "confidence"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "city",
+                      "currency"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "contingencyMinor": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "exclusions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": [
+                    "prepaid accommodation",
+                    "long-distance transport"
+                  ]
+                },
+                "actualSpend": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "amountMinor": {
+                        "type": "integer"
+                      },
+                      "currency": {
+                        "type": "string",
+                        "minLength": 3,
+                        "maxLength": 3,
+                        "pattern": "^[A-Z]{3}$"
+                      }
+                    },
+                    "required": [
+                      "amountMinor",
+                      "currency"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "default": []
+                },
+                "confidence": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high"
+                  ],
+                  "default": "low"
+                }
+              },
+              "required": [
+                "baseCurrency"
+              ],
+              "additionalProperties": false
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "title": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "publisher": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "publishedAt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "accessedAt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "sourceType": {
+                    "type": "string",
+                    "enum": [
+                      "official",
+                      "primary",
+                      "academic",
+                      "government",
+                      "reputable-secondary",
+                      "community"
+                    ]
+                  },
+                  "supports": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high"
+                    ]
+                  },
+                  "reverifyAfter": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "publisher",
+                  "url",
+                  "accessedAt",
+                  "sourceType",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "claims": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "subjectType": {
+                    "type": "string",
+                    "enum": [
+                      "event",
+                      "venue",
+                      "price",
+                      "schedule",
+                      "transport",
+                      "institution",
+                      "economic-statistic",
+                      "company-strategy"
+                    ]
+                  },
+                  "subjectId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "fieldPath": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "statement": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "traveler-provided",
+                      "researched",
+                      "inferred",
+                      "unverified",
+                      "superseded"
+                    ]
+                  },
+                  "sourceIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "verifiedAt": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "validFrom": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "validUntil": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "reverifyAfter": {
+                    "type": "string",
+                    "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high"
+                    ]
+                  },
+                  "notes": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "subjectType",
+                  "subjectId",
+                  "fieldPath",
+                  "statement",
+                  "status",
+                  "confidence"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "observations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "tripId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "dayId": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "recordedAt": {
+                    "type": "string"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "food",
+                      "labor",
+                      "transport",
+                      "design",
+                      "trust",
+                      "wealth",
+                      "education",
+                      "technology",
+                      "behavior",
+                      "contradiction",
+                      "personal"
+                    ]
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "placeId": {
+                    "type": "string"
+                  },
+                  "institutionIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "private": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "mediaIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "certainty": {
+                    "type": "string",
+                    "enum": [
+                      "noticed",
+                      "interpreted",
+                      "hypothesis"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "tripId",
+                  "dayId",
+                  "recordedAt",
+                  "category",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "default": []
+            },
+            "finalSynthesis": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "slug",
+            "title",
+            "travelerId",
+            "startDate",
+            "endDate",
+            "status",
+            "destinations",
+            "thesis",
+            "questions",
+            "principles",
+            "days",
+            "budget"
+          ],
+          "additionalProperties": false
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unresolvedQuestions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validationReport": {
+          "type": "object",
+          "properties": {
+            "schemaVersion": {
+              "type": "string",
+              "pattern": "^\\d+\\.\\d+\\.\\d+$",
+              "default": "1.0.0"
+            },
+            "tripSlug": {
+              "type": "string"
+            },
+            "generatedAt": {
+              "type": "string"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "ruleId": {
+                    "type": "string"
+                  },
+                  "severity": {
+                    "type": "string",
+                    "enum": [
+                      "info",
+                      "warning",
+                      "error",
+                      "critical"
+                    ]
+                  },
+                  "entityType": {
+                    "type": "string"
+                  },
+                  "entityId": {
+                    "type": "string"
+                  },
+                  "fieldPath": {
+                    "type": "string"
+                  },
+                  "message": {
+                    "type": "string"
+                  },
+                  "suggestedFix": {
+                    "type": "string"
+                  },
+                  "autoFixable": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "required": [
+                  "id",
+                  "ruleId",
+                  "severity",
+                  "entityType",
+                  "entityId",
+                  "message"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "criticalCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "errorCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "warningCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "passed": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "tripSlug",
+            "generatedAt",
+            "issues",
+            "criticalCount",
+            "errorCount",
+            "warningCount",
+            "passed"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "requestId",
+        "status",
+        "generatedAt",
+        "trip",
+        "warnings",
+        "unresolvedQuestions",
+        "validationReport"
+      ],
+      "additionalProperties": false
+    }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

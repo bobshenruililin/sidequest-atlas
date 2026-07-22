@@ -6,12 +6,14 @@ import { pathToFileURL } from "node:url";
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml";
 import {
   CURRENT_SCHEMA_VERSION,
+  CaptureRecordSchema,
   ResearchRequestSchema,
   TripSchema,
   checkSchemaVersion,
   migrateDocument,
   validateTrip,
   type AgentJob,
+  type CaptureRecord,
   type ResearchRequest,
   type Trip,
 } from "@sidequest-atlas/domain";
@@ -66,6 +68,9 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
     case "trip":
       await handleTripCommand(repoRoot, actionOrSlug, rest);
       return;
+    case "capture":
+      await handleCaptureCommand(repoRoot, actionOrSlug, rest);
+      return;
     case "sources":
       await handleSourcesCommand(repoRoot, actionOrSlug, rest);
       return;
@@ -81,6 +86,211 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
     default:
       throw new Error(`Unknown command: ${resource}`);
   }
+}
+
+async function handleCaptureCommand(
+  repoRoot: string,
+  action: string | undefined,
+  args: string[],
+): Promise<void> {
+  if (!action) {
+    throw new Error("Missing capture action (inbox|commit|list|show)");
+  }
+  const parsed = parseFlags(args);
+
+  switch (action) {
+    case "inbox": {
+      const text =
+        stringOption(parsed, "text") ??
+        (await readOptionalInputText(parsed));
+      if (!text?.trim()) {
+        throw new Error('Usage: atlas capture inbox --text "..." or --input <file>');
+      }
+      const title =
+        stringOption(parsed, "title") ?? deriveTitle(text);
+      const domains = parseDomainList(stringOption(parsed, "domains") ?? "idea");
+      const visibility = parseVisibility(stringOption(parsed, "visibility") ?? "operator");
+      const id =
+        stringOption(parsed, "id") ??
+        `${utcDatePrefix()}-${slugify(title)}`;
+      const record = CaptureRecordSchema.parse({
+        id,
+        capturedAt: new Date().toISOString(),
+        title,
+        rawText: text.trim(),
+        spark: stringOption(parsed, "spark"),
+        domains,
+        ask: stringOption(parsed, "ask") ?? "investigate",
+        visibility,
+        status: "inbox",
+        links: parseLinkList(stringOption(parsed, "links")),
+      });
+      const relativePath = captureRelativePath(record);
+      const { job } = await runCompletedJob(
+        repoRoot,
+        "capture",
+        "life",
+        { id: record.id, action: "inbox" },
+        async () => {
+          await writeYaml(path.join(repoRoot, relativePath), record);
+          return { result: record, artifacts: [relativePath] };
+        },
+      );
+      printJson({
+        id: record.id,
+        file: relativePath,
+        status: record.status,
+        jobId: job.id,
+        next: "Agent: triangulate deeply, then atlas capture commit --input <file>",
+      });
+      return;
+    }
+    case "commit": {
+      const inputPath = requiredInputPath(parsed);
+      const raw = parseYaml(await readFile(inputPath, "utf8")) as unknown;
+      const record = CaptureRecordSchema.parse(raw);
+      const nextStatus =
+        record.triangulation && record.status === "inbox"
+          ? "triaged"
+          : record.status;
+      const committed = CaptureRecordSchema.parse({
+        ...record,
+        status: nextStatus,
+      });
+      const relativePath = captureRelativePath(committed);
+      const { job } = await runCompletedJob(
+        repoRoot,
+        "capture",
+        "life",
+        { id: committed.id, action: "commit" },
+        async () => {
+          await writeYaml(path.join(repoRoot, relativePath), committed);
+          return { result: committed, artifacts: [relativePath] };
+        },
+      );
+      printJson({
+        id: committed.id,
+        file: relativePath,
+        status: committed.status,
+        jobId: job.id,
+        implementations:
+          committed.triangulation?.suggestedImplementations?.length ?? 0,
+      });
+      return;
+    }
+    case "list": {
+      const records = await listCaptureRecords(repoRoot);
+      printJson({
+        count: records.length,
+        captures: records.map((item) => ({
+          id: item.record.id,
+          title: item.record.title,
+          status: item.record.status,
+          domains: item.record.domains,
+          file: item.relativePath,
+        })),
+      });
+      return;
+    }
+    case "show": {
+      const id = firstString(parsed.positionals) ?? stringOption(parsed, "id");
+      if (!id) {
+        throw new Error("Usage: atlas capture show <id>");
+      }
+      const found = (await listCaptureRecords(repoRoot)).find(
+        (item) => item.record.id === id,
+      );
+      if (!found) {
+        throw new Error(`Capture not found: ${id}`);
+      }
+      printJson(found.record);
+      return;
+    }
+    default:
+      throw new Error(`Unknown capture action: ${action}`);
+  }
+}
+
+function captureRelativePath(record: CaptureRecord): string {
+  if (record.visibility === "vault") {
+    return path.join("vault", "life-canon", "captures", `${record.id}.yaml`);
+  }
+  return path.join("content", "captures", `${record.id}.yaml`);
+}
+
+async function listCaptureRecords(
+  repoRoot: string,
+): Promise<Array<{ relativePath: string; record: CaptureRecord }>> {
+  const dirs = [
+    path.join(repoRoot, "content", "captures"),
+    path.join(repoRoot, "vault", "life-canon", "captures"),
+  ];
+  const out: Array<{ relativePath: string; record: CaptureRecord }> = [];
+  for (const dir of dirs) {
+    if (!existsSync(dir)) {
+      continue;
+    }
+    for (const filePath of await listYamlFiles(dir)) {
+      const raw = await readYamlFile<unknown>(filePath);
+      const parsed = CaptureRecordSchema.safeParse(raw);
+      if (!parsed.success) {
+        continue;
+      }
+      out.push({
+        relativePath: path.relative(repoRoot, filePath),
+        record: parsed.data,
+      });
+    }
+  }
+  return out.sort((a, b) => b.record.id.localeCompare(a.record.id));
+}
+
+async function readOptionalInputText(parsed: ParsedFlags): Promise<string | undefined> {
+  const input = stringOption(parsed, "input");
+  if (!input) {
+    return undefined;
+  }
+  return readFile(path.resolve(process.cwd(), input), "utf8");
+}
+
+function deriveTitle(text: string): string {
+  const line = text.trim().split(/\n/)[0] ?? "capture";
+  return line.slice(0, 80).trim() || "capture";
+}
+
+function slugify(value: string): string {
+  const slug = value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 48);
+  return slug || "capture";
+}
+
+function utcDatePrefix(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function parseDomainList(value: string): CaptureRecord["domains"] {
+  const domains = value
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  return CaptureRecordSchema.shape.domains.parse(domains);
+}
+
+function parseVisibility(value: string): CaptureRecord["visibility"] {
+  return CaptureRecordSchema.shape.visibility.parse(value);
+}
+
+function parseLinkList(value: string | undefined): string[] {
+  if (!value?.trim()) {
+    return [];
+  }
+  return value
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean);
 }
 
 async function handleTripCommand(
@@ -355,12 +565,17 @@ async function schemaReports(contentDir: string): Promise<Array<{ filePath: stri
   const reports: Array<{ filePath: string; ok: boolean; message: string }> = [];
   for (const filePath of await listYamlFiles(contentDir)) {
     const raw = await readYamlFile<unknown>(filePath);
-    const parsed = TripSchema.safeParse(raw);
-    if (!parsed.success) {
+    const trip = TripSchema.safeParse(raw);
+    if (trip.success) {
+      const version = checkSchemaVersion(trip.data.schemaVersion, CURRENT_SCHEMA_VERSION);
+      reports.push({ filePath, ok: version.ok, message: version.message });
       continue;
     }
-    const version = checkSchemaVersion(parsed.data.schemaVersion, CURRENT_SCHEMA_VERSION);
-    reports.push({ filePath, ok: version.ok, message: version.message });
+    const capture = CaptureRecordSchema.safeParse(raw);
+    if (capture.success) {
+      const version = checkSchemaVersion(capture.data.schemaVersion, CURRENT_SCHEMA_VERSION);
+      reports.push({ filePath, ok: version.ok, message: version.message });
+    }
   }
   return reports;
 }
@@ -469,6 +684,7 @@ function printUsage(): void {
       "",
       "Commands:",
       "  trip create|research|synthesize|validate|revise|publish|archive",
+      "  capture inbox|commit|list|show",
       "  sources refresh|audit",
       "  privacy audit",
       "  schema check|migrate",

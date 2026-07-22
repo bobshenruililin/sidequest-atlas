@@ -1,7 +1,98 @@
 {
   "$ref": "#/definitions/ValidationReport",
   "definitions": {
-    "ValidationReport": {}
+    "ValidationReport": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "default": "1.0.0"
+        },
+        "tripSlug": {
+          "type": "string"
+        },
+        "generatedAt": {
+          "type": "string"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "ruleId": {
+                "type": "string"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "info",
+                  "warning",
+                  "error",
+                  "critical"
+                ]
+              },
+              "entityType": {
+                "type": "string"
+              },
+              "entityId": {
+                "type": "string"
+              },
+              "fieldPath": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "suggestedFix": {
+                "type": "string"
+              },
+              "autoFixable": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "required": [
+              "id",
+              "ruleId",
+              "severity",
+              "entityType",
+              "entityId",
+              "message"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "criticalCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "errorCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "warningCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "passed": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "tripSlug",
+        "generatedAt",
+        "issues",
+        "criticalCount",
+        "errorCount",
+        "warningCount",
+        "passed"
+      ],
+      "additionalProperties": false
+    }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

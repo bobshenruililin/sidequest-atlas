@@ -1,0 +1,75 @@
+schemaVersion: 1.0.0
+id: 2026-07-22-floor-tests-law-path
+capturedAt: 2026-07-22T06:36:00.000Z
+title: Floor tests close medicine and keep ordinary law
+rawText: >-
+  1. Law offer reversible at any given time. 2. No medicine without surgery.
+  Okay law with no magic circle. 3. Need no grey door. Also: build a function
+  so interesting things compound via capture → triangulate → record.
+  Mantra: Attention is all you need. Now, compounding is all we need.
+spark: >-
+  Closes romantic medicine; accepts non-elite law floor; closes grey-door lane;
+  requests durable compounding capture loop.
+domains:
+  - career
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures: []
+triangulation:
+  againstCanon:
+    - Enough abundance = rate of optionality
+    - Floor-scenario rule from GPT memo (keep)
+    - Family capital is scarce advantage and distortion field
+    - Laidlaw/Parry as compounding proofs
+  informationGaps:
+    - Written HKU answers on plain LLB vs GLaw, fees, credit transfer, Laidlaw interaction
+    - Whether reversible withdrawal has soft costs (relationships, timing) even if formally allowed
+  opportunityGaps:
+    - Prefer LLB-cleaner path if transferring
+    - >-
+      Convert reversible offer into a real-options window — prototype law work
+      sample plus clinical shadow only if floor test ever reopens
+    - Capture CLI so future sparks compound
+  falseBargains:
+    - Keeping medicine open emotionally after failing the surgery floor test
+    - Optimizing for Magic Circle when ordinary law floor is already acceptable
+    - Grey-door access theater (explicitly declined)
+  corrections:
+    - Medicine-without-surgery = no means medicine is closed under current doctrine
+    - Grey door closed — agents must not coach forgery or fake credentials
+    - >-
+      Reversible offer reduces urgency theater; do not confuse reversibility with
+      costlessness
+  suggestedImplementations:
+    - action: Ship atlas capture inbox/commit/list/show + /compound slash command
+      rationale: >-
+        Bob's primary requested function — attention → record → compound
+      effort: M
+      leverage: high
+      owner: agent
+    - action: Email HKU Law/AASO for written GLaw vs LLB, Year-2 fork, 5th-year fee, Laidlaw impact
+      rationale: Decision-critical before any transfer narrative hardens
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Treat medicine as closed unless floor test changes after real clinical exposure
+      rationale: Self-stated; prevents comforting dual-track fiction
+      effort: S
+      leverage: high
+      owner: shared
+    - action: One law work-sample / trainee conversation this month (ordinary firm reality)
+      rationale: >-
+        Accepts non-MC floor — validate the boring middle before locking identity
+      effort: M
+      leverage: medium
+      owner: bob
+privacyNote: >-
+  Operator-plane record. No family balances, booking refs, or third-party private data.

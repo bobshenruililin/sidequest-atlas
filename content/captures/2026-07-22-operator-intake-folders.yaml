@@ -1,0 +1,62 @@
+schemaVersion: 1.0.0
+id: 2026-07-22-operator-intake-folders
+capturedAt: 2026-07-22T08:00:00.000Z
+title: How to write to the agent and what the folders are for
+rawText: >-
+  How should I write to you directly? Photos of handwritten notes or voice —
+  can I upload to a folder? Too many folders — are they for context? Check
+  redundancies. Position this repo. What can I do for you? Treasure prior
+  chats as crown jewels. Use subagents; take time.
+spark: >-
+  Intake UX + portfolio hygiene + canon consolidation moment.
+domains:
+  - idea
+  - travel
+ask: use
+visibility: operator
+status: triaged
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-four-sparks-portfolio
+triangulation:
+  againstCanon:
+    - Compounding is all we need
+    - Atlas is router not monorepo
+    - Crown jewels / floor tests bind agents
+  informationGaps:
+    - Cursor cloud folder-upload UX is not uniformly documented
+    - External vault backup may not yet exist on Bob’s machines
+  opportunityGaps:
+    - Documented operator-intake path for text/photo/voice
+    - Compile CROWN_JEWELS.md so prior chats stop evaporating
+  falseBargains:
+    - Collapsing public/vault/package boundaries to “reduce folders”
+    - Committing private media to help cloud agents see files
+    - Treating operator visibility as private
+  corrections:
+    - Most folders encode trust or product boundaries; redundancy is duplicate trip YAML and orphan web routes
+    - Photos/voice need reviewed transcripts before compounding
+  suggestedImplementations:
+    - action: Add docs/operator-intake.md and vault inbox convention
+      rationale: Answers how to write; compounds for every future agent
+      effort: S
+      leverage: high
+      owner: agent
+    - action: Keep CROWN_JEWELS.md updated after consequential chats
+      rationale: Bob asked prior dialogue to be treasured
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Later PR — archive orphan web routes; dedupe trip registries
+      rationale: Real redundancy; defer mid-Nordics unless blocking
+      effort: M
+      leverage: medium
+      owner: agent
+privacyNote: Public-safe operator capture. Sensitive figures stay in vault crown jewels.

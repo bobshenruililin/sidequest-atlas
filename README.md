@@ -17,6 +17,8 @@ It treats travel as fieldwork: a way to understand how a place eats, works, stud
 
 **The web application is the atlas. The CLI is the operating system. Cursor is one possible operator. The private vault is Shen’s life.**
 
+Sidequest Atlas is a **travel OS and attention router**: it compounds trips, journals, and sparks into evidence, and routes career / opportunity / research work to sister repos instead of absorbing every project. Day-to-day intake: [docs/operator-intake.md](docs/operator-intake.md).
+
 ```text
 Control plane (CLI + jobs + agents)
         ↓ validated artifacts

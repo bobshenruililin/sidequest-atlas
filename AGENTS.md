@@ -16,6 +16,9 @@ For daily trip notes, use [`.cursor/commands/journal.md`](.cursor/commands/journ
 and [`agents/prompts/daily-journaler.md`](agents/prompts/daily-journaler.md).
 Raw journal bodies stay in the vault; use `atlas journal context` handoffs.
 
+**How Bob should write (text / photos / voice):** [`docs/operator-intake.md`](docs/operator-intake.md).
+Private crown jewels (if present on disk): `vault/life-canon/CROWN_JEWELS.md`.
+
 ## Canonical API
 
 ```bash

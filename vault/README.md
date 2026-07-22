@@ -7,29 +7,42 @@ GitHub Pages.
 ## Layout
 
 ```text
-vault/life-canon/
-  INDEX.md                 # optional local index
-  journals/<trip>/<date>.yaml   # raw daily journals (atlas journal *)
-  insights/<id>.yaml            # accepted canon insights from promote
-  captures/                     # vault-visibility CaptureRecords
+vault/
+  README.md                 # this file (tracked)
+  life-canon/
+    CROWN_JEWELS.md         # highest-priority private operator canon
+    INDEX.md                # chronology
+    journals/<trip>/<date>.yaml
+    insights/<id>.yaml
+    captures/               # vault-visibility CaptureRecords
+  inbox/                    # optional local mirror of media intake
+    YYYY-MM-DD-topic/
+      *.jpg *.m4a
+      transcript.reviewed.txt
 ```
+
+Preferred long-term root (separate private backup):
+
+```text
+~/SidequestAtlasVault/
+  inbox/
+  life-canon/
+```
+
+See [docs/operator-intake.md](../docs/operator-intake.md) for text / photo / voice workflow.
 
 ## Life canon
 
 Timestamped self-reports and decision digests live under `life-canon/`.
+Start every deep life question with `CROWN_JEWELS.md` if present.
 They are for agent triangulation (pushback, opportunity gaps), not for
-public publish. See `agents/OPERATOR_DOCTRINE.md` and `docs/daily-journaling.md`.
+public publish. See `agents/OPERATOR_DOCTRINE.md`.
 
 ## Do not store here if you lack a private backup
 
 - Booking confirmation numbers
 - Precise private-person locations
 - Unredacted media with EXIF GPS
-
-Prefer also mirroring sensitive canon to:
-
-1. Separate **private** repository: `sidequest-atlas-vault`
-2. Local path outside the public repo: `~/SidequestAtlasVault/`
 
 Public trip YAML may reference vault content only as opaque IDs:
 

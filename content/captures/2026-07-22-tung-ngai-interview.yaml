@@ -1,0 +1,81 @@
+schemaVersion: 1.0.0
+id: 2026-07-22-tung-ngai-interview
+capturedAt: 2026-07-22T12:45:00.000Z
+title: Tung & Ngai Foundation Scholarship final interview shortlist
+rawText: >-
+  Shortlisted for Tung & Ngai Foundation Selection Panel interview.
+  Slot 28 July 2026 15:40–15:55. Email frame: background, achievements, aspirations.
+  Revision request: soft identity (do not lead with Shanghai/HK); trio prep English then
+  Mandarin then Cantonese; bank service (Wu Zhi Qiao, upcoming Colombia LiA / makesense
+  Americas) because HKU panel stressed service while dossier leans research; research as
+  prerequisite for service. Working language guess: mostly English.
+spark: >-
+  Reframe from identity-forward seam story to service-forward English-primary trio track;
+  keep seam thesis mid-interview; LiA must stay planned/upcoming tense.
+domains:
+  - opportunity
+  - career
+  - research
+ask: use
+visibility: operator
+status: acted
+links:
+  - https://tungngaifoundation.org/
+  - https://tungngaifoundation.org/eligibility/
+  - https://tungngaifoundation.org/application-timeline/
+  - https://tungngaifoundation.org/mission/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+  - https://github.com/bobshenruililin/My-Life
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+triangulation:
+  againstCanon:
+    - Medicine closed — keep CHP/public-health service frame; no clinical reopen
+    - JD after UG only if asked — not Year-1 transfer pitch
+    - Family capital = advantage and distortion — do not overclaim financial need
+    - Depth over speed; fieldwork-first matches Wu Zhi Qiao / Gannan
+  informationGaps:
+    - Exact concurrent-award rule vs Laidlaw during T&N tenure
+    - Confirmed interview language (working assumption English-primary)
+    - LiA Colombia dates/deliverables once fixed — keep planned tense until then
+  opportunityGaps:
+    - Lead with service evidence HKU already rewarded in nomination
+    - English automatic; Mandarin expandable; Cantonese chunked scripts only
+    - Bind Laidlaw heat research to service readiness + South-South LiA
+  falseBargains:
+    - Opening with controversial identity instead of background/achievements/aspirations
+    - Speaking about Colombia LiA as completed
+    - Hiding research instead of framing it as prerequisite for service
+    - Over-rehearsing Cantonese at cost of English mastery if English dominates
+  corrections:
+    - Soft identity — Shanghai/HK only if asked
+    - "Language odds revised toward mostly English per operator read; still prep all three"
+    - "Service bank order: Wu Zhi Qiao first, then Laidlaw→service, then planned LiA"
+  suggestedImplementations:
+    - action: Drill English soft open + WZQ + research-as-prerequisite daily
+      rationale: English-primary working assumption; HKU stressed service
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Rehearse Mandarin Q5/Q6/Q8 once daily; Cantonese open + rescue lines only
+      rationale: Conserve working memory for Cantonese speak-not-think mode
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Confirm Laidlaw concurrent-award rule with HKU Scholarships
+      rationale: Declaration risk; clarify before panel
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Review docs/tung-ngai-scholar-cohort-dataset.md Cards A-F and reply KEEP/ADAPT/DROP
+      rationale: Turns cohort crawl into operator-directed learning-proposal reimagine
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: >-
+  Operator-plane record. No HKID, phones, address, DOB, or household income figures.
+  Application docx contained PII — never commit those fields.
+  Scholar cohort notes use only public LinkedIn/university signals; no private contact scraping.

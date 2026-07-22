@@ -1,0 +1,57 @@
+schemaVersion: 1.0.0
+id: narrative-archaeology
+title: Narrative archaeology (fanfiction corpus)
+owner: bob
+status: parked
+priority: later
+home:
+  kind: new-repo-after-validation
+  proposedRepo: narrative-archaeology
+thesis: >-
+  Structured, evidence-cited reading of AI-assisted fanfiction across age
+  periods can surface recurring narrative patterns and questions — as personal
+  hermeneutics, not clinical psychology or a product.
+nonGoals:
+  - Diagnosis, personality typing, or attachment labels for Bob
+  - Publishing a psychological profile
+  - Hosting/scraping fanfiction corpora
+  - Multi-week tooling before a weekend memo proves value
+activationCriteria:
+  - Complete one weekend manual memo (sample → code → disconfirm → write)
+  - Voluntarily want a second corpus pass
+  - Claim-tracing — not writing — is the proven bottleneck
+successMetric:
+  measure: Useful personal questions, not a theory of self
+  target: >-
+    One 5–10 page private memo with ≥5 patterns each having evidence,
+    counterevidence, confounds, and confidence; stop after one revision unless
+    a sharper question appears.
+  window: First dedicated weekend after activation
+killCriteria:
+  - Setup exceeds 2 hours before first substantive claim
+  - Plain reading notes beat any tool
+  - Temptation to publish raw excerpts or third-party-mapped characters
+evidence:
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Curiosity about change over time; keep vault-only.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Full texts, prompts, real-person mappings, private memo
+buildPrompt: |-
+  Prefer WEEKEND RITUAL first — do not scaffold repo until activationCriteria pass.
+
+  Weekend method:
+  1) Preserve provenance (dates, fandom, prompt/output/revision layers).
+  2) Human-first stratified sample before any LLM synthesis.
+  3) Code themes/agency/status/narrative-attachment/moral worlds/endings.
+  4) LLM hypothesizer with mandatory disconfirmation pass; local model preferred.
+  5) Private memo template; no diagnostic language.
+
+  If tooling still needed: NEW private repo narrative-archaeology, local-only CLI,
+  gitignored vault corpus, synthetic fixtures in git, no hosted APIs by default,
+  no profile generator. Full Sol private-repo prompt (2026-07-22) belongs in the
+  private vault when activated — not in public git history as corpus.
+createdOn: 2026-07-22
+updatedOn: 2026-07-22
+reviewOn: 2026-10-15

@@ -1,0 +1,169 @@
+%------------------------
+% Shen Ruililin Résumé — compact 1-page
+% Updated 2026-07-22
+% Compile: tectonic -X compile ShenRuililin_CV.tex
+%   or:    pdflatex ShenRuililin_CV.tex
+%------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{newpxtext}
+\linespread{1.02}
+\usepackage[T1]{fontenc}
+
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-6pt}]
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.25in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4pt}
+
+\newcommand{\cvitem}[1]{\item\small{#1\vspace{-3pt}}}
+\newcommand{\cvheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\cvheadingstart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\cvheadingend}{\end{itemize}}
+\newcommand{\cvitemstart}{\begin{itemize}[label=\textbullet,itemsep=0pt,topsep=1pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\cvitemend}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Shen Ruililin} \\
+  \vspace{1pt}\small
+  \href{mailto:bobshenruililin@gmail.com}{bobshenruililin@gmail.com}\ $\diamond$\
+  \href{mailto:shenrll@connect.hku.hk}{shenrll@connect.hku.hk}\ $\diamond$\
+  +852 5573 6530\ $\diamond$\
+  \href{https://www.linkedin.com/in/shenruililin/}{linkedin.com/in/shenruililin}
+\end{center}
+
+\vspace{1pt}
+\small{HKUMed Global Health and Development student building an \textbf{evidence-to-service} pathway: climate--health research, Mainland rural fieldwork, and cross-boundary public-health practice. Research since secondary school; Laidlaw Scholar since Jan~2026; completed Wu Zhi Qiao coordination (May--Jun~2026).}
+
+\section{Education}
+\cvheadingstart
+  \cvheading
+    {The University of Hong Kong}{Hong Kong SAR}
+    {BASc Global Health and Development, HKUMed \textbar\ Year GPA 4.24/4.30}{2025 -- 2029}
+  \cvitemstart
+    \cvitem{Epidemiology, health economics, social policy; St.\ John's College (2025--). Aim: China CDC field placement; HK--Mainland disease-control cooperation.}
+  \cvitemend
+  \cvheading
+    {Po Leung Kuk Choi Kai Yau School}{Hong Kong SAR}
+    {IBDP 41/45 \textbar\ IGCSE 8A*, 2A}{2019 -- 2025}
+  \cvitemstart
+    \cvitem{\textbf{Class Monitor} (2022--25). \textbf{Medical Club Co-founder \& Leader} (2023--24): clinician sessions, CPR training; 80+ members.}
+  \cvitemend
+\cvheadingend
+
+\section{Research}
+\cvheadingstart
+  \cvheading
+    {Laidlaw Scholars Programme, HKU}{Hong Kong SAR}
+    {Undergraduate Research Scholar --- climate \& cardiovascular health}{Jan 2026 -- Present}
+  \cvitemstart
+    \cvitem{Heat and cardiovascular admissions among older adults (Hospital Authority multi-year data), Prof.\ David Bishai climate--health team; dual-season preparedness / heat--health surveillance focus.}
+    \cvitem{\textbf{Upcoming:} Laidlaw Conference, London (Oct 2026); Leadership in Action with makesense --- Medell\'{i}n / Mexico City (next summer).}
+  \cvitemend
+  \cvheading
+    {Hong Kong Observatory \& PolyU MicroLARGE Lab}{Hong Kong SAR}
+    {Research Intern, Junior Researcher Mentoring Programme}{Feb 2024 -- Jul 2024}
+  \cvitemstart
+    \cvitem{GraphCast integration modelling for HK forecasting; atmospheric-rivers identification concept presented at AGU.}
+  \cvitemend
+  \cvheading
+    {HKUST IAS Center for Quantum Technologies}{Hong Kong SAR}
+    {Research Intern, Quantum Computing for Gifted Students Scheme}{Jul 2023 -- Mar 2024}
+  \cvitemstart
+    \cvitem{Qiskit models and SpinQ auto-calibration; seminar on entanglement versus measurement.}
+  \cvitemend
+\cvheadingend
+
+\section{Selected Experiences \& Service}
+\cvheadingstart
+  \cvheading
+    {HKU Wu Zhi Qiao / Horizons}{Mainland China (Gansu)}
+    {Student Coordinator; Gannan Horizons fieldwork}{Mar 2026 -- Jun 2026}
+  \cvitemstart
+    \cvitem{Completed rural health/infrastructure service as coordinator (May--Jun); March Gannan fieldwork on livelihoods, culture, and trust.}
+  \cvitemend
+  \cvheading
+    {Hong Kong Laureate Forum}{Hong Kong SAR}
+    {Forum Ambassador}{Sep 2025 -- Nov 2025}
+  \cvitemstart
+    \cvitem{Coordinated with 20+ Shaw Laureates, young scientists, and Secretariat across the four-day Forum.}
+  \cvitemend
+  \cvheading
+    {World Health Summit \textbar\ HKUMed Peer Teaching}{Berlin / Hong Kong}
+    {HKU Delegate \textbar\ Peer Mentor and Teacher}{2025 -- 2026}
+  \cvitemstart
+    \cvitem{WHS Berlin delegate (2025). Near-peer teaching/mentoring in HKUMed peer teaching pathway (2025--26).}
+  \cvitemend
+  \cvheading
+    {Asian Spring Program on Rationality}{Taoyuan, Taiwan}
+    {Fully-funded Scholar (1 of 20 globally)}{Feb 2025}
+  \cvitemstart
+    \cvitem{Game theory, Bayesian inference, and Fermi estimation (10 days).}
+  \cvitemend
+  \cvheading
+    {MIT Hong Kong Innovation Node}{Cambridge / Hong Kong}
+    {Youth Fellow; MEDocGPT co-founder}{Jul 2023 -- Sep 2023}
+  \cvitemstart
+    \cvitem{Prototyped AI-assisted early health consultation concepts with entrepreneurs, students, and clinicians.}
+  \cvitemend
+  \cvheading
+    {Community service (selected)}{Hong Kong SAR}
+    {Volunteer roles}{2023 -- 2025}
+  \cvitemstart
+    \cvitem{Food Angel \& Refugee Union (CAS); Society of True Light; STEM TA, St.\ Paul's Co-Ed Summer Portal.}
+  \cvitemend
+\cvheadingend
+
+\section{Selected Upcoming}
+\vspace{0pt}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\small}p{2.05in} X@{}}
+GEST, Valencia & \small Invited speaker (environmental science) --- Oct 2026 \\[1pt]
+Laidlaw Conference, London & \small Scholar conference --- Oct 2026 \\[1pt]
+LINK-S, Shanghai & \small HKU LINK-S winter programme --- 2026/27 \\[1pt]
+makesense LiA & \small Medell\'{i}n, Colombia / Mexico City, Mexico --- next summer \\
+\end{tabularx}
+
+\section{Selected Awards}
+\vspace{0pt}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\small}p{2.05in} X@{}}
+Laidlaw Undergraduate Research \& Leadership Scholarship & \small 2025--26 \\[1pt]
+Tam Wun Tsun HKU Horizons Student Enrichment Award & \small 2025--26 \\[1pt]
+PLKCKY IB Academic Scholarship & \small 2024--25 \\[1pt]
+Hong Kong Young Writers' Award & \small 2024 Bauhinia Club Award \textbar\ 1st/1400+ \\[1pt]
+IYPT (Hong Kong) & \small 2022 Champion; 2021 1st Runner-up \\[1pt]
+World Scholars' Cup & \small 2023 HK Champion; Bangkok Global Round 13th/300+ \\[1pt]
+AI Formula Edge Racing & \small 2023 HK \& Greater Bay Area Champion \\
+\end{tabularx}
+
+\end{document}

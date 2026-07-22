@@ -14,7 +14,7 @@
 
 | Dimension | You | Strong cohort examples | Read |
 |-----------|-----|------------------------|------|
-| Academic signal | GPA 4.24/4.30 | Ariel Dean’s List; Natalie Dean’s List; Thomas Ku Dean’s List | **You punch at the top** |
+| Academic signal | GPA 4.09/4.30 | Ariel Dean’s List; Natalie Dean’s List; Thomas Ku Dean’s List | **You punch at the top** |
 | Research continuity | HS research + Laidlaw since Jan | Ariel multi-lab; Thomas Hui research posts | **Peer to Ariel’s seriousness**; your topic is more policy-returnable |
 | Service / Mainland field | **WZQ done May–Jun** + Gannan | Ariel tours; Forsen Shenzhen PE; many T&N profiles thinner on rural service | **Advantage vs finance/quant T&N faces**; less multi-year NGO than DH Chen’s Henry/Carolyn |
 | China competence path | WZQ Gansu → LINK-S Shanghai winter → China CDC aim | Forsen Shenzhen; Ariel Harbin/Beijing/Shenzhen; Alistair Guangzhou | **Trajectory is strong**; CDC aim is rare and Foundation-aligned if humble |
@@ -125,7 +125,7 @@ Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Develop
 
 **Background.** I learn where health systems meet ordinary life. I’ve done research since secondary school; since January, Laidlaw work on heat and cardiovascular admissions. In May–June I completed Wu Zhi Qiao service in Mainland rural health and infrastructure, after Gannan fieldwork that taught me trust comes before protocols.
 
-**Achievements.** Year GPA 4.24/4.30. The achievement I care about is turning evidence toward service: research that can become preparedness, and service that stays humble. This October I’ve been invited to speak at GEST in Valencia and will also join the Laidlaw conference in London — public stages for that translation.
+**Achievements.** Cumulative GPA 4.09/4.30. The achievement I care about is turning evidence toward service: research that can become preparedness, and service that stays humble. This October I’ve been invited to speak at GEST in Valencia and will also join the Laidlaw conference in London — public stages for that translation.
 
 **Aspirations.** I want to serve at the Hong Kong–Mainland public-health interface — long term toward CHP cross-boundary work, and in my degree I’m aiming for a China CDC field placement. This winter I’ll go to Shanghai through LINK-S; next summer, Laidlaw Leadership in Action with makesense in Medellín and Mexico City, to learn community mobilisation for climate-health and bring methods home. I’m applying because this Foundation asks for affection for Hong Kong and commitment to China’s development — and holds scholars to returning capacity.
 

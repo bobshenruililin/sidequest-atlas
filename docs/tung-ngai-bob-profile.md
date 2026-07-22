@@ -17,7 +17,7 @@
 ## Academic
 
 - HKU BASc Global Health and Development, Year 1 (2025/26)  
-- GPA **4.24/4.30**  
+- GPA **4.09/4.30**  
 - IB 41 (English A 7; Chinese A 6 + Chinese EE A)  
 - Long-term aspiration in submitted materials: CHP cross-boundary disease control; JD **after** UG as regulatory tool only if asked — **not** Year-1 law transfer in interview
 

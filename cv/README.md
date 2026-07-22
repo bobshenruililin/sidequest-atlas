@@ -22,7 +22,7 @@ pdflatex -interaction=nonstopmode ShenRuililin_CV.tex
 Edited from the existing Jake-style template (not a redesign).
 
 **Added (verified):**
-- Year GPA 4.24/4.30 (as a bullet — not on the date row)
+- Cumulative GPA 4.09/4.30 (as a bullet — not on the date row; updated after Semester 2)
 - Laidlaw Scholars research (Jan 2026–Present) + Laidlaw award row
 - Wu Zhi Qiao / Gannan Horizons (Mar–Jun 2026, completed)
 

@@ -69,7 +69,7 @@ Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Develop
 
 **Background.** I’ve done research since secondary school; Laidlaw since January on heat and cardiovascular admissions. In May–June I completed Wu Zhi Qiao Mainland rural health and infrastructure service, after Gannan fieldwork that taught me trust comes before protocols.
 
-**Achievements.** Year GPA 4.24/4.30. The thread I care about is research as prerequisite for service. This October: Laidlaw conference in London, and GEST in Valencia as invited speaker.
+**Achievements.** Cumulative GPA 4.09/4.30. The thread I care about is research as prerequisite for service. This October: Laidlaw conference in London, and GEST in Valencia as invited speaker.
 
 **Aspirations.** Serve at the Hong Kong–Mainland public-health interface — toward CHP cross-boundary work; aiming for a China CDC field placement in my degree. Winter: LINK-S Shanghai. Next summer: makesense LiA in Medellín / Mexico City. I want to be held to affection for Hong Kong and commitment to China’s development — returning capacity, not collecting stamps.
 

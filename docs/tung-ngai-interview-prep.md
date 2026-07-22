@@ -8,6 +8,7 @@
 | Track | File |
 |-------|------|
 | **Read-back profile (start here)** | `docs/tung-ngai-bob-profile.md` |
+| **Days / hours / minutes prep** | `docs/tung-ngai-prep-schedule.md` |
 | Competitiveness + ADAPT complements | `docs/tung-ngai-complements-and-competitiveness.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
 | Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |

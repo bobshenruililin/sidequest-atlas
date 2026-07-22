@@ -4318,6 +4318,13 @@
                   "interpreted",
                   "hypothesis"
                 ]
+              },
+              "sourceJournalRefs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
               }
             },
             "required": [

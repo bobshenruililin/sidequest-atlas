@@ -106,6 +106,13 @@
           },
           "default": []
         },
+        "relatedJournalEntries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
         "triangulation": {
           "type": "object",
           "properties": {

@@ -200,6 +200,7 @@ export const ObservationSchema = z.object({
   private: z.boolean().default(false),
   mediaIds: z.array(z.string()).optional(),
   certainty: z.enum(["noticed", "interpreted", "hypothesis"]).optional(),
+  sourceJournalRefs: z.array(z.string()).default([]),
 });
 export type Observation = z.infer<typeof ObservationSchema>;
 

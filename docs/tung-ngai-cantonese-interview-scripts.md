@@ -42,7 +42,7 @@ jau4 ji6 gung1 fuk6 mou6, tung4 hok6 gaau3 hok6, dou3 mou4 zi2 kiu4 ge3 hoeng1 c
 ### Chunk 3
 
 我比較重視嘅成就，唔係一張證書，而係幾件事連埋一條線。
-我嘅 GPA 係 4.24/4.30；Laidlaw 研究睇高溫同心血管入院；同時我喺服務同教學入面，學點樣聽人講真正需要。
+我嘅 GPA 係 4.09/4.30；Laidlaw 研究睇高溫同心血管入院；同時我喺服務同教學入面，學點樣聽人講真正需要。
 
 Jyutping:
 ngo5 bei2 gaau3 zung6 si6 ge3 sing4 zau6, m4 hai6 jat1 zoeng1 zing3 syu1, ji4 hai6 gei2 gin6 si6 lin4 maai4 jat1 tiu4 sin3.
@@ -115,7 +115,7 @@ ngo5 hei1 mong6 zoeng1 jin4 gau3, hoeng1 gong2 ge3 zai3 dou6 jau1 sai3, tung4 no
 ### Chunk 1
 
 如果講最大成就，我唔會淨係講 GPA。
-雖然我嘅 GPA 係 4.24/4.30，但我更珍惜嘅，係我開始搵到一條自己相信嘅路。
+雖然我嘅 GPA 係 4.09/4.30，但我更珍惜嘅，係我開始搵到一條自己相信嘅路。
 
 Jyutping:
 jyu4 gwo2 gong2 zeoi3 daai6 sing4 zau6, ngo5 m4 wui5 zing6 hai6 gong2 GPA.
@@ -761,7 +761,7 @@ ngo5 soeng2 zou6 ge3 m4 hai6 gaan2 bin1 jat1 bin1, ji4 hai6 hai2 gaau1 gaai3 wai
 - **Laidlaw**：照英文講；後面補「研究」或「LiA 計劃」。
 - **makesense Americas**：照英文講；補「相關工作」。
 - **Food Angel / Refugee Union / STEM TA**：照英文講；唔好即場翻譯到好怪。
-- **GPA 4.24/4.30**：講「四點二四 out of 四點三零」會比逐個數字更自然。
+- **GPA 4.09/4.30**：講「四點零九 out of 四點三零」會比逐個數字更自然。
 
 ## D. 內容安全線
 

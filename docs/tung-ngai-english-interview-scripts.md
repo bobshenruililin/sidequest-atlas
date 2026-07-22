@@ -17,7 +17,7 @@ I’ll take the three points in your email briefly.
 
 **Background.** I learn by going to where health systems meet ordinary life — volunteering in Hong Kong, peer teaching, and Mainland rural service through Wu Zhi Qiao, after Gannan fieldwork that taught me trust comes before any protocol.
 
-**Achievements.** My Year GPA is 4.24 out of 4.30. Through Laidlaw I study heat and cardiovascular admissions in Hong Kong. I treat that research as a prerequisite for service: understand who is harmed, then design preparedness people can use.
+**Achievements.** My cumulative GPA is 4.09 out of 4.30. Through Laidlaw I study heat and cardiovascular admissions in Hong Kong. I treat that research as a prerequisite for service: understand who is harmed, then design preparedness people can use.
 
 **Aspirations.** I want to serve at the Hong Kong–Mainland public-health interface — long term at the Centre for Health Protection on cross-boundary disease control. My upcoming Laidlaw Leadership in Action with makesense Americas will practise climate-health community mobilization in a Global South setting, so Hong Kong evidence can travel as South-South learning.
 
@@ -39,7 +39,7 @@ So my background is not a list of activities. It is a habit: listen first, then 
 
 If I pick one thread, it is connecting evidence to service.
 
-Academically, my Year GPA is 4.24 out of 4.30. Through Laidlaw, with Professor Bishai’s team, I analyse heat and cardiovascular admissions using Hospital Authority data across many months. The point is dual-season hospital preparedness and better surveillance thinking — so older people are protected before harm becomes acute.
+Academically, my Year GPA is 4.09 out of 4.30. Through Laidlaw, with Professor Bishai’s team, I analyse heat and cardiovascular admissions using Hospital Authority data across many months. The point is dual-season hospital preparedness and better surveillance thinking — so older people are protected before harm becomes acute.
 
 On the service side, Wu Zhi Qiao is the achievement I care about most right now, because it turns that discipline into Mainland rural responsibility. Peer mentoring at HKUMed, Food Angel and Refugee Union volunteering, and STEM teaching assistant work keep me accountable to people, not only datasets.
 

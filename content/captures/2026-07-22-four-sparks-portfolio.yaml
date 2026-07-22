@@ -1,0 +1,74 @@
+schemaVersion: 1.0.0
+id: 2026-07-22-four-sparks-portfolio
+capturedAt: 2026-07-22T06:56:00.000Z
+title: Four sparks and a multi-repo board
+rawText: >-
+  Ideas: (1) law textbook/notes agent skill with top students; (2) daily travel
+  journals bouncing with agent in Atlas — implement; (3) housing tour app —
+  maybe commercial; (4) fanfic psych archaeology. Prefer not everything in this
+  repo; MVPs + viability; project board with long prompts for new repos. Use
+  GPT-5.6 Sol. Compounding is all we need.
+spark: >-
+  Portfolio architecture moment — separate homes, board as router, journal is
+  the only near-term Atlas build.
+domains:
+  - idea
+  - career
+  - travel
+ask: synthesize
+visibility: operator
+status: triaged
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+triangulation:
+  againstCanon:
+    - Compounding over monorepo empire
+    - Optionality rate; ordinary law floor; medicine closed; grey door closed
+    - Atlas = router + travel OS, not life dump
+  informationGaps:
+    - Manual law worksheet not yet run (activation gate)
+    - Whether Nordics journaling habit sticks before building polish
+  opportunityGaps:
+    - Project board in Atlas with kill criteria and build prompts
+    - Journal MVP before 2026-08-06
+    - Law study as new repo only after manual 5-session gate
+  falseBargains:
+    - Building law/housing/fanfic apps inside Atlas
+    - Textbook ingestion as moat
+    - Housing startup framing before non-family reuse
+    - Multi-week psych tooling before a weekend memo
+  corrections:
+    - >-
+      Law idea should be evidence-constrained reasoning coach, not textbook RAG
+      over top notes
+    - Housing venture framing should be killed; fieldwork notebook may live
+    - Fanfic analysis is hermeneutics, not diagnosis
+  suggestedImplementations:
+    - action: Add content/projects board + ProjectRecord schema + atlas project list/show/prompt
+      rationale: Durable prompts without absorbing foreign products
+      effort: M
+      leverage: high
+      owner: agent
+    - action: Implement travel journal MVP in Atlas before Nordics
+      rationale: Only idea Bob marked implement-now; trip starts soon
+      effort: M
+      leverage: high
+      owner: agent
+    - action: Park law-study-lab until five manual sessions prove need
+      rationale: Sol kill criteria — worksheet may beat software
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Park housing and narrative archaeology behind activation gates
+      rationale: Avoid prestige-project sprawl during Laidlaw + Nordics
+      effort: S
+      leverage: high
+      owner: shared
+privacyNote: Operator-plane synthesis. No vault secrets.

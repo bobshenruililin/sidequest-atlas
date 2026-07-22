@@ -1,0 +1,74 @@
+schemaVersion: 1.0.0
+id: law-study-lab
+title: Law study skill laboratory
+owner: bob
+status: validating
+priority: next
+home:
+  kind: new-repo-after-validation
+  proposedRepo: law-study-lab
+thesis: >-
+  An evidence-constrained legal reasoning coach — original hypotheticals,
+  contributor process heuristics, citations, rubrics, transfer tests — can
+  improve polarized law outcomes better than textbook RAG over top notes.
+nonGoals:
+  - Ingesting commercial textbooks or lecture slides
+  - Selling “top student notes”
+  - Grade/PCLL prediction
+  - Submission-ready essay generation
+  - Building inside Sidequest Atlas or My-Life
+activationCriteria:
+  - Complete five manual worksheet sessions (issue map → outline → error ledger)
+  - Show recurring errors a tool would catch better than Markdown
+  - Separate approval from the transfer decision
+successMetric:
+  measure: Sustained practice + transfer improvement
+  target: >-
+    After activation, 8/10 sessions in 21 days; one rubric dimension improves
+    ≥1 level; tool overhead <5 minutes/session.
+  window: First 21 days after activation
+killCriteria:
+  - Fewer than six sessions completed
+  - Worksheet equals software value
+  - Value is mostly summaries vs transfer
+  - Rights/consent cannot stay clean
+evidence:
+  - captureId: 2026-07-22-floor-tests-law-path
+    implication: Ordinary law floor accepted — train the boring middle.
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Collaborate with top students via process, not note dumps.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Grades, offers, transfer correspondence
+    - Contributor identities without consent
+    - Licensed course materials
+buildPrompt: |-
+  Execute ONLY after status=approved. Create NEW repo law-study-lab.
+  Branch cursor/law-skill-mvp-8004. Never push main. Never modify Atlas.
+
+  Product: local-first evidence-constrained Contract I coach for offer &
+  acceptance (HK context). Rights-cleared / synthetic sources only.
+
+  Build TypeScript app (Next.js App Router + SQLite + Zod + Vitest + Playwright)
+  with SkillPackage, SourceDocument rights ledger, ConsentRecord, Hypotheticals
+  (baseline/guided/transfer), DoctrinalClaim with pinpoint citations, Rubric,
+  LearningSession, ErrorLedger, Evaluation harness CLI with release gates.
+
+  Coaching asks before telling; never polished IRAC essays; abstain without
+  sources; block possible live assessment; default-deny rights; no telemetry;
+  no textbook ingestion; no fine-tuning; no payments.
+
+  Contributor protocol: think-aloud on ORIGINAL hypos — not full note archives.
+  Separate model-training consent (default false).
+
+  Docs: PRODUCT_SCOPE, RIGHTS_AND_CONSENT, PRIVACY, THREAT_MODEL,
+  ASSESSMENT_INTEGRITY, EVALUATION, CONTRIBUTOR_PROTOCOL, LIMITATIONS.
+
+  Ship when mock-provider eval gates pass and a closed synthetic pilot can run.
+  Full detailed scaffold prompt is archived in vault/life-canon after copy from
+  Sol 2026-07-22 memo if needed — keep public board prompt actionable but
+  non-secret.
+createdOn: 2026-07-22
+updatedOn: 2026-07-22
+reviewOn: 2026-08-24

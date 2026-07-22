@@ -1,0 +1,62 @@
+schemaVersion: 1.0.0
+id: housing-tour-kit
+title: Housing tour comparison kit
+owner: bob
+status: parked
+priority: later
+home:
+  kind: new-repo-after-validation
+  proposedRepo: flatfield
+thesis: >-
+  A private offline tour ledger that captures Keep/Hold/Cut impressions in
+  seconds, separates agent claims from verified facts, and exports a diligence
+  packet — not another listings/trends portal.
+nonGoals:
+  - Scraping portals or building a marketplace
+  - Valuation, mortgage advice, or public unit reviews
+  - Cross-border HK/SZ/SH data product v1
+  - Luxury-tour cosplay as “customer research”
+activationCriteria:
+  - At least three real legitimate tours expected within 30 days
+  - Paper/phone-shortcut prototype used twice
+  - Five non-family users voluntarily reuse (for separate-repo gate)
+successMetric:
+  measure: Capture friction + decision usefulness
+  target: >-
+    Five tours; each record <4 minutes; at least one ranking/trade-off memory
+    alone would have missed.
+  window: First five real tours after activation
+killCriteria:
+  - No qualifying tour window in 90 days
+  - Notes/camera roll wins after side-by-side use
+  - Entry distracts from observing the property
+  - Venture framing returns without paid institutional demand
+evidence:
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Commercial viability unknown; fieldwork first.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Addresses, photos, offers, budgets, agent identities
+buildPrompt: |-
+  Execute ONLY after activation. Create NEW repo flatfield (codename).
+  Branch cursor/flatfield-mvp-8004. Local-first PWA. No Atlas coupling.
+
+  Mission: <30s offline capture between flats. Separate personally_observed /
+  opinion / agent_claim / inference / document_verified / official_verified.
+
+  Stack: Vite + React + TS + Dexie + Zod + vitest + Playwright + PWA.
+  No backend, auth, analytics, maps, scraping, LLM, payments.
+
+  Screens: privacy onboarding, sessions, pre-tour aliases, active capture
+  (Keep/Hold/Cut + chips + claim), claims inbox, two-property compare,
+  export/import, deletion.
+
+  Persist every tap; hard-close recovery; synthetic fixtures only; CSP;
+  no third-party requests in e2e.
+
+  Full Sol scaffold prompt (2026-07-22) may be pasted into the new repo README
+  Issues when activated — keep this board entry as the gate + non-goals.
+createdOn: 2026-07-22
+updatedOn: 2026-07-22
+reviewOn: 2026-10-01

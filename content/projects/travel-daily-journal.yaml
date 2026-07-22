@@ -1,0 +1,81 @@
+schemaVersion: 1.0.0
+id: travel-daily-journal
+title: Travel daily journals (compounding fieldwork)
+owner: bob
+status: approved
+priority: now
+home:
+  kind: existing-repo
+  repo: sidequest-atlas
+thesis: >-
+  Short daily journals during trips preserve ordinary-life observations that
+  vanish from retrospective summaries, and feed observations, decisions, captures,
+  and post-trip synthesis — without becoming a social diary product.
+nonGoals:
+  - Social feed, streaks, gamification, or AI-written memories as default
+  - Auto-publishing raw diary text
+  - Putting private journals in public trip.yaml
+  - Replacing /compound captures with diary spam
+activationCriteria:
+  - CLI workflow completable in under 10 minutes
+  - Clear vault-raw vs curated-public boundary
+  - Dry-run twice before 2026-08-06
+successMetric:
+  measure: Adoption and synthesis usefulness during Nordics 2026
+  target: >-
+    At least 10 journal days between 2026-08-06 and 2026-08-20; post-trip
+    synthesis cites at least 5 journal-derived observations.
+  window: 2026-08-06 through 2026-08-27
+killCriteria:
+  - Structured entry exceeds 10 minutes twice without value
+  - Publication pressure changes what gets noticed
+  - Captures already provide equivalent synthesis with less friction
+evidence:
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Only idea marked implement-now; trip imminent.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Raw diary fragments
+    - Precise locations, bookings, private persons
+buildPrompt: |-
+  Work only in sidequest-atlas on branch cursor/travel-journal-8004.
+
+  Build a CLI-first daily journal loop aligned with OPERATOR_DOCTRINE and capture.
+
+  Data model:
+  - New JournalEntry schema (do not overload Observation or CaptureRecord).
+  - Store RAW entries under vault/life-canon/journals/<trip>/<YYYY-MM-DD>.yaml
+    (gitignored). Append-only fragments; revision + digest.
+  - Optional curated public derivatives under content/trips/<trip>/journal/ only
+    after explicit promote + privacy audit. Never treat Observation.private in
+    public git as privacy.
+  - Agent reflections are separate objects with evidenceFragmentIds; never blend
+    agent prose into traveler testimony.
+  - Promotion candidates: observation | decision | capture | canon-insight.
+    Promote only via `atlas journal promote ... --approve`.
+
+  CLI:
+  atlas journal add|list|show|context|commit|promote|close
+  Prefer --input file / editor over --text for vault material (shell history).
+  Jobs store IDs/hashes only — not raw journal bodies.
+  stdout for vault ops prints metadata only.
+
+  Slash + prompt:
+  .cursor/commands/journal.md and agents/prompts/daily-journaler.md
+  Depth modes: quick (2–5 min) and deep (15–25 min). Max one bounce question
+  unless deep mode. No invented facts, motives, prices, or hours.
+
+  Policy:
+  Resolve vault-access conflict — compounder may read life-canon INDEX and
+  journal metadata; raw journal bodies only via explicit paste or approved
+  handoff file under generated/ (gitignored).
+
+  Tests: append/revision, stale commit reject, promote idempotency, privacy
+  audit, schema check. No new major dependencies without ADR.
+
+  Acceptance: Bob can add a short note offline-capable via files, bounce once,
+  and later recover which observations/captures came from which journal day.
+createdOn: 2026-07-22
+updatedOn: 2026-07-22
+reviewOn: 2026-08-01

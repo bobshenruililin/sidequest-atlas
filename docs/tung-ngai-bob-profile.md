@@ -66,6 +66,7 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 
 ## Related files
 
+- `docs/tung-ngai-prep-schedule.md` — days / hours / minutes practice plan  
 - `docs/tung-ngai-interview-prep.md`  
 - `docs/tung-ngai-english-interview-scripts.md` (+ CMN/YUE)  
 - `docs/tung-ngai-scholar-cohort-dataset.md`  

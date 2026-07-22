@@ -2,7 +2,7 @@ schemaVersion: 1.0.0
 id: travel-daily-journal
 title: Travel daily journals (compounding fieldwork)
 owner: bob
-status: approved
+status: live
 priority: now
 home:
   kind: existing-repo
@@ -77,5 +77,5 @@ buildPrompt: |-
   Acceptance: Bob can add a short note offline-capable via files, bounce once,
   and later recover which observations/captures came from which journal day.
 createdOn: 2026-07-22
-updatedOn: 2026-07-22
+updatedOn: "2026-07-22"
 reviewOn: 2026-08-01

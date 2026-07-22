@@ -11,6 +11,7 @@ Specialist prompts for Cursor operators. All prompts must:
 | Prompt | Output |
 |--------|--------|
 | [compounder.md](compounder.md) | Capture triangulation → CaptureRecord |
+| [daily-journaler.md](daily-journaler.md) | Trip journal reflection → journal commit/promote |
 | [orchestrator.md](orchestrator.md) | Job sequencing |
 | [destination-researcher.md](destination-researcher.md) | City layers |
 | [food-fieldworker.md](food-fieldworker.md) | Food strategy |

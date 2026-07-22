@@ -19,7 +19,11 @@ locations, or environment variables.
 
 Never push directly to main.
 
-Never access the private vault.
+Never publish vault material to the public read plane or GitHub Pages.
+
+Vault access is denied by default. Exception: `atlas journal` / `/journal` and
+explicit life-canon capture work may read/write `vault/life-canon/**` without
+printing raw diary bodies unless the traveler asks to review an entry.
 
 Never alter GitHub Actions permissions without explicit human approval.
 

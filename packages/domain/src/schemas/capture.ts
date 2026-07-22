@@ -92,6 +92,7 @@ export const CaptureRecordSchema = z.object({
   relatedTrips: z.array(z.string()).default([]),
   relatedRepos: z.array(z.string()).default([]),
   relatedCaptures: z.array(z.string()).default([]),
+  relatedJournalEntries: z.array(z.string()).default([]),
   triangulation: CaptureTriangulationSchema.optional(),
   privacyNote: z.string().optional(),
 });

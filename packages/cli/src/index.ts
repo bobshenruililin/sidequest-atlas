@@ -41,6 +41,7 @@ import {
   lock,
   type JobOperation,
 } from "./jobs.js";
+import { handleJournalCommand } from "./journal.js";
 
 export { complete, createJob, fail, inputHash, lock } from "./jobs.js";
 
@@ -70,6 +71,9 @@ export async function main(argv = process.argv.slice(2)): Promise<void> {
       return;
     case "capture":
       await handleCaptureCommand(repoRoot, actionOrSlug, rest);
+      return;
+    case "journal":
+      await handleJournalCommand(repoRoot, actionOrSlug, rest);
       return;
     case "sources":
       await handleSourcesCommand(repoRoot, actionOrSlug, rest);
@@ -685,6 +689,7 @@ function printUsage(): void {
       "Commands:",
       "  trip create|research|synthesize|validate|revise|publish|archive",
       "  capture inbox|commit|list|show",
+      "  journal add|list|show|context|commit|promote|close",
       "  sources refresh|audit",
       "  privacy audit",
       "  schema check|migrate",

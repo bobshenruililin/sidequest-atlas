@@ -70,6 +70,12 @@ triangulation:
       effort: S
       leverage: high
       owner: bob
+    - action: Review docs/tung-ngai-scholar-cohort-dataset.md Cards A-F and reply KEEP/ADAPT/DROP
+      rationale: Turns cohort crawl into operator-directed learning-proposal reimagine
+      effort: S
+      leverage: high
+      owner: bob
 privacyNote: >-
   Operator-plane record. No HKID, phones, address, DOB, or household income figures.
   Application docx contained PII — never commit those fields.
+  Scholar cohort notes use only public LinkedIn/university signals; no private contact scraping.

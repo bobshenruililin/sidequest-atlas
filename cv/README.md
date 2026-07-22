@@ -19,20 +19,27 @@ pdflatex -interaction=nonstopmode ShenRuililin_CV.tex
 
 ## Update notes (2026-07-22)
 
-Verified additions (from application dossier + operator timeline):
+Edited from the existing Jake-style template (not a redesign).
 
-- Year GPA 4.24/4.30; evidence-to-service profile line
-- Laidlaw research (Jan 2026–) with London conference / makesense LiA upcoming
-- Wu Zhi Qiao / Gannan (Mar–Jun 2026)
-- World Health Summit Berlin; HKUMed peer mentor/teacher
-- Horizons enrichment award; IB scholarship
-- Upcoming: GEST Valencia invited speaker; LINK-S Shanghai; makesense LiA
+**Added (verified):**
+- Year GPA 4.24/4.30 (as a bullet — not on the date row)
+- Laidlaw Scholars research (Jan 2026–Present) + Laidlaw award row
+- Wu Zhi Qiao / Gannan Horizons (Mar–Jun 2026, completed)
+
+**Removed per request:**
+- Upcoming section
+- Tam Wun Tsun Horizons enrichment award
+
+**Layout fixes (bleed lessons):**
+1. Long degree/GPA strings must not share the heading row with right-aligned dates.
+2. Awards `tabularx` left column uses `p{...}` + `@{\hspace{...}}` gutter — plain `l` + long titles collapses the `X` column (`Scholarship2025-26`).
+3. Do not stack aggressive negative `\vspace` with tight `itemsep` — that causes heading/bullet overlap. Prefer shorter copy (or 10pt) over crushing space.
+4. Keep role titles short on the left of `\cvheading` so they do not collide with dates.
+
+Body is **10pt** (was 11pt) so Laidlaw + Wu Zhi Qiao fit on one page without reintroducing bleed.
 
 Intentionally **omitted until awarded:** Tung & Ngai scholarship/shortlist.
-
-Kept from prior CV: Observatory/PolyU JRMP, HKUST quantum, MIT Youth Fellow/MEDocGPT, ASPR, Laureate Forum, core awards, contact block.
 
 ## Privacy
 
 Contact block matches the applicant’s own CV. Do not add HKID, home address, or family financials.
-

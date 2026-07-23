@@ -1,0 +1,21 @@
+schemaVersion: 1.0.0
+id: ho-family
+slug: ho-family
+name: Ho Family 何
+role: Classic 四大家族 archetype
+kind: clan
+wealthBand: clan
+era: colonial-merchant
+cluster: hk-wealth
+hashtags:
+  - oldmoney
+  - marriagealliances
+  - beforetheipos
+  - linkedbywealthliterally
+body: |
+  Clan node #2. Same energy as Li/Hui/Lo: public history textbook vibes, marriage
+  alliances, firm gossip, and a graph edge that makes freshmen go “ohhh.” If
+  you’re hunting a clean biography, wrong site. If you want “linked by wealth
+  literally,” welcome.
+uncertainty:
+  - Archetype node for the classic four-family story; not a living-person dossier.

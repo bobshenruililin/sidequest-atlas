@@ -165,6 +165,21 @@ First viewport budget (hard): **name · one headline · one supporting sentence 
 6. Generate 3 cover variants; kill two; refine winner.  
 7. Only then decide Framer vs code.
 
+### Agent build gate (2026-07-23)
+
+Cloud agent attempted `/figma-use` to create the file and build covers A/B/C.
+**Blocked:** Figma MCP `serverStatus: needsAuth`. Interactive OAuth is only available in
+**Cursor Desktop** (not in this cloud environment).
+
+**Unblock:** In Cursor Desktop → MCP / Figma → authenticate the Figma server, then reply
+`retry figma` (or reopen this agent with Figma connected). Next steps when unblocked:
+
+1. `whoami` → `create_new_file` (`Shen Ruililin — Personal Site Concepts`)
+2. Palette + type specimen frames
+3. Three desktop covers (Ordinary Renaissance / Ink Slash / Darkroom) + mobile of winner
+4. Look + Field section frames
+5. Screenshots back into this brief + file URL
+
 ---
 
 ## Master Figma prompt (paste-ready)

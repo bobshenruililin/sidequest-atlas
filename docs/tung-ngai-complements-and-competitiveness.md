@@ -137,13 +137,27 @@ Match PPT language lightly: social responsibility, national cultural confidence,
 
 ---
 
+## 3b. Dual-spine complement (community + conference ladder)
+
+Full pass: `docs/tung-ngai-community-conference-narrative.md` (GPT-5.6 Sol over T&N corpus).
+
+**Bracket fill:** T&N = community of **collaborative endeavour** (personal excellence → shared capacity for HK + China).  
+**Interlock:** research→service (standard) + collaborative community / conference ladder (how the standard was forged).  
+**Ladder:** WHS listen → Laureate host → Laidlaw London upcoming peer speak → GEST Valencia upcoming translate.  
+**Vs cohort:** potential win on coherent public-translation arc + rural PH specificity + institutional destination clarity; still thin on multi-year service continuity and shipped named project (Seam Ready).  
+**Rehearse:** Soft open B once; keep Soft open A as safe default if the panel feels service-first.
+
+---
+
 ## 4. What to rehearse this week
 
-1. Soft open with **correct tenses** (WZQ done; LiA/LINK-S/CDC upcoming).  
+1. Soft open with **correct tenses** (WZQ done; LiA/LINK-S/CDC upcoming) — drill A and one pass of B.  
 2. One Wudu / three-bags story (60s).  
 3. Research→service line using Ariel as silent peer, not named unless natural.  
 4. Identity-safe China/HK commitment answer (F).  
-5. Concurrent Laidlaw compliance sentence.
+5. Concurrent Laidlaw compliance sentence.  
+6. One collaborative-environment anecdote (WZQ interns primary; fill MIT Node / HKLSS / WSC blanks before using).  
+7. Conference ladder in ≤60s — never past-tense London/GEST.
 
 ---
 

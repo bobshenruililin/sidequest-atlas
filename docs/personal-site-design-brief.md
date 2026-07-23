@@ -259,11 +259,16 @@ If it looks like a museum costume drama or a LinkedIn bento, reject and redesign
 
 ## Decision checklist (Bob)
 
-- [ ] Confirm hybrid (#1 world + #2 slash) or pick a single theme  
+- [x] Confirm hybrid (#1 world + #2 slash) — locked after A/B/C covers in Figma  
 - [ ] Decide personal site vs Atlas relationship (link out vs shared domain)  
 - [ ] Gather 8–12 of your own photos for the still-life hero  
-- [ ] Run Master Prompt in Figma Make → keep one cover  
+- [x] Covers A/B/C built — keep A, merge B slash; see Figma file below  
+- [ ] Run **agency prompt pack** (1→2→3) in local Agent: `docs/personal-site-prompt-pack.md`  
 - [ ] Choose Framer (fast expressive) vs code (ownable) after art lock  
+
+### Live Figma file
+
+https://www.figma.com/design/5DOvLt7kC09K1BRSYRTJZ1 — `Shen Ruililin — Personal Site Concepts` 
 
 ---
 

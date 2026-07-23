@@ -17,6 +17,9 @@ export function SiteFooter() {
           <Link href="/trips/nordics-2026/" className="underline-link">
             Full itinerary
           </Link>
+          <Link href="/yuen-chuen/" className="underline-link">
+            Yuen Chuen Atlas
+          </Link>
         </div>
       </div>
     </footer>

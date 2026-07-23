@@ -1,0 +1,21 @@
+schemaVersion: 1.0.0
+id: li-family
+slug: li-family
+name: Li Family 李
+role: Classic 四大家族 archetype
+kind: clan
+wealthBand: clan
+era: colonial-merchant
+cluster: hk-wealth
+hashtags:
+  - oldmoney
+  - marriagealliances
+  - beforetheipos
+  - linkedbywealthliterally
+body: |
+  Not one guy. A clan node. Textbook Hong Kong merchant lore — the kind of
+  surname that shows up when people say “four big families” and start arguing
+  about which century. Click the edges. That’s the point. Less Wikipedia. More
+  who married who before the IPO era cosplay.
+uncertainty:
+  - “Four families” lists vary by era and storyteller; this is archetype, not a definitive genealogy.

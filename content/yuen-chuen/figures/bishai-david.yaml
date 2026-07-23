@@ -1,0 +1,21 @@
+schemaVersion: 1.0.0
+id: bishai-david
+slug: bishai-david
+name: Prof. David Bishai
+role: Public-health academic
+kind: person
+wealthBand: academic
+era: contemporary
+cluster: academia
+hashtags:
+  - heatandhearts
+  - laidlaw
+  - haData
+  - yoursupervisorbutmakeitpublichealth
+body: |
+  The professor energy: turns “hot weather” into cardiovascular admissions and
+  makes undergrads feel like the city is a dataset with a pulse. Not hall
+  plastic. Worse — academic plastic. Will cite you into caring about ageing
+  dense cities whether you asked or not.
+uncertainty:
+  - Affable public academic archetype tied to known research themes; not a private profile.

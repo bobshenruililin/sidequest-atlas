@@ -1,0 +1,41 @@
+schemaVersion: 1.0.0
+id: yuen-chuen
+title: Yuen Chuen Atlas
+owner: bob
+status: live
+priority: now
+home:
+  kind: atlas-route
+  path: /yuen-chuen/
+thesis: >-
+  Currents-style bro Yuen Chuens for Hong Kong public myths — foundation
+  namesakes, four families, tycoons, professors, hall legends — browsable as a
+  static wealth/link graph inside Sidequest Atlas.
+nonGoals:
+  - Real wealth rankings, valuations, or investigative journalism
+  - Scraping, user accounts, or comments
+  - Trip CLI verbs or research pipeline coupling
+  - Roasting private non-public people or inventing crimes
+  - Sister repo until the Atlas toy proves sticky
+activationCriteria:
+  - Seed corpus of ~10 figures with edges loads on /yuen-chuen/
+  - Client filter + graph navigation works under static export
+  - Satire / public-lore disclaimer visible on every page
+successMetric:
+  measure: Playful reuse without polluting the travel OS
+  target: >-
+    Index + slug pages build cleanly; at least one wealth-link click path
+    (clan → marriage → clan, or namesake → foundation) is obvious without docs.
+  window: First static deploy after merge
+killCriteria:
+  - Becomes a gossip dump or distracts from travel OS
+  - Temptation to invent private scandals
+  - Needs a heavy graph library or backend to feel usable
+evidence:
+  - note: Sparked from SJC Currents Yuen Chuen tradition + Tung & Ngai cast
+privacy:
+  classification: public-sanitized
+  vaultOnly: []
+buildPrompt: |-
+  Host under apps/web /yuen-chuen. Data in content/yuen-chuen/.
+  Bro voice. Static-first. No new major deps. No trip CLI.

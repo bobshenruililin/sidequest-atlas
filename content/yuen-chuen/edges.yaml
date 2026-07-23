@@ -1,0 +1,74 @@
+schemaVersion: 1.0.0
+edges:
+  - id: tung-namesake-foundation
+    from: tung-chao-yu
+    to: tung-ngai-foundation
+    kind: namesake-of
+    label: namesake
+    confidence: public-lore
+  - id: lily-namesake-foundation
+    from: ngai-chue-jai-lily
+    to: tung-ngai-foundation
+    kind: namesake-of
+    label: namesake
+    confidence: public-lore
+  - id: tung-lily-pair
+    from: tung-chao-yu
+    to: ngai-chue-jai-lily
+    kind: patron-of
+    label: foundation pair
+    confidence: public-lore
+  - id: li-ho-alliance
+    from: li-family
+    to: ho-family
+    kind: marriage-alliance
+    label: classic alliance lore
+    confidence: uncertain
+  - id: ho-hui-alliance
+    from: ho-family
+    to: hui-family
+    kind: marriage-alliance
+    label: classic alliance lore
+    confidence: uncertain
+  - id: hui-lo-alliance
+    from: hui-family
+    to: lo-family
+    kind: marriage-alliance
+    label: classic alliance lore
+    confidence: uncertain
+  - id: lo-li-alliance
+    from: lo-family
+    to: li-family
+    kind: marriage-alliance
+    label: classic alliance lore
+    confidence: uncertain
+  - id: li-clan-to-lks
+    from: li-family
+    to: li-ka-shing
+    kind: family-of
+    label: surname echo / modern wealth node
+    confidence: uncertain
+  - id: lks-to-foundation-era
+    from: li-ka-shing
+    to: tung-ngai-foundation
+    kind: cluster-bridge
+    label: modern wealth → scholarship era
+    confidence: uncertain
+  - id: foundation-to-bishai
+    from: tung-ngai-foundation
+    to: bishai-david
+    kind: cluster-bridge
+    label: scholarship world ↔ academia
+    confidence: uncertain
+  - id: bishai-to-kc
+    from: bishai-david
+    to: wong-kwok-chun
+    kind: cluster-bridge
+    label: academia ↔ SJC hall
+    confidence: uncertain
+  - id: kc-to-four-families
+    from: wong-kwok-chun
+    to: li-family
+    kind: cluster-bridge
+    label: hall ↔ city wealth myths
+    confidence: uncertain

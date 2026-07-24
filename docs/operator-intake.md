@@ -6,6 +6,8 @@ This is the day-to-day interface between Bob and Sidequest Atlas agents.
 
 **Atlas is a travel operating system and attention router that compounds fieldwork into durable evidence — not a warehouse for every life project.**
 
+**Operator identity claim:** high-craft HK undergraduate; creates across professional, cultural, and institutional boundaries; embeds in the Mainland; international travel for comparison not escape; returns something usable to Hong Kong through a lifelong scholar community. Path coherence: [`docs/tung-ngai-why-this-path.md`](tung-ngai-why-this-path.md).
+
 Sister repos keep their domains: My-Life (career), LearnAI (opportunity radar), Laidlaw-Heat (research). The [project board](../content/projects/README.md) routes sparks without absorbing them.
 
 ## Default channels

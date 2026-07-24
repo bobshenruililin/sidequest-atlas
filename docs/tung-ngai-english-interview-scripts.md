@@ -9,7 +9,7 @@ Speak naturally. These are speakable targets, not essays.
 
 ---
 
-## Soft opening (60–75 seconds)
+## Soft opening A (60–75 seconds) — research → service
 
 Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Development at HKU.
 
@@ -22,6 +22,22 @@ I’ll take the three points in your email briefly.
 **Aspirations.** I want to serve at the Hong Kong–Mainland public-health interface — long term at the Centre for Health Protection on cross-boundary disease control. My upcoming Laidlaw Leadership in Action with makesense Americas will practise climate-health community mobilization in a Global South setting, so Hong Kong evidence can travel as South-South learning.
 
 I’m applying because this Foundation holds scholars to returning capacity to Hong Kong and China. That is the standard I want.
+
+---
+
+## Soft opening B (70–90 seconds) — dual spine (community + conference ladder)
+
+Use when you want T&N-as-community + conference growth visible early. Full anecdote bank: `docs/tung-ngai-community-conference-narrative.md`. Keep WZQ heavier than conferences in the rest of the interview.
+
+Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Development at HKU.
+
+I grow fastest in collaborative communities where support comes with a responsibility to contribute. That has shaped both my public-health work and my aspirations.
+
+**Background.** Since January, my ongoing Laidlaw research examines heat and cardiovascular admissions using Hospital Authority data. In March, Gannan fieldwork showed me that health also lives in ordinary institutions and local trust. In May–June I completed Wu Zhi Qiao Mainland rural health and infrastructure work alongside other interns. Research is the prerequisite for responsible service; collaboration is the humility test.
+
+**Achievements.** Year GPA 4.24/4.30. My conference path is a ladder of responsibility, not prestige: listening at the World Health Summit, hosting as a Hong Kong Laureate Forum Ambassador, and this October speaking at the Laidlaw Conference in London plus GEST in Valencia as invited speaker.
+
+**Aspirations.** Serve at the Hong Kong–Mainland public-health interface — toward CHP cross-boundary work; aiming for a China CDC field placement in my degree. Tung & Ngai attracts me as a community of collaborative endeavour: people who turn personal excellence into shared capacity for Hong Kong and China.
 
 ---
 
@@ -62,6 +78,8 @@ If I later pursue a JD after undergraduate study, it would be regulatory and com
 Because the Foundation’s standard matches the person I’m trying to become: academic seriousness, affection for Hong Kong, cultural confidence about China, and public service that lasts longer than a CV cycle.
 
 I don’t want funding without accountability. I want a community that expects Mainland engagement, scholar mentoring, and return of capacity to Hong Kong. That pressure is useful.
+
+**(Community complement.)** I grow fastest when support comes with a responsibility to contribute — MIT Node, labs, Wu Zhi Qiao interns, mentors, conference communities all rhymed with that. What none of them fully gave was one long-term home connecting those lessons to Hong Kong and China. That is what I see in Tung & Ngai: a community of collaborative endeavour.
 
 ---
 

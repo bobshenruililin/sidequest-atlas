@@ -156,6 +156,16 @@ Full deep read: `docs/tung-ngai-annual-reports-analysis.md`.
 **Soft rubric (Alan Chow):** 優秀→卓越 · 專業→跨界 · 跟隨→創造.  
 **Bob play:** mirror the gap; don’t overplay need; land as collaborative community contributor + HK–Mainland public-health seam; keep Seam Ready as the Endeavor/Forum artifact.
 
+## 3d. Dream-fit brief (Sol)
+
+Full: `docs/tung-ngai-dream-fit-brief.md`.
+
+**Ideal type:** cross-boundary professional creator / institution-builder — not primarily entrepreneur or policymaker.  
+**HK role:** active connector + return point in China’s rise / GBA, not spectator or exit.  
+**Travel:** Mainland compulsory spine; international optional comparison; good travel = return artifact.  
+**Researchers →** implementation translators / collaborative creators.  
+**Bob:** yes in direction; not yet cannot-refuse on proof — close with artifact + collab story + ship-or-kill Seam Ready.
+
 ---
 
 ## 4. What to rehearse this week

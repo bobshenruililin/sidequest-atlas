@@ -17,9 +17,14 @@
 
 ## 0. One-sentence dream candidate
 
-**INFERRED:** An academically exceptional HK undergraduate who converts professional craft into cross-disciplinary creation, embeds seriously in Mainland institutions, uses international exposure for comparison rather than escape, returns research and networks as something useful to Hong Kong, and compounds that contribution through a lifelong service community.
+**INFERRED — dream candidate (Bob claims this is him, 2026-07-24):** An academically exceptional HK-based undergraduate who converts professional craft into cross-disciplinary creation, embeds seriously in Mainland institutions, uses international exposure for comparison rather than escape, returns research and networks as something usable to Hong Kong, and compounds that contribution through a lifelong service community.
 
-**PRINTED basis:** Talent abounds; scarce goods = sustained immersion, professional networks, cultural fluency; purposeful mission; cross-cultural competence; leadership resilience; national cultural confidence; lifelong HK development.
+**Spoken form (embed everywhere):**  
+> A high-craft HK undergraduate who creates across professional, cultural, and institutional boundaries, embeds in the Mainland, uses international travel for comparison not escape, and returns something usable to Hong Kong through a lifelong scholar community.
+
+Path coherence for that claim: `docs/tung-ngai-why-this-path.md`.
+
+**PRINTED basis:** The Foundation describes abundant academic talent but inadequate sustained immersion, professional networks, and cultural fluency; it wants purposeful missions, cross-cultural competence, leadership resilience, national cultural confidence, and lifelong commitment to Hong Kong’s development.
 
 ---
 

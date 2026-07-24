@@ -13,6 +13,7 @@
 | **Community + conference ladder (dual spine)** | `docs/tung-ngai-community-conference-narrative.md` |
 | **Annual Reports 2024–2025 deep read** | `docs/tung-ngai-annual-reports-analysis.md` |
 | **Dream-fit brief (ideal candidate + Bob)** | `docs/tung-ngai-dream-fit-brief.md` |
+| **Why this path (GHD → Laidlaw → Gansu → world)** | `docs/tung-ngai-why-this-path.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
 | Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |
 | English scripts | `docs/tung-ngai-english-interview-scripts.md` |
@@ -26,6 +27,8 @@
 HKU’s selection panel stressed **service**. Your CV leans research. The winning move is not to hide research — it is to make research the **prerequisite for responsible service**.
 
 **Spine:** Listen in the field → study what actually harms people → serve with evidence → return capacity to Hong Kong / Mainland / Global South communities.
+
+**Identity claim:** high-craft HK undergrad; creates across professional / cultural / institutional boundaries; Mainland embed; international travel for comparison not escape; return usable things to HK via scholar community. Why each choice: `docs/tung-ngai-why-this-path.md`.
 
 **Dual spine (optional soft open B):** T&N as a *community of collaborative endeavour* — support with a duty to contribute — plus conference ladder (WHS listen → Laureate host → Laidlaw/GEST upcoming speak/translate). Full bank: `docs/tung-ngai-community-conference-narrative.md`. Conferences stay subordinate to WZQ; never prestige-list.
 

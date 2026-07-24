@@ -43,6 +43,7 @@
 
 ## Binding interview constraints (Bob)
 
+- **Identity claim (2026-07-24):** A high-craft HK undergraduate who creates across professional, cultural, and institutional boundaries, embeds in the Mainland, uses international travel for comparison not escape, and returns something usable to Hong Kong through a lifelong scholar community. Coherence brief: `docs/tung-ngai-why-this-path.md`.  
 - Soft identity: **really careful**. Do not lead with Shanghai-born / HK-raised controversy. Align with Foundation: affection for Hong Kong + commitment to China/nation + national cultural confidence — enacted through **work**, not birthplace drama.  
 - Research-heavy is OK if framed as prerequisite for service (cohort T&N scholars are often research-forward).  
 - Bank WZQ (done) + LiA (upcoming) + China CDC aim.  
@@ -74,4 +75,5 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 - `docs/tung-ngai-community-conference-narrative.md` — dual spine: collaborative endeavour + conference ladder (Laidlaw eyes)  
 - `docs/tung-ngai-annual-reports-analysis.md` — deep read of Foundation Annual Reports 2024–2025  
 - `docs/tung-ngai-dream-fit-brief.md` — ideal candidate taxonomy + Bob scorecard (Sol)  
+- `docs/tung-ngai-why-this-path.md` — why GHD / Laidlaw / Gansu / WHS / Nordics / LiA / Laureate cohere  
 - `content/captures/2026-07-22-tung-ngai-interview.yaml`

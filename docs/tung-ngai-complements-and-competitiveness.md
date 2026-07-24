@@ -160,11 +160,13 @@ Full deep read: `docs/tung-ngai-annual-reports-analysis.md`.
 
 Full: `docs/tung-ngai-dream-fit-brief.md`.
 
-**Ideal type:** cross-boundary professional creator / institution-builder — not primarily entrepreneur or policymaker.  
-**HK role:** active connector + return point in China’s rise / GBA, not spectator or exit.  
+**Ideal type / Bob claim:**  
+> A high-craft HK undergraduate who creates across professional, cultural, and institutional boundaries, embeds in the Mainland, uses international travel for comparison not escape, and returns something usable to Hong Kong through a lifelong scholar community.
+
+**Why each move:** `docs/tung-ngai-why-this-path.md` (operator → Sol → Composer).  
 **Travel:** Mainland compulsory spine; international optional comparison; good travel = return artifact.  
 **Researchers →** implementation translators / collaborative creators.  
-**Bob:** yes in direction; not yet cannot-refuse on proof — close with artifact + collab story + ship-or-kill Seam Ready.
+**Bob:** yes in direction; not yet cannot-refuse on proof — close with artifact, collab story, ship-or-kill Seam Ready.
 
 ---
 

@@ -72,4 +72,5 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 - `docs/tung-ngai-scholar-cohort-dataset.md`  
 - `docs/tung-ngai-complements-and-competitiveness.md`  
 - `docs/tung-ngai-community-conference-narrative.md` — dual spine: collaborative endeavour + conference ladder (Laidlaw eyes)  
+- `docs/tung-ngai-annual-reports-analysis.md` — deep read of Foundation Annual Reports 2024–2025  
 - `content/captures/2026-07-22-tung-ngai-interview.yaml`

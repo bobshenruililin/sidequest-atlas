@@ -147,6 +147,15 @@ Full pass: `docs/tung-ngai-community-conference-narrative.md` (GPT-5.6 Sol over 
 **Vs cohort:** potential win on coherent public-translation arc + rural PH specificity + institutional destination clarity; still thin on multi-year service continuity and shipped named project (Seam Ready).  
 **Rehearse:** Soft open B once; keep Soft open A as safe default if the panel feels service-first.
 
+## 3c. Annual Reports 2024–2025 (Foundation self-presentation)
+
+Full deep read: `docs/tung-ngai-annual-reports-analysis.md`.
+
+**Their published gap:** talent abundant; scarce goods = cultural fluency + professional networks.  
+**2025 agenda shift:** money already rates 4.81/5; scholars want industry/mentorship (75%); community + Mainland immersion + named service-learning (Dandelion) coming online.  
+**Soft rubric (Alan Chow):** 優秀→卓越 · 專業→跨界 · 跟隨→創造.  
+**Bob play:** mirror the gap; don’t overplay need; land as collaborative community contributor + HK–Mainland public-health seam; keep Seam Ready as the Endeavor/Forum artifact.
+
 ---
 
 ## 4. What to rehearse this week

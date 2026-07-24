@@ -11,6 +11,7 @@
 | **Days / hours / minutes prep** | `docs/tung-ngai-prep-schedule.md` |
 | Competitiveness + ADAPT complements | `docs/tung-ngai-complements-and-competitiveness.md` |
 | **Community + conference ladder (dual spine)** | `docs/tung-ngai-community-conference-narrative.md` |
+| **Annual Reports 2024–2025 deep read** | `docs/tung-ngai-annual-reports-analysis.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
 | Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |
 | English scripts | `docs/tung-ngai-english-interview-scripts.md` |

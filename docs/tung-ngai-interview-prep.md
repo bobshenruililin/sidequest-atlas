@@ -14,6 +14,7 @@
 | **Annual Reports 2024–2025 deep read** | `docs/tung-ngai-annual-reports-analysis.md` |
 | **Dream-fit brief (ideal candidate + Bob)** | `docs/tung-ngai-dream-fit-brief.md` |
 | **Why this path (GHD → Laidlaw → Gansu → world)** | `docs/tung-ngai-why-this-path.md` |
+| **Wisdom corpus (leadership in transition)** | `docs/wisdom/README.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
 | Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |
 | English scripts | `docs/tung-ngai-english-interview-scripts.md` |

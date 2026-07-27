@@ -9,6 +9,8 @@
 
 **Rule:** Depth over volume. One clean stack beats ten half-memorised essays. Stop polishing when the open + three stories + hard frames are automatic.
 
+**Interview craft (psychology, standout, Cantonese L2, day-of steps):** `docs/interview-craft/README.md` — start with `small-steps-today-tomorrow.md`.
+
 ---
 
 ## The only stack you must own

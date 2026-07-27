@@ -25,6 +25,18 @@ I’m applying because this Foundation holds scholars to returning capacity to H
 
 ---
 
+## One-minute self-intro (≈60s) — rehearse this first
+
+Good afternoon. I’m Shen Ruililin — Bob — Year 1 Global Health and Development at HKU.
+
+I learn where health systems meet ordinary life. I’ve done research since secondary school; since January, Laidlaw work on heat and cardiovascular admissions in Hong Kong. In March I did Gannan fieldwork; in May and June I completed Wu Zhi Qiao Mainland rural health and infrastructure service. That taught me: research is the prerequisite for responsible service, and listening comes before protocols.
+
+My Year GPA is 4.24 out of 4.30. The thread I care about is turning evidence into service people can use.
+
+Long term, I hope to serve at the Hong Kong–Mainland public-health interface — toward CHP cross-boundary work — and I’m aiming for a China CDC field placement in my degree. I’m here because this Foundation asks scholars to return capacity to Hong Kong and China. That is the standard I want.
+
+---
+
 ## Soft opening B (70–90 seconds) — dual spine (community + conference ladder)
 
 Use when you want T&N-as-community + conference growth visible early. Full anecdote bank: `docs/tung-ngai-community-conference-narrative.md`. Keep WZQ heavier than conferences in the rest of the interview.

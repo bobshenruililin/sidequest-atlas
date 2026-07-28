@@ -78,4 +78,5 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 - `docs/tung-ngai-why-this-path.md` — why GHD / Laidlaw / Gansu / WHS / Nordics / LiA / Laureate cohere  
 - `docs/wisdom/` — leadership / judgment corpus (Kissinger diagnostic → themes)  
 - `docs/interview-craft/` — standout, psychology, Cantonese L2, day-of micro-steps  
+- `docs/tung-ngai-china-hk-public-health-fit.md` — China rising, HK interface role, Bob suitability  
 - `content/captures/2026-07-22-tung-ngai-interview.yaml`

@@ -16,6 +16,7 @@
 | **Why this path (GHD → Laidlaw → Gansu → world)** | `docs/tung-ngai-why-this-path.md` |
 | **Wisdom corpus (leadership in transition)** | `docs/wisdom/README.md` |
 | **Interview craft (psych / Canto L2 / day-of)** | `docs/interview-craft/README.md` |
+| **China rising / HK place / Bob fit** | `docs/tung-ngai-china-hk-public-health-fit.md` |
 | Strategy (this file) | `docs/tung-ngai-interview-prep.md` |
 | Scholar cohort dataset | `docs/tung-ngai-scholar-cohort-dataset.md` |
 | English scripts | `docs/tung-ngai-english-interview-scripts.md` |

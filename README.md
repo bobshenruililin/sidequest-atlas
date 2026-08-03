@@ -4,6 +4,10 @@
 
 > Travel cheaper. Observe deeper. Spend when it matters.
 
+**Operator identity (working claim):** A high-craft Hong Kong undergraduate who creates across professional, cultural, and institutional boundaries, embeds in the Mainland, uses international travel for comparison not escape, and returns something usable to Hong Kong through a lifelong scholar community.
+
+Path coherence (why GHD, Laidlaw heat–health, Gansu, WHS, Nordics, Global South, Laureate stewarding): [`docs/tung-ngai-why-this-path.md`](docs/tung-ngai-why-this-path.md). Tung & Ngai dream-fit: [`docs/tung-ngai-dream-fit-brief.md`](docs/tung-ngai-dream-fit-brief.md). Leadership / judgment wisdom corpus: [`docs/wisdom/`](docs/wisdom/README.md). Interview craft (psych, standout, Cantonese L2): [`docs/interview-craft/`](docs/interview-craft/README.md).
+
 Sidequest Atlas is both:
 
 1. A personal, evolving atlas of Shen Ruililin’s journeys

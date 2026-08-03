@@ -19,6 +19,26 @@
 
 ---
 
+## 1a. 一分鐘自我介紹（≈60 秒）— 優先練呢段
+
+各位評審，午安。我係沈睿霖，叫我 Bob 就得。我而家港大一年級，讀 Global Health and Development。
+
+我鍾意去公共衞生同普通人生活交接嗰度學嘢。一月到而家，我做緊 Laidlaw，研究香港高溫同心血管入院。三月我去過甘南做田野；五、六月我完成咗無止橋，喺內地鄉村健康同基建項目入面服務。我學到：研究係負責任服務嘅前提，聽人講先過急住落手。
+
+我今年 GPA 係 4.24/4.30。我最睇重嘅，係將證據變成用得着嘅服務。
+
+長遠我希望做香港同內地公共衞生交界嘅工作，特別係跨境疾控；學位期間我亦希望爭取去中國疾控相關實習。我申請東霓，係因為佢哋要求學者將能力帶回香港同中國——呢個標準正正係我想要。
+
+Jyutping（大意節奏；卡住就睇漢字磚）:
+gok3 wai6 ping4 sam2, ng5 on1. ngo5 hai6 sam2 jeoi6 lam4, giu3 ngo5 Bob zau6 dak1. ngo5 ji4 gaa1 gong2 daai6 jat1 nin4 kap1, duk6 Global Health and Development.
+ngo5 zung1 ji3 heoi3 gung1 gung6 wai6 sang1 tung4 pou2 tung1 jan4 sang1 wut6 gaau1 zip3 go2 dou6 hok6 je5. jat1 jyut6 dou3 ji4 gaa1, ngo5 zou6 gan2 Laidlaw, jin4 gau3 hoeng1 gong2 gou1 wan1 tung4 sam1 hyut3 gun2 jap6 jyun6. saam1 jyut6 ngo5 heoi3 gwo3 gam1 naam4 zou6 tin4 je5; ng5, luk6 jyut6 ngo5 jyun4 sing4 zo2 mou4 zi2 kiu4...
+ngo5 gam1 nin4 GPA hai6 4.24/4.30...
+coeng4 jyun5... CHP / China CDC aim... san1 cing2 Tung Ngai...
+
+**練法：** 用手機計時；寧願講慢啲完整，唔好趕住加會議/倫敦。
+
+---
+
 ## 1. 60–75 秒柔和開場：背景 → 成就 → 志向
 
 ### Chunk 1

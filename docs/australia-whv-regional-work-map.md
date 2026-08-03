@@ -341,6 +341,8 @@ Legend: `██` typical peak · `░░` shoulder · `··` quieter / not prima
 
 ## Related
 
+- `docs/australia-whv-research-report.md` — master curated report  
 - `docs/australia-whv-year1-decision-brief.md` — whether/when a year belongs on the degree spine  
+- `docs/australia-whv-public-health-fieldwork.md` — PH / systems comparison angles  
 - `docs/philosophy.md` — fieldwork over checklists  
 - `docs/tung-ngai-china-hk-public-health-fit.md` — interface mission; AU as foil not substitute  

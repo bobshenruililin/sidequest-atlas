@@ -198,7 +198,9 @@ If Australia disappeared from your CV, would your China–HK public-health thesi
 
 ## Related
 
+- `docs/australia-whv-research-report.md` — master curated report (friend pitch, visa, vineyards/roads, decision)  
 - `docs/australia-whv-regional-work-map.md` — regional & work geography (harvest calendar, wine belts, roads, climate-health places, ethics) if designing a bounded AU comparison  
+- `docs/australia-whv-public-health-fieldwork.md` — heat warnings, rural systems, biosecurity, labour, Closing the Gap  
 - `docs/tung-ngai-china-hk-public-health-fit.md` — interface mission; CDC aim as function not brand  
 - `docs/tung-ngai-complements-and-competitiveness.md` — ADAPT roadmap; do not casually insert WHV into it  
 - `docs/tung-ngai-scholar-cohort-dataset.md` — peer mobility patterns; artifacts beat adjectives  

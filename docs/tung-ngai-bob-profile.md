@@ -68,6 +68,7 @@
 
 ## Related files
 
+- `docs/tung-ngai-acceptance-and-next-steps.md` — **acceptance email + post-award checklist**  
 - `docs/tung-ngai-prep-schedule.md` — days / hours / minutes practice plan  
 - `docs/tung-ngai-interview-prep.md`  
 - `docs/tung-ngai-english-interview-scripts.md` (+ CMN/YUE)  

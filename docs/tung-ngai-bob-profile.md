@@ -13,7 +13,8 @@
 - **Email brief:** background, achievements, aspirations  
 - **Language working assumption:** mostly English; Mandarin strong; Cantonese needs scripts  
 - **Status:** **Awarded** Tung and Ngai Foundation Scholarship for **2025/2026** (notification received ~5 Aug 2026 from Prof. Wong Suk Ying, Executive Director (Scholarship)). Accept by **10 Aug 2026**. Orientation + lunch gathering for scholars: **September 2026** (date TBC).  
-- **Post-award ops:** `docs/tung-ngai-acceptance-and-next-steps.md`
+- **Post-award ops:** `docs/tung-ngai-acceptance-and-next-steps.md`  
+- **Live tension (2026-08-06):** Internal transfer application to **LLB** (open to Government and Laws) dated 24 May 2026 — GHD framed as foundation; law as primary craft for the same public-problem set. T&N materials framed GHD + CHP/China CDC with JD only after UG if asked. Do **not** hide from Foundation; secretariat enquiry draft in `docs/tung-ngai-law-transfer-framing.md`. Soft identity unchanged: work the seam; return capacity.
 
 ## Academic
 

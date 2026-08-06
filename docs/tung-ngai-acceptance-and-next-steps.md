@@ -65,6 +65,7 @@ BASc (Global Health and Development), HKU
 | 4 | Tell parents / key mentors (human celebration) | this week | ☐ |
 | 5 | Check HKU scholarship / Faculty notification duties (if any form to Student Services / GHD office) | this week | ☐ |
 | 6 | Calendar: London Laidlaw + GEST Oct still primary academic deliverables — do not let celebration crowd them | ongoing | ☐ |
+| 7 | If law transfer still live: inquire T&N secretariat (programme-change / eligibility) — see `docs/tung-ngai-law-transfer-framing.md` | ASAP after acceptance | ☐ |
 
 ---
 

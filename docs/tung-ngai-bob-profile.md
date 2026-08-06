@@ -1,6 +1,6 @@
 # Bob — Tung & Ngai read-back profile
 
-**Last updated:** 2026-07-22T14:00Z  
+**Last updated:** 2026-08-05  
 **Use:** Any future agent/session should read this before rewriting interview/complement advice.  
 **Plane:** operator docs (no PII). Vault twin may mirror without financials/IDs.
 
@@ -12,12 +12,14 @@
 - **When:** 2026-07-28, 15:40–15:55 (15 min); window 27–28 Jul  
 - **Email brief:** background, achievements, aspirations  
 - **Language working assumption:** mostly English; Mandarin strong; Cantonese needs scripts  
-- **Status:** past HKU nomination; Foundation finalist
+- **Status:** **Awarded** Tung and Ngai Foundation Scholarship for **2025/2026** (notification received ~5 Aug 2026 from Prof. Wong Suk Ying, Executive Director (Scholarship)). Accept by **10 Aug 2026**. Orientation + lunch gathering for scholars: **September 2026** (date TBC).  
+- **Post-award ops:** `docs/tung-ngai-acceptance-and-next-steps.md`  
+- **Live tension (2026-08-06):** Internal transfer application to **LLB** (open to Government and Laws) dated 24 May 2026 — GHD framed as foundation; law as primary craft for the same public-problem set. T&N materials framed GHD + CHP/China CDC with JD only after UG if asked. Do **not** hide from Foundation; secretariat enquiry draft in `docs/tung-ngai-law-transfer-framing.md`. Soft identity unchanged: work the seam; return capacity.
 
 ## Academic
 
 - HKU BASc Global Health and Development, Year 1 (2025/26)  
-- GPA **4.09/4.30**  
+- GPA **4.24/4.30**  
 - IB 41 (English A 7; Chinese A 6 + Chinese EE A)  
 - Long-term aspiration in submitted materials: CHP cross-boundary disease control; JD **after** UG as regulatory tool only if asked — **not** Year-1 law transfer in interview
 
@@ -43,6 +45,7 @@
 
 ## Binding interview constraints (Bob)
 
+- **Identity claim (2026-07-24):** A high-craft HK undergraduate who creates across professional, cultural, and institutional boundaries, embeds in the Mainland, uses international travel for comparison not escape, and returns something usable to Hong Kong through a lifelong scholar community. Coherence brief: `docs/tung-ngai-why-this-path.md`.  
 - Soft identity: **really careful**. Do not lead with Shanghai-born / HK-raised controversy. Align with Foundation: affection for Hong Kong + commitment to China/nation + national cultural confidence — enacted through **work**, not birthplace drama.  
 - Research-heavy is OK if framed as prerequisite for service (cohort T&N scholars are often research-forward).  
 - Bank WZQ (done) + LiA (upcoming) + China CDC aim.  
@@ -62,12 +65,21 @@
 
 ## Competitive stance (see complements doc)
 
-Top-quartile among researched finalist/scholar sample for HKU lane; not guaranteed. Edge = research continuity + completed Mainland rural service + invited international speaking + China CDC aim + Global South LiA return path.
+**Outcome:** Selected as Tung & Ngai Foundation Scholar, 2025/2026. Pre-award edge thesis (research continuity + completed Mainland rural service + invited international speaking + China CDC aim + Global South LiA return path) remains the execution agenda — award validates direction; artifacts still earn the community.
 
 ## Related files
 
+- `docs/tung-ngai-acceptance-and-next-steps.md` — **acceptance email + post-award checklist**  
+- `docs/tung-ngai-prep-schedule.md` — days / hours / minutes practice plan  
 - `docs/tung-ngai-interview-prep.md`  
 - `docs/tung-ngai-english-interview-scripts.md` (+ CMN/YUE)  
 - `docs/tung-ngai-scholar-cohort-dataset.md`  
 - `docs/tung-ngai-complements-and-competitiveness.md`  
+- `docs/tung-ngai-community-conference-narrative.md` — dual spine: collaborative endeavour + conference ladder (Laidlaw eyes)  
+- `docs/tung-ngai-annual-reports-analysis.md` — deep read of Foundation Annual Reports 2024–2025  
+- `docs/tung-ngai-dream-fit-brief.md` — ideal candidate taxonomy + Bob scorecard (Sol)  
+- `docs/tung-ngai-why-this-path.md` — why GHD / Laidlaw / Gansu / WHS / Nordics / LiA / Laureate cohere  
+- `docs/wisdom/` — leadership / judgment corpus (Kissinger diagnostic → themes)  
+- `docs/interview-craft/` — standout, psychology, Cantonese L2, day-of micro-steps  
+- `docs/tung-ngai-china-hk-public-health-fit.md` — China rising, HK interface role, Bob suitability  
 - `content/captures/2026-07-22-tung-ngai-interview.yaml`

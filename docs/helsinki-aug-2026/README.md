@@ -6,7 +6,7 @@
 **Open this first on a phone:** [helsinki-visual.html](helsinki-visual.html)  
 **Workbook:** [Helsinki-16-20-Aug-2026.xlsx](Helsinki-16-20-Aug-2026.xlsx)  
 **Rebuild:** `python3 docs/helsinki-aug-2026/build_workbook.py`  
-**Sources:** [research/restaurants-verified.md](research/restaurants-verified.md) · [research/activities-verified.md](research/activities-verified.md)
+**Sources:** [research/restaurants-verified.md](research/restaurants-verified.md) · [research/neighbourhood-eateries.md](research/neighbourhood-eateries.md) · [research/activities-verified.md](research/activities-verified.md)
 
 Hours and prices were read from official pages on **15 Aug 2026**. They move. Cells marked `*` or VERIFY are not official-hours claims.
 
@@ -28,6 +28,8 @@ Do these in order. Stop when the night is locked.
 | 1 | **Georgian Kitchen** | Sun ~19:00 | [georgiankitchen.fi](https://www.georgiankitchen.fi/) · Albertinkatu 7 · Sun **13–22** · +358 50 383 3228 |
 | 2 | **Nolla** | Tue 18 dinner | [restaurantnolla.com/reservations](https://restaurantnolla.com/reservations/) |
 | 3 | **Grön** | Wed 19 only | [DinnerBooking](https://dinnerbooking.com/fi/en-US/r3904/restaurant-gron) · official summer menu **188e** |
+| 3b | **Skörd** | Wed (also Mon–Tue) | [TableOnline](https://www.tableonline.fi/en/helsinki/skord/1001/book) · official **86e** / Mon–Thu **72e** |
+| 3c | **Kuurna** | Mon 17 (Nolla closed) | [kuurna.fi](https://www.kuurna.fi/in-english) · 2/3 courses from **46e/54e** |
 | 4 | **Löyly** 2 h public sauna | Wed 19 afternoon | [reservation calendar](https://varaus.asio.fi/onlinekalenteri/loyly/guest.php?ss_lang=eng) · official **€29 / 2 h** |
 | 5 | **Gaijin** backup | Sun from 15:00 | [gaijin.fi/reservation](https://www.gaijin.fi/reservation) · Bulevardi 6 |
 | 6 | **Latitude 25 / Shii** | Wed only (closed Sun–Tue) | [latitude25.fi](https://www.latitude25.fi/) · [shii.fi](https://shii.fi/) |
@@ -43,6 +45,7 @@ Do these in order. Stop when the night is locked.
 - **Kosmos → Sunday**
 - **Katana Ramen → Sunday likely** (Falstaff omits Sunday — VERIFY)
 - **Momotoko ramen → permanently closed** (bankruptcy 2025)
+- **Wino → closed 1 Jun–3 Sep 2026**; **Restaurant Kuu → closed from 1 Jul**; **Adzika → no current premises**; **Satkar Kamppi → now Sansar**
 
 <img alt="Neighbourhood food map" src="visuals/helsinki-neighbourhood-food-map.jpg" width="100%" />
 
@@ -130,13 +133,15 @@ flowchart LR
 | 10 | **Ekberg brunch** | First impression. Official Sunday brunch. Bookable. |
 | 10 | **Nolla** | Zero-waste Nordic, Bib Gourmand — your “better than AG under a star bill” |
 | 10 | **Georgian Kitchen** | The cuisine you named. Family. Open Sunday. |
-| 9 | **Grön** | Official summer menu **188e**.  Your only night is Wednesday. |
+| 9 | **Grön** | Official summer menu **188e**. Your only night is Wednesday. |
+| 9 | **Skörd** | Official **86e** seven-course / **72e** Mon–Thu four-course. Finnish ingredients only. The rational splurge. |
 | 9 | **Amos Rex / Suomenlinna / Löyly / ADM** | The four place-anchors |
 | 8 | **Katana Ramen** Telakkakatu 12 | Dedicated ramen after Momotoko died. Likely closed Sunday. |
 | 8 | **Sea Horse** Kapteeninkatu 11 | 1933 Finnish room; onion steak; open 15–24 |
 | 8 | **Gaijin** | Serious North-Asia; Sun from 15:00; lunch closed through 17 Aug |
 | 7 | **Latitude 25 / Shii** | Omakase — Wednesday only for Latitude (official) |
 | 7 | **Kosmos / Sansar / BasBas** | 1924 Helsinki cuisine (closed Sun) · Kamppi Nepalese lunch · Punavuori small plates Tue–Wed |
+| 6 | **Cella / Harju 8 / Lohtu** | Kallio classic (hours only through Mon 17) · walk-in wine room · vegan Hakaniemi lunch (hall closed Sun) |
 | 6 | **Bui Ramen** | Real handmade noodles — Kalasatama, not central. Paitan **17.90€** official. |
 | 0 | **Momotoko** | Closed. Do not go. |
 
@@ -151,6 +156,7 @@ flowchart LR
 | Amos Rex, ADM, Oodi, Suomenlinna, Löyly | Temppeliaukio, Senate Square loop, Seurasaari, food tours |
 | HSL ferry (city ticket) | A second island |
 | Optional: Ateneum free Thursday morning | Architecture walking tour Thu 15:00 (you are leaving) |
+| Optional: Aalto House Tue guided visit (Munkkiniemi, €32 / students €16) | Paying €310 for a private architecture walk |
 | Optional: authorised Suomenlinna English tour | Paying €310 for a private architecture walk |
 
 ---

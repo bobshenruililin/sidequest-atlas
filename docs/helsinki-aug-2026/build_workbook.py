@@ -146,7 +146,7 @@ ws["A20"] = (
     "SUN 16  Ekberg/Fazer brunch → Amos Rex (closed Tue; Sun 11–17) → Oodi (Sun 10–20) → Georgian Kitchen.\n"
     "MON 17  Suomenlinna (HSL ferry, Blue Route). Evening: Katana ramen (likely closed Sun) or Kallio.\n"
     "TUE 18  ADM Design Museum (Rex closed). Lunch: Levain Ullanlinna next door. Dinner: Nolla.\n"
-    "WED 19  Löyly sauna + Baltic. Dinner: Grön if the table exists, else Latitude 25 / Shii.\n"
+    "WED 19  Löyly sauna + Baltic. Dinner: Skörd 86e (rational) or Grön 188e if a table exists.\n"
     "THU 20  Buffer. Ateneum is FREE 10:00–20:00 this day — only if departure mode allows. Out by 15:00."
 )
 ws["A20"].alignment = wrap
@@ -214,11 +214,11 @@ itin = [
      "Allas Sea Pool, Katajanokanlaituri 2A, Mon–Thu 6:30–21",
      "24h cancel. Flip-flops help. Architecture you can sit in."],
     ["4 Wed", "2026-08-19", "Dinner", "17:00–22:00",
-     "GRÖN, Albertinkatu 36 — YOUR ONLY NIGHT (closed Sun–Tue). Official summer 2026 menu 188e (omnivore or vegan preorder). Else Latitude 25 omakase (Albertinkatu 19, Wed–Thu 17–21:30) or Shii (Fabianinkatu 17, 16 seats, not vegetarian).",
-     "Punavuori", "Grön set 188e / Latitude omakase / Shii 11-course",
-     "BOOK DinnerBooking Grön; latitude25.fi; shii.fi — take whichever confirms",
+     "SKÖRD (Fredrikinkatu 37) is the rational splurge: official seven-course 86e, Mon–Thu four-course 72e, Finnish ingredients only. GRÖN (Albertinkatu 36) is 188e and Wednesday-only. Else Latitude 25 omakase 119e official (not vegetarian) or Shii.",
+     "Punavuori", "Skörd 86e / Grön 188e / Latitude 119e",
+     "BOOK Skörd TableOnline AND/OR Grön DinnerBooking — take one",
      "Nolla if you saved it; Gaijin; Sea Horse",
-     "Olo/Palace/Finnjävel blow more. Finnjävel Tue–Sat; skip unless you decide to."],
+     "Olo Selected 109e / Palace 250e — only if you decide to. Skörd cannot do vegan/dairy-free."],
     ["5 Thu", "2026-08-20", "Buffer", "09:00–12:30",
      "Easy. Ateneum is FREE today 10:00–20:00 (official free-admission day) — only if YOUR departure mode allows. Or Oodi reprise. Do NOT start Suomenlinna. Night of the Arts starts after you leave.",
      "Centre", "Coffee + pulla. No heavy lunch if flying.",
@@ -252,10 +252,16 @@ books = [
      "Sea Horse / Kosmos", "YES — best cooking under star-tier"],
     ["3", "Grön", "Wed 19 ONLY", "DinnerBooking",
      "https://dinnerbooking.com/fi/en-US/r3904/restaurant-gron", "VERIFY on booker",
-     "Latitude 25 / Shii / unused Nolla", "If you want the 188e summer menu"],
+     "Skörd 86e / Latitude 25 / unused Nolla", "If you want the 188e summer menu"],
+    ["3b", "Skörd", "Wed 19 (also Mon–Tue; closed Sun)", "TableOnline",
+     "https://www.tableonline.fi/en/helsinki/skord/1001/book", "VERIFY",
+     "Kuurna / Nolla / Muru", "YES if 188e is too much — official menu 86e; Mon–Thu 4-course 72e"],
+    ["3c", "Kuurna", "Mon 17 dinner (open Mon; Nolla is not)", "Official site / phone",
+     "https://www.kuurna.fi/in-english", "+358 44 755 4555",
+     "Sea Horse / Kosmos", "Strong Mon neighbourhood bistro — 2/3 courses from 46e/54e official"],
     ["4", "Löyly 2h public sauna", "Wed 19 13:00+", "Official calendar",
      "https://varaus.asio.fi/onlinekalenteri/loyly/guest.php?ss_lang=eng", "+358 50 4768741 sauna",
-     "Allas Sea Pool", "YES — architecture + Baltic"],
+        "Kulttuurisauna (quieter, €17/90 min, Wed–Sun 16–20) or Allas", "YES — architecture + Baltic"],
     ["5", "Gaijin", "Sun from 15:00 or later", "Official reservation",
      "https://www.gaijin.fi/reservation", "010 322 9386 / same-day 010 322 9381",
      "Nolla", "Strong alt, not Georgian"],
@@ -274,6 +280,9 @@ books = [
     ["10", "Optional: Suomenlinna English tour", "Mon 17 10:30 / 12:30 / 14:30", "Ehrensvärd Society shop",
      "https://suomenlinna.johku.com/en_US/liput/guided-walking-tour-in-english", "+358 9 68999 850",
      "Self-guided Blue Route is enough", "Optional"],
+    ["10b", "Optional: Aalto House", "Tue 18 11:00–16:00 hourly (Jul–Aug)", "Guided only; max 15; shop.alvaraalto.fi",
+     "https://shop.alvaraalto.fi/en_US/guided-tours/guided-tour-of-the-house", "hello@alvaraalto.fi",
+     "Skip and go straight to ADM", "Optional — Munkkiniemi; do not stack with a second museum if tired"],
     ["11", "Do NOT book", "Cathedral tours, SkyWheel, food tours, Temppeliaukio as a day, ADM walk Thu 15:00",
      "—", "—", "—", "—", "Skip"],
 ]
@@ -334,10 +343,22 @@ rests = [
      "CLOSED", "CLOSED", "CLOSED", "Dinner*", "Leave 15:00",
      "Official summer 2026 menu 188e + vegan 188e preorder. Wine pairing 142e.", "Set (request vegan in booker if needed)",
      "https://dinnerbooking.com/fi/en-US/r3904/restaurant-gron", "Menu official; hours secondary", 9],
-    ["Latitude 25", "Omakase", "Punavuori", "Albertinkatu 19", "icon", "VERIFY", "Book",
+    ["Skörd", "Hyperlocal Finnish", "Punavuori", "Fredrikinkatu 37", "icon", "86e seven-course official; Mon–Thu 72e four-course", "Book TableOnline",
+     "CLOSED*", "Dinner 17–00*", "Dinner*", "Dinner*", "too late",
+     "Only Finnish ingredients (no pepper/avocado). The rational splurge under 100e. Not vegan/dairy-free.", "Seven-course 86e",
+     "https://xn--skrd-6qa.fi/en/food/", "Official menu; hours Time Out Mon–Sat 17–00", 9],
+    ["Kuurna", "Nordic bistro", "Kruununhaka", "Meritullinkatu 6", "hot", "2 courses from 46e; 3 from 54e official", "Book",
+     "CLOSED", "17–23 kitchen 21:00", "17–23", "17–23", "too late",
+     "Open Monday when Nolla is shut. Menu 12.8–1.9.2026 on official page.", "3 courses; tartare +4e",
+     "https://www.kuurna.fi/in-english", "Official", 8],
+    ["Muru", "Bistro / wine", "Punavuori", "Fredrikinkatu 41", "hot", "Menu of the Day 59e official", "Book",
+     "CLOSED*", "CLOSED*", "Dinner*", "Dinner*", "too late",
+     "Helsinki bistro classic. Closed days VERIFY (often Sun–Mon).", "Four-course 59e",
+     "https://murudining.fi/en/", "Official menu price; closed days VERIFY", 7],
+    ["Latitude 25", "Omakase", "Punavuori", "Albertinkatu 19", "icon", "119e without drinks official", "Book mandatory",
      "CLOSED", "CLOSED", "CLOSED", "17:00–21:30", "Leave 15:00",
-     "Billed as Finland's premier omakase. Only Wednesday for you.", "Omakase counter",
-     "https://www.latitude25.fi/", "Official hours", 7],
+     "14-seat counter. 119e card guarantee. Cannot do vegetarian/vegan/no-raw-fish.", "Omakase",
+     "https://www.latitude25.fi/booking/", "Official hours + 2026 price", 7],
     ["Shii", "Omakase / otsumami", "Kaartinkaupunki", "Fabianinkatu 17", "icon", "VERIFY", "Book",
      "VERIFY", "VERIFY", "VERIFY", "VERIFY", "Leave 15:00",
      "16 seats; 11-course; cannot be made vegetarian", "Counter",
@@ -402,6 +423,22 @@ rests = [
      "14–24 kitchen 22:30", "16–24 kitchen 22:30", "same", "same", "too late",
      "Since 1939; sailors/dockworkers room. Less polished than Sea Horse.", "Finnish classics",
      "https://kannas.fi/english/", "Official", 6],
+    ["Cella", "Finnish neighbourhood classic", "Kallio", "Fleminginkatu 15", "neighbourhood", "VERIFY", "Call / walk-in",
+     "15–22", "15–23", "hours not yet published*", "hours not yet published*", "too late",
+     "Since 1969; non-grand Kallio classic. Official page only lists through Mon 17 Aug — VERIFY Tue–Thu.", "Finnish pub-restaurant",
+     "https://www.ravintolacella.fi/", "Official through 17 Aug", 6],
+    ["Carelia", "French brasserie", "Taka-Töölö", "Mannerheimintie 56", "neighbourhood", "VERIFY", "Book",
+     "CLOSED", "CLOSED", "16–23", "16–23", "too late",
+     "1920s pharmacy room. Summer break ended 12 Aug 2026. Closed Sun–Mon.", "Brasserie, not a Finnish-national menu",
+     "https://ravintolacarelia.fi/en/home-2/", "Official", 6],
+    ["Harju 8", "Bistro / natural wine", "Kallio", "Harjutori 8", "neighbourhood", "VERIFY", "Walk-in — no reservation",
+     "11–late*", "11–late*", "11–late*", "11–late*", "too late",
+     "Spontaneous Kallio living room. Exact kitchen close not on MyHelsinki — VERIFY food service.", "Wine + plates; expect a wait",
+     "https://www.myhelsinki.fi/places/harju-8/", "MyHelsinki daily 11–late", 6],
+    ["Lohtu", "Vegan hall lunch", "Hakaniemi Market Hall 2F", "Hämeentie 1 A", "cheap-everyday", "VERIFY", "Walk-in lunch",
+     "CLOSED (hall)", "lunch 11–15:30; porridge 08:30–10:30", "same", "same", "lunch if buffer",
+     "Plant-based hall lunch. Not a dinner. Hall closed Sunday.", "Vegan comfort lunch",
+     "https://www.ravintolalohtu.fi/en/", "Official", 6],
     ["Sea Horse", "Classic Finnish", "Ullanlinna", "Kapteeninkatu 11", "icon", "VERIFY", "Book / walk-in",
      "15–24", "15–24", "15–24", "15–24", "15–24 (too late to start)",
      "1933 institution; onion steak; near ADM", "Onion steak / Baltic herring / vorschmack",
@@ -489,6 +526,10 @@ brunch = [
     ["3", "Levain Merikortteli, Pursimiehenkatu 29–31", "Punavuori, slightly further than Ekberg",
      "Sat–Sun 8:30–16:30 official", "Third-wave sourdough if institutions are slammed", "Walk-in / book",
      "You want a tablecloth first impression"],
+    ["3b", "Café Story, Vanha Kauppahalli", "~15–20 min via harbour",
+     "Sun 10–17, kitchen 10–16 official",
+     "Salmon soup in the old market hall — harbour orientation, more tourist-facing than Ekberg", "Walk-in",
+     "You want Design District not the postcard harbour"],
     ["4", "Gaijin, Bulevardi 6", "Next to Ekberg — NOT brunch",
      "Dinner from 15:00 Sun; lunch closed through 17.8.2026",
      "Park for 15:00 if Ekberg was too light", "Book gaijin.fi",
@@ -534,6 +575,14 @@ acts = [
      "Mon–Thu 6:30–21. Katajanokanlaituri 2A. More central, less architecture.",
      "https://allasseapool.fi/en/", "Backup sauna", "Backup",
      "Weekend single €17 official; weekday VERIFY"],
+    ["Kulttuurisauna", "Quiet public sauna", "90 min", "Book evenings (calendar ~2 weeks)",
+     "Eve Wed–Sun 16–20; morning walk-in Fri–Sun 8–11:30. First-timers: come alone. No groups >2. Hakaniemenranta 17.",
+     "https://www.kulttuurisauna.fi/", "Quieter Löyly alternative", "Backup Wed",
+     "Adult €17 official; student €13. Bring own towel."],
+    ["Aalto House", "Architecture tour", "1 h", "Guided only; book shop.alvaraalto.fi",
+     "Jul–Aug Tue–Fri 11–16 hourly; Sat–Sun 12–16. Closed Mon. Max 15. Riihitie 20, Munkkiniemi.",
+     "https://www.alvaraalto.fi/en/location/the-aalto-house/", "Aalto, not a drop-in museum", "Optional Tue morning",
+     "€32 / students €16 official"],
     ["Temppeliaukio", "Church", "20 min", "Door ticket",
      "Hours change with services; check the week. Sunday 10:00 is worship, not sightseeing.",
      "https://www.temppeliaukiochurch.fi/en/index/nimi.html", "Photo only", "No",
@@ -626,11 +675,19 @@ matrix = [
     ["Nolla", "CLOSED*", "CLOSED*", "OPEN dinner*", "OPEN dinner*", "too late", "Michelin hours — VERIFY"],
     ["Grön", "CLOSED", "CLOSED", "CLOSED", "OPEN dinner*", "too late", "Secondary hours; 188e menu official"],
     ["Latitude 25", "CLOSED", "CLOSED", "CLOSED", "OPEN 17–21:30", "too late", "Official"],
+    ["Skörd", "CLOSED*", "OPEN dinner*", "OPEN dinner*", "OPEN dinner*", "too late", "Official 86e/72e; hours Time Out Mon–Sat"],
+    ["Kuurna", "CLOSED", "OPEN 17–23", "OPEN 17–23", "OPEN 17–23", "too late", "Official"],
     ["Sea Horse", "OPEN 15–24", "OPEN 15–24", "OPEN 15–24", "OPEN 15–24", "OPEN but leaving", "Official summer"],
     ["Kosmos", "CLOSED", "OPEN 11:30–24", "OPEN", "OPEN", "OPEN morning/lunch", "Official"],
     ["Elite", "OPEN 13–22", "OPEN 12–22", "OPEN", "OPEN", "OPEN morning", "Official"],
     ["Katana Ramen", "CLOSED?*", "OPEN 11–21*", "OPEN*", "OPEN*", "OPEN* morning", "Falstaff — VERIFY"],
     ["Bui Ramen", "OPEN 12–20", "OPEN 11–21", "OPEN", "OPEN", "OPEN morning", "Official — not central"],
+    ["Sansar", "OPEN 12–21", "OPEN 10:30–21", "OPEN", "OPEN", "lunch if time", "Official — search Sansar not Satkar"],
+    ["BasBas", "CLOSED", "CLOSED", "OPEN from 16:00", "OPEN from 16:00", "too late", "Official"],
+    ["Cella", "OPEN 15–22", "OPEN 15–23", "VERIFY", "VERIFY", "too late", "Official only through 17 Aug"],
+    ["Carelia", "CLOSED", "CLOSED", "OPEN 16–23", "OPEN 16–23", "too late", "Official; summer break ended 12 Aug"],
+    ["Harju 8", "OPEN 11–late*", "OPEN*", "OPEN*", "OPEN*", "too late", "MyHelsinki — kitchen VERIFY"],
+    ["Lohtu", "CLOSED (hall)", "OPEN lunch 11–15:30", "OPEN lunch", "OPEN lunch", "lunch if buffer", "Official; hall closed Sun"],
     ["Amos Rex", "OPEN 11–17", "OPEN 11–20", "CLOSED", "OPEN 11–20", "OPEN 11–23 (you miss evening)", "Official"],
     ["ADM", "OPEN 11–18", "OPEN 11–20", "OPEN 11–20", "OPEN 11–20", "OPEN 11–22 (you miss evening)", "Official"],
     ["Oodi", "OPEN 10–20", "OPEN 8–21", "OPEN 8–21", "OPEN 8–21", "OPEN 8–21 morning", "Official"],
@@ -653,7 +710,7 @@ for r in range(2, ws.max_row + 1):
 ws = wb.create_sheet("08_Rain_and_skip")
 rain = [
     ["Rain on island day", "Swap Suomenlinna with ADM + Ateneum + Punavuori; island on the clear day", "Two islands"],
-    ["Löyly full", "Allas; or hotel sauna if any", "Skip sauna entirely — it is the Helsinki verb"],
+    ["Löyly full", "Kulttuurisauna €17/90 min Wed–Sun 16–20 (book ~2 weeks, first-timers alone); or Allas", "Skip sauna entirely — it is the Helsinki verb"],
     ["Nolla + Grön + omakase all full", "Sea Horse + Georgian + Katana. Still a great trip.", "Random Esplanadi terrace"],
     ["Hotel not ready 10:30", "Brunch first with bag; ask hotel left luggage VERIFY", "Sit in the terminal 2 hours"],
     ["Tired like Stockholm Friday", "One museum + one dinner. Cut the walk.", "Temppeliaukio + cathedral + market hall stack"],
@@ -675,6 +732,7 @@ viz = [
     ("Löyly", 9, "Place"),
     ("ADM Design Museum", 9, "Place"),
     ("Grön", 9, "Meal"),
+    ("Skörd", 9, "Meal"),
     ("Katana Ramen", 8, "Meal"),
     ("Sea Horse", 8, "Meal"),
     ("Gaijin", 8, "Meal"),
@@ -692,8 +750,8 @@ chart = BarChart()
 chart.type = "bar"
 chart.title = "Helsinki must-scores (Bob-specific, not TripAdvisor)"
 chart.x_axis.title = "Score 0–10"
-data = Reference(ws, min_col=2, min_row=1, max_row=17)
-cats = Reference(ws, min_col=1, min_row=2, max_row=17)
+data = Reference(ws, min_col=2, min_row=1, max_row=18)
+cats = Reference(ws, min_col=1, min_row=2, max_row=18)
 chart.add_data(data, titles_from_data=True)
 chart.set_categories(cats)
 chart.shape = 4
@@ -703,7 +761,7 @@ chart.height = 12
 chart.width = 18
 ws.add_chart(chart, "E2")
 ws.conditional_formatting.add(
-    "B2:B17",
+        "B2:B18",
     ColorScaleRule(
         start_type="num", start_value=0, start_color="E8D5D5",
         mid_type="num", mid_value=6, mid_color="FFF3C4",
@@ -726,8 +784,8 @@ nbh = [
     ("Ullanlinna / Kaartinkaupunki", 4),
     ("Suomenlinna", 1),
     ("Hernesaari", 1),
-    ("Kallio", 2),
-    ("Töölö", 1),
+    ("Kallio", 4),
+    ("Töölö", 2),
     ("Kalasatama (out of way)", 1),
 ]
 for i, row in enumerate(nbh, 21):
@@ -761,7 +819,12 @@ sources = [
     ["S-nolla", "Nolla reservations", "https://restaurantnolla.com/reservations/", ACCESSED, "High booker; hours not on official page"],
     ["S-gron-menu", "Grön summer 2026 menu 188e", "https://www.restaurantgron.com/menu", ACCESSED, "High — official"],
     ["S-gron-book", "Grön DinnerBooking", "https://dinnerbooking.com/fi/en-US/r3904/restaurant-gron", ACCESSED, "High — official booker"],
-    ["S-lat25", "Latitude 25 hours", "https://www.latitude25.fi/", ACCESSED, "High — official"],
+    ["S-lat25", "Latitude 25 hours + 119e booking", "https://www.latitude25.fi/booking/", ACCESSED, "High — official"],
+    ["S-skord", "Skörd menu 86e / 72e", "https://xn--skrd-6qa.fi/en/food/", ACCESSED, "High — official"],
+    ["S-kuurna", "Kuurna hours + 46e/54e", "https://www.kuurna.fi/in-english", ACCESSED, "High — official"],
+    ["S-muru", "Muru menu of the day 59e", "https://murudining.fi/en/", ACCESSED, "High price; closed days VERIFY"],
+    ["S-aalto", "Aalto House guided tours", "https://www.alvaraalto.fi/en/location/the-aalto-house/", ACCESSED, "High — official"],
+    ["S-ksauna", "Kulttuurisauna hours + €17", "https://www.kulttuurisauna.fi/", ACCESSED, "High — official"],
     ["S-shii", "Shii concept + phone", "https://shii.fi/", ACCESSED, "High concept; hours missing"],
     ["S-seahorse", "Sea Horse summer hours", "https://www.seahorse.fi/en/restaurant-sea-horse/", ACCESSED, "High — official"],
     ["S-kosmos", "Kosmos hours + menu", "https://kosmos.fi/en/our-food/", ACCESSED, "High — official"],
@@ -781,6 +844,14 @@ sources = [
     ["S-allas", "Allas hours", "https://allasseapool.fi/en/", ACCESSED, "High — official"],
     ["S-momo", "Momotoko bankruptcy", "https://www.hs.fi/helsinki/art-2000011230551.html", "2025-05-15", "High — local press, closure status"],
     ["S-katana", "Katana hours (Falstaff)", "https://www.falstaff.com/at/streetfood/katana-ramen-restaurant", ACCESSED, "Medium — secondary, no official hours page"],
+    ["S-sansar", "Sansar hours (ex-Satkar)", "https://www.sansar.fi/", ACCESSED, "High — official"],
+    ["S-mountain", "Restaurant Mountain hours", "https://ravintolamountain.com/en/home/", ACCESSED, "High — official"],
+    ["S-basbas", "BasBas hours", "https://basbas.fi/bistro/en/", ACCESSED, "High — official"],
+    ["S-cella", "Cella hours through 17 Aug", "https://www.ravintolacella.fi/", ACCESSED, "High Sun–Mon; Tue–Thu unverified"],
+    ["S-carelia", "Carelia hours + 2026 summer break", "https://ravintolacarelia.fi/en/home-2/", ACCESSED, "High — official"],
+    ["S-harju8", "Harju 8 listing", "https://www.myhelsinki.fi/places/harju-8/", ACCESSED, "Medium — MyHelsinki; kitchen close missing"],
+    ["S-lohtu", "Lohtu hall lunch hours", "https://www.ravintolalohtu.fi/en/", ACCESSED, "High — official"],
+    ["S-nbhd", "Neighbourhood eateries research (40 venues)", "docs/helsinki-aug-2026/research/neighbourhood-eateries.md", ACCESSED, "Compiled from official/MyHelsinki/HS — VERIFY live"],
 ]
 add_table(ws, sh, sources, [14, 40, 70, 14, 40], GOLD, 28)
 for r in range(2, ws.max_row + 1):

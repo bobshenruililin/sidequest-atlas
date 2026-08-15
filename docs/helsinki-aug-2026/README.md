@@ -32,7 +32,7 @@ Do these in order. Stop when the night is locked.
 | 3c | **Kuurna** | Mon 17 (Nolla closed) | [kuurna.fi](https://www.kuurna.fi/in-english) · 2/3 courses from **46e/54e** |
 | 4 | **Löyly** 2 h public sauna | Wed 19 afternoon | [reservation calendar](https://varaus.asio.fi/onlinekalenteri/loyly/guest.php?ss_lang=eng) · official **€29 / 2 h** |
 | 5 | **Gaijin** backup | Sun from 15:00 | [gaijin.fi/reservation](https://www.gaijin.fi/reservation) · Bulevardi 6 |
-| 6 | **Latitude 25 / Shii** | Wed only (closed Sun–Tue) | [latitude25.fi](https://www.latitude25.fi/) · [shii.fi](https://shii.fi/) |
+| 6 | **Latitude 25** | Wed only (official closed Sun–Tue) | [latitude25.fi](https://www.latitude25.fi/) · **119e**. Shii (€98) hours are **not** confirmed closed Sun–Tue — check DinnerBooking |
 | 7 | HSL app | all week inc Suomenlinna ferry | [hsl.fi Suomenlinna](https://www.hsl.fi/en/travelling/visitors/suomenlinna) |
 | 8 | Amos Rex | Sun before 17:00 | [tickets](https://amosrex.fi/en/tickets/) · 18–29 / students **€5** official |
 
@@ -41,7 +41,7 @@ Do these in order. Stop when the night is locked.
 - **Amos Rex → Tuesday 18 Aug**
 - **Nolla → Sun + Mon** (Michelin listing; confirm in the booker)
 - **Grön → Sun + Mon + Tue**
-- **Latitude 25 → Sun + Mon + Tue** (official)
+- **Latitude 25 → Sun + Mon + Tue** (official). **Do not copy that onto Shii.**
 - **Kosmos → Sunday**
 - **Katana Ramen → Sunday likely** (Falstaff omits Sunday — VERIFY)
 - **Momotoko ramen → permanently closed** (bankruptcy 2025)
@@ -139,7 +139,7 @@ flowchart LR
 | 8 | **Katana Ramen** Telakkakatu 12 | Dedicated ramen after Momotoko died. Likely closed Sunday. |
 | 8 | **Sea Horse** Kapteeninkatu 11 | 1933 Finnish room; onion steak; open 15–24 |
 | 8 | **Gaijin** | Serious North-Asia; Sun from 15:00; lunch closed through 17 Aug |
-| 7 | **Latitude 25 / Shii** | Omakase — Wednesday only for Latitude (official) |
+| 7 | **Latitude 25 / Shii / Hanayagi** | Latitude Wed only (official). Shii hours VERIFY. Hanayagi Tue–Wed, €150 booker |
 | 7 | **Kosmos / Sansar / BasBas** | 1924 Helsinki cuisine (closed Sun) · Kamppi Nepalese lunch · Punavuori small plates Tue–Wed |
 | 6 | **Cella / Harju 8 / Lohtu** | Kallio classic (hours only through Mon 17) · walk-in wine room · vegan Hakaniemi lunch (hall closed Sun) |
 | 6 | **Bui Ramen** | Real handmade noodles — Kalasatama, not central. Paitan **17.90€** official. |

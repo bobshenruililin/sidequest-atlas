@@ -1,0 +1,83 @@
+schemaVersion: 1.0.0
+id: 2026-08-16-fukuda-career-sharing-questions
+capturedAt: 2026-08-16T18:30:00.000Z
+title: Fukuda 28 Aug GHD career sharing — questions worth asking
+rawText: "Sharing on a career in global health and development. Speaker:
+  Professor Keiji Fukuda, Honorary Professor, School of Public Health. Date:
+  August 28, 2026 (Friday). Time: 2:30pm – 4:30pm. Venue: LE2, Library Extension
+  Building, LG1/F, Main Campus, University of Hong Kong. Are there any questions
+  you wish to discuss at the sharing? Research in deep and think in deep. Give
+  me a list to choose from."
+spark: Fukuda invented GHD. Ask what a non-physician can own in a CHP/IHR room,
+  and whether a national health-security year beats a WHO intern badge. Do not
+  ask how to get into WHO.
+domains:
+  - career
+  - opportunity
+  - research
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://sph.hku.hk/en/Biography/Fukuda-Keiji
+  - https://www4.hku.hk/honfellows/honorary-university-fellows/professor-keiji-keiji-fukuda-fukuda-professor-keiji-fukuda
+  - https://cmbfound.org/board/keiji-fukuda/
+  - https://ghd.sph.hku.hk/field-placement
+  - https://www.who.int/westernpacific/about/careers/internships-and-volunteering
+  - https://www.ethos.hku.hk/podcasts/keijifukuda
+relatedTrips:
+  - nordics-2026
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Medicine closed; ordinary law floor; grey door closed; stay in GHD
+    - Thesis is HK-Mainland public-health seam / trust / interoperability
+    - LINK-S owns winter; LiA owns summer 2027; GHAD4010 owns 2028
+    - WHO internships are not a 2026 action (age plus three completed years)
+    - Do not claim HA admissions data unless a supervisor confirms
+  informationGaps:
+    - Event page not independently fetched; treat flyer as operator-stated
+    - Ethos podcast not transcribed here
+    - Whether Fukuda still takes student advisees as Honorary Professor
+  opportunityGaps:
+    - Ask the programme inventor what GHD is for
+    - CMB board role plus existing GHD CMB Bangkok capstone
+    - China CDC Shanghai capstone already documented in GHD blogs
+  falseBargains:
+    - Asking how to intern at WHO
+    - Asking him to place you at China CDC or CMB
+    - Reciting his CV as a question
+    - Climate-health conference identity if he says the hiring lane is still
+      ID/AMR
+    - Applying to the Aug 2026 WPRO intern window without three completed years
+  corrections:
+    - Fukuda introduced BASc(GHD); this is not a generic career talk
+    - He is a physician; Bob is not going to be one
+    - AMR UN meeting is what the honorary citation calls his greatest
+      professional achievement
+    - H1N1 uncertainty remark is contemporaneous press of a 2010 briefing, not a
+      gotcha
+  suggestedImplementations:
+    - action: Attend 28 Aug with questions A1 and B1 prepared, C1 or C2 as backup
+      rationale: One or two questions will be asked; these change Year-2 and capstone
+        choices
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not apply to the August 2026 WHO intern window
+      rationale: Three completed university years not met; calendar also collides with
+        term start
+      effort: S
+      leverage: high
+      owner: bob
+    - action: After the talk, write three sentences of what he actually said about
+        GHD-without-MD and national-vs-WHO
+      rationale: Chat without a record does not compound; this talk is programme-defining
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane briefing. No booking refs, phones, or award-letter
+  internals. Event details operator-stated.

@@ -7,3 +7,4 @@
 | 0003 | CLI as canonical automation API | Accepted |
 | 0004 | Separate private life vault | Accepted |
 | 0005 | Integer money and claim-level provenance | Accepted |
+| 0006 | One brain, many homes (no sister-repo merge) | Accepted |

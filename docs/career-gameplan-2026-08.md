@@ -348,9 +348,19 @@ Verified today: LINK 12 credits + 3-week SH/HCMC; T&N tuition/living/exchange/En
 
 ---
 
+## 13. Do not merge the three git repos
+
+The 16 Aug crawl failed because **canon drifted**, not because GitHub had three URLs. My-Life still described a law-transfer student; LearnAI is a gift site for someone else; this cloud agent only had Atlas.
+
+**Do not** prompt a multi-repo bot to squash Atlas + My-Life + LearnAI. That mixes a public travel Pages app, a Python career CRM, and another person’s opportunity atlas. See ADR 0006.
+
+**Do** prompt a bot to *read* the sisters, diff programme / wedge / LiA dates / floors, and patch the ghost profile. If anything is absorbed later, it is My-Life Career OS into Atlas only — after 30 days of actual use and a new ADR. LearnAI and Laidlaw-Heat stay out.
+
 ## Related
 
 - Capture: `content/captures/2026-08-16-underclassmen-lists-career-gameplan.yaml`
+- Follow-up: `content/captures/2026-08-16-one-brain-not-one-repo.yaml`
 - Projects: `content/projects/seam-ready.yaml`, `content/projects/hk-early-stage-ledger.yaml`
 - Prior: `content/captures/2026-07-22-floor-tests-law-path.yaml`, `docs/tung-ngai-bob-profile.md`
 - Sister: My-Life `strategic-audits/summer-2027-laidlaw-plan.md` (ghost profile — update there)
+- ADR: `docs/adr/0006-one-brain-many-homes.md`

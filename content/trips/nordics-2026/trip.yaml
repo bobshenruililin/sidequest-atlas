@@ -528,13 +528,20 @@ destinations:
   - id: nokia
     name: Nokia
     type: company
-    city: Helsinki
-    description: Finnish technology company and symbol of small-country global reach.
-    whyItMatters: A classic case of patient technical capability and reinvention.
-    whatItReveals: How national technology narratives survive platform shifts.
+    city: Espoo
+    description: >-
+      Finnish networking company headquartered at Karaportti, Espoo. The public
+      Nokia a four-day visitor can use is Aalto's handset-era Design Archive,
+      not a campus tour. Keilaniemi's former Nokia House is no longer Nokia.
+    whyItMatters: A classic case of patient technical capability and reinvention after the handset collapse.
+    whatItReveals: How national technology narratives survive platform shifts — and how easy it is to visit the wrong building.
     aiEraQuestion: What does AI mean for telecom infrastructure and Finnish industrial identity?
     visitability: exterior-only
-    verificationStatus: unresearched
+    sourceIds:
+    - src-nokia-finland
+    - src-nokia-bell-labs-espoo
+    - src-nokia-design-archive
+    verificationStatus: researched
   publicInstitutions:
   - id: sitra
     name: Sitra
@@ -2043,14 +2050,18 @@ days:
     status: idea
   - id: d0817-afternoon
     period: afternoon
-    title: Design district or library comparison
-    description: Compare campus design with a public library or design district after verifying access.
-    whyItMatters: The question is whether design is elite branding or public infrastructure.
-    observationPrompt: Where does design become everyday competence?
+    title: Keilaniemi former-Nokia waterfront or Design Museum wellbeing
+    description: >-
+      After Aalto, either walk Keilaniemi (Kone/Fortum cluster; former Nokia House
+      is not current HQ) or visit Architecture & Design Museum exhibition Aalto
+      Design – Shapes of Wellbeing. Do not go to Karaportti expecting a Nokia tour.
+      Re-check museum tour times on the official page.
+    whyItMatters: The question is whether design is elite branding or public infrastructure — and whether Nokia is a living campus or a memory.
+    observationPrompt: Which building is actually Nokia, and which one only looks like the story?
     bookingRequired: false
     fixed: false
     planningStatus: candidate
-    verificationStatus: unresearched
+    verificationStatus: researched
     status: idea
   - id: d0817-dinner
     period: dinner
@@ -2106,6 +2117,9 @@ days:
   sourceIds:
   - src-aalto
   - src-hsl
+  - src-nokia-finland
+  - src-nokia-bell-labs-espoo
+  - src-nokia-design-archive
 - id: day-2026-08-18
   date: '2026-08-18'
   city: Helsinki
@@ -2860,6 +2874,39 @@ sources:
     required.
   confidence: medium
   reverifyAfter: '2026-08-01'
+- id: src-nokia-finland
+  title: Nokia Finland locations and student programmes
+  publisher: Nokia
+  url: https://www.nokia.com/careers/our-locations/finland/
+  accessedAt: '2026-08-16'
+  sourceType: official
+  supports:
+  - Global HQ is in Espoo; Espoo campus ~2850 people; ~500 trainees/year across Espoo, Tampere, Oulu;
+    summer trainee applications usually start in January; student group visits via university partnerships.
+  confidence: high
+  reverifyAfter: '2026-09-01'
+- id: src-nokia-bell-labs-espoo
+  title: Nokia Bell Labs Espoo
+  publisher: Nokia Bell Labs
+  url: https://www.nokia.com/bell-labs/about/locations/espoo-finland/
+  accessedAt: '2026-08-16'
+  sourceType: official
+  supports:
+  - Bell Labs Espoo is on the HQ campus at Karaportti 3, FI-02610 Espoo; Virtual Future X Lab with Executive
+    Experience Center; university partners include Aalto, University of Helsinki, VTT.
+  confidence: high
+  reverifyAfter: '2026-09-01'
+- id: src-nokia-design-archive
+  title: Nokia Design Archive
+  publisher: Aalto University
+  url: https://nokiadesignarchive.aalto.fi/
+  accessedAt: '2026-08-16'
+  sourceType: official
+  supports:
+  - Public online archive of Nokia Mobile Phones design history; physical items at Aalto University Archives
+    by appointment (see official Aalto Archives page; Otakaari 1B).
+  confidence: high
+  reverifyAfter: '2026-09-01'
 - id: src-visit-oslo
   title: Visit Oslo
   publisher: Visit Oslo

@@ -1,0 +1,101 @@
+schemaVersion: 1.0.0
+id: 2026-08-16-helsinki-nokia-four-days
+capturedAt: 2026-08-16T15:10:00.000Z
+title: Helsinki four days — Nokia is archive and exterior, not a tour
+rawText: I’m in Helsinki and want to take advantage of Nokias resources. Email?
+  Tour? What can I get? Other companies/things? Staying for 4 days
+spark: No Nokia HQ tour this week. Use Aalto’s Nokia Design Archive tonight;
+  Keilaniemi waterfront is former Nokia House; live HQ is Karaportti
+  exterior-only. Do not spend APRU/Horizons emails on Nokia.
+domains:
+  - travel
+  - opportunity
+  - career
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.nokia.com/careers/our-locations/finland/students-and-graduates/
+  - https://www.nokia.com/bell-labs/about/locations/espoo-finland/
+  - https://nokiadesignarchive.aalto.fi/
+  - https://www.aalto.fi/en/archives
+  - https://www.aalto.fi/en/visiting-aalto-university/independent-exploration
+  - https://www.tekniikanmuseo.fi/en/opening-hours-and-tickets/
+  - https://admuseo.fi/en/exhibition/aalto-design-shapes-of-wellbeing
+  - https://www.espoo.fi/en/keilaniemi-high-tech-and-business-hub
+  - https://www.nokiafoundation.com/nokia-scholarship-info
+  - https://www.sitra.fi/en/welcome-to-sitra/
+relatedTrips:
+  - nordics-2026
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Nordics trip already lists Nokia as exterior-only and unresearched
+    - Helsinki week through 20 Aug 14:05 — two career emails, not an application
+      grind
+    - Compounding over speed; triangulate do not twin; prestige hunger is a
+      distortion
+    - Stay in GHD; CS minor is an artifact engine, not a Nokia trainee key this
+      week
+  informationGaps:
+    - Whether Aalto Archives can accommodate a same-week Nokia Design Archive
+      consult in mid-August
+    - Live HSL routing Karaportti versus Keilaniemi on the visit day
+    - Maria 01 / A Grid open events 16–20 Aug 2026 (check official calendars;
+      none verified here)
+    - Exact clock time of Design Museum 15-minute tours on 17 and 19 Aug
+  opportunityGaps:
+    - Nokia Design Archive as the actual public Nokia resource
+    - Design Museum Aalto wellbeing / Paimio health-architecture exhibition on
+      now
+    - Keilaniemi as former-Nokia House plus live Kone/Fortum cluster
+    - Tekniikan museo objects if the archive is not enough
+  falseBargains:
+    - Cold-emailing Nokia HQ for a four-day tour
+    - Nokia Foundation doctoral ICT grants as a GHD Year-2 play
+    - Going to Keilaniemi expecting current Nokia headquarters
+    - Spending APRU/Horizons emails on Nokia Insiders chat
+    - Maria 01 paid delegation tour as a same-week walk-in
+    - Waiting for Designs for a Cooler Planet (opens 1 Sep)
+  corrections:
+    - Live Nokia HQ / Bell Labs campus address is Karaportti 3, Espoo
+      (Karamalmi), not Keilaniemi
+    - Keilaniemi Nokia House transferred with the handset business; treat
+      Wikipedia/secondary on that transfer as medium confidence
+    - Design Museum Utopia Now (Nokia phones) ended 12 Apr 2026
+    - Sitra AI summer day is 22 Aug — after the flight
+    - Sunday 16 Aug Technology Museum hours ended at 17:00 local
+  suggestedImplementations:
+    - action: Tonight, use the Nokia Design Archive portal and send the two queued
+        career emails (APRU, Horizons)
+      rationale: Archive is the only Nokia resource that does not need a receptionist;
+        career emails compound after 21 Aug
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Monday 17 Aug Aalto public campus then Keilaniemi waterfront or Design
+        Museum wellbeing exhibition
+      rationale: Matches the existing Aalto day; former-Nokia House plus Aalto
+        health-architecture is the thesis, not a badge
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Optional one note via the Aalto University Archives contact page for
+        Nokia Design Archive physical access; assume no
+      rationale: Official archives rule is contact before visiting; August
+        short-notice is unlikely
+      effort: S
+      leverage: low
+      owner: bob
+    - action: Do not email Nokia careers, Foundation, or HQ reception for a tour this
+        week
+      rationale: Tours are university-group; Foundation is doctoral ICT; summer
+        trainees open in January
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane fieldwork memo. No booking refs, hotel room numbers,
+  or private contacts.

@@ -1,6 +1,7 @@
 # Career gameplan — underclassmen lists, three scholarships, HK home turf
 
 **Captured:** 2026-08-16 (Helsinki fieldwork week; return 20–21 Aug)  
+**Correction same day:** stay in GHD — not transferring to GLaw. STEM add-on and mid-August list re-score: `docs/career-gameplan-midaug-2026.md`.  
 **Plane:** operator docs (no PII, no award-letter internals, no booking refs)  
 **Homes:** Atlas = this record; My-Life = Career OS; LearnAI = public opportunity radar  
 **Team:** Opus (list crawl + public-health crawl), Fable (dual-future stress test), Sol (HK-host vehicles + draft-only email OS)
@@ -15,7 +16,7 @@
 
 The three GitHub lists are a **US CS/finance underclassmen funnel**. They are almost useless as application targets and highly useful as *structural intelligence*.
 
-Do **not** clone Microsoft Explore, Jane Street FTTP, Zapply autofill, or ambassador spam. Steal eleven tactics (section 2). Play the board where a trilingual three-scholar GHD student with a Mainland mandate is scarce: the **HK–Mainland public-health seam**.
+Do **not** clone Microsoft Explore, Jane Street FTTP, Zapply autofill, or ambassador spam. Steal eleven tactics (section 2). Play the board where a trilingual three-scholar GHD student with a Mainland mandate is scarce: the **HK–Mainland public-health seam**. A CS minor is an artifact engine, not a ticket into those US lists.
 
 **Single operating thesis (2026-08 → 2027-08):**
 
@@ -28,8 +29,8 @@ Do **not** clone Microsoft Explore, Jane Street FTTP, Zapply autofill, or ambass
 |---|---|---|
 | Now–20 Aug | Nordics fieldwork (Helsinki → fly 20 Aug) | Application grind |
 | Oct 2026 | Laidlaw London + GEST Valencia invited talk | Vacation-scheme interview gauntlet |
-| Winter 2026/27 | LINK-S: **12 credits** + **3-week** Shanghai *or* HCMC immersion ([official LINK](https://tl.hku.hk/link/)) | Jane Street Dec–Feb HK intern, Cleary/Reed Smith winter VS, US “winternships” |
-| Summer 2027 | Laidlaw LiA ~6 weeks (assumed 15 Jun–26 Jul 2027 — **dates unverified**) | Mitacs GRI, Amgen Asia, CSB summer intern, US SWE internships |
+| Winter 2026/27 | LINK-S: **12 credits** + **3-week** Shanghai *or* HCMC immersion ([official LINK](https://tl.hku.hk/link/)) | Jane Street Dec–Feb HK intern (live posting 7582902002 — still skip), Cleary/Reed Smith winter VS, US “winternships” |
+| Summer 2027 | Laidlaw LiA ~6 weeks (assumed 15 Jun–26 Jul 2027 — **dates unverified**) | Mitacs GRI, Amgen Asia, CSB summer intern, Jane Street HK May–Aug (posting **closed** today), US SWE internships |
 | Y3 summer 2028 | GHD **six-month capstone** (`GHAD4010`), not an “open internship summer” ([GHD field placement](https://ghd.sph.hku.hk/field-placement)) | A second big summer logo |
 
 **Bring the US competition to HK** by importing the *market mechanism* (verified discovery → host-owned projects → one pilot), not by hosting a vanity explorer day or becoming a campus ambassador.
@@ -82,6 +83,7 @@ LuisaE's bonus tips that survive translation: LinkedIn hygiene, one referee who 
 
 | Item | Why | Catch |
 |---|---|---|
+| **National Geographic Society × The Nature Conservancy** GIS/StoryMap externship | Only worldwide, currently-open row from the three underclassmen lists. Ages 18–25; ~10 h/wk remote from **14 Sep 2026**; **apply by 30 Aug**. [Extern listing](https://www.extern.com/national-geographic-society-the-nature-conservancy-externships/community-conservation-data-visualization-and-mapping-externship) | Overlaps October London + Valencia. Apply after 21 Aug or skip in writing. See midaug memo. |
 | **APRU Global Health Conference 2026**, CUHK, 7–9 Dec | In Hong Kong; theme *Resilience and Adaptation*; climate-health plenary (Kathryn Bowen); abstracts publish in *Journal of Public Health and Emergency*. Highest local compounding event this winter. | Individual abstract deadline **15 Aug 2026** — **yesterday**. Today: one email to `enquiry@aprughc2026.hk` asking whether a **late poster** (heat × older adults; GEST leave-behind) is still receivable. Do not assume yes. Student Poster Contest deadline **unverified** separately. [CFA page](https://cuhk.aprughc2026.hk/call-for-papers-abstracts.html) |
 | **Sau Po Centre on Ageing** term-time research / casual RA | Heat mortality in the published Bishai-group estimate is concentrated in 65+ / 85+. Ageing centre is on-thesis. | Cantonese may gate field interviews; analysis-side still useful. [Internship page](https://ageing.hku.hk/getting-involved-internship-program/) |
 | **Chao Ren (Architecture) as second referee** | Urban-climate co-author on the heat work. Two-faculty letters beat two SPH letters for capstone/URFP. | Ask after a real methods conversation, not a cold “please be my referee.” |
@@ -109,17 +111,18 @@ LuisaE's bonus tips that survive translation: LinkedIn hygiene, one referee who 
 - APHA DC internships (unpaid, US work auth). Wellcome London (UK right-to-work). Gates Foundation internships **ended 2021** (folklore — kill it).
 - CSB Post-Secondary **Summer** Internship 2027: PR-gated (T&N eligibility implies PR is likely — still verify), **June–Aug full-time**, collides with LiA. [CSB](https://www.csb.gov.hk/english/admin/appoint/782.html)
 - HA Finance / Internal Audit internships: real, paid, **off-thesis**.
-- My-Life Jul 19 **Jane Street HK Dec–Feb intern** and **Cleary winter VS (deadline 1 Oct 2026)** as currently stacked: they collide with LINK-S and with October talks. See §5.
+- My-Life Jul 19 **Jane Street HK Dec–Feb intern** (official posting still live) and **Cleary winter VS (deadline 1 Oct 2026)** as currently stacked: they collide with LINK-S and with October talks. See §5 and `docs/career-gameplan-midaug-2026.md`.
+- Stellic Pathfinders (closes 21 Aug; US/Canada/Mexico/Australia enrolment). AWS Student Builder Group Leader (closes 16 Aug 23:59 PST; evangelism, not an artifact). Jane Street HK May–Aug (closed; would collide with LiA if it reopened).
 
 ---
 
 ## 4. Two futures already on disk — Fable's collision
 
-**Future A (Atlas / T&N / writing-voice, 22 Jul → now):** GHD 2025–2029; policy-focused epidemiology; research as prerequisite for service; WZQ done; LINK-S winter; LiA Americas; China CDC *aim*; Seam Ready; law offer reversible; JD after UG only if asked; medicine closed; grey door closed.
+**Future A (Atlas / T&N / writing-voice, 22 Jul → now):** GHD 2025–2029 **confirmed stay 16 Aug**; policy-focused epidemiology; CS **minor** (not second major) as artifact engine; research as prerequisite for service; WZQ done; LINK-S winter; LiA Americas; China CDC *aim*; Seam Ready; law offer reversible; JD after UG only if asked; medicine closed; grey door closed.
 
 **Future B (My-Life Career OS, generated 19 Jul 2026 — three days *before* the floor-tests capture):** `student_profile.json` still says `BSocSc(Govt&Laws)&LLB (transfer)`; wedge = health AI × digital finance; winter critical path = Jane Street / Flow Traders / Jump / Cleary / Reed Smith / SFC / AIIFL / LITE.
 
-**The ghost is still running.** Every Career OS deadline digest is optimizing for a person the 22 Jul floor tests retired. Update My-Life profile before sending another partner email that opens with “I am transferring into Govt&Laws.”
+**The ghost is still running, and GLaw is now closed in operator writing.** Every Career OS deadline digest is optimizing for a person the 22 Jul floor tests retired. Update My-Life profile before sending another partner email that opens with “I am transferring into Govt&Laws.”
 
 **Keep from B:** the software (CRM, ICS, LiA-conflict flags, draft renderers); winter-not-summer logic; **one deep placement + LiA, not three logos**; artifact emails.
 
@@ -275,13 +278,15 @@ Shen Ruililin
 **Week of 24 Aug**
 
 - Log Mitacs as **declined** (calendar + Career OS) so it cannot resurrect.
-- Update My-Life `student_profile.json`: programme = BASc(GHD); wedge = HK–Mainland heat-health seam; kill Govt&Laws transfer opener.
+- NatGeo × TNC externship by **30 Aug**, or a written skip if October talks cannot absorb ~10 h/wk.
+- Update My-Life `student_profile.json`: programme = BASc(GHD); wedge = HK–Mainland heat-health seam; kill Govt&Laws transfer opener. CS minor intent, not LLB.
 - Ask T&N/AAS: LINK-S vs compulsory Mainland exchange; Endeavour earliest year; concurrent-award vs Laidlaw (still an open item from 22 Jul).
 - Bishai / SPH: what artifact is actually publishable by October; **do not claim HA data**.
 - CV: add T&N + Martin **after** award letter is in hand (current `cv/README.md` still says omit T&N until awarded).
 
 **September**
 
+- SIS add/drop **1 Sep (Y2 from noon) – 15 Sep 16:00**: one CS-minor intro course; declare CS minor. Do not declare a second major.
 - Cleary 1 Oct winter VS: **default skip** unless Bob reopens the law-recruiting door in writing *and* LINK-S dates leave a hole (they almost certainly will not).
 - Build Ledger v0 (25 records) in LearnAI.
 - Six conversations for Vehicle 2 / Seam Ready gates.
@@ -336,7 +341,7 @@ Shen Ruililin
 4. **Official (APRU):** late poster / student poster contest still open after 15 Aug?
 5. **Supervisor:** What can be claimed about data (life tables vs HA), and what is talk-ready for GEST/APRU.
 6. **Agent + Bob:** One deep placement among Sau Po / SPH-Bishai hours / AIIFL-CMEL (health-law only if it feeds Seam Ready, not a law-recruiting pivot).
-7. **Bob, once:** Is any part of you still buying Jane Street winter? Answer in writing so the OS stops re-litigating.
+7. **Bob, once:** GLaw is closed. Is any part of you still buying Jane Street winter against LINK-S? Answer in writing so the OS stops re-litigating.
 
 ---
 
@@ -344,7 +349,7 @@ Shen Ruililin
 
 Unverified in this session: LiA 2027 exact dates and city pairing; LINK-S 2026/27 dates and stream; T&N award-letter clauses; APRU late-acceptance policy; Sau Po Cantonese gate in practice; HA data access; CHP student attachment outside CSB; Reaching Out Award vs Laidlaw stacking; Martin Scholar obligations beyond the public bursary page; Cleary/Reed Smith openness to non-law Year 2; Jane Street Dec–Feb eligibility for a 2029 GHD graduate; whether Bob holds HKSAR PR (T&N eligibility requires it — treat as likely, not proven here).
 
-Verified today: LINK 12 credits + 3-week SH/HCMC; T&N tuition/living/exchange/Endeavour + 2-year residency commitment + community mentoring; GHD six-month placement with China CDC Shanghai among past sites; Mitacs IAO deadline 26 Aug 2026 for 12 weeks May–Oct 2027; APRU GHC 7–9 Dec 2026, abstract deadline extended to 15 Aug 2026; WHO WPRO age + three-year gates; CSB summer intern PR + summer timing.
+Verified today: LINK 12 credits + 3-week SH/HCMC; T&N tuition/living/exchange/Endeavour + 2-year residency commitment + community mentoring; GHD six-month placement with China CDC Shanghai among past sites; Mitacs IAO deadline 26 Aug 2026 for 12 weeks May–Oct 2027; APRU GHC 7–9 Dec 2026, abstract deadline extended to 15 Aug 2026; WHO WPRO age + three-year gates; CSB summer intern PR + summer timing; GHD 2025–26+ elective pool **84** credits (subject to approval); CS minor 42 / major 96 (SC001); MATH minor 36 (SI014); BIOC minor 36 (SI004); NatGeo×TNC apply-by 30 Aug 2026 worldwide; Jane Street HK Dec–Feb posting live and calendar-illegal; Jane Street HK May–Aug posting closed.
 
 ---
 
@@ -359,6 +364,7 @@ The 16 Aug crawl failed because **canon drifted**, not because GitHub had three 
 ## Related
 
 - Capture: `content/captures/2026-08-16-underclassmen-lists-career-gameplan.yaml`
+- Mid-August STEM re-score: `content/captures/2026-08-16-midaug-ghd-stem-lists.yaml` → `docs/career-gameplan-midaug-2026.md`
 - Follow-up: `content/captures/2026-08-16-one-brain-not-one-repo.yaml`
 - Projects: `content/projects/seam-ready.yaml`, `content/projects/hk-early-stage-ledger.yaml`
 - Prior: `content/captures/2026-07-22-floor-tests-law-path.yaml`, `docs/tung-ngai-bob-profile.md`

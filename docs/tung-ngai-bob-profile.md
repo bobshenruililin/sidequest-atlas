@@ -1,6 +1,6 @@
 # Bob — Tung & Ngai read-back profile
 
-**Last updated:** 2026-08-16T14:30Z  
+**Last updated:** 2026-08-16T16:00Z  
 **Use:** Any future agent/session should read this before rewriting interview/complement advice.  
 **Plane:** operator docs (no PII). Vault twin may mirror without financials/IDs.
 
@@ -13,14 +13,15 @@
 - **Email brief:** background, achievements, aspirations  
 - **Language working assumption:** mostly English; Mandarin strong; Cantonese needs scripts  
 - **Status (2026-08-16):** operator-stated **awarded scholar**. Award letter not read in that session — confirm concurrent-award, GPA renewal, Endeavour year, and whether LINK-S Shanghai discharges the compulsory Mainland exchange.  
-- **Do not** reopen interview-prep as if still a finalist. Post-award work is enactment (Seam Ready, LINK-S, capstone politics). See `docs/career-gameplan-2026-08.md`.
+- **Do not** reopen interview-prep as if still a finalist. Post-award work is enactment (Seam Ready, LINK-S, capstone politics). See `docs/career-gameplan-2026-08.md` and the mid-August sheet `docs/career-gameplan-midaug-2026.md`.
 
 ## Academic
 
-- HKU BASc Global Health and Development, Year 1 (2025/26)  
+- HKU BASc Global Health and Development, Year 1 (2025/26) → Year 2 from 1 Sep 2026. **Staying in GHD** (operator, 16 Aug 2026). Not transferring to GLaw.  
+- STEM add-on: **CS minor** (42 credits), not a second major (96 > 84 electives). Do not hedge maths + biochem in parallel.  
 - GPA **4.09/4.30**  
 - IB 41 (English A 7; Chinese A 6 + Chinese EE A)  
-- Long-term aspiration in submitted materials: CHP cross-boundary disease control; JD **after** UG as regulatory tool only if asked — **not** Year-1 law transfer in interview
+- Long-term aspiration in submitted materials: CHP cross-boundary disease control; JD **after** UG as regulatory tool only if asked — **not** a law transfer
 
 ## Submitted thesis (do not rewrite; complement)
 

@@ -37,6 +37,8 @@ killCriteria:
 evidence:
   - captureId: 2026-08-16-underclassmen-lists-career-gameplan
     implication: Named Endeavour project is the T&N conversion path.
+  - captureId: 2026-08-16-midaug-ghd-stem-lists
+    implication: Stay in GHD; CS minor is for seam artifacts, not a US-funnel identity.
   - captureId: 2026-07-22-tung-ngai-interview
     implication: Forum proposal must become a project with beneficiaries.
 privacy:

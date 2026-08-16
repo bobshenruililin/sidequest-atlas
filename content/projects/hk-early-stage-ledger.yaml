@@ -37,6 +37,8 @@ killCriteria:
 evidence:
   - captureId: 2026-08-16-underclassmen-lists-career-gameplan
     implication: US lists cannot see HK GHD; the gap is the product.
+  - captureId: 2026-08-16-midaug-ghd-stem-lists
+    implication: A CS minor does not unlock US-enrolment rows; the ledger still has to be HK/GBA.
 privacy:
   classification: public-sanitized
   vaultOnly:

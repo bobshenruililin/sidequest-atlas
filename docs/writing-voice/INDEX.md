@@ -2,7 +2,7 @@
 
 Source prompts Bob provided, mapped to files. Dates are archive dates, not original submission dates.
 
-**Operator note:** Laidlaw is **already awarded**. Keep `laidlaw-personal-statement-draft.md` as a **voice sample only** — do not rewrite it as an application. Future drafts go in `outputs/` for *other* scholarships/programmes.
+**Operator note:** Laidlaw is **already awarded**. Tung & Ngai is operator-stated awarded as of 2026-08-16 (confirm against the award letter before CV/public claims). Keep `laidlaw-personal-statement-draft.md` as a **voice sample only** — do not rewrite it as an application. Future drafts go in `outputs/` for *other* scholarships/programmes. Post-award career routing: `docs/career-gameplan-2026-08.md`.
 
 | File | Prompt / genre | Lang | Notes |
 |------|----------------|------|-------|

@@ -3,6 +3,7 @@
 Durable archive for application essays and voice learning. Use this folder when drafting statements, short answers, or interview prose **on Bob’s behalf** for scholarships and programmes.
 
 Laidlaw is already awarded — its sample is for **voice**, not re-application.
+Tung & Ngai is operator-stated awarded as of 2026-08-16; confirm the letter before public CV claims. Career routing after the lists crawl: `docs/career-gameplan-2026-08.md`.
 
 ## How to use (operator)
 

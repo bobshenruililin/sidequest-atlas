@@ -38,7 +38,7 @@ Edited from the existing Jake-style template (not a redesign).
 
 Body is **10pt** (was 11pt) so Laidlaw + Wu Zhi Qiao fit on one page without reintroducing bleed.
 
-Intentionally **omitted until awarded:** Tung & Ngai scholarship/shortlist.
+Intentionally **omitted until the award letter is in hand:** Tung & Ngai scholarship. Operator-stated awarded 2026-08-16 — add the row (and Martin Scholar, if the college title should appear) in a dedicated CV edit, not as a drive-by. See `docs/career-gameplan-2026-08.md`.
 
 ## Privacy
 

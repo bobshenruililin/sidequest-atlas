@@ -35,7 +35,7 @@ Career north star (stable across samples): **policy-focused epidemiology / urban
 - Dump achievements without a thesis sentence that metabolizes them.
 - Over-compress into generic scholarshipese (“passionate leader passionate about passion”).
 - Copy a sample verbatim when asked to write “better” — **steal structure and voice density**, upgrade argument and clarity.
-- Put Tung & Ngai shortlist on materials until awarded.
+- Put Tung & Ngai on materials until the award letter is in hand (operator-stated awarded 2026-08-16).
 - Flatten Chinese essays into translated English tone (or vice versa) without adjusting register.
 
 ## English micro-style
@@ -54,10 +54,12 @@ Career north star (stable across samples): **policy-focused epidemiology / urban
 | ~500 word statements | Scene → gap → plan/course architecture → non-academic contribution → return to scene |
 | Leadership / LiA | Method (design thinking, mutual exchange) + place + what HK can give / receive |
 
-## Living facts to sync before drafting (Jul 2026)
+## Living facts to sync before drafting (Aug 2026)
 
 - Cumulative GPA **4.09/4.30** (updated after Semester 2; was 4.24).
-- **Laidlaw Scholar (awarded)** — research ongoing with Prof. David Bishai: heat × cardiovascular admissions (HA data). Do not draft Laidlaw application materials unless asked for reflection/reporting.
+- **Laidlaw Scholar (awarded)** — research ongoing with Prof. David Bishai on heat and older adults in Hong Kong. Do not claim Hospital Authority data access unless a supervisor confirms it. Do not draft Laidlaw application materials unless asked for reflection/reporting.
+- **Tung & Ngai Scholar** — operator-stated awarded 2026-08-16; add to CV only after the award letter is in hand.
+- **St John's Martin Scholar** — college academic title, not a third foundation.
 - Wu Zhi Qiao / Macha service **completed** (after Gannan Horizons).
 - LiA intent: **make_sense**, Medellín, **Peace and Social Resilience** (central Laidlaw LiA family; confirm year’s intake before locking logistics).
 - Non-academic: photography + photobooks; basketball (St John’s); calligraphy; Theatre Club.

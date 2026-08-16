@@ -1,6 +1,6 @@
 # Bob — Tung & Ngai read-back profile
 
-**Last updated:** 2026-07-22T14:00Z  
+**Last updated:** 2026-08-16T14:30Z  
 **Use:** Any future agent/session should read this before rewriting interview/complement advice.  
 **Plane:** operator docs (no PII). Vault twin may mirror without financials/IDs.
 
@@ -8,11 +8,12 @@
 
 ## Situation
 
-- **Event:** Tung & Ngai Foundation Selection Panel interview  
+- **Event:** Tung & Ngai Foundation Selection Panel interview (done)  
 - **When:** 2026-07-28, 15:40–15:55 (15 min); window 27–28 Jul  
 - **Email brief:** background, achievements, aspirations  
 - **Language working assumption:** mostly English; Mandarin strong; Cantonese needs scripts  
-- **Status:** past HKU nomination; Foundation finalist
+- **Status (2026-08-16):** operator-stated **awarded scholar**. Award letter not read in that session — confirm concurrent-award, GPA renewal, Endeavour year, and whether LINK-S Shanghai discharges the compulsory Mainland exchange.  
+- **Do not** reopen interview-prep as if still a finalist. Post-award work is enactment (Seam Ready, LINK-S, capstone politics). See `docs/career-gameplan-2026-08.md`.
 
 ## Academic
 

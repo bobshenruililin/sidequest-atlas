@@ -6,7 +6,9 @@ This is the day-to-day interface between Bob and Sidequest Atlas agents.
 
 **Atlas is a travel operating system and attention router that compounds fieldwork into durable evidence — not a warehouse for every life project.**
 
-Sister repos keep their domains: My-Life (career), LearnAI (opportunity radar), Laidlaw-Heat (research). The [project board](../content/projects/README.md) routes sparks without absorbing them.
+**One brain, many homes.** Atlas holds binding canon (floors, programme, calendar locks, captures). Sister git repos stay separate products. Do **not** merge them because cloud agents only see one checkout — that is canon drift, and the fix is a binding profile plus a read/sync job (ADR 0006).
+
+Sister repos keep their domains: My-Life (career OS), LearnAI (gift opportunity atlas for Merey — not Bob’s radar), Laidlaw-Heat (research). The [project board](../content/projects/README.md) routes sparks without absorbing them. Binding programme as of 2026-08-16: **stay in BASc(GHD)**; CS minor not second major; GLaw transfer ghost in My-Life `student_profile.json` still needs a patch there.
 
 ## Default channels
 

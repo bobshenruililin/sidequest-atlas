@@ -64,3 +64,5 @@ Cursor slash commands must delegate to these commands.
 | Control plane | `packages/cli`, `jobs/`, `agents/` | Research, validate, publish, capture |
 | Public / operator read plane | `apps/web`, `content/` (incl. `content/captures/`) | Static atlas + compounding records |
 | Private vault | external / `vault/` (gitignored) | Raw life data + sensitive canon |
+
+Sister git repos are **separate products** (ADR 0006): My-Life = career OS, LearnAI = gift opportunity atlas (not Bob’s radar), Laidlaw-Heat = research. Do not merge them into Atlas because a cloud agent only sees one checkout. Fix canon drift instead.

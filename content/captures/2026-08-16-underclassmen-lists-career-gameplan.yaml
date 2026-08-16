@@ -1,0 +1,142 @@
+schemaVersion: 1.0.0
+id: 2026-08-16-underclassmen-lists-career-gameplan
+capturedAt: 2026-08-16T14:30:00.000Z
+title: US underclassmen lists vs three-scholar GHD gameplan
+rawText: Read and analyze in depth zapplyjobs/underclassmen-internships,
+  LuisaE/opportunities, and Jose-Gael-Cruz-Lopez/underclassmen-opportunities and
+  build a gameplan per the repo. Tung Ang Ngai scholar, Laidlaw scholar, and
+  Martin scholar at HKU. Think outside the box. Crawl with subagents. Automating
+  emails or other actions. If US is too competitive, bring competition into HK
+  and outcompete everyone. Feel free to use other repos.
+spark: Steal the underclassmen playbook, skip the US CS logos; winter is LINK-S,
+  summer 2027 is LiA, summer 2028 is the GHD capstone; host demand in HK instead
+  of spraying Zapply.
+domains:
+  - career
+  - opportunity
+  - research
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://github.com/zapplyjobs/underclassmen-internships
+  - https://github.com/LuisaE/opportunities
+  - https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities
+  - https://tl.hku.hk/link/
+  - https://ghd.sph.hku.hk/field-placement
+  - https://tungngaifoundation.org/financial-awards-benefits/
+  - https://cuhk.aprughc2026.hk/call-for-papers-abstracts.html
+  - https://intlaffairs.hku.hk/globalink-research-internship
+  - https://www.who.int/westernpacific/about/careers/internships-and-volunteering
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-four-sparks-portfolio
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate do not twin
+    - Medicine closed; ordinary law floor; grey door closed; JD after UG only if
+      asked
+    - Atlas is router not career dump; My-Life owns Career OS; LearnAI owns
+      public radar
+    - One deep placement plus LiA, not three logos (keep the rule, apply it to
+      Future B itself)
+    - T&N thesis is HK affection plus China competence enacted through work
+    - Nordics fieldwork through 20 Aug 2026 — do not eat the last trip days
+  informationGaps:
+    - T&N award-letter clauses (concurrent Laidlaw, GPA renewal, Endeavour year,
+      LINK-S as Mainland exchange)
+    - Laidlaw LiA 2027 exact dates and makesense track
+    - LINK-S 2026/27 immersion dates, Shanghai vs HCMC, enrolment vs intention
+    - APRU GHC late-poster policy after 15 Aug 2026 deadline
+    - What the heat-health team can claim (life tables vs HA admissions)
+    - HKSAR PR is implied by T&N eligibility but not proven in this session
+  opportunityGaps:
+    - Named Seam Ready Endeavour proposal with a real problem owner
+    - LearnAI HK/GBA first-year-accessible opportunity ledger
+    - Host-owned six-week public-interest projects instead of explorer theatre
+    - GHD six-month capstone politics starting 2027 (China CDC Shanghai has blog
+      precedent)
+    - Term-time Sau Po / second-faculty (Chao Ren) letters
+  falseBargains:
+    - Cloning US CS underclassmen lists (visa, URM, SWE interviews, summer 2027
+      already sold)
+    - Zapply autofill and ambassador programmes as signal
+    - Jane Street Dec-Feb HK intern plus Cleary winter VS on top of LINK-S and
+      October talks
+    - My-Life student_profile still saying Govt&Laws LLB transfer
+    - Mitacs Globalink 2027 (IAO 26 Aug 2026) colliding with LiA
+    - Treating Summer 2028 as an open internship summer (it is GHAD4010)
+    - WHO internship as a 2026 action (three-year plus age-20 gates)
+    - Vanity HK explorer conference without a host brief
+    - Claiming HA data or a China CDC offer
+  corrections:
+    - Martin Scholar is a St John's academic title, not a third foundation
+    - T&N treated as awarded on Bob's 2026-08-16 statement; award letter not
+      read here
+    - Laidlaw heat work should not be described as HA-data until a supervisor
+      confirms
+    - LINK is 12 credits plus a 3-week immersion, not a winter holiday
+    - Do not clone zapplyjobs repos into an editor (removed auto-task payload,
+      Aug 2026)
+    - Future B Career OS (19 Jul) is three days older than the floor-tests
+      capture and is stale
+  suggestedImplementations:
+    - action: Email APRU GHC secretariat whether a late poster or student poster is
+        still receivable
+      rationale: Abstract deadline was 15 Aug 2026; conference is 7-9 Dec in Hong Kong
+        and on-thesis
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email Horizons/Laidlaw for LiA 2027 dates in writing and the correct T&N
+        LINK-S contact sequence
+      rationale: Summer 2027 and compulsory Mainland exchange are the two calendar locks
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Decline Mitacs GRI 2027 in Career OS and calendar before the 26 Aug IAO
+        deadline
+      rationale: Eligible on paper; 12 weeks May-Oct 2027 collides with committed LiA
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Update My-Life student_profile.json from Govt&Laws transfer ghost to
+        BASc(GHD) seam thesis
+      rationale: Draft emails still open as a person the 22 Jul floor tests retired
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Keep Career OS draft-only; never add SMTP; weekly digest max five actions
+      rationale: Bottleneck is host creation and artifacts, not form throughput
+      effort: M
+      leverage: high
+      owner: agent
+    - action: Pilot LearnAI HK early-stage opportunity ledger (25-40 verified records)
+        after 21 Aug
+      rationale: Jose-list analog for the actual market; kill if unused
+      effort: M
+      leverage: high
+      owner: shared
+    - action: Gate Seam Ready and any HK project exchange on a named owner plus
+        safe-data brief by 30 Sep
+      rationale: Import host-owned work, not a scholar forum costume
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Add T&N and Martin to the public CV only after the award letter is in
+        hand
+      rationale: Existing cv/README still forbids listing T&N until awarded
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane synthesis. No HKID, phones, award-letter numbers,
+  family finances, or booking refs. T&N award treated as operator-stated. Do not
+  publish vault journal bodies from the Nordics trip.

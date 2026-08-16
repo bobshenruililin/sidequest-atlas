@@ -1,0 +1,52 @@
+schemaVersion: 1.0.0
+id: hk-early-stage-ledger
+title: HK early-stage opportunity ledger
+owner: bob
+status: captured
+priority: next
+home:
+  kind: existing-repo
+  repo: LearnAI
+thesis: >-
+  A verified public catalog of first- and second-year-accessible HK/GBA/
+  public-health/gov/I&T opportunities, with eligibility, language, visa,
+  official URL, and verified_at — the Jose-list analog for students not
+  enrolled in the US.
+nonGoals:
+  - Absorbing Merey's gift-atlas profile
+  - Scraping US CS boards into Hong Kong
+  - Auto-applying or Zapply-style autofill
+  - Building the catalog inside Sidequest Atlas
+  - Publishing Bob's private ranking or CRM
+activationCriteria:
+  - Record contract defined
+  - 25 manually verified current records from official sources
+  - Merey profile isolated from the new lens
+  - Kill criteria written before any public launch
+successMetric:
+  measure: Discovery that produces action
+  target: >-
+    Eight testers; at least five concrete applications, introductions, or
+    project inquiries generated from the catalog by 2026-09-30.
+  window: First 30 days after v0
+killCriteria:
+  - Fewer than 25 live relevant records
+  - Maintenance exceeds two hours per weekly refresh
+  - Users browse but do not act
+  - Catalog becomes graduate-only or stale reposts
+evidence:
+  - captureId: 2026-08-16-underclassmen-lists-career-gameplan
+    implication: US lists cannot see HK GHD; the gap is the product.
+  - captureId: 2026-08-16-midaug-ghd-stem-lists
+    implication: A CS minor does not unlock US-enrolment rows; the ledger still has to be HK/GBA.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Applicant notes, unofficial salaries, private contacts
+buildPrompt: |-
+  Execute in LearnAI after status=approved. New lens/dataset, not a rewrite
+  of the Merey gift atlas. Official URLs only. verified_at on every row.
+  No SMTP. Correction form + weekly changelog. Bob ranking stays in My-Life.
+createdOn: 2026-08-16
+updatedOn: 2026-08-16
+reviewOn: 2026-09-30

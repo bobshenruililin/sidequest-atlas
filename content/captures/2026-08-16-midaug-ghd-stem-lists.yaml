@@ -1,0 +1,128 @@
+schemaVersion: 1.0.0
+id: 2026-08-16-midaug-ghd-stem-lists
+capturedAt: 2026-08-16T16:00:00.000Z
+title: Stay in GHD; CS minor not second major; mid-August list re-score
+rawText: Yep not transfering to GLaw staying in GHD but my limit is not my major
+  probably gonna double major or minor in cs maths or biochem, so see those 3
+  repos and have them deep research about all the opportunities in those repos I
+  can do and need to do rn, mid aug
+spark: "Stay GHD. CS minor (42 credits) not CS second major (96 > 84 electives).
+  Mid-August from the three lists: NatGeo×TNC by 30 Aug; skip AWS SBG, Stellic,
+  Jane Street HK Dec–Feb (LINK-S) and HK summer (closed + LiA); watch Citadel."
+domains:
+  - career
+  - opportunity
+  - research
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://github.com/zapplyjobs/underclassmen-internships
+  - https://github.com/LuisaE/opportunities
+  - https://github.com/Jose-Gael-Cruz-Lopez/underclassmen-opportunities
+  - https://ghd.sph.hku.hk/overview
+  - https://ghd.sph.hku.hk/minor-options
+  - https://ugaa.hku.hk/showonemm.php?acad_year=2025&mm_code=SC001
+  - https://ugaa.hku.hk/showonemm.php?acad_year=2025&mm_code=SI014
+  - https://ugaa.hku.hk/showonemm.php?acad_year=2025&mm_code=SI004
+  - https://aas.hku.hk/important-academic-dates/
+  - https://www.extern.com/national-geographic-society-the-nature-conservancy-externships/community-conservation-data-visualization-and-mapping-externship
+  - https://www.janestreet.com/join-jane-street/position/7582902002/
+  - https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-hkg/
+  - https://cuhk.aprughc2026.hk/call-for-papers-abstracts.html
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-08-16-underclassmen-lists-career-gameplan
+  - 2026-08-16-one-brain-not-one-repo
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate do not twin
+    - Stay in GHD; GLaw transfer closed in writing 2026-08-16
+    - Medicine closed; ordinary law floor; grey door closed; JD after UG only if
+      asked
+    - LINK-S owns winter 2026/27; LiA owns summer 2027; GHAD4010 owns summer 2028
+    - Nordics fieldwork through 20 Aug 2026 — two emails, not an application
+      grind
+    - Atlas is router not career dump; My-Life owns Career OS
+  informationGaps:
+    - Whether IB maths satisfies CS HKDSE Maths 3 equivalent
+    - Whether LINK-S 12 credits consume the 84-elective pool
+    - 2025-26 GHD 84-elective structure is marked subject to approval
+    - Laidlaw LiA 2027 exact dates
+    - Discover Citadel APAC/HK next application window
+    - Faculty-specific CS-minor declaration window beyond AAS generic Sem 1 Y2
+  opportunityGaps:
+    - CS minor as artifact engine for heat-health / Seam Ready, not a US-funnel
+      key
+    - NatGeo×TNC StoryMap if October talks can absorb 10 h/wk
+    - One HK RA email after 21 Aug
+  falseBargains:
+    - CS/maths/biochem second major (96 credits > 84 electives)
+    - Hedging CS + maths + biochem minors in parallel
+    - Treating a CS minor as CPT/OPT or US-enrolment eligibility
+    - Jane Street HK Dec-Feb intern on top of LINK-S
+    - Applying to Jane Street HK summer 2027 while LiA owns the summer (HK
+      summer posting is closed today)
+    - Stellic Pathfinders (US/Canada/Mexico/Australia enrolment)
+    - AWS Student Builder Group Leader evangelism through LiA/LINK/October
+    - Mitacs GRI 2027 vs LiA
+    - Zapply spray from Helsinki
+  corrections:
+    - Operator confirmed stay in GHD; My-Life student_profile.json is still a
+      GLaw ghost
+    - MATH UGAA code is SI014 not MA001; BIOC is SI004 (36-credit minor /
+      96-credit major)
+    - Jane Street HK May-Aug page is closed, not a live apply target; a live
+      May-Aug form found today is Singapore
+    - NatGeo official URL is the Extern NGS×TNC listing, not the 404 slug used
+      in an earlier draft
+    - Do not claim HA admissions data unless Bishai confirms in writing
+  suggestedImplementations:
+    - action: Email APRU GHC secretariat whether a late poster is still receivable
+      rationale: Abstract deadline was 15 Aug 2026; conference is 7-9 Dec in Hong Kong
+        and on-thesis
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email Horizons for LiA 2027 dates in writing and the T&N/LINK-S contact
+        sequence
+      rationale: Summer 2027 and compulsory Mainland exchange remain the two calendar
+        locks
+      effort: S
+      leverage: high
+      owner: bob
+    - action: After 21 Aug, apply to NatGeo×TNC externship by 30 Aug or write a
+        deliberate skip
+      rationale: Only worldwide list-derived programme still open this month; 10 h/wk
+        overlaps October talks
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: 1-15 Sep add/drop, add one CS-minor intro course and declare CS minor in
+        SIS
+      rationale: Y2 course selection already closed 10 Aug; this is the actual STEM lever
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Patch My-Life student_profile.json off the Govt&Laws transfer ghost
+      rationale: Operator closed GLaw in writing; Career OS still drafts as a
+        law-transfer student
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Do not apply Jane Street HK Dec-Feb or any 2027 summer intern that
+        collides with LiA
+      rationale: LINK-S owns winter; LiA owns summer 2027; HK summer posting is closed
+        today
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane synthesis. No HKID, phones, award-letter numbers,
+  family finances, or booking refs. T&N award treated as operator-stated. Do not
+  publish vault journal bodies from the Nordics trip.

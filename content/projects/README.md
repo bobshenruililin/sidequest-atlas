@@ -24,3 +24,12 @@ npm run atlas -- project prompt <id>
 
 Until then, these YAML files *are* the board. Promote captures here deliberately;
 do not auto-convert every interesting chat into a project.
+
+| id | Status | Home | Notes |
+| --- | --- | --- | --- |
+| `travel-daily-journal` | live | Atlas | Nordics journal loop |
+| `law-study-lab` | validating | new-repo-after-validation | Parked behind five manual sessions |
+| `housing-tour-kit` | parked | new-repo-after-validation | Kill venture framing |
+| `narrative-archaeology` | parked | — | Activation gated |
+| `seam-ready` | validating | Atlas board; work in Laidlaw-Heat + T&N | Named Endeavour project |
+| `hk-early-stage-ledger` | captured | LearnAI | HK analog of US underclassmen lists |

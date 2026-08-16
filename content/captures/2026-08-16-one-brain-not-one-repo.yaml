@@ -1,0 +1,73 @@
+schemaVersion: 1.0.0
+id: 2026-08-16-one-brain-not-one-repo
+capturedAt: 2026-08-16T14:45:00.000Z
+title: Do not merge sister repos; fix the shared brain
+rawText: Should I prompt a multi repo bot to make it one repo? Think 3 is not
+  working to our advantage rn
+spark: Three git homes failed as a shared canon, not as folders. Merge bot is
+  the wrong surgery; read/sync plus one binding profile is the right one.
+domains:
+  - idea
+  - career
+ask: use
+visibility: operator
+status: triaged
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-four-sparks-portfolio
+  - 2026-08-16-underclassmen-lists-career-gameplan
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over monorepo empire (2026-07-22)
+    - Atlas is travel OS plus router, not a warehouse for every life project
+    - ADR 0004 vault stays outside public git
+    - LearnAI live site is a gift atlas for Merey Yeskara, not Bob's radar
+    - 2026-08-16 gameplan already named the My-Life Govt&Laws ghost as a false
+      bargain
+  informationGaps:
+    - Whether Bob still opens My-Life Career OS weekly after the ghost is fixed
+    - Whether a Cursor environment with extra repo checkouts is available for
+      this cloud setup
+  opportunityGaps:
+    - One binding operator profile in Atlas that My-Life must not contradict
+    - Read/sync bot that diffs programme, wedge, LiA dates, and floors across
+      repos
+    - Kill LearnAI-as-Bob-radar in operator docs
+  falseBargains:
+    - Git-merging Atlas, My-Life, and LearnAI into one repo
+    - Mixing Merey's gift profile into Bob's life OS
+    - Publishing career CRM onto Atlas GitHub Pages
+    - A merge bot as a substitute for killing the ghost student_profile.json
+  corrections:
+    - The failure mode is canon drift plus single-repo cloud agents, not too
+      many folders
+    - If anything is absorbed later, it is My-Life Career OS into Atlas only,
+      after a 30-day use test and a new ADR
+    - Laidlaw-Heat is a fourth home and should stay a research repo
+  suggestedImplementations:
+    - action: Accept ADR 0006 (one brain, many homes; no sister-repo merge)
+      rationale: Stops the next agent from executing a merge prompt
+      effort: S
+      leverage: high
+      owner: agent
+    - action: Patch My-Life student_profile.json to BASc(GHD) seam thesis after return
+      rationale: Highest-leverage fix; merge would not catch this by itself
+      effort: S
+      leverage: high
+      owner: shared
+    - action: If spawning a bot, prompt read/sync and drift-diff, never squash
+        repositories
+      rationale: Multi-repo help is real; merge is the wrong verb
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane. No vault material. LearnAI gift-recipient named
+  only as already public in that repo's README.

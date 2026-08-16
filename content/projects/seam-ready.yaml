@@ -1,0 +1,54 @@
+schemaVersion: 1.0.0
+id: seam-ready
+title: Seam Ready (Tung & Ngai named project)
+owner: bob
+status: validating
+priority: now
+home:
+  kind: existing-repo
+  repo: sidequest-atlas
+thesis: >-
+  A GBA/HK heat-health interoperability brief plus working session that a
+  named institutional owner will actually test — funded only after Endeavour
+  preflight — not a scholar-forum talk and not a US-peer fly-in.
+nonGoals:
+  - Claiming a China CDC placement or HA data access
+  - Vanity conference, panels, or ambassador branding
+  - Patient-level or operationally sensitive data without governance approval
+  - Running concurrently with an unscoped Project Exchange kickoff
+  - Building the product inside Atlas beyond this board entry
+activationCriteria:
+  - Named institutional problem owner
+  - One-page problem brief the owner will test
+  - Safe-data plan (public or synthetic first)
+  - T&N Endeavour cost categories pre-cleared in writing
+  - No hard clash with LINK-S, GEST/Laidlaw October, or LiA
+successMetric:
+  measure: Owner-tested artifact plus forum-ready brief
+  target: >-
+    One signed brief by 2026-09-30; one artifact the owner comments on by
+    scholar-forum season; no unapproved health data.
+  window: 2026-08-22 through 2027-06-01
+killCriteria:
+  - No named owner by 2026-09-30
+  - Agenda becomes networking without a deliverable
+  - Real health data demanded before approval
+  - Funding stacked without programme confirmation
+evidence:
+  - captureId: 2026-08-16-underclassmen-lists-career-gameplan
+    implication: Named Endeavour project is the T&N conversion path.
+  - captureId: 2026-08-16-midaug-ghd-stem-lists
+    implication: Stay in GHD; CS minor is for seam artifacts, not a US-funnel identity.
+  - captureId: 2026-07-22-tung-ngai-interview
+    implication: Forum proposal must become a project with beneficiaries.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Award-letter clauses, partner emails, unpublished data
+buildPrompt: |-
+  Do not scaffold software. This is a research/convening project.
+  Home remaining notes in Laidlaw-Heat-Project and T&N correspondence.
+  Atlas keeps the board + capture only.
+createdOn: 2026-08-16
+updatedOn: 2026-08-16
+reviewOn: 2026-09-30

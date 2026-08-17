@@ -1,0 +1,88 @@
+schemaVersion: 1.0.0
+id: moveops-hk
+title: MoveOps HK — no-van moving help + ops automation (90-day experiment)
+owner: bob
+status: live
+priority: now
+home:
+  kind: new-repo-after-validation
+  proposedRepo: moveops
+thesis: >-
+  A returning student can earn bounded, legal cash in HK's late-August
+  moving churn by selling evidence and coordination instead of muscle-plus-van
+  — photo audits, packing sprints, storage-return logistics, landlord handover
+  evidence packs — while a seven-evening automation ladder (intake,
+  photo-to-inventory, QuoteOps, evidence PDFs) turns every job into training
+  data and reusable ops tooling. Revenue is the test harness; the automation
+  and the operating evidence are the durable yield.
+nonGoals:
+  - Buying a van or any vehicle; owning resale inventory
+  - Carrying anyone's goods across the HK/Mainland boundary, ever
+  - Unlicensed short-stay arrangement or sublet brokering of any kind
+  - Misdeclaration, undervaluation, or shipment-splitting advice
+  - Acting for both sides of the same tenancy handover
+  - Legal, tax, or immigration advice to customers (evidence only)
+  - Rebranding this as an Endeavour Fund project before a named owner + preflight
+  - Auto-sent messages, scraped contact lists, or bulk outreach
+activationCriteria:
+  - >-
+    GATE ZERO passed: written clarity on right-to-earn branch (local/PR:
+    business registration + MPF self-employed check; non-local: written
+    ImmD/CEDARS confirmation that solo freelancing is permitted, or an
+    employment wrapper via an existing licensed mover/storage/cleaning firm)
+  - At least 3 Helsinki journal entries exist before wheels-up (compounding precondition)
+  - Price-list hypotheses drafted and presell posted to 2-3 campus groups before landing
+successMetric:
+  measure: Non-family paying customers, blended hourly rate, automation reuse
+  target: >-
+    10+ non-family paying customers by week 6; blended effective hourly rate
+    above the floor set after the first five quotes (all money UNCERTAIN);
+    photo-to-inventory + QuoteOps used on 80% of jobs by month 2.
+  window: 2026-08-22 through 2026-11-20
+killCriteria:
+  - Gate zero resolves against self-employment and no employment wrapper exists within 2 weeks
+  - Fewer than 10 non-family paying customers by 2026-10-03
+  - Blended hourly rate below floor for 3 consecutive weeks
+  - Term hours exceed the weekly cap twice, or Oct talks / LINK-S prep degrades
+  - Any job pressures the no-list (carriage, unlicensed stays, misdeclaration) — kill that line instantly
+evidence:
+  - captureId: 2026-08-17-moveops-cash-stack
+    implication: Full triage — canon checks, gate zero, false bargains, 90-day stack.
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Housing venture framing killed; non-family reuse gate inherited.
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Customer names, addresses, photos, quotes, and manifests
+    - Bob's immigration/residency status and any family capital terms
+buildPrompt: |-
+  Execute ONLY after gate zero. Ops tooling starts as local scripts inside a
+  private scratch space; NEW repo moveops (codename) only after 10 non-family
+  paying customers. No Atlas coupling; Atlas holds records, not customer data.
+
+  Seven-evening ladder (one shippable artifact per evening, jobs feed data):
+  1. Intake: WhatsApp Business profile + saved templates + a structured quote
+     form (date, from/to, floors, lift, item count, photo upload).
+  2. Photo-to-inventory: phone photos -> vision model -> itemized manifest
+     (CSV/PDF) with box labels; human reviews every line.
+  3. QuoteOps: rule-based quote from manifest (items, stairs, distance,
+     window) -> draft PDF; Bob approves and sends every quote himself.
+  4. Evidence pack: handover photos + EXIF timestamps -> condition-grid PDF
+     with meter readings and key receipt.
+  5. Dispatch sheet: bookings calendar + licensed van-platform checklist;
+     costs passed through transparently.
+  6. Ledger: numbered invoices/receipts, FPS reconciliation, weekly P&L.
+  7. One-page site: published price list, booking link, review request
+     template (sent manually, never automated).
+
+  NEVER automate: outbound sending of any message or email; eligibility or
+  legality judgments; mass outreach; pricing exceptions; dispute handling;
+  anything touching customer IDs or documents.
+
+  Family capital rules: tools-only loan, written terms, hard cap; family
+  purchases may be revenue but never count toward validation metrics;
+  published prices for everyone; no family-brokered fake institutional
+  contracts.
+createdOn: 2026-08-17
+updatedOn: 2026-08-17
+reviewOn: 2026-11-20

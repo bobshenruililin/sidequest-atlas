@@ -34,6 +34,13 @@ killCriteria:
 evidence:
   - captureId: 2026-07-22-four-sparks-portfolio
     implication: Commercial viability unknown; fieldwork first.
+  - captureId: 2026-08-17-earning-beyond-scholarships
+    implication: >-
+      MoveOps condition/evidence packs are substantially this spec with paying
+      users; treat cleared paid move jobs as the activation event instead of
+      forking a sibling repo.
+relatedProjects:
+  - moveops-hk
 privacy:
   classification: public-sanitized
   vaultOnly:
@@ -58,5 +65,5 @@ buildPrompt: |-
   Full Sol scaffold prompt (2026-07-22) may be pasted into the new repo README
   Issues when activated — keep this board entry as the gate + non-goals.
 createdOn: 2026-07-22
-updatedOn: 2026-07-22
+updatedOn: 2026-08-17
 reviewOn: 2026-10-01

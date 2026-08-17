@@ -22,6 +22,14 @@ nonGoals:
   - Misdeclaration, undervaluation, or shipment-splitting advice
   - Acting for both sides of the same tenancy handover
   - Legal, tax, or immigration advice to customers (evidence only)
+  - Engaging any employee or paid helper without employees' compensation
+    insurance in force first (ECO s.40 — every employee, including one-day and
+    part-time, minimum cover not less than $100m per event; max fine $100,000
+    and two years' imprisonment)
+  - Introducing a tenant or buyer to a property, or negotiating any acquisition
+    or disposition — unlicensed estate agency work carries up to $500,000 and
+    two years (EAO s.15). Handover evidence for an existing client is not that;
+    tenant-finding is
   - Rebranding this as an Endeavour Fund project before a named owner + preflight
   - Auto-sent messages, scraped contact lists, or bulk outreach
 activationCriteria:
@@ -29,9 +37,21 @@ activationCriteria:
     GATE ZERO passed: written clarity on right-to-earn branch (local/PR:
     business registration + MPF self-employed check; non-local: written
     ImmD/CEDARS confirmation that solo freelancing is permitted, or an
-    employment wrapper via an existing licensed mover/storage/cleaning firm)
+    employment wrapper via an existing licensed mover/storage/cleaning firm).
+    Likely already the local/PR branch — T&N eligibility requires HK permanent
+    residency with right of abode and T&N was awarded, so the non-local bar on
+    establishing a business should not apply. Confirm once; see capture
+    2026-08-17-earning-beyond-scholarships.
+  - >-
+    STAFFING GATE: sole operator only, or employees' compensation insurance in
+    force before anyone is paid to help. Non-local classmates are not
+    recruitable as crew or co-founders without each status confirmed in writing.
+  - Award letter read for any outside-employment or outside-business condition
   - At least 3 Helsinki journal entries exist before wheels-up (compounding precondition)
   - Price-list hypotheses drafted and presell posted to 2-3 campus groups before landing
+  - >-
+    Peak-churn premise verified against official hall notices and actual mover
+    conversations before the 22 Aug start is treated as a real window
 successMetric:
   measure: Non-family paying customers, blended hourly rate, automation reuse
   target: >-
@@ -41,15 +61,28 @@ successMetric:
   window: 2026-08-22 through 2026-11-20
 killCriteria:
   - Gate zero resolves against self-employment and no employment wrapper exists within 2 weeks
-  - Fewer than 10 non-family paying customers by 2026-10-03
+  - >-
+    Any paid helper engaged before employees' compensation insurance is in force
+    — stop the whole line, not just that job
+  - >-
+    Fewer than 2 paid non-family jobs delivered by 2026-09-30. The 10-customer
+    target below is a stretch goal, not a floor; treating it as a floor during
+    add/drop and pre-October travel is what would push this into hired labour
+  - Fewer than 10 non-family paying customers by 2026-10-03 (stretch goal)
   - Blended hourly rate below floor for 3 consecutive weeks
   - Term hours exceed the weekly cap twice, or Oct talks / LINK-S prep degrades
   - Any job pressures the no-list (carriage, unlicensed stays, misdeclaration) — kill that line instantly
 evidence:
   - captureId: 2026-08-17-moveops-cash-stack
     implication: Full triage — canon checks, gate zero, false bargains, 90-day stack.
+  - captureId: 2026-08-17-earning-beyond-scholarships
+    implication: >-
+      Gate zero probably already resolved in his favour; employer liability, not
+      demand, is the binding constraint; consolidate tooling with flatfield.
   - captureId: 2026-07-22-four-sparks-portfolio
     implication: Housing venture framing killed; non-family reuse gate inherited.
+relatedProjects:
+  - housing-tour-kit
 privacy:
   classification: public-sanitized
   vaultOnly:
@@ -59,6 +92,12 @@ buildPrompt: |-
   Execute ONLY after gate zero. Ops tooling starts as local scripts inside a
   private scratch space; NEW repo moveops (codename) only after 10 non-family
   paying customers. No Atlas coupling; Atlas holds records, not customer data.
+
+  Before proposing repo moveops, check housing-tour-kit / flatfield: offline
+  capture, provenance separation, and export packet are substantially the same
+  machine as ladder steps 2 and 4. One repo, not two. Paying move customers are
+  a harder activation test than that entry's five-non-family-users gate, so a
+  cleared pilot should activate flatfield rather than fork a sibling.
 
   Seven-evening ladder (one shippable artifact per evening, jobs feed data):
   1. Intake: WhatsApp Business profile + saved templates + a structured quote
@@ -83,6 +122,11 @@ buildPrompt: |-
   purchases may be revenue but never count toward validation metrics;
   published prices for everyone; no family-brokered fake institutional
   contracts.
+uncertain:
+  - Peak Hong Kong moving season and hall move-in / storage-return volumes
+  - Willingness to pay for evidence packs and coordination
+  - Whether landlord-facing handover work ever touches estate agency work
+  - Every price point; all revenue figures are hypotheses
 createdOn: 2026-08-17
 updatedOn: 2026-08-17
 reviewOn: 2026-11-20

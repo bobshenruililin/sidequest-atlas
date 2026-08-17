@@ -1,0 +1,117 @@
+schemaVersion: 1.0.0
+id: 2026-08-17-artintel-nicholas-intro
+capturedAt: 2026-08-17T10:15:00.000Z
+title: ArtIntel via CIS peer — do not twin the intern seat
+rawText: helpful to reach out and work here? Seems so interesting. Help with an
+  offer they cannot turn down. Show agency. Should we do something already? My
+  bro Nicholas Tanner from Chinese international school interned there that’s
+  why. Operator also sent a LinkedIn company screenshot (ArtIntel; art
+  valuation, liquidity, and risk; self-described Oxford University spinout; 2-10
+  people) and a LinkedIn experience screenshot of Nicholas Tanner listing
+  ArtIntel Data Extraction & Integration Intern, Jun 2026 – Aug 2026, Oxford
+  hybrid.
+spark: Interesting Oxford-linked art-market AI shop. The intern-shaped hole is
+  already filled. Agency is a question to Nicholas, not a founder package from
+  Helsinki.
+domains:
+  - career
+  - opportunity
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://artintel.org.uk/
+  - https://www.linkedin.com/company/artinteltechnologies
+  - https://luma.com/8s6dzcoh
+  - https://find-and-update.company-information.service.gov.uk/company/16851239
+  - https://innovation.ox.ac.uk/investing/our-portfolio-companies/
+  - https://eng.ox.ac.uk/people/philip-torr
+  - https://www.linkedin.com/posts/philip-torr-freng-frs-1085702_artintel-activity-7487833130150703105-l9fp
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-four-sparks-portfolio
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate, do not twin
+    - Thesis is HK–Mainland public-health seam / heat-health, not art-finance
+      identity
+    - Stay in GHD; CS minor is the STEM add-on, not a second career
+    - Medicine closed; ordinary law floor; grey door closed
+    - Helsinki week through 20 Aug 2026; Fukuda 28 Aug; term from 1 Sep; October
+      talks; LINK-S winter; Laidlaw LiA summer 2027
+    - Prestige hunger is an advantage and a distortion field
+  informationGaps:
+    - Oxford University Innovation public portfolio (accessed 2026-08-17) does
+      not list ArtIntel among shown 2025–2026 companies; spinout status is
+      self-described, not independently confirmed
+    - Philip Torr’s Oxford Engineering bio lists other spin-outs and does not
+      name ArtIntel (accessed 2026-08-17)
+    - Whether the Founding Engineer seat posted 28 Jul 2026 is still open
+    - Whether Nicholas’s intern window is still live through end of August, and
+      whether they want another intern or part-time after him
+    - Whether any Greater China / museum-API / Mandarin-source gap actually
+      exists, versus Tina Maslakova’s public bio adjacency
+    - Compensation, hours, IP, and remote-versus-Oxford terms — do not invent
+  opportunityGaps:
+    - Warm intro only after Nicholas says a named gap still exists
+    - Steal the pipeline craft (canonical dataset, identity layer, public APIs)
+      onto heat-health / Observatory / C&SD work
+    - If Nicholas names a Greater China data hole that is calendar-legal, a
+      two-week remote artifact with a kill date — not a new identity
+  falseBargains:
+    - Twinning a CIS intern CV into the same Jun–Aug 2026 seat
+    - An “offer they cannot turn down” built from scholar titles
+    - Applying as Founding Engineer (Python, data pipelines, backend, GCP, ML
+      team)
+    - Messaging the LinkedIn company page from Helsinki this week
+    - Treating self-described Oxford spinout as an Oxford badge
+    - Spending autumn 2026 or summer 2027 on Oxford-hybrid art-AI against
+      Fukuda, term, October talks, LINK-S, and Laidlaw LiA
+    - Mandarin plus M+ name-drop as a product offer they did not ask for
+  corrections:
+    - Interesting is not on-thesis
+    - A two-person shop turns down prestige packets in seconds; they cannot
+      ignore a named gap plus shipped work from someone who already delivered
+    - Nicholas already did the intern-shaped work; duplicating artist-CV
+      scraping is twinning
+    - Legal entity is ART INTEL TECHNOLOGIES LTD (Companies House 16851239),
+      incorporated 12 Nov 2025, Active; do not publish the registered office
+    - Landing page is live (contemporary art valuation and analysis);
+      prototype/demo claim is from Torr’s 28 Jul 2026 post, not independently
+      product-tested here
+  suggestedImplementations:
+    - action: Send Nicholas the one-question text in the operator memo; do not Message
+        ArtIntel or email founders until he answers
+      rationale: He is inside the company this summer; a peer question is agency, a
+        founder spray is noise
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Default-decline ArtIntel as career identity; steal pipeline craft for
+        Laidlaw heat-health data, not a second artist-CV scraper
+      rationale: Thesis and calendar already own the next year; Oxford-linked
+        art-finance is a prestige distortion
+      effort: S
+      leverage: high
+      owner: shared
+    - action: If Nicholas names a specific remaining gap and a welcome intro, ship a
+        48–72h artifact for that gap only, with a kill date
+      rationale: That is the only package a two-person shop cannot politely ignore; no
+        package until the gap is named
+      effort: M
+      leverage: medium
+      owner: bob
+    - action: Do not apply to the Founding Engineer role and do not freeze summer 2027
+        for Oxford hybrid
+      rationale: Wrong seat; Laidlaw LiA already owns that summer
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane briefing. Names a CIS peer as the warm-intro source
+  at operator visibility. No phones, emails, booking refs, or registered-office
+  address. Do not paste third-party LinkedIn bodies into public pages.

@@ -13,8 +13,10 @@ list at send time. Never paste the roster, a screenshot of it, or anyone's numbe
 ## Fact discipline
 
 Do not assert hall rules, move-in dates, fees, orientation schedules, canteen hours, SIM prices, or
-transport fares in any of these messages. Offer to *find* the official answer instead. Bob's own
-lived facts (GHD programme, St John's, HKUMed peer mentoring, Medellín reading) are fair to use.
+transport fares in any of these messages. Offer to *find* the official answer instead.
+
+Lived facts that are fair to use: Bob is Year 2 GHD, St John's, and an HKUMed peer mentor through
+this scheme. Do not turn a Colombia mentee into a case study, and do not invent hall gossip.
 
 ---
 
@@ -55,10 +57,10 @@ Pick the hook from the roster, keep it to one line, and keep the warmth even acr
 |------|------|
 | MBBS / DMS mentee, from Mainland China | Congratulations on MBBS with DMS — I'm in HKUMed too and I've done peer mentoring there, so ask me the awkward questions, in Chinese or English. |
 | Arts mentee, from Canada | Arts here covers a lot of ground — tell me what you're hoping to take and I'll find you people in your faculty. |
-| Social Sciences mentee, same residential college as Bob | We're in the same college, so I'll actually see you around — I'll show you the parts of it that aren't on any tour. |
+| Social Sciences mentee, same residential college as Bob | We're both St John's — I'll actually see you around. Ask me anything about landing. |
 | Arts mentee, from the UK | First time in Hong Kong? I keep a list of ordinary places I actually like, not the postcard ones. It's yours when you land. |
-| Arts mentee, from Colombia | I've been reading about Medellín for a project on cities and health, so I have real questions for you once you've seen Hong Kong's density. |
-| GHD mentee (Bob's own programme) | You're in GHD — same programme as me, so I can tell you which courses ate my semester and which readings actually mattered. |
+| Arts mentee, from Colombia | Colombia to HK is a long landing — glad you're in the crew. Ask me anything. |
+| GHD mentee (Bob's own programme) | You're in GHD — same programme as me. I can tell you which courses ate my semester. Ask me anything, seriously. |
 
 Keep programme-sibling enthusiasm in the one-on-one chat. In the group, treat every member the same.
 
@@ -140,6 +142,9 @@ August 2026: Helsinki UTC+3, Hong Kong UTC+8, so **HK is Helsinki + 5**.
 A phone number's country code says where the SIM was bought, not where the person is. When in doubt,
 default to Hong Kong daytime and keep the "no need to reply quickly" line in. Avoid sending anything
 after 17:00 Helsinki to HK-based mentees; that's past 22:00 for them.
+
+**If it is late evening in Helsinki:** message Canada / Colombia / UK numbers now. Hold Mainland China,
+Hong Kong, and uncertain Asia numbers until 09:00–15:00 Helsinki the next day.
 
 ---
 

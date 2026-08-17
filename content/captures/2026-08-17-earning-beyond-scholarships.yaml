@@ -1,0 +1,172 @@
+schemaVersion: 1.0.0
+id: 2026-08-17-earning-beyond-scholarships
+capturedAt: 2026-08-17T19:30:00.000Z
+title: Earning beyond scholarships — MoveOps survives as paperwork, not labour
+rawText: Re-plan how to earn money beyond scholarships. Do not be restricted by
+  profile; go crazy. Thinking of helping people move houses. Include automation.
+  Legal only; grey door stays closed. Prior July 24 triage had MoveOps HK
+  (audit, packing, coordination while insured movers own transport; automate
+  quote to invoice to review; sell QuoteOps later) with a 48-hour weekend
+  launch.
+spark: The moving idea is right and the July shape is wrong. Employer liability,
+  not demand, is the binding constraint — so the sellable unit is the documented
+  move packet, and it is the paying activation event for the parked flatfield
+  project.
+domains:
+  - capital
+  - career
+  - idea
+  - opportunity
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://tungngaifoundation.org/eligibility/
+  - https://www.immd.gov.hk/eng/faq/imm-policy-study.html
+  - https://www.ird.gov.hk/eng/tax/bre_abr.htm
+  - https://www.labour.gov.hk/eng/faq/cap282a_whole.htm
+  - https://www.hklii.hk/en/legis/ord/511/s15
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+relatedCaptures:
+  - 2026-08-17-moveops-cash-stack
+  - 2026-07-22-four-sparks-portfolio
+  - 2026-07-22-floor-tests-law-path
+  - 2026-08-16-underclassmen-lists-career-gameplan
+  - 2026-08-16-one-brain-not-one-repo
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; abundance measured as optionality rate, so cash
+      buying no new option is a bad trade
+    - Housing-tour-kit venture framing already killed 2026-07-22; MoveOps to
+      QuoteOps is the same false bargain renamed
+    - Grey door closed 2026-07-22 and reaffirmed here; legal lane only
+    - October London plus Valencia, winter LINK-S, summer 2027 LiA, summer 2028
+      GHD capstone are all already sold
+    - Atlas hosts the board and the capture; products get their own homes
+  informationGaps:
+    - Whether the T&N award letter imposes any outside-employment or
+      outside-business condition — award letter only, UNCERTAIN
+    - In-tenure GPA renewal bar — UNCERTAIN, award letter only
+    - Willingness to pay for a move-documentation packet — the two September
+      pilots exist to test exactly this
+    - Peak Hong Kong moving season — UNCERTAIN, ask movers, do not assume summer
+      or lease-cycle
+    - Whether paid condition reports for landlords touch estate agency work —
+      EAA answer required in writing before any HKD
+    - Whether Endeavour would cover a GBA relocation-services project
+    - Education Ordinance registration thresholds for any group tutoring format
+  opportunityGaps:
+    - MoveOps is the paying activation event for the parked flatfield project;
+      paying clients are a harder test than five friends
+    - Per-estate move rules (permitted hours, lift booking, management deposits
+      and forms) are undocumented per building — verifying them is the product
+    - Cross-border HK to GBA relocation admin is the only earning idea that
+      aligns with the post-scholarship two-year residency instead of fighting it
+    - Paid on-campus lab or department hours are the fastest compliant HKD and
+      the most reference-generating row on the list
+    - A one-time template pack (RFQ comparator plus condition report) sells the
+      automation without auth, payments, or a support queue
+  falseBargains:
+    - The 48-hour weekend launch — never executable, not merely stale
+    - QuoteOps as multi-tenant SaaS; support is the part a student with October
+      conferences and a winter immersion cannot staff
+    - Hiring friends or classmates for move days
+    - Monetizing the LearnAI opportunity ledger — a paid radar imports
+      competitors and taints the scholarship narrative
+    - Summer storage brokerage, whose season is LiA 2027 and the 2028 capstone
+    - Any venture whose natural exit is emigration
+    - Undisclosed mover referral fees alongside a neutral three-quote comparison
+  corrections:
+    - The July plan was calendar-illegal at birth; it scheduled a physical,
+      weekend-dependent local service for someone about to be abroad for a month
+      and then walking into a term start
+    - The July plan never became a CaptureRecord, so it decayed — nothing in
+      this repo's history mentioned MoveOps or QuoteOps before 2026-08-17, and
+      this session had to reconstruct it from the prompt
+    - Employees' Compensation Ordinance s.40 requires cover for every employee
+      including one-day and part-time, so casual crew is a criminal-liability
+      question; put labour with insured movers, not only transport
+    - Non-local students may not establish or join a business and their work
+      must sit inside their No Objection Letter, so classmates are not
+      recruitable as crew or co-founders unless each status is confirmed in
+      writing first
+    - Business registration is not a licence to trade and cannot be filed before
+      commencement; the Ordinance gives one month after the business starts
+    - Unlicensed estate agency work is a serious offence, so proxy flat-viewing
+      stays blocked until an EAA answer is in hand
+    - This is not a cash problem — full tuition plus living support plus family
+      capital are already in hand — so rank ideas by skill and asset residue per
+      hour, not HKD per hour
+    - Correction to the same-day 2026-08-17-moveops-cash-stack triage — its gate
+      zero is resolvable now rather than a two-branch unknown, because T&N
+      eligibility requires HK permanent residency with right of abode and T&N
+      was awarded; that unblocks its own 22 Aug start, subject to confirming it
+      once
+    - Correction to the same-day triage — ten paying customers by week six plus
+      packing sprints creates pressure to bring helpers, and that plan carries
+      no employees' compensation gate; add the gate or lower the target
+    - Correction to the same-day triage — proposing a second repo for MoveOps
+      duplicates the flatfield capture spec; consolidate before scaffolding
+    - The peak-churn premise is asserted in the same-day triage spark while
+      listed as an information gap in its own body; the entire 22 Aug timing
+      rests on it and it remains UNCERTAIN
+  suggestedImplementations:
+    - action: Run the legality gate first — read the award letter for outside-work
+        clauses, confirm PR status once, learn the BRO one-month clock, and get
+        an EAA answer only if landlord-facing work is wanted
+      rationale: Two hours of reading gates every other row; a single clause could
+        close the whole self-employment lane
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep MoveOps at zero hours until 22 Aug and under six hours through 31
+        Aug; freeze it entirely 1–15 Sep
+      rationale: Helsinki week is not for launching a moving company, and add/drop is
+        the irreversible-if-missed window
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Book two paid pilots 16–30 Sep, Saturday or Sunday but never both,
+        selling the documented move packet with insured movers owning transport
+        and labour
+      rationale: The 2026 revenue window is roughly five weekends; two real pilots
+        beat a launch narrative
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Automate assembly and guard rails only — structured intake, RFQ pack,
+        photo-to-inventory assembly, condition report, invoice and records,
+        draft-only review ask, and a calendar guard that refuses colliding jobs
+      rationale: Judgement and sending stay human; the calendar guard is the
+        automation that protects attention
+      effort: M
+      leverage: high
+      owner: shared
+    - action: Treat MoveOps as the activation event for flatfield rather than a new
+        software project, and run the paper prototype before any scaffold
+      rationale: The condition-report tool is roughly the parked spec already, and
+        paying clients are a harder activation test
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Sell template packs, not seats; kill the renderer if over 20% of filled
+        facts need correction or median review exceeds ten minutes
+      rationale: The honest version of selling QuoteOps, with no support burden
+      effort: M
+      leverage: medium
+      owner: bob
+    - action: Keep clients, rates, invoices, and earnings in My-Life; keep only this
+        capture, the memo, and the moveops-hk board entry in Atlas
+      rationale: One brain, many homes; Atlas is not a CRM and holds no HKD figures
+      effort: S
+      leverage: medium
+      owner: agent
+privacyNote: Operator plane. No clients, addresses, rates, HKD figures,
+  award-letter internals, or booking refs. Residency status is recorded as an
+  inference from a public eligibility page plus awarded status, not from
+  personal documents. T&N acceptance is not asserted.

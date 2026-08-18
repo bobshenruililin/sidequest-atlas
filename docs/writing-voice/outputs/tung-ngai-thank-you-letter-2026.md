@@ -4,9 +4,11 @@
 **Via:** Academic Advising and Scholarships Office, reply by **25 August 2026**  
 **Format:** 300–400 words, MS Word; 2–3 study-related photos with captions  
 **Official scheme name:** [Tung and Ngai Foundation Scholarship](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766)  
-**Body word count:** 325 (guide: 300–400). `.docx` is the send file.
+**Body word count:** 318 (guide: 300–400). `.docx` is the send file.
 
-Do not mention other scholarships in this letter. AASO’s award email prohibits concurrent awards — settle that with AASO separately, not in the donor letter.
+Career and service letter — not a research thank-you. Do not mention other scholarships. AASO’s award email prohibits concurrent awards — settle that with AASO separately, not in the donor letter.
+
+Keep the Gannan opening: it is the service scene. Cut it only if you want a colder letter.
 
 ---
 
@@ -16,11 +18,9 @@ In Gannan this spring I watched a woman measure the road to Lhasa with her body.
 
 I am writing to thank you for selecting me for the Tung and Ngai Foundation Scholarship. Through you I thank the Tung Chao-Yu & Ngai Chue Jai Lily Education Foundation, and the gift of Mr Tung Chao-Yu and Mdm Ngai Chue-Jai Lily. I did not know them. I can say what their support now holds open.
 
-I study Global Health and Development at the University of Hong Kong. I want to work as a translator between epidemiological evidence and the offices that must act on it, and between Hong Kong and Mainland public-health practice. Research is the prerequisite for that service, not the destination. With Professor David Bishai I am studying how heat moves cardiovascular admissions in an ageing, high-density Hong Kong. I want a finding narrow enough for preparedness to stand on: who is harmed, in which season, before the ward fills.
+The Scholarship changes the next years in ordinary ways. Tuition and the living allowance let me stay in the work instead of stepping out of it. The exchange subsidy lets the compulsory Mainland programme be a working season rather than a visit — time inside a community and a health system, not a tour of either. After graduation I hope to serve at the Hong Kong–Mainland public-health interface, through a field placement with China CDC and, later, at the Centre for Health Protection. If permitted, I would use the Endeavour Support Fund for a public-health career in the Greater Bay Area — not a start-up for its own sake.
 
-The Scholarship changes the next years in ordinary ways. Tuition and the living allowance keep that work continuous through term. The exchange subsidy lets the compulsory Mainland programme be a working season rather than a visit. I hope to learn how surveillance is gathered and used, toward a field placement with China CDC and, later, work at the Hong Kong–Mainland interface where the Centre for Health Protection’s cross-boundary duties sit. If permitted, I would use the Endeavour Support Fund for a public-health career in the Greater Bay Area — not a start-up for its own sake.
-
-The scheme asks scholars to mentor those who follow. I will make time for that. A gift made for people the founders would never meet is repaid in work. I intend to do the work.
+The scheme asks scholars to mentor those who follow. I will make time for that, and for more than that. I will keep showing up in Hong Kong — in halls, in classrooms, and in the ordinary community work that does not produce a certificate. I will treat the Mainland exchange as service, not a line on a form. I will help build the scholar community the Foundation expects: sharing what I learn, organising when asked, returning capacity rather than collecting it. A gift made for people the founders would never meet is repaid in work. I intend to do the work.
 
 Yours sincerely,
 
@@ -32,9 +32,9 @@ University Number: 3036484434
 
 ## Photo captions (attach 2–3 high-resolution images; not holiday shots)
 
-1. **Wu Zhi Qiao, Gansu, 2026.** Working on rural health and infrastructure after Gannan Horizons fieldwork. I am [describe where I stand in the frame].
-2. **Research / teaching, HKU.** Heat and cardiovascular admissions work with Professor Bishai’s team, or a GHD classroom/lab moment from 2025–26. I am [identify].
-3. **Optional third:** a Mainland or Hong Kong public-health service moment (peer teaching, community volunteering). Not travel scenery.
+1. **Wu Zhi Qiao, Gansu, 2026.** Rural health and infrastructure work after Gannan Horizons fieldwork. I am [identify myself in the frame].
+2. **Hong Kong service, 2025–26.** Peer teaching, hall, or community volunteering. I am [identify].
+3. **Optional third:** another Mainland or Hong Kong service moment. Not travel scenery, not a lab shot unless people are in it.
 
 ---
 

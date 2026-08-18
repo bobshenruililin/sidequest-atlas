@@ -2,21 +2,21 @@
 
 **To:** Professor Suk Ying Wong  
 **Via:** AASO, by **25 August 2026**  
-**Body word count:** 318 (guide: 300–400). `.docx` is the send file.
+**Body word count:** 302 (guide: 300–400). Send as `.docx` with captioned photos.
 
-Thank-you only. Endeavour is start-up capital (will, not if). NEWDAY is understanding as the work of cooperation and of public health. No are/not. Do not mention other scholarships.
+Do not mention other scholarships. Do not put Nobel nominations in the letter or captions.
 
 ---
 
 Dear Professor Wong,
 
-Thank you for selecting me for the Tung and Ngai Foundation Scholarship. Through you I thank the Tung Chao-Yu & Ngai Chue Jai Lily Education Foundation, and the founders, Mr Tung Chao-Yu and Mdm Ngai Chue-Jai Lily.
+In Gannan this spring I watched a woman measure the road to Lhasa with her body. I had gone to listen. I left hungry rather than full. That is why, in June, I lived in Macha Village, Gansu, as student coordinator on Wu Zhi Qiao: solar street lamps, and how water, rammed earth and family life hold a village together. In August, at the Nansen East-West Dialogue Academy in Lillehammer, Steinar Bryn invited us into his home. Around his table the work was the same: listen until the other side is real.
 
-I want to work at the Hong Kong–Mainland public-health interface: a field placement with China CDC during my degree, and later the Centre for Health Protection. The tuition and living allowance let me stay in my studies and in that work. The exchange subsidy lets me take the compulsory Mainland programme as time to learn there, and to understand the place better. The Endeavour Support Fund is start-up capital for the Greater Bay Area or the Mainland. I will use it to build in public health.
+I am writing to thank you for selecting me for the Tung and Ngai Foundation Scholarship, and, through you, to thank the Tung Chao-Yu & Ngai Chue Jai Lily Education Foundation and its founders, Mr Tung Chao-Yu and Mdm Ngai Chue-Jai Lily. I did not know them. I can only say what their gift now holds open.
 
-I applied for this scholarship before the summer. What I can now show you is the work this summer. I spent two weeks in Macha Village, Gansu, on an HKU Horizons and Wu Zhi Qiao service-learning programme, as a student coordinator, after a visit in Shaanxi. We lived in the village. In groups we studied how water is managed on dry loess land, how rammed-earth houses are built, and how families live and eat. We also did the physical work of rural infrastructure. One of those jobs was installing solar street lamps. My job was to help the team be useful—logistics, listening, and understanding the local context of the village. At the Nansen East-West Dialogue Academy in Lillehammer I was among students from east and west whose task was to understand each other well enough to help each other. That is the task of public health when two systems have to act together.
+The Scholarship changes the next years in ordinary ways. Tuition and the living allowance let me stay in the work instead of stepping out of it. The exchange subsidy turns the compulsory Mainland programme from a visit into a working season — time inside a community and its health system, not a tour of either. After graduation I hope to serve at the Hong Kong–Mainland public-health interface, through a field placement with China CDC and, later, at the Centre for Health Protection. The Endeavour Support Fund I will use as start-up capital to build in public health in the Greater Bay Area.
 
-The scheme asks scholars to mentor those who follow. I will. I will also keep serving in Hong Kong and the Mainland. A gift made for people the founders would never meet is repaid in work. I intend to do the work.
+The scheme asks scholars to mentor those who follow. I will. I will keep showing up in Hong Kong — in halls, in classrooms, in community work that produces no certificate. A gift made for people the founders would never meet is repaid in work. I intend to do the work.
 
 Yours sincerely,
 
@@ -26,18 +26,17 @@ University Number: 3036484434
 
 ---
 
-## Captions
+## Captions (required on the photo page)
 
-**Figure 1.** Macha Village, Gansu, June 2026. Installing solar street lamps as part of Wu Zhi Qiao.
+**Figure 1.** Macha Village, Gansu, June 2026. Digging during Wu Zhi Qiao’s solar street-lamp project. I am the one with the shovel.
 
-**Figure 2.** Nansen Academy, Lillehammer, Norway, August 2026. Talking with Steinar Bryn.
+**Figure 2.** Nansen East-West Dialogue Academy (NEWDAY), Lillehammer, August 2026. Evening at Steinar Bryn’s home. I am in the centre, black polo. Steinar Bryn is on the left.
 
 ---
 
 ## Operator notes (do not send)
 
-- Macha: [WZQ news 30 Jun 2026](https://www.bridgetochina.org.hk/sc/news/detail/609). Do not claim tree planting or wall repair as Bob’s own hands.
-- NEWDAY 2026: 29 July–6 August ([nansenskolen.no/kurs](https://nansenskolen.no/kurs/)). Academy brief: mutual understanding; Nordic and East Asian students ([HKU Horizons](https://tl.hku.hk/horizons/newday2024/)). Bryn stays in the caption, not as a body name-drop. Do not put prizes or nominations in the letter.
-- Endeavour: official use is career or start-up in GBA/Mainland. Letter assigns it as start-up capital; CDC/CHP carry the career. Do not invent a company.
-- If a figure is a group photograph, say in the covering email which person you are.
-- Delete the Word drafting note before sending.
+- Photos: keep this pair. They are the right two once captioned. Without captions AASO can read them as a farm holiday and a homestay.
+- Do not add a Nobel / nomination line. The home conversation is the fact.
+- If the shovel photo is not the lamp installation, change Figure 1 to the actual task. Do not claim tree planting or wall repair.
+- Delete any drafting note in Word before sending.

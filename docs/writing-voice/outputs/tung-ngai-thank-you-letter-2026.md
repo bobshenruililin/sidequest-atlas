@@ -6,6 +6,8 @@
 
 Do not mention other scholarships. Do not put Nobel nominations in the letter or captions.
 
+Salutation: **Dear Professor Wong,** — not “Dear Professor Suk Ying Wong”. Title plus surname is the letter. The covering email to AASO names her in full once.
+
 ---
 
 Dear Professor Wong,

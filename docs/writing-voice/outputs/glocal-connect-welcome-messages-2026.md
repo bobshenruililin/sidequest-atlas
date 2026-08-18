@@ -22,13 +22,19 @@ this scheme. Do not turn a Colombia mentee into a case study, and do not invent 
 
 ## 1. Group name
 
+GLOCAL = **glo**bal + lo**cal**. The extra **L** is the point: you already brought the globe; this chat is the local half.
+
 | Option | Note |
 |--------|------|
-| **HKU Landing Crew 2026** | Favourite. "Landing" covers arrival and the first messy month; "crew" is warm without being a slogan. |
-| Arrivals 2026 — GLOCAL Connect | Plainer, useful if members need to recognise the scheme by name. |
-| First Semester Club (HKU 2026) | Softest option; implies the chat has an end date, which lowers pressure to perform. |
+| **gloCAL crew** | Favourite. The caps do the joke: CAL = local. Short enough for a chat list. |
+| **the extra L** | Cleaner, more Bob. People will ask what it means, which is useful. Add `GLOCAL` in the description so CEDARS can still find it. |
+| **GLOCAL (not a typo)** | Safest if you want the scheme name visible in notifications. |
 
-Set the group description to one line: *Questions, arrival logistics, food. Nothing is too small to ask.*
+Do **not** use: *Go Local lol*, *Glo-gal*, hashtag piles, or a name that only works if you already know the pun.
+
+**Description (one line):** *Not a typo for GLOBAL. The extra L is local — buses, bedding, food.*
+
+In the 1:1, one light mention is enough. Do not pun in all seven DMs.
 
 ---
 
@@ -44,7 +50,7 @@ Two short messages, sent back to back. Message A introduces, message B asks perm
 
 **B.**
 
-> I'm starting a small group chat for the students I'm mentoring — arrival logistics, questions,
+> I'm starting a small GLOCAL group chat — that's global + local, not a typo. Arrival, questions,
 > food. Okay if I add you? One-on-one is completely fine too if you'd rather.
 > I'm travelling in Finland right now, so my messages may land at odd Hong Kong hours. No need to
 > reply quickly.
@@ -68,15 +74,17 @@ Keep programme-sibling enthusiasm in the one-on-one chat. In the group, treat ev
 
 ## 3. Group opening message (once people have joined)
 
-> Welcome, and congratulations to all of you. I'm Bob, Year 2 Global Health and Development, and
-> I'm your GLOCAL Connect mentor.
+> Welcome. I'm Bob, Year 2 Global Health and Development, your GLOCAL Connect mentor.
+>
+> GLOCAL isn't GLOBAL with a stutter. The extra L is the part where you actually live here.
+> That's this chat.
 >
 > Three things:
 >
 > 1. Say hi when you have a minute — name, programme, where you're coming from, and one thing
 >    you're unsure about. The unsure part is the useful part.
-> 2. Nothing is too small to ask here. Registration, bedding, SIM cards, where to eat late, how to
->    say things in Cantonese badly. If I don't know, I'll find out who does.
+> 2. Nothing is too small. Registration, bedding, SIM cards, where to eat late, how to say things
+>    in Cantonese badly. If I don't know, I'll find out who does.
 > 3. I'm travelling until [date], so replies may be slow. After that I'm back in Hong Kong and
 >    we'll do a first meet-up — coffee or a walk, low pressure, no name tags.
 >
@@ -92,6 +100,7 @@ Simplified Chinese, short, plus an English gloss for the record.
 > 你好，我是沈瑞霖（Bob），港大 Global Health and Development 二年级，也是你这一年的 GLOCAL Connect
 > mentor。恭喜你入读 MBBS。
 >
+> GLOCAL = global + local：多出来的那个 L，是落地、是本地。群是为这个而建的。
 > 我在 WhatsApp 建了个小群方便大家问问题。你不用 WhatsApp 完全没问题——我们就用微信，群里有重要
 > 消息我都会转给你，不会漏掉你。
 >
@@ -100,9 +109,10 @@ Simplified Chinese, short, plus an English gloss for the record.
 >
 > 我现在在芬兰，回复可能有时差，你不用赶时间。
 
-*Gloss:* I'm Bob, Year 2 GHD, your GLOCAL Connect mentor. Congratulations on MBBS. There's a small
-WhatsApp group, but not having WhatsApp is fine — we'll use WeChat and I'll forward anything
-important so you don't miss out. Ask me anything before term. I'm in Finland, so replies may lag.
+*Gloss:* I'm Bob, Year 2 GHD, your GLOCAL Connect mentor. Congratulations on MBBS. GLOCAL = global +
+local; the extra L is landing here. There's a small WhatsApp group, but not having WhatsApp is fine —
+we'll use WeChat and I'll forward anything important so you don't miss out. Ask me anything before
+term. I'm in Finland, so replies may lag.
 
 ---
 

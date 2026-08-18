@@ -74,22 +74,19 @@ Keep programme-sibling enthusiasm in the one-on-one chat. In the group, treat ev
 
 ## 3. Group opening message (once people have joined)
 
-> Welcome. I'm Bob, Year 2 Global Health and Development, your GLOCAL Connect mentor.
+Friendly, not clever. No mentor title, no GLOCAL lecture, no intro form that feels like a spreadsheet. First line is the WhatsApp preview — keep it human.
+
+> Hey hey, I'm Bob!
 >
-> GLOCAL isn't GLOBAL with a stutter. The extra L is the part where you actually live here.
-> That's this chat.
+> Year 2 GHD at HKU. Shanghai → Singapore → Hong Kong, and I'm in Finland eating my way through the city rn. Made this chat so we can actually find each other.
 >
-> Three things:
+> I've been in HK a few years, so if something's confusing — food, buses, halls, whatever — just ask. Not an office hour. I'm just a friend who got here earlier.
 >
-> 1. Say hi when you have a minute — name, programme, where you're coming from, and one thing
->    you're unsure about. The unsure part is the useful part.
-> 2. Nothing is too small. Registration, bedding, SIM cards, where to eat late, how to say things
->    in Cantonese badly. If I don't know, I'll find out who does.
-> 3. I'm travelling until [date], so replies may be slow. After that I'm back in Hong Kong and
->    we'll do a first meet-up — coffee or a walk, low pressure, no name tags.
+> Insta if you want food pics / to stay in touch: bob_shen_ruililin
 >
-> Not everyone here is on WhatsApp, so if something important comes up I'll pass it on separately.
-> Nobody gets left out of a plan because of an app.
+> When you have a sec, drop a hello — name, where you're coming from, what you're studying, anything. Then let's grab food once we're all in HK.
+
+Do not add: "I'm your GLOCAL Connect mentor", "three things", programme wordplay, or anyone's hall/faculty from the roster. Let people introduce themselves.
 
 ---
 

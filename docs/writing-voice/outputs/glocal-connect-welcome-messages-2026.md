@@ -74,19 +74,13 @@ Keep programme-sibling enthusiasm in the one-on-one chat. In the group, treat ev
 
 ## 3. Group opening message (once people have joined)
 
-Friendly, not clever. No mentor title, no GLOCAL lecture, no intro form that feels like a spreadsheet. First line is the WhatsApp preview — keep it human.
+Stay in Bob's own chat cadence: `Hey!`, full programme name, `whatsapp` lowercase, `yall`, `I'm born in`. Do not Gen-Z it (`Hey hey`, arrows, `rn`, `drop a hello`, `office hour`).
 
-> Hey hey, I'm Bob!
+> Hey! I'm Bob, year 2 Global Health and Development at HKU. We're in the same group for GLOCAL so I thought a whatsapp group would be nice. I've been in Hong Kong for a few years so feel free to ask me anything, food, getting around, whatever. I'm a huge foodie (currently eating my way through Finland) — add me on insta if you want, bob_shen_ruililin
 >
-> Year 2 GHD at HKU. Shanghai → Singapore → Hong Kong, and I'm in Finland eating my way through the city rn. Made this chat so we can actually find each other.
->
-> I've been in HK a few years, so if something's confusing — food, buses, halls, whatever — just ask. Not an office hour. I'm just a friend who got here earlier.
->
-> Insta if you want food pics / to stay in touch: bob_shen_ruililin
->
-> When you have a sec, drop a hello — name, where you're coming from, what you're studying, anything. Then let's grab food once we're all in HK.
+> When you have a minute, feel free to share your name, programme, where you're coming from, and anything you'd like. I'm born in Shanghai and studied in Singapore before coming here, and I'm sure yall have amazing stories to share. Let's go grab food sometimes!
 
-Do not add: "I'm your GLOCAL Connect mentor", "three things", programme wordplay, or anyone's hall/faculty from the roster. Let people introduce themselves.
+Do not add mentor titles, GLOCAL wordplay, or anyone's hall/faculty from the roster.
 
 ---
 

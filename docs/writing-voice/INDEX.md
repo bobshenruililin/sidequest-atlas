@@ -25,4 +25,4 @@ Source prompts Bob provided, mapped to files. Dates are archive dates, not origi
 
 | File | Prompt / genre | Lang | Notes |
 |------|----------------|------|-------|
-| `outputs/tung-ngai-thank-you-letter-2026.md` | Tung & Ngai donor thank-you (Prof. Wong) | EN | Body ~325 words; `.docx` alongside |
+| `outputs/tung-ngai-thank-you-letter-2026.md` | Tung & Ngai donor thank-you (Prof. Wong) | EN | Body ~308 words; `.docx` alongside |

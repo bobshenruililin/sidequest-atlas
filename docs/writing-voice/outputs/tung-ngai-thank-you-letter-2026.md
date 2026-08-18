@@ -2,9 +2,9 @@
 
 **To:** Professor Suk Ying Wong  
 **Via:** AASO, by **25 August 2026**  
-**Body word count:** 317 (guide: 300–400). `.docx` is the send file.
+**Body word count:** 308 (guide: 300–400). `.docx` is the send file.
 
-Plain thank-you. Career and service. WZQ is a two-week Macha stay (village study + infrastructure); the lamp photo is one task. Do not mention other scholarships.
+Plain thank-you. One paragraph for aims plus all four award parts. Public health and entrepreneurship. WZQ is a two-week Macha stay; the lamp photo is one task. Do not mention other scholarships.
 
 ---
 
@@ -12,9 +12,7 @@ Dear Professor Wong,
 
 Thank you for selecting me for the Tung and Ngai Foundation Scholarship. Through you I thank the Tung Chao-Yu & Ngai Chue Jai Lily Education Foundation, and the founders, Mr Tung Chao-Yu and Mdm Ngai Chue-Jai Lily.
 
-This is a career and service award. It asks me to return capacity to Hong Kong and to China. That is the standard I want to be held to. The tuition and living allowance let me stay in my studies and in that work. The exchange subsidy means the compulsory Mainland programme can be a working stay, not a short visit. If permitted, I would use the Endeavour Support Fund for a public-health career in the Greater Bay Area, not a start-up.
-
-I want to work at the Hong Kong–Mainland public-health interface: a field placement with China CDC during my degree, and later the Centre for Health Protection.
+I want to work at the Hong Kong–Mainland public-health interface: a field placement with China CDC during my degree, and later the Centre for Health Protection. I am interested in entrepreneurship as well. The tuition and living allowance let me stay in my studies and in that work. The exchange subsidy means the compulsory Mainland programme can be a working stay. The Endeavour Support Fund is for a career or a start-up in the Greater Bay Area or on the Mainland. I would use it for the public-health path, and for a start-up if I have one worth building.
 
 This summer I spent two weeks in Macha Village, Gansu, on an HKU Horizons and Wu Zhi Qiao service-learning programme, as a student coordinator, after a visit in Shaanxi. We lived in the village. In groups we studied how water is managed on dry loess land, how rammed-earth houses are built, and how families live and eat. We also did the physical work of rural infrastructure. One of those jobs was installing solar street lamps. That is the photograph; it is not the whole stay. My job was to help the team be useful — logistics, listening, and not getting ahead of the village. At the Nansen East-West Dialogue Academy in Lillehammer I spoke with Steinar Bryn about what it means to serve other people.
 

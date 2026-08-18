@@ -23,4 +23,6 @@ Source prompts Bob provided, mapped to files. Dates are archive dates, not origi
 
 ## Outputs
 
-Drafts written **for Bob** (future scholarships) live here. Empty until the next prompt.
+| File | Prompt / genre | Lang | Notes |
+|------|----------------|------|-------|
+| `outputs/tung-ngai-thank-you-letter-2026.md` | Tung & Ngai donor thank-you (Prof. Wong) | EN | Body ~325 words; `.docx` alongside |

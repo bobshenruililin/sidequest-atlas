@@ -1,6 +1,6 @@
 # Bob — Tung & Ngai read-back profile
 
-**Last updated:** 2026-07-22T14:00Z  
+**Last updated:** 2026-08-19T21:45Z  
 **Use:** Any future agent/session should read this before rewriting interview/complement advice.  
 **Plane:** operator docs (no PII). Vault twin may mirror without financials/IDs.
 

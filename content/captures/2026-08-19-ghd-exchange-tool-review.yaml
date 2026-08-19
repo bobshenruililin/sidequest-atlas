@@ -1,0 +1,166 @@
+schemaVersion: 1.0.0
+id: 2026-08-19-ghd-exchange-tool-review
+capturedAt: 2026-08-19T20:45:00.000Z
+title: GHD exchange review — HKUWW as tool, not prestige ladder
+rawText: Adversarial review of whether UChicago / Columbia / LSE / Todai are the
+  right tools for GHD coursework transfer, public-health letters, T&N China
+  commitment, later MPH/MPhil/JD optionality, and AFLSP-style East Asian
+  networks. Verified against the HKUWW 2026-27 institution list (11 Mar 2026),
+  BASc(GHD) regulations and syllabus, HKU Credit Accumulation and Transfer
+  Policy, LSE General Course regulations, UTokyo USTEP, UBC SPPH calendar,
+  BXAI/AFLSP pages, JIHS, and HKU Worldwide Plus Visiting. Comparison set was
+  wrong before criteria were applied. Full findings in
+  docs/exchange-review-ghd-hkuww.md.
+spark: "The binding constraint is not prestige but calendar collision: GHAD4010
+  capstone normally runs Year 3 Summer to end of Year 4 Semester 1, with Year 3
+  course GHAD3001 as prerequisite, while every full-year option (LSE, Todai,
+  Oxford) requires two completed years and therefore lands on Year 3. A full
+  year is purchased with the China CDC placement window."
+domains:
+  - career
+  - opportunity
+  - research
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/backend/wp-content/uploads/2026/03/HKUWW2627_20260311.pdf
+  - https://intlaffairs.hku.hk/hku-worldwide-student-exchange
+  - https://intlaffairs.hku.hk/worldwide-plus-visiting
+  - https://intlaffairs.hku.hk/visiting-programme
+  - https://intlaffairs.hku.hk/recognized-programmes
+  - https://intlaffairs.hku.hk/academic
+  - https://cdqa.hku.hk/doc/Credit_Accumulation_and_Transfer_Policy.pdf
+  - https://ghd.sph.hku.hk/international-exchange
+  - https://sph.hku.hk/en/Bachelor-of-Arts-and-Sciences-in-Global-Health-and-Development/Curriculum/Capstone-Overseas-Field-Placement
+  - https://www.lse.ac.uk/resources/calendar2025-2026/programmeRegulations/undergraduate/2025/GeneralCourse.htm
+  - https://www.lse.ac.uk/global-health-initiative/study/global-health-module-finder
+  - https://www.u-tokyo.ac.jp/en/academics/ustep-type-u.html
+  - https://vancouver.calendar.ubc.ca/course-descriptions/subject/spphv
+  - https://goglobal.ubc.ca/go-global/coming-ubc/coming-ubc-exchange/step-4-course-registration/other-program-restrictions
+  - https://www.bxai.org/aflsp/scholarships/exchange_scholarship/
+  - https://www.jihs.go.jp/en/message_en.html
+  - https://sph.pku.edu.cn/info/1068/3010.htm
+  - https://tl.hku.hk/link/
+  - https://www.mainlandaffairs.hku.hk/chinavision
+  - https://handbook.hku.hk/ug/full-time-2026-27/fees-awards-and-financial-assistance/composition-fee.html
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Prestige hunger is a documented distortion field — this review refuses to
+      twin it
+    - China CDC field placement is the degree-level aim; it lives in the
+      capstone window
+    - Medicine closed, JD after UG only as regulatory tool — exchange must not
+      reopen clinical framing
+    - T&N already imposes a compulsory Mainland exchange; a PKU HKUWW slot
+      double-counts it
+    - Information and opportunity gaps first; kill false bargains
+  informationGaps:
+    - GHAD3001 offering semester(s) and whether full-year Year 3 absence breaks
+      capstone prerequisite
+    - Whether BASc(GHD) has a 50-percent-of-major-at-HKU rule like Faculty of
+      Social Sciences
+    - Whether the capstone overseas field placement admits mainland China and
+      China CDC as host
+    - Whether Fudan and PKU open School of Public Health courses to inbound
+      exchange students
+    - How much English-taught public health UTokyo USTEP Type U actually offers
+    - Whether BXAI counts Hong Kong as a distinct region for the
+      away-from-home-region test
+    - Whether Medicine-earmarked HKUWW seats are genuinely less contested
+      (currently inference only)
+  opportunityGaps:
+    - Year 3 carries 48 of 66 credits as electives — built to absorb one
+      semester of exchange
+    - Exchange grades never enter HKU GPA, so host grading rigour is a void
+      objection
+    - UBC SPPH 303 environmental health plus SPPH 406 ageing maps directly onto
+      the Laidlaw heat thesis
+    - LINK gives 12 credits and Shanghai for three weeks without touching HKUWW
+      eligibility
+    - China Vision, Non-means-tested MES, GBA schemes and PKU/Fudan/SJTU summer
+      sessions all supply mainland access slot-free
+    - AFLSP is a postgraduate door at Tsinghua/PKU/SJTU/Kyoto/Waseda, not an
+      undergraduate exchange play
+    - Mailman JD/MPH and MPA/MPH match the regulatory-tool ambition without any
+      exchange dependency
+  falseBargains:
+    - Oxford Worldwide Plus — roughly GBP 50-57k for Economics or Geography,
+      spends both capstone window and HKUWW slot
+    - Full-year LSE — no Health Policy or International Development access on
+      the General Course list
+    - PKU on HKUWW — 7 spots but medicine blocked, and PKU School of Public
+      Health sits inside PUHSC
+    - Choosing PKU or Waseda to buy the AFLSP network — HKU is not a BXAI
+      partner university
+    - Ranking Chicago against LSE at all — Chicago exchange is an FBE and
+      Science asset, not Medicine
+    - Treating a big-name year as transcript uplift — transferred results are
+      excluded from GPA
+  corrections:
+    - Chicago and Columbia are absent from the entire HKUWW 2026-27 USA list
+    - Waseda is absent from the HKUWW Japan list and from Recognized Programmes
+    - LSE is full-year only and its Department of Health Policy is not on the
+      General Course list
+    - Tsinghua shows 1 spot not 2 on the 11 Mar 2026 list; the 2027/28 list is
+      not yet published
+    - NIID ceased to exist on 1 April 2025 — it is JIHS now, merged with NCGM
+    - AFPLA is AFLSP, run by Bai Xian Asia Institute; HK partners are CUHK and
+      HKUST, not HKU
+    - Host medicine blocks target clinical professional programmes, so they
+      mostly miss a non-MBBS GHD student
+    - The Faculty of Medicine column is likely a moat rather than a handicap
+    - No elite SPH undergraduate year exists to buy — LSHTM is
+      postgraduate-only, Mailman is graduate-only
+    - Recommendation is one semester at UBC, with Fudan as the high-variance
+      alternative
+  suggestedImplementations:
+    - action: Ask HKUMed/SPH advising for GHAD3001 offering semesters and the
+        BASc(GHD) credit-transfer rule in writing
+      rationale: Determines semester versus year, which eliminates most of the option
+        set on its own
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Ask the SPH capstone coordinator whether mainland China and China CDC
+        are approvable placement hosts
+      rationale: If no, the China CDC plan needs rebuilding — more urgent than any
+        destination choice
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Get IAO written confirmation that LINK, China Vision activities and
+        summer sessions do not consume HKUWW eligibility
+      rationale: Downside of being wrong is losing the single exchange slot entirely
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email Fudan and PKU international offices on School of Public Health
+        course access for exchange students
+      rationale: Resolves whether Fudan outranks UBC and whether PKU is salvageable
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Re-pull the HKUWW institution list when the 2027/28 version publishes
+        before the 12 Oct 2026 main round
+      rationale: All spot counts and restrictions in this review are from the 2026-27 list
+      effort: S
+      leverage: high
+      owner: agent
+    - action: Retire NIID from thesis vocabulary and reframe Japan as the JIHS
+        comparative case
+      rationale: JIHS is a same-generation post-COVID health-security rebuild — a
+        stronger seam comparator
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane record. Public university, government and foundation
+  sources only. No fee status, financial position, household income, or
+  identifiers recorded. Bob's local/non-local fee status deliberately left
+  unstated; both HKU rates cited as published.

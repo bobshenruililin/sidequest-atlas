@@ -66,6 +66,7 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 
 ## Related files
 
+- `docs/exchange-review-ghd-hkuww.md` — adversarial exchange review (2026-08-19). Read before advising on HKUWW / LSE / Todai / Oxford; corrects the Chicago-Columbia-Waseda premise and flags the capstone collision.  
 - `docs/tung-ngai-interview-prep.md`  
 - `docs/tung-ngai-english-interview-scripts.md` (+ CMN/YUE)  
 - `docs/tung-ngai-scholar-cohort-dataset.md`  

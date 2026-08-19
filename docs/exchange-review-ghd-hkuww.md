@@ -1,5 +1,11 @@
 # Exchange review — is HKUWW the right tool for a GHD thesis?
 
+**Companion to:** [`docs/hkuww-exchange-primer.md`](hkuww-exchange-primer.md) (synthesis). Read both.
+
+**Editor's note (same day):** This review treated the **11 Mar 2026 leftover/late-round PDF** as the full catalogue and therefore marked Chicago, Columbia, and Waseda as N/A. The **9 Oct 2025 full list** still carries Chicago (4 FY), Columbia (6 semester), Waseda (2 FY), Kyoto (1 FY). Keep the GPA, capstone, LSE-Health-Policy, AFLSP, UBC, and PKU-HSC findings; discard the "Chicago is not on HKUWW" conclusion.
+
+---
+
 **Reviewer role:** senior research reviewer (adversarial). Not a cheerleader.
 **Subject:** Shen Ruililin (Bob) — HKU BASc(GHD), Y1 2025/26, CGPA 4.09/4.30, Tung & Ngai track, China CDC / CHP / HK-as-seam thesis.
 **Access date for all sources:** 2026-08-19.

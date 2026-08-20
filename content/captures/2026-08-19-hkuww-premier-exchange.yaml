@@ -1,0 +1,99 @@
+schemaVersion: 1.0.0
+id: 2026-08-19-hkuww-premier-exchange
+capturedAt: 2026-08-19T21:00:00.000Z
+title: HKUWW 2027/28 premier exchange primer
+rawText: "Research HKUWW premier partners for 2027/28 (apply Oct–Dec 2026).
+  Named set: UChicago, Columbia, LSE, UTokyo, Waseda, Kyoto; Mainland
+  PKU/Fudan/Tsinghua for Tung & Ngai compulsory exchange and AFPLA. T&N covers
+  HKU local tuition so US/UK sticker is the wedge. One IAO slot. Two equal
+  stacks: premier overseas year vs PKU/Fudan semester. Primer at
+  docs/hkuww-exchange-primer.md."
+spark: Chicago-at-HKU-fees is a real tuition steal (~HK$0.5M wedge) but not the
+  only full-year elite, not free of living costs, and not a public-health
+  degree. Columbia is semester-only. Oxford visiting is fee-paying. PKU SPH/HSC
+  is blocked on standard HKUWW. T&N Mainland may be satisfiable without burning
+  the slot — confirm in writing.
+domains:
+  - opportunity
+  - career
+  - research
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/hku-worldwide-student-exchange
+  - https://intlaffairs.hku.hk/backend/wp-content/uploads/2025/10/HKUWW2627_Institution_list_20251009.pdf
+  - https://tungngaifoundation.org/financial-awards-benefits/
+  - https://ghd.sph.hku.hk/international-exchange
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-tung-ngai-interview
+  - 2026-08-19-ghd-exchange-tool-review
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over prestige appearance; optionality rate; T&N China
+      commitment is binding
+    - Medicine closed — GHD is not MBBS; do not plan clinical PKU
+    - Grey-door closed — no unofficial access coaching for AFPLA or host courses
+    - Family capital is an advantage and a distortion — Chicago living is not
+      "free"
+  informationGaps:
+    - 2027/28 partner PDF not yet published; Oct 2025 is a proxy
+    - Whether LINK or China Vision summer satisfies T&N compulsory Mainland
+      exchange
+    - Whether GHD applies under Medicine or Social Sciences faculty code
+    - Whether AFPLA chapters admit inbound exchange students
+    - Whether Chicago ISALs can actually register Harris / health-policy courses
+    - Whether GHAD3001 can move so a Y3 full year does not slide the China CDC
+      capstone window
+  opportunityGaps:
+    - Y2 application window 12 Oct–11 Dec 2026 with Y2+ priority
+    - LSE as subject-aligned full-year alternative to Chicago
+    - UBC as GHD-walked credit-transfer path
+    - Non-HKUWW Mainland path to preserve the one slot for a premier year
+  falseBargains:
+    - Worldwide Plus Oxford visiting (pay £41k–54k) versus Chicago/LSE exchange
+    - Treating Columbia as a full year
+    - Spending HKUWW on PKU to 'join AFPLA' as if it were a programme
+    - Assuming PKU semester equals SPH/China CDC training
+    - Calling Chicago 'free undergraduate education' while OOP living is
+      ~HK$0.25M
+  corrections:
+    - Chicago is not the only full-year elite (LSE, Durham, Todai, Kyoto,
+      Waseda, Osaka)
+    - March 2026 PDF is leftover spots; do not plan from it
+    - UTokyo tuition wedge is near zero; the year is not a money steal
+    - GHD capstone is a second overseas block and cannot replace HKUWW or vice
+      versa
+  suggestedImplementations:
+    - action: Email T&N/AASO whether LINK or China Vision summer satisfies compulsory
+        Mainland exchange
+      rationale: Stack A is conditional on that written yes
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Confirm GHD HKUWW faculty code and credit-transfer rules with SPH
+      rationale: Medicine-column restrictions and major mapping
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Book IELTS/TOEFL valid through April 2027 (Chicago 7.0 / Columbia 7.5)
+      rationale: Host bars exceed IAO 6.5; IB English A 7 may not suffice
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep two preference lists (Stack A FY English vs Stack B Mainland); do
+        not blend
+      rationale: One slot; duration vs T&N narrative is the fork
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Re-read docs/hkuww-exchange-primer.md when 2027/28 partner PDF drops
+      rationale: Quotas and FY-only flags change
+      effort: S
+      leverage: high
+      owner: shared
+privacyNote: Operator-plane record. No HKID, phones, address, DOB, booking refs,
+  or household income figures.

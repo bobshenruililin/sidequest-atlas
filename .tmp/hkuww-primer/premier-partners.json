@@ -1,0 +1,351 @@
+{
+  "source_pdf": "https://intlaffairs.hku.hk/backend/wp-content/uploads/2025/10/HKUWW2627_Institution_list_20251009.pdf",
+  "accessed": "2026-08-19",
+  "caveat": "2026/27 published list used as proxy for 2027/28. Quotas change. March 2026 PDF is leftover/late-round.",
+  "full_year_institutions": [
+    {
+      "code": "EXTU11773",
+      "country": "Japan",
+      "name": "Akita International University",
+      "fy_spots": 3,
+      "competitiveness": "*",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU10362",
+      "country": "Japan",
+      "name": "Kyoto University",
+      "fy_spots": 1,
+      "competitiveness": "***",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU10241",
+      "country": "Japan",
+      "name": "Osaka University",
+      "fy_spots": 5,
+      "competitiveness": "***",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU11253",
+      "country": "Japan",
+      "name": "Sophia University",
+      "fy_spots": 2,
+      "competitiveness": "*",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU11612",
+      "country": "Japan",
+      "name": "Tohoku University",
+      "fy_spots": 1,
+      "competitiveness": "***",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU10925",
+      "country": "Japan",
+      "name": "Tokyo (University of)",
+      "fy_spots": 3,
+      "competitiveness": "***",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU11506",
+      "country": "Japan",
+      "name": "Waseda University",
+      "fy_spots": 2,
+      "competitiveness": "**",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU10499",
+      "country": "U.K.",
+      "name": "Durham (University of)",
+      "fy_spots": 5,
+      "competitiveness": "***",
+      "duration": "full_year"
+    },
+    {
+      "code": "EXTU11459",
+      "country": "U.K.",
+      "name": "London School of Economics and Political Science",
+      "fy_spots": 5,
+      "competitiveness": "***",
+      "duration": "full_year",
+      "notes": ">=2 years of study"
+    },
+    {
+      "code": "EXTU10960",
+      "country": "U.S.A.",
+      "name": "Chicago (University of)",
+      "fy_spots": 4,
+      "competitiveness": "***",
+      "duration": "full_year",
+      "notes": "Full year only"
+    }
+  ],
+  "premier": [
+    {
+      "code": "EXTU10960",
+      "name": "University of Chicago",
+      "country": "USA",
+      "fy": 4,
+      "sem": 0,
+      "stars": "***",
+      "notes": "Full year only",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10662",
+      "name": "Columbia University",
+      "country": "USA",
+      "fy": 0,
+      "sem": 6,
+      "stars": "***",
+      "notes": "Semester only",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11459",
+      "name": "LSE",
+      "country": "UK",
+      "fy": 5,
+      "sem": 0,
+      "stars": "***",
+      "notes": "Full year only; >=2 years of study",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10925",
+      "name": "University of Tokyo",
+      "country": "Japan",
+      "fy": 3,
+      "sem": 0,
+      "stars": "***",
+      "notes": "FY only; CGPA 3.3; >=2 years",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10362",
+      "name": "Kyoto University",
+      "country": "Japan",
+      "fy": 1,
+      "sem": 0,
+      "stars": "***",
+      "notes": "FY only; CGPA 3.3",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11506",
+      "name": "Waseda University",
+      "country": "Japan",
+      "fy": 2,
+      "sem": 0,
+      "stars": "**",
+      "notes": "FY only; CGPA 3.3",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10241",
+      "name": "Osaka University",
+      "country": "Japan",
+      "fy": 5,
+      "sem": 0,
+      "stars": "***",
+      "notes": "FY only; CGPA 3.3; >=2 years",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10090",
+      "name": "Peking University",
+      "country": "China",
+      "fy": 0,
+      "sem": 20,
+      "stars": "***",
+      "notes": "Medicine programmes/courses not available",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10425",
+      "name": "Fudan University",
+      "country": "China",
+      "fy": 0,
+      "sem": 10,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10933",
+      "name": "Tsinghua University",
+      "country": "China",
+      "fy": 0,
+      "sem": 2,
+      "stars": "***",
+      "notes": "Tiny quota",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10568",
+      "name": "Shanghai Jiao Tong University",
+      "country": "China",
+      "fy": 0,
+      "sem": 10,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11094",
+      "name": "Zhejiang University",
+      "country": "China",
+      "fy": 0,
+      "sem": 20,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "UCEAP",
+      "name": "University of California (UCEAP pool)",
+      "country": "USA",
+      "fy": 0,
+      "sem": 70,
+      "stars": "***",
+      "notes": "Campus lottery; Oct 2025 list 70. Mar 2026 leftover PDF shows 18 S1.",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11386",
+      "name": "Northwestern University",
+      "country": "USA",
+      "fy": 0,
+      "sem": 4,
+      "stars": "***",
+      "notes": "Semester 2 only",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10373",
+      "name": "UNC Chapel Hill",
+      "country": "USA",
+      "fy": 0,
+      "sem": 8,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10125",
+      "name": "McGill University",
+      "country": "Canada",
+      "fy": 0,
+      "sem": 30,
+      "stars": "***",
+      "notes": "Many professional schools blocked",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10955",
+      "name": "UBC",
+      "country": "Canada",
+      "fy": 0,
+      "sem": 30,
+      "stars": "***",
+      "notes": "GHD first-cohort published example",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11007",
+      "name": "University of Toronto",
+      "country": "Canada",
+      "fy": 0,
+      "sem": 16,
+      "stars": "***",
+      "notes": "St George only; some programmes blocked",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU11498",
+      "name": "Sciences Po",
+      "country": "France",
+      "fy": 0,
+      "sem": 24,
+      "stars": "**",
+      "notes": ">=2 years of study",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10946",
+      "name": "UCL",
+      "country": "UK",
+      "fy": 0,
+      "sem": 6,
+      "stars": "***",
+      "notes": "Five departments only",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU12505",
+      "name": "King's College London",
+      "country": "UK",
+      "fy": 0,
+      "sem": 36,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10512",
+      "name": "University of Edinburgh",
+      "country": "UK",
+      "fy": 0,
+      "sem": 24,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10499",
+      "name": "Durham University",
+      "country": "UK",
+      "fy": 5,
+      "sem": 0,
+      "stars": "***",
+      "notes": "Full year only",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10548",
+      "name": "Seoul National University",
+      "country": "Korea",
+      "fy": 0,
+      "sem": 4,
+      "stars": "***",
+      "notes": "AFPLA member",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10323",
+      "name": "National Taiwan University",
+      "country": "Taiwan",
+      "fy": 0,
+      "sem": 10,
+      "stars": "***",
+      "notes": "CGPA 3.3; AFPLA member",
+      "list": "oct2025"
+    },
+    {
+      "code": "EXTU10129",
+      "name": "University of Melbourne",
+      "country": "Australia",
+      "fy": 0,
+      "sem": 20,
+      "stars": "***",
+      "notes": "",
+      "list": "oct2025"
+    }
+  ]
+}

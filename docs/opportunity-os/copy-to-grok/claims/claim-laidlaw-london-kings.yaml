@@ -1,0 +1,14 @@
+id: claim-laidlaw-london-kings
+subjectType: event
+subjectId: opp-laidlaw-london-2026
+fieldPath: programme.dates
+statement: "King's E-Lab Laidlaw page lists the 2026 annual conference as Imperial, London, 16–18 October."
+status: researched
+sourceIds:
+  - src-kings-elab-laidlaw-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2026-10-16"
+validUntil: "2026-10-18"
+reverifyAfter: "2026-09-15"
+confidence: medium
+notes: "Source is a Cambridge programme page, not HKU Laidlaw and not the Foundation page. Foundation still says usually end of October. Confirm with HKU coordinator."

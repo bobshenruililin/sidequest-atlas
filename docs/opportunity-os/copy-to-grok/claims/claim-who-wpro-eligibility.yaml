@@ -1,0 +1,12 @@
+id: claim-who-wpro-eligibility
+subjectType: eligibility
+subjectId: opp-who-wpro
+fieldPath: programme.eligibility
+statement: "WPRO internships require three years of full-time university study before the assignment and are framed as a graduate/postgraduate programme; notices open in Nov/Feb/May/Aug rather than continuously."
+status: researched
+sourceIds:
+  - src-who-wpro-intern-2026-08-22
+verifiedAt: "2026-08-22"
+reverifyAfter: "2028-04-01"
+confidence: high
+notes: "Bob in summer 2027 is after Year 2. Not eligible for a 2027 apply. Kill the row until 2028."

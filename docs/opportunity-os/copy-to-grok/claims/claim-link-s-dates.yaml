@@ -1,0 +1,14 @@
+id: claim-link-s-dates
+subjectType: event
+subjectId: opp-link-s-protected
+fieldPath: programme.dates
+statement: "HKU LINK-S immersion is 27 December 2026 to 16 January 2027 (three weeks)."
+status: researched
+sourceIds:
+  - src-link-schedule-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2026-12-27"
+validUntil: "2027-01-16"
+reverifyAfter: "2026-09-04"
+confidence: high
+notes: "Occupies almost the whole winter hunt window 24 Dec 2026 – 17 Jan 2027. Leftover days 24–26 Dec and 17 Jan."

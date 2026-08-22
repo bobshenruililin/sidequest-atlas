@@ -1,0 +1,14 @@
+id: claim-swiss-epi-school
+subjectType: event
+subjectId: opp-swiss-epi-2027
+fieldPath: programme.dates
+statement: "The 18th Swiss Epidemiology Winter School in Wengen runs 18–23 January 2027."
+status: researched
+sourceIds:
+  - src-swiss-epi-course5-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2027-01-18"
+validUntil: "2027-01-23"
+reverifyAfter: "2026-08-31"
+confidence: high
+notes: "Starts the day after Bob's stated winter window (17 Jan 2027). Registration: preliminary 31 Aug – 6 Sep 2026; open 14 Sep 2026 09:00 CEST."

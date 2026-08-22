@@ -16,7 +16,7 @@ Source type: `official` | `primary` | `academic` | `government` | `reputable-sec
 | [source-fudan-newday-2026.example.yaml](source-fudan-newday-2026.example.yaml) | Fudan 2026 call (Fudan students only) |
 | [claim-record.example.yaml](claim-record.example.yaml) | NEWDAY 2026 dates (do not copy to 2027) |
 | [opportunities.columns.md](opportunities.columns.md) | CSV column dictionary |
-| [../templates/opportunities.csv](../templates/opportunities.csv) | Header + seed **watch** rows (2026 pages ≠ 2027 facts) |
+| [../opportunities.csv](../opportunities.csv) | Header + seed **watch** rows (2026 pages ≠ 2027 facts) |
 
 ## Rules
 

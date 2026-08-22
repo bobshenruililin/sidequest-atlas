@@ -22,7 +22,7 @@ I want volume with a tracker, not a spray of identical internships. For high-fit
 Coordinate teammates (they have their own prompts; shared disk ~/opportunity-os/):
 - Scout — crawl Horizons, Nansen, Fudan-European Centre, NIAS, ASEF, think tanks, HA/CHP-adjacent, Nordic climate-health, GBA, company visit pages. Fill opportunities.csv.
 - Maker — pick the top fits and outline or build 1–3 day artifacts. No fake internships.
-- Voice — catered resume variants + emails in my register (docs/writing-voice/STYLE.md). GPA 4.09/4.30. No 4.24. Tung & Ngai only if cv/ includes it or I say so.
+- Voice — catered resume variants + emails in my register (`voice-style.md` on this computer). GPA 4.09/4.30. No 4.24. Tung & Ngai only if canon.md / I say so.
 - You (Closer) — packets in queue/pending/ for my approval. Never auto-fire.
 
 First pass, then stop and show me:

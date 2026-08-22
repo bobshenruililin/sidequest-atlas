@@ -25,7 +25,7 @@ Status in `opportunities.csv`: `queued`. After Bob says `send <id>`: move the fo
 
 If Bob rejects: status `killed` or `revise`. Do not send.
 
-A packet template lives at [templates/queue/pending/_PACKET.template.md](../templates/queue/pending/_PACKET.template.md).
+A packet template lives at [queue/pending/_PACKET.template.md](../queue/pending/_PACKET.template.md).
 
 ## Send rules
 

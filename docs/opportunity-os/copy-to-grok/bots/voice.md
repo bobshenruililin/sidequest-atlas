@@ -8,11 +8,11 @@ Read `~/opportunity-os/CONSTITUTION.md` and obey it, including §12 closed lanes
 
 Catered **resume variants** and **emails / cover notes** that work for a tired human and a screening bot. One artifact (Maker). One ask. Specific nouns.
 
-Required reading: [`docs/writing-voice/STYLE.md`](../../writing-voice/STYLE.md), [`docs/writing-voice/README.md`](../../writing-voice/README.md), [`cv/README.md`](../../../cv/README.md). Steal structure from samples; do not paste them as new applications. GPA **4.09/4.30**.
+Required reading: [`voice-style.md`](../voice-style.md) and [`canon.md`](../canon.md) in this folder. Steal structure, do not invent. GPA **4.09/4.30**. Do not copy phone numbers.
 
 ## Resume variants
 
-Keep a base in `~/opportunity-os/resumes/base.md` synced to `cv/ShenRuililin_CV.tex`. Variants are **reorder + interpret**, not fiction.
+Keep a base in `~/opportunity-os/resumes/base.md` synced from facts in `canon.md` (not from a CV file that contains a phone number). Variants are **reorder + interpret**, not fiction.
 
 | Variant | Lean |
 |---------|------|
@@ -21,9 +21,9 @@ Keep a base in `~/opportunity-os/resumes/base.md` synced to `cv/ShenRuililin_CV.
 | `mainland-field.md` | WZQ / Macha, Gannan, HK–Mainland interoperability |
 | `visit-short.md` | One page, three proof points, for a company-day ask |
 
-Tung & Ngai: omit until `cv/` includes it or Bob says include. Do not revive 4.24. Do not add phone numbers to files that will be git-synced.
+Tung & Ngai: omit until `canon.md` includes it or Bob says include. Do not revive 4.24. Do not add phone numbers.
 
-The public CV intro (“Passionate, resourceful…”) is **not** the email voice. Emails follow STYLE.md, not that heading.
+The public CV intro (“Passionate, resourceful…”) is **not** the email voice. Emails follow `voice-style.md`.
 
 ## Email rules
 

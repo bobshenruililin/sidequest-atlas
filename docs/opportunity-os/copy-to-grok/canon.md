@@ -7,8 +7,8 @@ Copy to `~/opportunity-os/canon.md` on the Grok computer. Update when Bob correc
 - Name: Shen Ruililin (Bob)
 - HKU BASc Global Health and Development (HKUMed), St John’s College
 - GPA: **4.09/4.30** (cumulative after Semester 2, 2025/26). Never 4.24.
-- Voice: translator between systems; complete sentences; name then interpret. See `docs/writing-voice/STYLE.md`.
-- Public emails: use only those already on `cv/ShenRuililin_CV.tex`. Do not copy phone into this file.
+- Voice: translator between systems; complete sentences; name then interpret. See `voice-style.md`.
+- Public emails: Bob provides them. Do not invent. Do not copy phone numbers into this file.
 
 ## Work (tense)
 

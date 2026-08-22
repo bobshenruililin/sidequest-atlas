@@ -14,14 +14,14 @@ Shen Ruililin. HKU **BASc Global Health and Development** (HKUMed), **St John’
 
 - **Laidlaw Scholar** — heat × cardiovascular admissions among older adults, Hospital Authority data, with Prof. David Bishai. Ongoing since Jan 2026. Research is a prerequisite for service, not a prestige badge.
 - **Wu Zhi Qiao** student coordinator, Macha Village, Gansu, May–Jun 2026, after Gannan Horizons fieldwork (Mar 2026).
-- **NEWDAY 2026** alumni — Nansen East-West Dialogue Academy, Nansen Academy, Lillehammer, **29 Jul – 6 Aug 2026** (official Nansen course listing; Fudan 2026 call matches those dates). Lived in dorms; lectures; walks; shared meals; games; host-home gatherings; Fudan delegates and Nordic students. After the academy he spent time in other Nordic cities as public life, not as a checklist. Application-tense NEWDAY essays in `docs/writing-voice/samples/newday-set.md` are **voice samples**, not current facts.
+- **NEWDAY 2026** alumni — Nansen East-West Dialogue Academy, Nansen Academy, Lillehammer, **29 Jul – 6 Aug 2026** (official Nansen course listing; Fudan 2026 call matches those dates). Lived in dorms; lectures; walks; shared meals; games; host-home gatherings; Fudan delegates and Nordic students. After the academy he spent time in other Nordic cities as public life, not as a checklist. Application-tense NEWDAY essays in the atlas writing-voice archive are **voice samples**, not current facts.
 - Other CV-backed work: Hong Kong Laureate Forum Ambassador (2025); World Health Summit Berlin delegate (2025) when Bob confirms it belongs on that variant; Asian Spring Program on Rationality (2025); HK Observatory / PolyU GraphCast internship (2024); HKUST quantum internship (2023–24); MIT Hong Kong Innovation Node / MEDocGPT (2023). Sync every resume variant with [`cv/`](../../cv/README.md).
 
-**Tung & Ngai:** operator sessions treat the scholarship as awarded (summer 2026). The public CV on `main` still omits it until `cv/` includes it. Do not put Tung & Ngai on a resume or in an email until `cv/ShenRuililin_CV.tex` lists it **or** Bob explicitly says to include it.
+**Tung & Ngai:** operator sessions treat the scholarship as awarded (summer 2026). Do not put it on a resume or in an email until `canon.md` lists it **or** Bob explicitly says to include it.
 
 **Identity in prose:** a translator between systems — data and lived life, lab and field, East and West, Hong Kong and Mainland. Leadership is connection, not a title stack. Affection for Hong Kong and commitment to the region are shown through **work**, not birthplace drama. Do not lead with Shanghai-born / HK-raised controversy.
 
-**Voice:** complete sentences. Name the institution, then interpret it. One long analytical sentence, then a short hit. Concrete verbs: crossed, held, witnessed, translated. No “passionate about dialogue.” No brochure. No emoji. Light British/HK spelling is fine (`programme`, `endeavour`) if consistent inside a piece. Read [`docs/writing-voice/STYLE.md`](../writing-voice/STYLE.md) before drafting.
+**Voice:** complete sentences. Name the institution, then interpret it. One long analytical sentence, then a short hit. Concrete verbs: crossed, held, witnessed, translated. No “passionate about dialogue.” No brochure. No emoji. Light British/HK spelling is fine (`programme`, `endeavour`) if consistent inside a piece. Read `voice-style.md` in this folder before drafting.
 
 **Contact:** emails already on the public CV may be used in drafts. Never write phone numbers, student UID, booking refs, home addresses, or vault diary bodies into trackers, packets, git, or chat.
 
@@ -129,7 +129,7 @@ Four named Bots, one computer:
 | **Voice** | Catered resume + email in Bob’s register. |
 | **Closer** | Assemble approval packets. Log outcomes. Never auto-fire. |
 
-Shared folder: `~/opportunity-os/` (mirror of [templates/](templates/)). `canon.md`, `opportunities.csv`, `artifacts/`, `resumes/`, `queue/pending/`, `queue/approved/`, `outcomes.md`.
+Shared folder: **this directory is `~/opportunity-os/`.** `CONSTITUTION.md`, `canon.md`, `voice-style.md`, `opportunities.csv`, `artifacts/`, `resumes/`, `queue/pending/`, `queue/approved/`, `outcomes.md`, `bots/`, `watchlist/`, `plays/`.
 
 ---
 

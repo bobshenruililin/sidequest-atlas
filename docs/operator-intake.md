@@ -105,6 +105,6 @@ raw media (phone/laptop)
 
 - [daily-journaling.md](daily-journaling.md)
 - [privacy.md](privacy.md)
-- [opportunity-os/README.md](opportunity-os/README.md) — Grok Bot teammates for internships, academies, visits (drafts only; Bob approves every send)
+- [opportunity-os/README.md](opportunity-os/README.md) — copy [`copy-to-grok/`](opportunity-os/copy-to-grok/START-HERE.md) onto the Grok computer as `~/opportunity-os/`
 - [../agents/OPERATOR_DOCTRINE.md](../agents/OPERATOR_DOCTRINE.md)
 - [../content/projects/README.md](../content/projects/README.md)

@@ -3,6 +3,7 @@
 **For:** Shen Ruililin (Bob), BASc Global Health and Development, HKU  
 **Cycle:** apply 12 Oct–11 Dec 2026 for academic year **2027/28**  
 **Compiled:** 2026-08-19 (expanded same day)  
+**PDF:** [docs/hkuww-exchange-primer.pdf](hkuww-exchange-primer.pdf)  
 **Plane:** operator (no booking refs, no household finance)  
 **Rule:** two stacks are equals. No default winner. Volatile numbers are dated. Quotas are from the last full published list (9 Oct 2025) unless marked leftover.
 

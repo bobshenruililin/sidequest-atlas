@@ -67,6 +67,7 @@ Top-quartile among researched finalist/scholar sample for HKU lane; not guarante
 ## Related files
 
 - `docs/hkuww-exchange-primer.md` — 2027/28 HKUWW primer (two equal stacks; tuition wedges; Oct 2025 full list vs March leftovers).
+- `docs/winter-2026-27-primer.md` — winter 2026/27 LINK-S vs IAO Recognised list (verdicts; NEWDAY DNA; access 22 Aug 2026).
 - `docs/exchange-review-ghd-hkuww.md` — adversarial review (2026-08-19). Keep capstone/GPA/LSE-Health-Policy/UBC findings; the "Chicago N/A" line was a leftover-list artefact — see primer editor's note.  
 - `docs/tung-ngai-interview-prep.md`  
 - `docs/tung-ngai-english-interview-scripts.md` (+ CMN/YUE)  

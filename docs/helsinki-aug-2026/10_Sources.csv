@@ -1,0 +1,49 @@
+ID,What,URL,Accessed,Confidence
+S-ekberg,Ekberg hours + brunch + reservation rules,https://www.ekberg.fi/,2026-08-15,High — official
+S-ekberg-book,Ekberg table reservation,https://www.ekberg.fi/en/cafe/table-reservation,2026-08-15,High — official
+S-fazer,Fazer Café Kluuvikatu hours,https://www.fazer.fi/fazer-cafe/kahvilat/karl-fazer-cafe/,2026-08-15,High — official café hours; brunch sitting VERIFY
+S-gk,Georgian Kitchen hours + phone,https://www.georgiankitchen.fi/,2026-08-15,High — official
+S-rioni,Rioni Helsinki hours,https://www.rioni.fi/en-gb/helsinki,2026-08-15,High — official
+S-supra,Georgian Supra address,https://www.georgiansupra.fi/contact,2026-08-15,High address; hours secondary
+S-gaijin,Gaijin hours + summer lunch closure,https://www.gaijin.fi/contact,2026-08-15,High — official
+S-nolla,Nolla reservations,https://restaurantnolla.com/reservations/,2026-08-15,High booker; hours not on official page
+S-gron-menu,Grön summer 2026 menu 188e,https://www.restaurantgron.com/menu,2026-08-15,High — official
+S-gron-book,Grön DinnerBooking,https://dinnerbooking.com/fi/en-US/r3904/restaurant-gron,2026-08-15,High — official booker
+S-lat25,Latitude 25 hours + 119e booking,https://www.latitude25.fi/booking/,2026-08-15,High — official
+S-skord,Skörd menu 86e / 72e,https://xn--skrd-6qa.fi/en/food/,2026-08-15,High — official
+S-kuurna,Kuurna hours + 46e/54e,https://www.kuurna.fi/in-english,2026-08-15,High — official
+S-muru,Muru menu of the day 59e,https://murudining.fi/en/,2026-08-15,High price; closed days VERIFY
+S-aalto,Aalto House guided tours,https://www.alvaraalto.fi/en/location/the-aalto-house/,2026-08-15,High — official
+S-ksauna,Kulttuurisauna hours + €17,https://www.kulttuurisauna.fi/,2026-08-15,High — official
+S-shii,Shii menu 98e; hours omitted,https://shii.fi/menu,2026-08-15,High price; weekly hours VERIFY in booker
+S-hanayagi,Hanayagi 150e + TableOnline hours,https://hanayagi-omakase.com/about,2026-08-15,High concept; hours from booker
+S-domo,Domo hours,http://www.domoravintola.fi/,2026-08-15,High — official
+S-lia,Lia hours (Mon conflict),https://www.ravintolalia.fi/en-gb/helsinki,2026-08-15,High venue; Monday pages conflict
+S-olo,Olo hours + 189e / 109e,https://olo-ravintola.fi/en/info/,2026-08-15,High — official
+S-palace,Palace 250e menu,https://palacerestaurant.fi/en/menu,2026-08-15,High — official
+S-seahorse,Sea Horse summer hours,https://www.seahorse.fi/en/restaurant-sea-horse/,2026-08-15,High — official
+S-kosmos,Kosmos hours + menu,https://kosmos.fi/en/our-food/,2026-08-15,High — official
+S-elite,Elite hours,https://elite.fi/en/front-page/,2026-08-15,High — official
+S-bui,Bui Ramen hours + prices,https://buiramen.fi/,2026-08-15,High — official
+S-levain,Levain branch hours,https://www.levain.fi/reservation,2026-08-15,High — official
+S-loyly,Löyly sauna price + rules,https://www.loylyhelsinki.fi/en/public-sauna,2026-08-15,High — official
+S-loyly-h,Löyly weekly hours,https://www.loylyhelsinki.fi/en/info,2026-08-15,High — official
+S-rex,Amos Rex hours,https://amosrex.fi/en/visit-us/,2026-08-15,High — official
+S-rex-t,Amos Rex tickets,https://amosrex.fi/en/tickets/,2026-08-15,High — official
+S-adm,ADM hours + construction,https://admuseo.fi/en/visit-us/,2026-08-15,High — official
+S-oodi,Oodi hours 2026,https://oodihelsinki.fi/en/arrival/,2026-08-15,High — official
+S-hsl,HSL Suomenlinna ferry,https://www.hsl.fi/en/travelling/visitors/suomenlinna,2026-08-15,High — official; fare can move
+S-sl-arr,Suomenlinna arriving,https://suomenlinna.fi/en/explore/arriving/,2026-08-15,High — official
+S-sl-tour,English guided tour 2026,https://suomenlinna.johku.com/en_US/liput/guided-walking-tour-in-english,2026-08-15,High schedule; inventory unknown
+S-ateneum,Ateneum hours + free 20 Aug,https://ateneum.fi/en/opening-hours-and-tickets/,2026-08-15,High — official
+S-allas,Allas hours,https://allasseapool.fi/en/,2026-08-15,High — official
+S-momo,Momotoko bankruptcy,https://www.hs.fi/helsinki/art-2000011230551.html,2025-05-15,"High — local press, closure status"
+S-katana,Katana hours (Falstaff),https://www.falstaff.com/at/streetfood/katana-ramen-restaurant,2026-08-15,"Medium — secondary, no official hours page"
+S-sansar,Sansar hours (ex-Satkar),https://www.sansar.fi/,2026-08-15,High — official
+S-mountain,Restaurant Mountain hours,https://ravintolamountain.com/en/home/,2026-08-15,High — official
+S-basbas,BasBas hours,https://basbas.fi/bistro/en/,2026-08-15,High — official
+S-cella,Cella hours through 17 Aug,https://www.ravintolacella.fi/,2026-08-15,High Sun–Mon; Tue–Thu unverified
+S-carelia,Carelia hours + 2026 summer break,https://ravintolacarelia.fi/en/home-2/,2026-08-15,High — official
+S-harju8,Harju 8 listing,https://www.myhelsinki.fi/places/harju-8/,2026-08-15,Medium — MyHelsinki; kitchen close missing
+S-lohtu,Lohtu hall lunch hours,https://www.ravintolalohtu.fi/en/,2026-08-15,High — official
+S-nbhd,Neighbourhood eateries research (40 venues),docs/helsinki-aug-2026/research/neighbourhood-eateries.md,2026-08-15,Compiled from official/MyHelsinki/HS — VERIFY live

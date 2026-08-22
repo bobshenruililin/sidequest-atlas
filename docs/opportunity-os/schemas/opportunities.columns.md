@@ -6,7 +6,7 @@
 | `org` | yes | Official name |
 | `programme` | yes | Course or team name, or `n/a` |
 | `ask_type` | yes | `internship` \| `visit` \| `academy` \| `unpaid-sprint` \| `remote-brief` \| `funding` |
-| `window` | yes | `winter-2026-27` \| `summer-2027` \| `either` \| `protected` |
+| `window` | yes | `winter-2026-27` \| `summer-2027` \| `summer-2028` \| `either` \| `protected` |
 | `fit` | yes | `high` \| `medium` \| `low` \| `watch` |
 | `collision` | yes | `none` \| `LINK-S` \| `LiA` \| `Laidlaw-London` \| `GEST` \| comma-join if several |
 | `status` | yes | `watch` \| `scouted` \| `artifact` \| `drafted` \| `queued` \| `approved` \| `sent` \| `replied` \| `killed` |

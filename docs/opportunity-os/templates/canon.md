@@ -14,7 +14,7 @@ Copy to `~/opportunity-os/canon.md` on the Grok computer. Update when Bob correc
 
 - Laidlaw Scholar — heat × cardiovascular admissions, HA data, Prof. David Bishai, Jan 2026–present
 - Wu Zhi Qiao student coordinator, Macha Village, Gansu, May–Jun 2026; Gannan Horizons Mar 2026
-- NEWDAY 2026 alumni — Nansen Academy, Lillehammer, 29 Jul–6 Aug 2026
+- NEWDAY 2026 alumni — Nansen Academy, Lillehammer, 29 Jul–6 Aug 2026. Next plausible edition **2028** (traveler-provided biennial; do not apply in 2027)
 - Tung & Ngai: include on resumes only if `cv/` lists it or Bob says so
 - LiA with makesense (Medellín / Mexico City, Peace and Social Resilience): **planned**, not done
 - LINK-S / LINK winter 2026/27: **planned / confirm year’s site**, not done

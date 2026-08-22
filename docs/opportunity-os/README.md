@@ -6,11 +6,11 @@ This Cursor environment cannot create Grok Bots or grant Google / LinkedIn. Copy
 
 ## Load order
 
-1. [CONSTITUTION.md](CONSTITUTION.md) — paste into the first Bot (or pin as shared memory).
-2. [FIRST-HANDOFF.md](FIRST-HANDOFF.md) — the first real task.
-3. Spawn four named teammates from [bots/](bots/): Scout, Maker, Voice, Closer.
-4. Copy [templates/](templates/) onto the Grok computer as `~/opportunity-os/`.
-5. Read [DO-NOT.md](DO-NOT.md) before any crawl or draft.
+Exact paste recipes: [PASTE.md](PASTE.md). Short version:
+
+1. Copy this folder onto the Grok computer as `~/opportunity-os/`.
+2. **Closer / conductor:** paste [CONSTITUTION.md](CONSTITUTION.md) (complete; closed lanes are §12 — do not paste DO-NOT.md). Then paste the fenced block in [FIRST-HANDOFF.md](FIRST-HANDOFF.md) (complete first *task*).
+3. **Scout, Maker, Voice:** paste only [bots/scout.md](bots/scout.md), [bots/maker.md](bots/maker.md), [bots/voice.md](bots/voice.md). They read the constitution from disk. If the files are not on the computer yet, paste the constitution once per Bot, then the role file.
 
 Cursor operators drafting outreach in this repo obey the same send-never / invent-never rules.
 
@@ -44,9 +44,10 @@ All four Bots share one Grok computer. A login granted to one is available to al
 ```text
 docs/opportunity-os/
   README.md                 this file
-  CONSTITUTION.md           paste first
-  FIRST-HANDOFF.md          first task
-  DO-NOT.md                 closed lanes
+  PASTE.md                  what to paste into which Bot
+  CONSTITUTION.md           complete rules (includes closed lanes)
+  FIRST-HANDOFF.md          complete first task
+  DO-NOT.md                 skim index only — do not paste
   LAYOUT.md                 Grok disk layout
   bots/                     Scout, Maker, Voice, Closer
   schemas/                  claim + CSV contract

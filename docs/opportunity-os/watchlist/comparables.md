@@ -4,7 +4,9 @@
 
 DNA test (need most of these, not one): residential; East Asia × Europe/Nordics; dialogue not only lectures; long enough to live together; English or a language Bob actually has.
 
-## A. Strong NEWDAY-family (re-verify 2027)
+## A. Strong NEWDAY-family (re-verify for *summer 2027*)
+
+NEWDAY itself is a **2028-watch**, not a 2027 application. See [newday-dna.md](newday-dna.md). Hunt these instead for the 2027 summer window.
 
 ### Euro-Asia Summer School (KU Leuven GGS + SNU + partners)
 
@@ -55,9 +57,10 @@ Summer 26 May – 31 Aug 2027 can take a true internship **or** LiA **or** an ac
 
 | When | What |
 |------|------|
-| From Nov 2026 | Nansen kurs page weekly for NEWDAY 2027 |
-| Dec 2026 – Jan 2027 | Horizons sponsorship windows (2024 NEWDAY pattern) |
-| Jan–Apr 2027 | Fudan/NIAS/Nansen applications historically open in this band |
+| Occasional through 2027 | Nansen kurs page: confirm still no 2027 NEWDAY; do not treat absence as a bug |
+| Dec 2026 – Jan 2027 | Horizons **sibling** sponsorships (not a NEWDAY 2027 window) |
+| From late 2027 | Nansen / Fudan / Horizons for a **2028** NEWDAY call |
+| Jan–Apr 2027 | Other academy applications (EASS-like, Nansen English courses) |
 | Mar–May 2027 | EASS-like rolling deadlines (2026 closed 20 May) |
 | Spring 2027 | ASEF open calls |
 

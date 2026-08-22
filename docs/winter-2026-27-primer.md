@@ -10,6 +10,8 @@
 
 This is not a brochure of “exciting winter schools.” It is a sourced brief for one decision: **how to spend the only winter in the degree that still sits before a Laidlaw LiA summer and an HKUWW application.** The list is real. Most of it does not fit the calendar. The programme that fits best is not the one that feels most like Lillehammer.
 
+**Read first, if you want the fork rather than the catalogue:** [`docs/winter-2026-27-fact-sheets.md`](winter-2026-27-fact-sheets.md) — one-page dossiers with the insight that is not on the brochure, including a Chile sheet that separates landscape craving from the TFAS product. This primer remains the scoreboard, the full IAO table, and the claims spine.
+
 ---
 
 ## Contents

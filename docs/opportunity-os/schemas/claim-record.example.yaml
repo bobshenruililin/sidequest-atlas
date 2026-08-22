@@ -1,0 +1,17 @@
+# Claim record
+
+id: claim-newday-2026-dates
+subjectType: event
+subjectId: opp-newday-watch
+fieldPath: programme.dates
+statement: "NEWDAY 2026 at Nansen Academy, Lillehammer, ran 29 July–6 August 2026."
+status: researched
+sourceIds:
+  - src-nansen-kurs-2026-08-22
+  - src-fudan-newday-2026
+verifiedAt: "2026-08-22"
+validFrom: "2026-07-29"
+validUntil: "2026-08-06"
+reverifyAfter: "2026-11-01"
+confidence: high
+notes: "Use for alumni tense. Do not copy these dates forward as 2027 NEWDAY dates."

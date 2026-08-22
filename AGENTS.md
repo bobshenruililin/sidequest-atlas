@@ -19,6 +19,10 @@ Raw journal bodies stay in the vault; use `atlas journal context` handoffs.
 **How Bob should write (text / photos / voice):** [`docs/operator-intake.md`](docs/operator-intake.md).
 Private crown jewels (if present on disk): `vault/life-canon/CROWN_JEWELS.md`.
 
+For winter/summer opportunity hunting via Grok Bot, load
+[`docs/opportunity-os/`](docs/opportunity-os/README.md). Bots draft;
+Bob approves every send.
+
 ## Canonical API
 
 ```bash

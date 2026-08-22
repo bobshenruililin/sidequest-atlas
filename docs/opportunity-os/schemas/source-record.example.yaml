@@ -1,0 +1,13 @@
+# Source record
+
+id: src-nansen-kurs-2026-08-22
+title: Nansen Academy course listing (NEWDAY dates)
+publisher: Nansenskolen
+url: https://nansenskolen.no/kurs/
+accessedAt: "2026-08-22"
+sourceType: official
+supports:
+  - "NEWDAY course dates listed as 29 July to 6 August 2026."
+confidence: high
+reverifyAfter: "2026-11-01"
+notes: "Page also lists other 2026 summer courses. Does not publish 2027 NEWDAY dates as of accessedAt."

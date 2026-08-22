@@ -138,7 +138,7 @@ GHD is hosted by **SPH / LKS Medicine**. HKUWW faculty earmarks for you are like
 | When | What | Clash with 2027/28 HKUWW? |
 |---|---|---|
 | Oct 2026 | Laidlaw conference, London; GEST Valencia invited speaker | No. **Does overlap application open (12 Oct).** Prep ranking, 100-word PS, transcript, and course map *before* you leave. |
-| Winter 2026/27 | LINK Shanghai (3-week immersion + HKU course) | No, if LINK is not classed as IAO/faculty semester exchange. Confirm. Interviews sit late Dec / mid-Jan — do not vanish. |
+| Winter 2026/27 | LINK-S Shanghai, **27 Dec 2026 – 16 Jan 2027** (published) | No, if LINK is not classed as IAO/faculty semester exchange. Confirm. **Both interview windows — late Dec and mid-Jan — fall inside the immersion.** Ask IAO for a video slot when you apply. |
 | Oct–Dec 2026 | **HKUWW 2027/28 application** | This is the work. |
 | Feb 2027 | Results 5 Feb; accept by 12 Feb | |
 | Summer 2027 | Laidlaw LiA, Medellín / Mexico City | Compatible with a late-Sep Chicago autumn quarter. Tight if LSE Welcome is mid-Sep and LiA overruns. **Same summer as China Vision PKU/Fudan** — pick one geography. |
@@ -417,7 +417,7 @@ Oct 2025 semester spots (all `***` unless noted):
 
 These are Mainland Affairs, Horizons “short-term.” T&N satisfaction: **uncertain**. Same summer as LiA 2027 — geography collision.
 
-**LINK:** 12 HKU credits, **3 weeks** Shanghai or HCMC, HK$5,000 subsidy. You already planned winter 2026/27. Strong “Mainland exposure,” weak “exchange” if a pedant is scoring duration. Official name is **LINK**, not a separate “LINK-S” product.
+**LINK:** 12 HKU credits, **3 weeks** Shanghai or HCMC, HK$5,000 subsidy. You already planned winter 2026/27. Strong “Mainland exposure,” weak “exchange” if a pedant is scoring duration. The two tracks are labelled **LINK-S** (Shanghai, Semester 1, **27 Dec 2026 – 16 Jan 2027**) and **LINK-V** (HCMC, Semester 2, **1–20 June 2027**); enrollment Round 2 closes **4 Sep 2026**; grading is **pass/fail and excluded from GPA**. Full sourcing, funding arithmetic, and calendar collisions: [`winter-2026-27-physics-memo.md`](winter-2026-27-physics-memo.md).
 
 **Non-means-tested Mainland Experience Scheme:** once per UG, ≥3 days, faculty-organised; example reimbursement in China Vision materials (95 days → max HK$8,400). EDB SSEBR **excludes Mainland**.
 

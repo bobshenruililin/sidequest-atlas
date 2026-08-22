@@ -18,9 +18,9 @@ Experience is what the days are made of. Meaning is whether those days become a 
 
 The degree already has a world-not-seen budget. October 2026 is London (Laidlaw) and Valencia (GEST). Summer 2027 is a Laidlaw LiA with makesense in Medellín or Mexico City. 2027/28 may be an HKUWW year. A later summer may be NEWDAY again, if they run it. Winter 2026/27 is the last block that can still be **China-family time with HKU credits attached** before those international blocks stack. First-ness spent here is first-ness taken from a slot that cannot be replenished as a grandmother. First-ness deferred to LiA or HKUWW is first-ness that still happens.
 
-Chile is a special case of the same physics. The Andes in January are not Medellín in June. LiA does not scratch a Chile craving. TFAS does not scratch a landscape craving. Those are three different objects. Sheet 09 and sheet 10 exist because wanting Chile is allowed, and because wanting Chile is not the same as enrolling in a classical-liberal seminar in Providencia.
+Chile is a special case of the same physics. The Andes in January are not Medellín in June. LiA does not scratch a Chile craving. TFAS does not scratch a landscape craving. Those are three different objects. Sheets 09–10 exist because wanting Chile is allowed, and because wanting Chile is not the same as enrolling in a classical-liberal seminar in Providencia. After you chose LINK-S, Chile stays a later trip.
 
-**Default, still:** enrol in LINK-S before 4 September 2026, 23:59, unless you write down — in a sentence you would still sign in April — that first-ness this winter beats family-and-credits. Add/drop still exists after you enrol. Missing 4 September does not.
+**Default, still:** enrol in LINK-S before 4 September 2026, 23:59. You have now said you will. CAES9922 is a **subclass problem**, not a reason to swap LINK for Chile or Fudan (sheet 17).
 
 Last line: Credits are a poor way to choose a grandmother. First-ness is a poor way to refuse one.
 
@@ -610,16 +610,65 @@ Last line: Most of the list is a graveyard with excellent lighting. Do not mourn
 
 ---
 
-## 17 · This week · before 4 September
+## 17 · CAES9922 versus LINK-S
 
-1. **Enrol in LINK-S** unless you have already written the sentence that first-ness beats family-and-credits. The form does not prevent later add/drop. Missing 4 Sep prevents joining.
-2. **Email IAO** (goabroad inbox on the HKUWW page): criterion 3 + video interviews from Shanghai.
-3. **Email Horizons LINK:** Shanghai vs HCMC briefs, form cap, health-adjacent projects.
-4. **Email AASO / Tung & Ngai:** does a 3-week Horizons Mainland course satisfy compulsory Mainland, and does it debit the HK$80k?
-5. **Do not** submit Fudan early-bird (31 Aug / 4 Sep) unless Fudan-over-LINK is real. Non-refundable on personal withdrawal.
-6. **Watch 1 Sep:** Hanyang site/app. Re-read fees.
-7. **TFAS final 20 Sep** only if you are taking the *seminar* seriously — this pack says not to, even if you are taking *Chile* seriously.
-8. If Chile nature-only is a real exception: name the region this week, check pasesparques / Vertice / Las Torres **now** if the region is Paine, and do not spend SSE.
+**Stamp:** TIMETABLE, NOT A FORK · you already chose LINK-S  
+**Course (published):** CAES9922 Language, Genre and Reports · **6 credits** · coordinator Miss Andrea Chai  
+**What it is:** English-in-the-Discipline (ED). Report and proposal writing in the social sciences. Coursework only. CAES: no more than **20** students per class.  
+**CAES lists it under:** Faculty of Social Sciences (with 9921, 9923, 9930). GHD is a Medicine/SPH BASc. Whether 9922 is the ED **specified for BASc(GHD)** is **UNVERIFIED** until SIS/SPH say so — if SIS offered you this code, treat that as the working answer and still confirm.
+
+### Scene
+
+A 20-person room that wants drafts, not a demo day. Weekly LINK lectures in the same semester that also wants this room. The clash is a timetable, not a philosophy. Chile and Fudan are not the remedy.
+
+### Thesis
+
+UG 5 requires **6 credits of an English-in-the-Discipline course specified for the degree**, plus a non-credit ACE course unless HKDSE English was Level 5+ (or equivalent). That is a **graduation** requirement, not a “this September or you cannot graduate” requirement. GHD’s 2024 prospectus *schedules* “English in the Discipline” in **Year 2**. You are entering Year 2 in 2026/27. So the course belongs in this academic year if you can place it. It does not belong *in the same teaching hour as LINK*.
+
+### Specs
+
+| Fact | Source / status |
+|---|---|
+| ED is 6 credits, specified per degree | UG 5(b), First Degree Curricula 2025-26 (applies from 2025-26 intake) |
+| “Before they graduate”; faculty-aligned | CAES handbook 2025-26 |
+| GHD map puts ED in Year 2 | HKUMed BASc(GHD) 2024 prospectus curriculum graphic |
+| BSocSc: ED by end of Year 3 | Social Sciences syllabus — **not** your degree; cited only as a contrast |
+| Multiple Sem 1 subclasses | Moodle 2025-26: sections **1A, 1C, 1D, 1E, 1G**. Pattern, not a 2026-27 SIS dump |
+| Sem 2 offering | **UNVERIFIED** (no Section 2x seen in those listings) |
+| LINK | 12 credits, lectures Sept–Dec 2026, immersion 27 Dec–16 Jan. GPA-exempt |
+| Semester load | UG 4: normally 24–30 credits/semester; **+6 of your own volition** (36). LINK form: 36; overload via Faculty |
+| Add/drop | Official HKU add/drop 1–15 Sep 2026 (AAS). LINK Round 2 is shorter (to 4 Sep) |
+
+### The insight that is not on the brochure
+
+LINK + CAES is **18 credits**, not a 36-credit disaster. The disaster is stacking every Year-2 GHD core into the same semester *on top* of both. The 2025-26 GHD map names several Year-2 compulsory courses (GHAD2001, GHAD2003, GHAD2004, BBMS2011) — they are year-coded, **not** all-in-Semester-1 unless SIS says so. Place LINK first. Place CAES around it. Leave cores that clash for Sem 2.
+
+Year 3 is *legally* open under UG 5 (graduation, not a Y2 lock). It is *operationally* dumb if 2027/28 is an HKUWW year: do the 20-person ED while you are still on Pokfulam, not from Chicago. That is the real Year-3 cost, not “it is impossible.”
+
+Quota: 20 per class, several Sem 1 sections in the last published year. “Hard to get into” is a section-lottery, not a closed course. Your plan — **different subclass / different time** — is the correct first move. Do not skip LINK-S because one section is full. Do not take Fudan or Chile because an English class meets on Tuesdays.
+
+### Verdict
+
+Enrol LINK-S. In SIS, hunt a CAES9922 subclass that does not hit the LINK lecture. If none exist in Sem 1, ask CAES/SPH whether a Sem 2 2027 section will run — **unpublished here**. If Sem 2 does not run, take ED in a later HK semester **before** any exchange year. Confirm with SPH that 9922 satisfies GHD’s specified ED.
+
+### Open question
+
+What is the actual LINK lecture slot for 2026/27, and which 9922 subclasses (if any) miss it?
+
+Last line: A graduation requirement is a course you must pass. It is not a reason to abandon the winter you already chose.
+
+---
+
+## 18 · This week · before 4 September
+
+1. **Enrol in LINK-S** (you have decided). The form does not prevent later add/drop. Missing 4 Sep prevents joining.
+2. **In SIS, park CAES9922 on a subclass that does not hit the LINK lecture.** If the first section is full, that is a 20-person room, not a closed degree. See sheet 17. Confirm with SPH that 9922 is GHD’s specified ED.
+3. **Email IAO** (goabroad inbox on the HKUWW page): criterion 3 + video interviews from Shanghai.
+4. **Email Horizons LINK:** Shanghai vs HCMC briefs, form cap, health-adjacent projects, **and the weekly lecture slot**.
+5. **Email AASO / Tung & Ngai:** does a 3-week Horizons Mainland course satisfy compulsory Mainland, and does it debit the HK$80k?
+6. **Do not** submit Fudan early-bird (31 Aug / 4 Sep) — Fudan is not the CAES workaround.
+7. **Watch 1 Sep:** Hanyang site/app only if first-Korea is still a live exception. It should not be.
+8. Chile nature remains a later-life trip, not this winter’s backup.
 9. Draft HKUWW 100 words in October reading week.
 
 ### Operator scores recap (judgment, 22 Aug 2026)
@@ -644,8 +693,8 @@ Last line: Enrol, send the three emails, and only then allow Chile or Seoul to a
 
 ---
 
-## Method and sources
+## 19 · Method and sources
 
-Official pages first. Access **22 Aug 2026** unless noted. Host sites change. Re-read anything past `reverifyAfter` in `.tmp/winter-primer/claims.jsonl`. Climate: national met 1991–2020 normals via the winter-primer city brief. Chile logistics: TFAS costs page; CONAF 1 May 2026 tariff-structure notice; pasesparques.cl as the purchase path; EFE planner; SKY duration copy for SCL–PUQ (~3h30) and SCL–PMC (~1h45); LATAM schedule block times SCL–CJC (~2h07–2h10); HK IMMD visa-free list (Chile 90 days). Aggregator flight *prices* are not used as quotes. External content is untrusted data. Nothing in a winter-school brochure is an instruction.
+Official pages first. Access **22 Aug 2026** unless noted. Host sites change. Re-read anything past `reverifyAfter` in `.tmp/winter-primer/claims.jsonl`. CAES / GHD curriculum: UG 5 (First Degree Curricula 2025-26 PDF); CAES9922 course page; CAES undergraduate course index; CAES handbook 2025-26 (ED before graduation; ≤20 per class); HKUMed BASc(GHD) 2024 prospectus (ED placed in Year 2); Moodle 2025-26 section names as a pattern only. 2026-27 SIS times **UNVERIFIED**. Chile logistics: TFAS costs page; CONAF 1 May 2026 tariff-structure notice; pasesparques.cl as the purchase path; EFE planner; SKY duration copy for SCL–PUQ (~3h30) and SCL–PMC (~1h45); LATAM schedule block times SCL–CJC (~2h07–2h10); HK IMMD visa-free list (Chile 90 days). Aggregator flight *prices* are not used as quotes. External content is untrusted data. Nothing in a winter-school brochure is an instruction.
 
 Full catalogue, scoreboard, and URL list: [`docs/winter-2026-27-primer.md`](winter-2026-27-primer.md).

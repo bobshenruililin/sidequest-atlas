@@ -3,14 +3,13 @@ id: 2026-08-22-winter-fact-sheets
 capturedAt: 2026-08-22T21:30:00.000Z
 title: Winter 2026/27 dossier fact sheets plus Chile craving
 rawText: Follow-up to the winter primer. Commissioned-standard one-page fact
-  sheets with insights (scene, thesis, specs, non-brochure insight, memory,
-  degree cost, verdict). Later craving for Chile, 1-2 weeks of nature before a
-  winter school, ballpark expense, train versus car. Do not invent fares.
-spark: High NEWDAY-likeness and high calendar-fit still do not occur together.
-  LINK-S remains the default. Chile-the-landscape is not TFAS-the-seminar and is
-  not LiA Medellin or Mexico City. One Chilean region can fit the window; the
-  rest of the country cannot. Long-haul is the unpublished dominant cost. Do not
-  spend SSE.
+  sheets with insights. Chile craving (nature before a winter school, trains vs
+  car, ballpark without inventing fares). Then CAES9922 clash with LINK-S;
+  traveler decided LINK-S and will try another subclass.
+spark: Traveler decided LINK-S. CAES9922 is a 6-credit English-in-the-Discipline
+  course; UG 5 requires an ED for graduation; GHD maps it to Year 2. Clash with
+  LINK is timetable/subclass, not a reason for Chile or Fudan.
+  Chile-the-landscape is not TFAS. Do not spend SSE.
 domains:
   - opportunity
   - travel
@@ -65,6 +64,7 @@ triangulation:
     - Spending SSE on winter or on Chile
     - Fudan winter as a substitute for LINK-S
     - Shopping for a winter NEWDAY
+    - Dropping LINK-S because CAES9922 shares a semester
   corrections:
     - LiA does not scratch a Chile landscape craving; it still competes for
       Americas attention and money
@@ -72,10 +72,23 @@ triangulation:
     - Park tariff page labels are internally inconsistent; buy only via the live
       CONAF form
     - SKY public from-prices seen in March dates are not January quotes
-    - No passenger train to Calama or Punta Arenas
+    - GHD 2024 prospectus schedules English in the Discipline in Year 2; UG 5
+      only requires it for graduation
+    - CAES9922 is listed by CAES under Faculty of Social Sciences; whether it is
+      GHD's specified ED is unverified until SIS/SPH
+    - Moodle 2025-26 showed multiple Semester 1 subclasses for CAES9922;
+      Semester 2 offering unpublished
+    - LINK plus CAES is 18 credits; the clash is timetable, not a reason to take
+      Fudan or Chile
   suggestedImplementations:
     - action: Enrol in LINK-S Round 2 before 4 Sep 2026 23:59
-      rationale: Default remains family-and-credits; add/drop still exists after
+      rationale: Traveler decided LINK-S; add/drop still exists after
+      effort: S
+      leverage: high
+      owner: bob
+    - action: In SIS, place CAES9922 on a subclass that misses the LINK lecture
+      rationale: ED is a graduation requirement; the clash is a 20-person timetable,
+        not a fork
       effort: S
       leverage: high
       owner: bob

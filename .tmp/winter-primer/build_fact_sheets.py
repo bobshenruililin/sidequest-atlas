@@ -246,8 +246,9 @@ def main() -> None:
     <div><span class="n">14</span> Closed: Fudan</div>
     <div><span class="n">15</span> Closed: VT, intern, LINK-V</div>
     <div><span class="n">16</span> Graveyard</div>
-    <div><span class="n">17</span> This week, before 4 Sep</div>
-    <div><span class="n">18</span> Method and sources</div>
+    <div><span class="n">17</span> CAES9922 versus LINK-S</div>
+    <div><span class="n">18</span> This week, before 4 Sep</div>
+    <div><span class="n">19</span> Method and sources</div>
   </div>
   <div class="meta">
     <div>For: Shen Ruililin · BASc Global Health and Development · HKU</div>

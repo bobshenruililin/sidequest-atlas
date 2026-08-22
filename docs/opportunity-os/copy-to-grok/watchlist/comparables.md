@@ -49,7 +49,7 @@ Winter 24 Dec 2026 – 17 Jan 2027 is ~3.5 weeks. Prefer:
 - Agency or company **visits** (HK, GBA, a Nordic office if Bob is already in the region — do not invent a trip)
 - Remote two-week **sprints** with a brief already written
 - HK CHP / HA / university lab **desk** only if an official student scheme exists
-- LINK-S / LINK as the winter occupant if Bob confirms
+- LINK-S / LINK as the winter occupant: official LINK-S is **27 Dec 2026 – 16 Jan 2027** ([schedule](https://tl.hku.hk/link/schedule)). Semester 2 alternative is LINK-V **1–20 June 2027**.
 
 Summer 26 May – 31 Aug 2027 can take a true internship **or** LiA **or** an academy — Closer must flag the collision, not hide it.
 

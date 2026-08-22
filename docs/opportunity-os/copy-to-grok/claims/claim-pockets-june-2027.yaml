@@ -1,0 +1,14 @@
+id: claim-pockets-june-2027
+subjectType: event
+subjectId: opp-pockets-peace-2027
+fieldPath: programme.dates
+statement: "NCPD invites Pockets of Peace Alumni and other participants with dialogue qualifications to Lillehammer for three days in June 2027; plans and deadline unpublished."
+status: researched
+sourceIds:
+  - src-ncpd-courses-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2027-06-01"
+validUntil: "2027-06-30"
+reverifyAfter: "2027-01-15"
+confidence: medium
+notes: "Save-the-month only. Not NEWDAY. NEWDAY at Nansen Academy does not automatically confer NCPD alumni membership."

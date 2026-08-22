@@ -3,7 +3,7 @@
 **Ask type:** `visit` or `unpaid-sprint` (winter). Not a fake internship.  
 **Window:** winter 2026-27 (2 weeks max unless they have a real scheme). Summer only if LiA collision is flagged.  
 **Resume variant:** `climate-health.md`  
-**Collision:** LINK-S if Bob is in Shanghai that winter.
+**Collision:** LINK-S (sourced: 27 Dec 2026 – 16 Jan 2027 in Shanghai). If Bob enrolls, this play is a **remote brief or leftover-day visit**, not a concurrent Hong Kong desk.
 
 This is an **outline**. Maker must fill from public HA/CHP/Nordic documents and Bob’s stated Laidlaw *question*. No patient-level HA extracts. No invented attributable-death counts.
 

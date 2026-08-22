@@ -22,3 +22,5 @@ Then paste (see [PASTE.md](PASTE.md)):
 3. `bots/scout.md` / `maker.md` / `voice.md` into the named Bots.
 
 Scout’s first move must be `ls /workspace/opportunity-os`. If `CONSTITUTION.md` is missing, it stops.
+
+After Scout’s first hunt: paste [PASTE-SCOUT-CORRECTIONS.md](PASTE-SCOUT-CORRECTIONS.md). Human calendar calls: [HUMAN-DECISIONS.md](HUMAN-DECISIONS.md).

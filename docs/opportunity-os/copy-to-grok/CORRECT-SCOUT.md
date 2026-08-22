@@ -46,6 +46,6 @@ Composer accepts **six attachments** at a time. From `docs/opportunity-os/copy-t
 - `bots/scout.md`, `bots/maker.md`, `bots/voice.md`, `bots/closer.md`
 - `plays/01-heat-health-nordic.md`, `plays/02-newday-alumni-academy.md`
 
-**Batch 3** — remaining plays, `outcomes.md`, `schemas/`, `queue/pending/_PACKET.template.md`.
+**Batch 3** — remaining plays, `outcomes.md`, `schemas/`, `queue/pending/_PACKET.template.md`, `HUMAN-DECISIONS.md`, `claims/` (the `claim-*` and `src-*` YAML).
 
 Then: `ls /workspace/opportunity-os` must show `CONSTITUTION.md`. Only then say `Continue the first pass from FIRST-HANDOFF.`

@@ -1,0 +1,14 @@
+id: claim-link-enrollment-r2
+subjectType: deadline
+subjectId: opp-link-s-protected
+fieldPath: programme.enrollmentRound2
+statement: "LINK enrollment Round 2 for AY2026-27 is 15 August to 4 September 23:59 (add/drop period)."
+status: researched
+sourceIds:
+  - src-link-enrollment-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2026-08-15"
+validUntil: "2026-09-04"
+reverifyAfter: "2026-09-04"
+confidence: high
+notes: "Round 1 was 1 May – 1 August 23:59. Accessed 22 Aug 2026 while Round 2 was open. Leaflet PDF matches the calendar days."

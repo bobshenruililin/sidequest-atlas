@@ -36,7 +36,7 @@ Do not grant yourself send. Do not invent a hiring manager. Do not scrape privat
 
 ## After they return
 
-1. Confirm winter start (assessments) and whether LINK-S / LiA dates are locked.
+1. Confirm winter start (assessments). LINK-S dates are sourced (27 Dec 2026 – 16 Jan 2027); Round 2 enrolment is open through 4 Sep 2026 23:59. LiA 2027 is still unpublished.
 2. Grant Google / LinkedIn on the Grok computer **after** the constitution is loaded. Treat every login as shared across Bots.
 3. Tell Maker which of the five plays to build first.
 4. Approve or kill packets one by one. Iterate Voice from real replies.

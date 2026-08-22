@@ -6,6 +6,8 @@ After you copy `docs/opportunity-os/copy-to-grok/` to `/workspace/opportunity-os
 /workspace/opportunity-os/
   START-HERE.md
   PASTE.md
+  PASTE-SCOUT-CORRECTIONS.md
+  HUMAN-DECISIONS.md
   CONSTITUTION.md
   FIRST-HANDOFF.md
   DO-NOT.md                 # skim only — do not paste

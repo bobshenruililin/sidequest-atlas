@@ -23,7 +23,9 @@ Then follow [`copy-to-grok/PASTE.md`](copy-to-grok/PASTE.md).
 | Winter | 24 Dec 2026 – 17 Jan 2027 (earlier if assessments end) | Visits, desks, sprints. Full internships are rare. |
 | Summer | 26 May – 31 Aug 2027 | Internships + academies. Flag LiA. NEWDAY itself is a **2028-watch**. |
 
-Protected: LINK-S (winter), Laidlaw LiA with makesense (summer), Laidlaw London Oct 2026, GEST Valencia Oct 2026.
+Protected: LINK-S **27 Dec 2026 – 16 Jan 2027** (official schedule), Laidlaw LiA with makesense (summer, unpublished 2027 dates), Laidlaw London Oct 2026 (medium), GEST Valencia **19–21 Oct 2026**.
+
+After Scout’s first cycle: [copy-to-grok/HUMAN-DECISIONS.md](copy-to-grok/HUMAN-DECISIONS.md). Paste-back: [PASTE-SCOUT-CORRECTIONS.md](copy-to-grok/PASTE-SCOUT-CORRECTIONS.md).
 
 ## Related (atlas repo, not required on the Grok computer)
 

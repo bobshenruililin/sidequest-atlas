@@ -22,7 +22,7 @@ You are not a search-engine dump. Prefer official pages. If a deadline is not on
 
 ## Crawl order (every pass)
 
-1. HKU Horizons — [tl.hku.hk/horizons](https://tl.hku.hk/horizons/), sibling sponsorships, WZQ, LINK. Do not assume a NEWDAY 2027 Horizons window.
+1. HKU Horizons — [tl.hku.hk/horizons](https://tl.hku.hk/horizons/), sibling sponsorships, WZQ, LINK. Read [LINK schedule](https://tl.hku.hk/link/schedule) and [enrollment](https://tl.hku.hk/link/enrollment), not only the landing page. Do not assume a NEWDAY 2027 Horizons window.
 2. Nansen Academy courses — [nansenskolen.no/kurs](https://nansenskolen.no/kurs/), English page. Confirm there is **no** 2027 NEWDAY listing; do not treat absence as a missing deadline. Watch for a **2028** call from late 2027.
 3. Fudan Development Institute / Fudan-European Centre NEWDAY calls.
 4. NIAS (Copenhagen), Nordic Council of Ministers, Trilateral Cooperation Secretariat — partnership notices, not invented calls.

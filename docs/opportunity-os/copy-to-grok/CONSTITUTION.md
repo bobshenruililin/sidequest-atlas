@@ -129,7 +129,7 @@ Four named Bots, one computer:
 | **Voice** | Catered resume + email in Bob’s register. |
 | **Closer** | Assemble approval packets. Log outcomes. Never auto-fire. |
 
-Shared folder: **this directory is `~/opportunity-os/`.** `CONSTITUTION.md`, `canon.md`, `voice-style.md`, `opportunities.csv`, `artifacts/`, `resumes/`, `queue/pending/`, `queue/approved/`, `outcomes.md`, `bots/`, `watchlist/`, `plays/`.
+Shared folder: **this directory is `/workspace/opportunity-os/`.** `CONSTITUTION.md`, `canon.md`, `voice-style.md`, `opportunities.csv`, `artifacts/`, `resumes/`, `queue/pending/`, `queue/approved/`, `outcomes.md`, `bots/`, `watchlist/`, `plays/`.
 
 ---
 

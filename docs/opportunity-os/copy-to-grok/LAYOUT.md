@@ -1,9 +1,9 @@
 # Layout (this folder is the computer)
 
-After you copy `docs/opportunity-os/copy-to-grok/` to `~/opportunity-os/`, the tree is:
+After you copy `docs/opportunity-os/copy-to-grok/` to `/workspace/opportunity-os/`, the tree is:
 
 ```text
-~/opportunity-os/
+/workspace/opportunity-os/
   START-HERE.md
   PASTE.md
   CONSTITUTION.md

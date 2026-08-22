@@ -21,7 +21,7 @@ Private crown jewels (if present on disk): `vault/life-canon/CROWN_JEWELS.md`.
 
 For winter/summer opportunity hunting via Grok Bot, copy
 [`docs/opportunity-os/copy-to-grok/`](docs/opportunity-os/copy-to-grok/START-HERE.md)
-onto the Bot computer as `~/opportunity-os/`. Bots draft; Bob approves every send.
+onto the Bot computer as `/workspace/opportunity-os/`. Bots draft; Bob approves every send.
 
 ## Canonical API
 

@@ -2,7 +2,7 @@
 
 Named Bots do **not** share chat memory. They share the computer.
 
-If `~/opportunity-os/CONSTITUTION.md` is on disk, paste **only** the role file below. Do not paste DO-NOT.md. See [../PASTE.md](../PASTE.md).
+If `/workspace/opportunity-os/CONSTITUTION.md` is on disk, paste **only** the role file below. Do not paste DO-NOT.md. See [../PASTE.md](../PASTE.md).
 
 If the files are missing, paste [../CONSTITUTION.md](../CONSTITUTION.md) once into that Bot, then the role file.
 

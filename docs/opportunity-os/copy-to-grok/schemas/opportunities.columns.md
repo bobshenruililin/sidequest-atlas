@@ -15,7 +15,7 @@
 | `confidence` | yes | `low` \| `medium` \| `high` |
 | `reverify_after` | yes | `YYYY-MM-DD` |
 | `claim_ids` | no | Space or semicolon separated |
-| `artifact_path` | no | Relative to `~/opportunity-os/` |
+| `artifact_path` | no | Relative to `/workspace/opportunity-os/` |
 | `resume_variant` | no | Filename under `resumes/` |
 | `ask_one_liner` | yes | The single ask |
 | `eligibility_note` | no | e.g. ASEF often wants youth-org reps |

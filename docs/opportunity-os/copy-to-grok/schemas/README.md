@@ -1,6 +1,6 @@
 # Claim and tracker schemas
 
-Opportunity OS reuses Atlas provenance habits (`source` + `claim`, `accessedAt`, `confidence`, `reverifyAfter`) without requiring the trip CLI. Live files live on the Grok computer (`~/opportunity-os/`). Examples here are the contract.
+Opportunity OS reuses Atlas provenance habits (`source` + `claim`, `accessedAt`, `confidence`, `reverifyAfter`) without requiring the trip CLI. Live files live on the Grok computer (`/workspace/opportunity-os/`). Examples here are the contract.
 
 Confidence: `low` | `medium` | `high` (same as `packages/domain` Claim schema).
 

@@ -1,6 +1,6 @@
 # Canon — Shen Ruililin (Bob)
 
-Copy to `~/opportunity-os/canon.md` on the Grok computer. Update when Bob corrects facts. **No phone, UID, addresses, booking refs.**
+Copy to `/workspace/opportunity-os/canon.md` on the Grok computer. Update when Bob corrects facts. **No phone, UID, addresses, booking refs.**
 
 ## Identity
 

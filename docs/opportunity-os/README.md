@@ -7,8 +7,10 @@ Grok Bot teammates for winter 2026/27 and summer 2027 opportunities. Drafts only
 **Folder:** [`copy-to-grok/`](copy-to-grok/START-HERE.md)
 
 ```text
-docs/opportunity-os/copy-to-grok/    →    ~/opportunity-os/
+docs/opportunity-os/copy-to-grok/    →    /workspace/opportunity-os/
 ```
+
+Grok durable disk is `/workspace`. Keep local-computer execution **Never allowed**. If a Bot says it cannot touch local files, attach this folder in chat (six files at a time) and tell it to write them under `/workspace/opportunity-os/`. Do not let it invent a skeleton. Recovery paste: [`copy-to-grok/CORRECT-SCOUT.md`](copy-to-grok/CORRECT-SCOUT.md).
 
 That folder is self-contained: constitution, paste recipes, four bot prompts, watchlist, plays, voice-style, empty tracker. Do not copy `cv/` (phone number). Do not paste `DO-NOT.md` (it is §12 of the constitution).
 

@@ -1,6 +1,6 @@
 # What to paste (complete recipes)
 
-This file lives **inside** the folder you copy to `~/opportunity-os/`. Closed lanes are **§12 of CONSTITUTION.md**. Do not paste `DO-NOT.md`.
+This file lives **inside** the folder that becomes `/workspace/opportunity-os/`. Closed lanes are **§12 of CONSTITUTION.md**. Do not paste `DO-NOT.md`.
 
 Named Grok Bots keep **separate chat memory**. They share this computer (files, logins).
 
@@ -15,7 +15,7 @@ You may glue 1+2 into one message. Do not add a third file.
 
 ## Bots 2–4 — Scout, Maker, Voice (role prompt only)
 
-This folder is already `~/opportunity-os/`, so paste **only**:
+This folder is already `/workspace/opportunity-os/`, so paste **only**:
 
 | Bot | File in this folder |
 |-----|---------------------|

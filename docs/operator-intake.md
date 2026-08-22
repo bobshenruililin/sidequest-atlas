@@ -105,6 +105,6 @@ raw media (phone/laptop)
 
 - [daily-journaling.md](daily-journaling.md)
 - [privacy.md](privacy.md)
-- [opportunity-os/README.md](opportunity-os/README.md) — copy [`copy-to-grok/`](opportunity-os/copy-to-grok/START-HERE.md) onto the Grok computer as `~/opportunity-os/`
+- [opportunity-os/README.md](opportunity-os/README.md) — copy [`copy-to-grok/`](opportunity-os/copy-to-grok/START-HERE.md) onto the Grok computer as `/workspace/opportunity-os/`
 - [../agents/OPERATOR_DOCTRINE.md](../agents/OPERATOR_DOCTRINE.md)
 - [../content/projects/README.md](../content/projects/README.md)

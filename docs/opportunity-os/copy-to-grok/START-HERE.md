@@ -1,16 +1,24 @@
-Copy this entire folder onto the Grok Bot computer.
+Copy this entire folder onto the **Grok cloud computer**, not your laptop.
 
-  In this repo:  docs/opportunity-os/copy-to-grok/
-  On the Bot:    ~/opportunity-os/
+```text
+In this repo:   docs/opportunity-os/copy-to-grok/
+On the Bot:     /workspace/opportunity-os/
+```
 
-Do not copy only CONSTITUTION.md. Do not copy the parent docs/opportunity-os/README.md. This folder is the computer.
+Grok’s durable disk is `/workspace` ([computer and apps](https://docs.x.ai/grok-bot/computer-and-apps)). `~/opportunity-os` is the wrong default.
 
-Then paste (see PASTE.md):
+**Keep** Settings → Agent → Execution on Local Computer at **Never allowed**. That blocks your Mac/Windows, not the cloud VM. If Scout says it “cannot touch local files,” that is expected. Do not let it invent a skeleton. Paste [CORRECT-SCOUT.md](CORRECT-SCOUT.md).
 
-  1. CONSTITUTION.md          into Bot 1 (Closer). Complete. Do not paste DO-NOT.md.
-  2. FIRST-HANDOFF.md fence   into Bot 1 as the first task.
-  3. bots/scout.md            into a Bot named Scout
-  4. bots/maker.md            into a Bot named Maker
-  5. bots/voice.md            into a Bot named Voice
+## How to get files onto `/workspace` without local execution
 
-Do not copy cv/ShenRuililin_CV.tex here (it has a phone number). Use canon.md. Voice style is voice-style.md in this folder.
+Composer: six attachments, 25 MB each. Attach files from this folder in batches and say: `Write these into /workspace/opportunity-os/ keeping filenames and subfolders.`
+
+Do not copy `cv/` (phone). Do not paste `DO-NOT.md`.
+
+Then paste (see [PASTE.md](PASTE.md)):
+
+1. `CONSTITUTION.md` into Bot 1 (Closer). Complete.
+2. `FIRST-HANDOFF.md` fence into Bot 1 as the first task.
+3. `bots/scout.md` / `maker.md` / `voice.md` into the named Bots.
+
+Scout’s first move must be `ls /workspace/opportunity-os`. If `CONSTITUTION.md` is missing, it stops.

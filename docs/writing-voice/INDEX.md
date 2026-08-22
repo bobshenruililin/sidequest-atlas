@@ -23,4 +23,7 @@ Source prompts Bob provided, mapped to files. Dates are archive dates, not origi
 
 ## Outputs
 
-Drafts written **for Bob** (future scholarships) live here. Empty until the next prompt.
+| File | Prompt / genre | Lang | Notes |
+|------|----------------|------|-------|
+| `outputs/tung-ngai-thank-you-letter-2026.md` | Tung & Ngai donor thank-you (Prof. Wong) | EN | Body ~318 words; `.docx` alongside |
+| `outputs/tung-ngai-thank-you-aaso-email-2026.md` | AASO covering emails for the thank-you | EN | Reply to Alice; standalone if thread is gone |

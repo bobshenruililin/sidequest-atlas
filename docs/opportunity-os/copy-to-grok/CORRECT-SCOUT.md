@@ -30,22 +30,26 @@ Reply with the ls output only, then wait.
 
 ## Then get the pack onto `/workspace`
 
-Composer accepts **six attachments** at a time. From `docs/opportunity-os/copy-to-grok/` attach:
+**Preferred — one zip.** Download [`docs/opportunity-os/opportunity-os.zip`](https://github.com/bobshenruililin/sidequest-atlas/blob/cursor/grok-computer-pack-8004/docs/opportunity-os/opportunity-os.zip) from GitHub (the file itself, not the repo’s green “Download ZIP”). Attach that one file and paste:
 
-**Batch 1** — tell Scout: `Write these into /workspace/opportunity-os/ with the same names.`
+```text
+Pack attached as opportunity-os.zip.
 
-- `CONSTITUTION.md`
-- `canon.md`
-- `voice-style.md`
-- `opportunities.csv`
-- `watchlist/newday-dna.md`
-- `watchlist/comparables.md`
+Unzip into /workspace so the result is /workspace/opportunity-os/CONSTITUTION.md.
+If unzip creates /workspace/opportunity-os/opportunity-os/, move the inner folder up.
+Do not merge /workspace/opportunity-os-scratch-DELETE-ME into this tree.
 
-**Batch 2** — `Same folder: bots/ and plays/.`
+Then: ls -la /workspace/opportunity-os
+Confirm CONSTITUTION.md, canon.md, opportunities.csv, claims/, watchlist/, and plays/ exist.
+Do not hunt. Do not send. Wait for the next message.
+```
 
-- `bots/scout.md`, `bots/maker.md`, `bots/voice.md`, `bots/closer.md`
-- `plays/01-heat-health-nordic.md`, `plays/02-newday-alumni-academy.md`
+Fallback if Composer will not take a zip: six attachments at a time from `docs/opportunity-os/copy-to-grok/`. Tell Scout: `Write these into /workspace/opportunity-os/ with the same names.`
+
+**Batch 1** — `CONSTITUTION.md`, `canon.md`, `voice-style.md`, `opportunities.csv`, `watchlist/newday-dna.md`, `watchlist/comparables.md`
+
+**Batch 2** — `bots/scout.md`, `bots/maker.md`, `bots/voice.md`, `bots/closer.md`, `plays/01-heat-health-nordic.md`, `plays/02-newday-alumni-academy.md`
 
 **Batch 3** — remaining plays, `outcomes.md`, `schemas/`, `queue/pending/_PACKET.template.md`, `HUMAN-DECISIONS.md`, `claims/` (the `claim-*` and `src-*` YAML).
 
-Then: `ls /workspace/opportunity-os` must show `CONSTITUTION.md`. Only then say `Continue the first pass from FIRST-HANDOFF.`
+Then: `ls /workspace/opportunity-os` must show `CONSTITUTION.md`. Only then paste `PASTE-SCOUT-CORRECTIONS.md`. Do not paste FIRST-HANDOFF into Scout.

@@ -4,17 +4,24 @@ Grok Bot teammates for winter 2026/27 and summer 2027 opportunities. Drafts only
 
 ## Copy this to the Bot computer
 
-**Folder:** [`copy-to-grok/`](copy-to-grok/START-HERE.md)
+**One-file pack (preferred):** [`opportunity-os.zip`](opportunity-os.zip) — unzip in `/workspace` so you get `/workspace/opportunity-os/CONSTITUTION.md`.
+
+On GitHub (this branch): **Download** the zip from [`docs/opportunity-os/opportunity-os.zip`](https://github.com/bobshenruililin/sidequest-atlas/blob/cursor/grok-computer-pack-8004/docs/opportunity-os/opportunity-os.zip). Do **not** use the repo’s green “Download ZIP” (that is the whole atlas, including `cv/`).
+
+Rebuild after pack edits: `docs/opportunity-os/pack-zip.sh`.
+
+**Folder (source):** [`copy-to-grok/`](copy-to-grok/START-HERE.md)
 
 ```text
 docs/opportunity-os/copy-to-grok/    →    /workspace/opportunity-os/
 ```
 
-Grok durable disk is `/workspace`. Keep local-computer execution **Never allowed**. If a Bot says it cannot touch local files, attach this folder in chat (six files at a time) and tell it to write them under `/workspace/opportunity-os/`. Do not let it invent a skeleton. Recovery paste: [`copy-to-grok/CORRECT-SCOUT.md`](copy-to-grok/CORRECT-SCOUT.md).
+Grok durable disk is `/workspace`. Keep local-computer execution **Never allowed**. If a Bot says it cannot touch local files, attach **the zip** (one file) and tell it to unzip under `/workspace`. Do not let it invent a skeleton. Recovery paste: [`copy-to-grok/CORRECT-SCOUT.md`](copy-to-grok/CORRECT-SCOUT.md).
 
-That folder is self-contained: constitution, paste recipes, four bot prompts, watchlist, plays, voice-style, empty tracker. Do not copy `cv/` (phone number). Do not paste `DO-NOT.md` (it is §12 of the constitution).
+That pack is self-contained: constitution, four bot prompts, watchlist, plays, voice-style, tracker, claims. Do not copy `cv/` (phone number). Do not paste `DO-NOT.md` (it is §12 of the constitution). Paste recipes stay in git, not in the zip.
 
 Then follow [`copy-to-grok/PASTE.md`](copy-to-grok/PASTE.md).
+
 
 ## Windows
 

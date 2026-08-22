@@ -1,0 +1,67 @@
+schemaVersion: 1.0.0
+id: 2026-07-23-personal-site-themes
+capturedAt: 2026-07-23T12:48:00.000Z
+title: Personal site creative themes and Figma plan
+rawText: >-
+  Thinking of building a personal website; code is not the nice first path —
+  want something truly creative (slashes of paint, renaissance themes). What
+  themes am I suited for? Review everything about me in the repo and bounce
+  ideas. What tools — Figma? Plan first to have a detailed prompt for Figma.
+spark: >-
+  Personal creative site should be Renaissance-of-the-Ordinary + irreversible
+  ink slash, art-directed in Figma before any build; Atlas stays the travel OS.
+domains:
+  - idea
+  - craft
+  - career
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - docs/personal-site-design-brief.md
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+relatedCaptures:
+  - 2026-07-22-four-sparks-portfolio
+triangulation:
+  againstCanon:
+    - Ordinary life is a destination; photography as witnessing
+    - Calligraphy irreversibility; bridge / translator identity
+    - Atlas = travel OS / field notebook — personal site should not twin it
+    - Compounding records beat clever chat; plan before build
+  informationGaps:
+    - Whether personal site shares domain with Atlas or stands alone
+    - Whether Bob wants Framer v1 or waits for code after Figma lock
+    - Which of his photos become the still-life hero set
+  opportunityGaps:
+    - Figma file with cover A/B/C from master prompt
+    - Distinct brand from Atlas paper UI
+  falseBargains:
+    - Starting in code before art direction
+    - Costume Renaissance / cyber-neon / cream lifestyle templates
+    - Dumping CV achievements into the hero
+  corrections:
+    - Renaissance here means renewed looking at the ordinary, not museum cosplay
+    - Paint slash must be structural brand mark, not decorative sticker
+  suggestedImplementations:
+    - action: Keep docs/personal-site-design-brief.md as living art brief
+      rationale: Detailed Figma prompt and theme ranking already drafted
+      effort: S
+      leverage: high
+      owner: human
+    - action: Run master prompt in Figma Make; pick one cover
+      rationale: Creative lock before Framer or code
+      effort: S
+      leverage: high
+      owner: human
+nextActions:
+  - Confirm hybrid theme or force-rank alternatives
+  - Collect 8–12 personal photos for hero still lifes
+  - Generate three Figma covers; kill two
+tags:
+  - personal-site
+  - figma
+  - design
+  - compounding

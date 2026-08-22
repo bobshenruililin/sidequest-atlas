@@ -24,6 +24,13 @@ export default async function AtlasPage() {
           Trips are ordered as field notebooks, not brochures: dates first,
           then route logic, thesis, and the places where systems become visible.
         </p>
+        <p className="mt-4 max-w-3xl text-sm leading-6 text-muted">
+          Side project:{" "}
+          <Link href="/yuen-chuen/" className="underline-link">
+            Yuen Chuen Atlas
+          </Link>{" "}
+          — bro-voice yearbook myths linked by wealth lore (not the trip OS).
+        </p>
       </section>
 
       {primaryTrip && <TripMap trip={primaryTrip} />}

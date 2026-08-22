@@ -1,0 +1,23 @@
+schemaVersion: 1.0.0
+id: tung-ngai-foundation
+slug: tung-ngai-foundation
+name: Tung & Ngai Foundation
+role: Scholarship printer / GBA dad energy
+kind: institution
+wealthBand: institutional
+era: scholarship
+cluster: scholarship
+hashtags:
+  - fullride
+  - 40kallowance
+  - endeavour100k
+  - salonattendance
+  - renewal3point5
+body: |
+  This foundation doesn’t do vibes. It does tuition + living money + exchange
+  subsidy + a fund that dares you to start something in the GBA. Personality
+  type: rich uncle who shows up once a year, asks about your GPA, then
+  disappears until renewal. Fail the yearly report and uncle remembers your
+  name for the wrong reasons.
+uncertainty:
+  - Benefit figures change by year; treat numbers as public programme lore, not a live quote sheet.

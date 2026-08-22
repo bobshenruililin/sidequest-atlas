@@ -1,0 +1,22 @@
+schemaVersion: 1.0.0
+id: li-ka-shing
+slug: li-ka-shing
+name: Li Ka-shing 李嘉誠
+role: Public tycoon node
+kind: person
+wealthBand: mythic
+era: postwar-tycoon
+cluster: hk-wealth
+hashtags:
+  - plasticflowers
+  - ports
+  - cheungkong
+  - everyoneoweshimrent
+  - grandfatherofthepricetag
+body: |
+  Started with plastic flowers, ended with half the city’s skyline energy. Walk
+  through Central and you’re basically on a Li loading screen. Yuen Chuen
+  consensus: if Hong Kong had a final boss of “how did he get that much,” it’s
+  this man. Don’t ask him for food recs. Ask him why your flat costs that.
+uncertainty:
+  - Public myth roast only; not a net-worth ranking or investigative brief.

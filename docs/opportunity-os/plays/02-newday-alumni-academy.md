@@ -1,11 +1,13 @@
-# Play 02 — NEWDAY-alumni memo → 2027 academies + Horizons
+# Play 02 — NEWDAY-alumni memo → 2027 *comparables* + 2028 NEWDAY watch
 
 **Ask type:** `academy` and/or `funding`  
-**Window:** summer 2027 (academy); watch Horizons in winter 2026-27 (funding pattern).  
+**Window:** summer **2027** for EASS / other live calls; **2028** for NEWDAY itself.  
 **Resume variant:** `dialogue.md`  
-**Collision:** LiA if the academy eats June–August.
+**Collision:** LiA if a 2027 academy eats June–August.
 
-Use when Scout finds a **live** 2027 call (NEWDAY, Euro-Asia Summer School, a residential ASEF track Bob is actually eligible for). Until that page exists, this play is a memo on disk — not an email.
+Do **not** queue a NEWDAY 2027 application. Traveler belief: every two years; post-relaunch editions are 2024 and 2026. Use this play when Scout finds a **live** 2027 comparable (Euro-Asia Summer School, a residential English Nansen course, ASEF only if Bob is eligible) **or**, later, a live **2028** NEWDAY / Horizons page.
+
+Until that page exists, the memo stays on disk — not an email.
 
 ## Artifact (1 day)
 
@@ -20,7 +22,7 @@ Not a travelogue. Not Secret Hitler. A usable memo:
 
 Keep NEWDAY classmates unnamed. No photos from the vault.
 
-2026 dates (29 Jul–6 Aug) are sourced; **do not** write 2027 dates until Nansen/Horizons/Fudan publish them.
+2026 dates (29 Jul–6 Aug) are sourced; **do not** write 2027 or 2028 NEWDAY dates until Nansen/Horizons/Fudan publish them.
 
 ## Email / application block (Voice)
 
@@ -49,7 +51,7 @@ Shen Ruililin
 
 ## Closer checks
 
-- Live URL with `accessed_at` this week. No 2026 deadline pasted into 2027.
+- Live URL with `accessed_at` this week. No 2026 deadline pasted into 2027. No NEWDAY 2027 packet.
 - ASEF: youth-org eligibility re-read. If Bob is not a representative, kill or change ask.
 - EASS 2026 is closed; only queue if a 2027 page exists.
 - LiA collision named in the packet, not buried.

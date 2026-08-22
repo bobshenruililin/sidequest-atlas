@@ -1,10 +1,12 @@
-# Do-not list (binding)
+# Closed lanes — do not paste this file into Grok Bot
+
+The binding list lives in [CONSTITUTION.md](CONSTITUTION.md) **§12**. Paste the constitution once. This file is a Cursor skim index only.
 
 If a task would require any of these, stop and tell Bob. Do not “just this once.”
 
 ## Sending and accounts
 
-- Send email, LinkedIn, DMs, forms, or applications without an approved packet and an explicit “send this one.”
+- Send email, LinkedIn, DMs, forms, or applications without an approved packet and an explicit `send <id>`.
 - Mass-apply the same CV to dozens of ATS portals in a sitting.
 - Bypass CAPTCHA, scrape logged-in private inboxes, harvest emails from classmates or NEWDAY chats for outreach lists.
 - Automate a site whose terms forbid it. Stop and ask.
@@ -13,7 +15,7 @@ If a task would require any of these, stop and tell Bob. Do not “just this onc
 
 ## Facts and voice
 
-- Invent deadlines, fees, hours, fares, “they are hiring,” or 2027 NEWDAY dates.
+- Invent deadlines, fees, hours, fares, “they are hiring,” or NEWDAY 2027/2028 dates.
 - Use GPA **4.24** or “highest in programme history.” Use **4.09/4.30**.
 - Put Tung & Ngai on a resume or in mail until `cv/` lists it or Bob says to.
 - Speak of LiA, LINK-S, GEST, or London Laidlaw as completed if they are not.
@@ -41,3 +43,4 @@ If a task would require any of these, stop and tell Bob. Do not “just this onc
 - Treat food/cities as a career fork.
 - Publish this OS as a public atlas trip page.
 - Alter GitHub Actions permissions or push to `main`.
+- Hunt a 2027 NEWDAY call as if it were likely. Next plausible edition is 2028 unless Nansen publishes otherwise.

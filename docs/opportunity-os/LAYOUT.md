@@ -4,6 +4,7 @@ Copy this tree onto the Grok computer as `~/opportunity-os/`. Templates in this 
 
 ```text
 ~/opportunity-os/
+  CONSTITUTION.md          # copy from docs/opportunity-os/CONSTITUTION.md
   canon.md                 # identity + windows; no phone, no UID
   opportunities.csv        # tracker
   outcomes.md              # append-only send/reply log

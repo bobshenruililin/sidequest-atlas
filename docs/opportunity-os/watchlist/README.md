@@ -1,4 +1,4 @@
 # Watchlist
 
-- [NEWDAY DNA](newday-dna.md) — mechanism to replicate; 2027 dates unpublished as of 2026-08-22
-- [Comparables](comparables.md) — EASS, ASEFYLS, Nansen other courses, Horizons; re-verify every cycle
+- [NEWDAY DNA](newday-dna.md) — mechanism; cadence is traveler-biennial / even-year post-relaunch; **no 2027 application**
+- [Comparables](comparables.md) — what to hunt for summer 2027 instead

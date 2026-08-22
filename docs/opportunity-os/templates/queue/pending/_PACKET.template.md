@@ -8,7 +8,7 @@ Send: **never** until Bob writes `send <opp-id>`
 - Org:
 - Programme:
 - Ask type: `visit` | `internship` | `academy` | `unpaid-sprint` | `remote-brief` | `funding`
-- Window: `winter-2026-27` | `summer-2027`
+- Window: `winter-2026-27` | `summer-2027` | `summer-2028`
 - Collision: `none` | `LINK-S` | `LiA` | `Laidlaw-London` | `GEST`
 - Official contact path (URL or address Bob provided):
 - Accessed at:

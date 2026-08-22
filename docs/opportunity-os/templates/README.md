@@ -1,6 +1,8 @@
 # Templates for the Grok computer
 
-Copy this directory to `~/opportunity-os/` on the Grok Bot computer:
+Copy `docs/opportunity-os/` onto the Grok computer as `~/opportunity-os/` so Bots can read `CONSTITUTION.md` without a second paste.
+
+This `templates/` directory is the live tracker/artifact tree:
 
 ```text
 canon.md

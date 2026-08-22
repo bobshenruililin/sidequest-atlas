@@ -1,0 +1,117 @@
+schemaVersion: 1.0.0
+id: 2026-08-22-winter-fact-sheets
+capturedAt: 2026-08-22T21:30:00.000Z
+title: Winter 2026/27 dossier fact sheets plus Chile craving
+rawText: Follow-up to the winter primer. Commissioned-standard one-page fact
+  sheets with insights. Chile craving (nature before a winter school, trains vs
+  car, ballpark without inventing fares). Then CAES9922 clash with LINK-S;
+  traveler decided LINK-S and will try another subclass.
+spark: Traveler decided LINK-S. CAES9922 is a 6-credit English-in-the-Discipline
+  course; UG 5 requires an ED for graduation; GHD maps it to Year 2. Clash with
+  LINK is timetable/subclass, not a reason for Chile or Fudan.
+  Chile-the-landscape is not TFAS. Do not spend SSE.
+domains:
+  - opportunity
+  - travel
+  - research
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/recognized-programmes
+  - https://tl.hku.hk/link/
+  - https://nansenskolen.no/kurset/newday/
+  - https://www.tfasinternational.org/program/santiago/
+  - https://www.tfasinternational.org/costs-and-scholarships/
+  - https://www.efe.cl/planificador/
+  - https://www.conaf.cl/el-1-de-mayo-entra-en-vigencia-nuevo-sistema-tarifario-para-el-parque-nacional-torres-del-paine/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-22-winter-2026-27-primer
+  - 2026-08-19-hkuww-premier-exchange
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; timestamped records; do not invent fees or hours
+    - NEWDAY DNA is residential dialogue, not a hotel cohort or SKY mill
+    - Shanghai family is traveler-provided context, not identity drama
+    - One SSE per UG; do not spend it on a 3-week trip or a Chile prologue
+    - Do not twin prestige, hemispheres, or programmes that share only a
+      mechanism
+  informationGaps:
+    - Whether LINK engages HKUWW criterion 3
+    - Whether HKUWW interviews can be video from Shanghai
+    - Whether LINK-S satisfies T and N compulsory Mainland / draws on the shared
+      cap
+    - 2026-27 MES window
+    - Hanyang 1 Sep 2026 fee sheet
+    - January 2027 HKG-SCL fares (unpublished; do not quote aggregator snapshots)
+    - Torres del Paine January 2027 camp availability on Vertice and Las Torres
+    - Live CONAF category/price on pasesparques for a foreign adult in Jan 2027
+    - NEWDAY 2027 dates
+  opportunityGaps:
+    - LINK Round 2 closes 4 Sep 2026 23:59
+    - Nature-only Chile inside 24 Dec 2026-17 Jan 2027 if first-Chile is a
+      written exception
+    - Hanyang Session A, Vilnius, HUWISU Term 1 as named first-ness alternates
+    - Tübingen as named cousin if a later January opens
+  falseBargains:
+    - Treating TFAS as the way to see Chilean nature
+    - Treating LiA Colombia/Mexico as a substitute for Atacama or Patagonia
+    - Trying to see the rest of Chile in ten days before TFAS
+    - Using EFE as a country-crossing rail network
+    - Spending SSE on winter or on Chile
+    - Fudan winter as a substitute for LINK-S
+    - Shopping for a winter NEWDAY
+    - Dropping LINK-S because CAES9922 shares a semester
+  corrections:
+    - LiA does not scratch a Chile landscape craving; it still competes for
+      Americas attention and money
+    - TFAS copied a residential-cohort mechanism into a classical-liberal house
+    - Park tariff page labels are internally inconsistent; buy only via the live
+      CONAF form
+    - SKY public from-prices seen in March dates are not January quotes
+    - GHD 2024 prospectus schedules English in the Discipline in Year 2; UG 5
+      only requires it for graduation
+    - CAES9922 is listed by CAES under Faculty of Social Sciences; whether it is
+      GHD's specified ED is unverified until SIS/SPH
+    - Moodle 2025-26 showed multiple Semester 1 subclasses for CAES9922;
+      Semester 2 offering unpublished
+    - LINK plus CAES is 18 credits; the clash is timetable, not a reason to take
+      Fudan or Chile
+  suggestedImplementations:
+    - action: Enrol in LINK-S Round 2 before 4 Sep 2026 23:59
+      rationale: Traveler decided LINK-S; add/drop still exists after
+      effort: S
+      leverage: high
+      owner: bob
+    - action: In SIS, place CAES9922 on a subclass that misses the LINK lecture
+      rationale: ED is a graduation requirement; the clash is a 20-person timetable,
+        not a fork
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email IAO on criterion 3 and video interviews
+      rationale: Residual special-visiting risk costs the only HKUWW slot
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email Horizons for Shanghai project brief and form cap
+      rationale: Published curriculum is track-common, not city-specific
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Email AASO or Foundation whether LINK satisfies compulsory Mainland
+      rationale: Stack A HKUWW year can depend on that written yes
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If Chile nature is a written exception, name one region and check park
+        camps now
+      rationale: January is high season; W-circuit beds sell out; ten days is one hub
+      effort: M
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane record. No HKID, phones, address, DOB, booking refs,
+  household income, or inbox addresses.

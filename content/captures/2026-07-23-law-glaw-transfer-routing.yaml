@@ -1,0 +1,66 @@
+schemaVersion: 1.0.0
+id: 2026-07-23-law-glaw-transfer-routing
+capturedAt: 2026-07-23T07:00:00.000Z
+title: HKU internal transfer LLB vs GLaws routing ambiguity
+rawText: >-
+  Applied via ASO for internal transfer from BASc GHAD. Email stated LLB Year 1
+  as desired curriculum, then soft secondary ask for BSocSc(Govt&Laws)&LLB if
+  appropriate. Only Faculty of Law followed up for transcript and IB by 27 Jul
+  2026. No Social Sciences/PPA email yet. Asks whether wording failed, whether
+  to nudge, and whether LLB emphasis loses GLaws/policy-internship fit.
+spark: >-
+  Soft dual ask made LLB primary; Law follow-up expected; GLaws silence is
+  routing risk not rejection. Clarify ranked preferences today; GLaws better
+  policy fit, LLB better speed.
+domains:
+  - career
+  - opportunity
+ask: use
+visibility: operator
+status: acted
+links:
+  - https://dm.law.hku.hk/helpie_faq/testing/
+  - https://ppa.hku.hk/undergraduate/bachelor-of-social-sciences-government-and-laws-bachelor-of-laws-bsocsc-gl-llb/
+  - https://web.socsc.hku.hk/contact-us/
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-tung-ngai-interview
+triangulation:
+  againstCanon:
+    - Ordinary law without Magic Circle is OK
+    - Medicine closed — do not reopen in transfer narrative
+    - Law offer reversible internally — do not say that to admissions
+    - GHAD/public-health regulation story is the honest bridge
+  informationGaps:
+    - Whether ASO actually forwarded a GLaws file
+    - GLaws 2026 internal-transfer deadline/availability
+    - Full text of signed reasons-for-transfer PDF not in workspace
+  opportunityGaps:
+    - Rank GLaws first if policy/internships are the real goal
+    - Same-day ASO + bssgl routing clarification
+    - Meet Law document deadline with student-copy transcript
+  falseBargains:
+    - Waiting silently and assuming GLaws is being reviewed
+    - Telling admissions the transfer is reversible or prestige-optional
+    - Treating GLaws marketed internships as guaranteed outcomes
+  corrections:
+    - '"if appropriate" made GLaws optional, not co-equal'
+    - Law LLB/BA&LLB email does not cover confirmed GLaws review
+    - Prefer ranked explicit curricula in ASO clarification
+  suggestedImplementations:
+    - action: Send Law docs by 27 Jul; ASO ranked preference; bssgl routing enquiry today
+      rationale: Fixes ambiguity before Norway travel and document deadline
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Upload reasons-for-transfer PDF for narrative triangulation if desired
+      rationale: Between-the-lines advice was inference without the signed essay
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: >-
+  Operator-plane. Do not store home address, phone, HKID, or full transcript in
+  public git. University number omitted from this capture.

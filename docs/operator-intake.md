@@ -105,5 +105,6 @@ raw media (phone/laptop)
 
 - [daily-journaling.md](daily-journaling.md)
 - [privacy.md](privacy.md)
+- [opportunity-os/README.md](opportunity-os/README.md) — Grok Bot teammates for internships, academies, visits (drafts only; Bob approves every send)
 - [../agents/OPERATOR_DOCTRINE.md](../agents/OPERATOR_DOCTRINE.md)
 - [../content/projects/README.md](../content/projects/README.md)

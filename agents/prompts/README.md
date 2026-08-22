@@ -23,3 +23,7 @@ Specialist prompts for Cursor operators. All prompts must:
 | [logistics-validator.md](logistics-validator.md) | Transit/time |
 | [source-auditor.md](source-auditor.md) | Claim coverage |
 | [post-trip-editor.md](post-trip-editor.md) | Synthesis |
+
+## Grok Bot Opportunity OS (external teammates)
+
+Prompts live in [`docs/opportunity-os/bots/`](../../docs/opportunity-os/bots/). They are for Grok Bot, not Cursor slash commands. Cursor operators drafting outreach in this repo still obey send-never / invent-never. Hub: [`docs/opportunity-os/README.md`](../../docs/opportunity-os/README.md).

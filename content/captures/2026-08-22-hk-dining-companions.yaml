@@ -1,0 +1,177 @@
+schemaVersion: 1.0.0
+id: 2026-08-22-hk-dining-companions
+capturedAt: 2026-08-22T18:30:00.000Z
+title: Find a dining companion in Hong Kong during Restaurant Week
+rawText: How do I find someone to eat great food with me in HK? Dining city have
+  its restaurant week. Any groups?
+spark: Wants a table-mate for Hong Kong Restaurant Week, framed as great food
+  plus company. DiningCity is a booking promo, not a matching club;
+  stranger-dining groups optimize for filling chairs, not for taste.
+domains:
+  - relationship
+  - travel
+  - idea
+ask: investigate
+visibility: operator
+status: triaged
+links:
+  - https://www.restaurantweek.hk/
+  - https://restaurantweek.diningcity.hk/
+  - https://www.redhotoffers.hsbc.com.hk/en/latest-offers/red-hot-dining-special/dining-city/
+  - https://dine-first.com/
+  - https://www.meetup.com/dine-first-hk/
+  - https://www.meetup.com/dinnerclubhk/
+  - https://www.meetup.com/happy-and-fun-wine-dinners-lunches-buddies/
+  - https://www.meetup.com/topics/diningout/hk/
+  - https://timeleft.com/
+  - https://telegram.me/RiceMateHK
+  - https://www.scmp.com/lifestyle/100-top-tables/article/3327809/dinner-strangers-how-social-apps-are-recasting-hong-kongs-tables
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-four-sparks-portfolio
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Food is field evidence, not a checklist of restaurants (Nordics food
+      module; traveler foodPreferences).
+    - One or two high-signal splurge meals when they reveal a system; expensive
+      can be worthwhile, overpriced is not.
+    - A coherent day beats a collection of attractions. Restaurant Week's 300+
+      list is a collection unless you pick a thesis.
+    - Ordinary life is a destination. Hall canteens, wet-market lunch, and
+      worker-bee dai pai dong are in-canon; truncated Michelin sets are not
+      automatically better.
+    - Preserve uncertainty. Do not invent remaining seats, live prices, or
+      opening hours; confirm in DiningCity app near the meal.
+    - Grey-door lane closed. No fake profiles, forged student cards, or invented
+      HSBC workarounds.
+    - Relationship domain is under-captured. This spark is companionship plus
+      taste, not a career instrument. Do not smuggle GenieFriends-style prestige
+      networking in as "great food."
+  informationGaps:
+    - Whether Bob already holds an HSBC credit card that qualifies for the
+      Restaurant Week offer. HSBC's Red Hot page (accessed 2026-08-22) ties the
+      promo to HSBC cards; partner pages have required HSBC settlement in prior
+      editions. Confirm live T&Cs in the DiningCity app.
+    - Live remaining inventory for Summer 2026. HSBC states dining period 13
+      August to 13 September 2026, bookings from 11 August 2026 10:00 HKT via
+      DiningCity app or www.restaurantweek.hk. Today is 22 August 2026, so the
+      window is open but popular slots may already be gone. Unverified until
+      checked in-app.
+    - Which named people in the existing graph (hall, Laidlaw, Food Angel,
+      photography, systems-curious classmates) would actually enjoy a thesis
+      meal this month. Agent does not have that list on the operator plane.
+    - Whether RiceMate (搵飯腳) the app still functions. Telegram @RiceMateHK still
+      resolves (about 5,000 members on 2026-08-22); the marketing site returned
+      an error when fetched. Treat the app as uncertain; the Telegram group
+      exists.
+    - Actual set-menu contents versus a la carte signatures at any target
+      restaurant. Restaurant Week quality is menu-specific, not brand-specific.
+  opportunityGaps:
+    - Hosting a specific table beats joining a 飯腳 pool. Name restaurant, date,
+      lunch vs dinner, price band, and one sentence of what you are tasting for,
+      then invite one or two people. DiningCity books party size; it does not
+      introduce strangers.
+    - Use Restaurant Week as an excuse to ask people you already trust, not as a
+      search engine for new friends. One lunch and one dinner maximum unless a
+      meal earns a sequel.
+    - If the existing graph fails, run exactly one stranger-table experiment
+      (Timeleft or Dine First) labeled as a social test, not a food test. Do not
+      stack five Meetup groups in the same week.
+    - Separate "great food" from "not eating alone." Different instruments. Dai
+      pai dong, markets, and hall food can be solo fieldwork; tasting menus need
+      a table-mate mainly when sharing or when conversation is the point.
+  falseBargains:
+    - Treating Restaurant Week as a guarantee of great food. It is a promotional
+      set-menu campaign across 300+ restaurants. Menus are often truncated;
+      kitchens treat it as inventory fill. HSBC copy says "up to 30% off
+      selected special set menus" with lunch from HKD148 and dinner from HKD298
+      plus 10% service charge — value, not a quality floor.
+    - Expecting DiningCity to supply companions. Official pages describe booking
+      through the app or website. FAQ language (prior edition) treats party size
+      as the number of people who will eat the event menu. No official 飯腳
+      matching feature found.
+    - Meetup "dining out" megagroups. Meetup's Hong Kong dining-out topic lists
+      dozens of groups; the largest are general social clubs (singles, expats,
+      networking), not tasting clubs. Filling a table is not the same as finding
+      a co-investigator.
+    - Dine First / 約飯先 as a food play. Official site (dine-first.com, accessed
+      2026-08-22) sells 3–5 person "mysterious dinners" to meet friends or
+      dates, signup roughly HKD150–250 on top of the meal. Cantonese-first.
+      Optimizes for low-awkward social, not for menu quality.
+    - Timeleft / GenieFriends / Eatwith as a Restaurant Week strategy. SCMP
+      covers these as stranger-dinner products. Timeleft picks the venue and
+      reveals it late; you pay at the table. Company first, restaurant second.
+      GenieFriends is secret-dinner networking. Wrong tool if the thesis is
+      taste.
+    - Telegram 搵飯腳 groups as a high-yield pool. They exist (e.g. @RiceMateHK).
+      Mix of genuine meals, flakes, and dating/hookup intent. High attention
+      cost; safety and grey-intent risk. Not closed-lane illegal, but a bad
+      default for "great food."
+    - Collecting Michelin names on the Winners / Elite list for prestige. Canon
+      already flags prestige hunger as a distortion. A Category B set that you
+      can actually taste and talk about beats an Elite Signature slot you cannot
+      get, or get and then rush.
+  corrections:
+    - "DiningCity Restaurant Week is a reservation promo with HSBC as presenting
+      partner, not a community. Summer 2026 dates from HSBC Red Hot Dining
+      Special page accessed 2026-08-22: reservations from 11 August 2026 10:00
+      HKT; dining 13 August to 13 September 2026; book via DiningCity app or
+      www.restaurantweek.hk. DiningCity Asia's LinkedIn post of 11 August 2026
+      matches those dates. Cached DiningCity about pages still mix Spring 2026
+      Winners Edition and 2025 summer copy — do not trust static HTML; confirm
+      the live event in-app."
+    - "Groups that actually exist and were checked 2026-08-22: Dine First HK
+      (Meetup + dine-first.com, dating-adjacent Cantonese dinners); The Dinner
+      Club Hong Kong (meetup.com/dinnerclubhk, church-sponsored Lifehouse,
+      weekly events advertised, Meetup RSVP counts look thin); Happy Fun Wine
+      Dinners & Lunches Buddies (Meetup, active August 2026 listings); Hong Kong
+      80s-00s Dining Out Meetup Group; Timeleft (city-level stranger dinners,
+      confirm Hong Kong availability in-app); Telegram @RiceMateHK. OpenRice is
+      a review/booking layer, not a matching club."
+    - 'The high-leverage move is not "join groups." It is: pick one restaurant
+      whose current Restaurant Week set you have read, invite one person with a
+      thesis sentence, book the party size in DiningCity, pay per live T&Cs. If
+      nobody says yes, eat the thesis meal anyway or skip RW and keep the food
+      experiment.'
+  suggestedImplementations:
+    - action: Open DiningCity app (or www.restaurantweek.hk), confirm Summer 2026 is
+        still bookable, HSBC-card rule, party-size minimums, and two candidate
+        set menus — one lunch, one dinner max. Do not book a sweep.
+      rationale: Window is open through 13 September 2026 per HSBC, but inventory and
+        card rules are live facts. Two meals protect the "one or two
+        high-signal" floor.
+      effort: S
+      leverage: high
+      owner: bob
+    - action: 'Invite one or two named people from the existing graph with a specific
+        table: restaurant, date, lunch/dinner, price band, and one sentence of
+        what you want to notice (e.g. Cantonese craft vs hotel banquet vs
+        newcomer "Dining Trends"). Do not post "anyone free for RW?"'
+      rationale: DiningCity already books N seats. Specific asks convert; vague 飯腳
+        posts attract flakes. Existing trust beats stranger matching for taste.
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If the named-people ask fails, run exactly one stranger-table experiment
+        this window (Timeleft dinner or one Dine First seating), labeled as a
+        social test. Do not use it to "do Restaurant Week."
+      rationale: Separates company from cuisine. Stacking Meetup/Telegram groups is an
+        attention sink and a dating funnel.
+      effort: M
+      leverage: medium
+      owner: bob
+    - action: After the meal, journal what the companion actually added (shared
+        tasting, pacing, safety, loneliness relief, status) versus what the set
+        menu revealed. Promote only if it changes how future HK meals get
+        booked.
+      rationale: Chat without a record does not compound. This is a relationship plus
+        food spark; one field note beats another round of group-shopping.
+      effort: S
+      leverage: medium
+      owner: shared
+privacyNote: Operator-plane playbook. No named third parties, booking refs, card
+  numbers, or private addresses. Restaurant Week prices and dates are
+  organizer/HSBC claims accessed 2026-08-22 and must be re-checked in-app before
+  booking.

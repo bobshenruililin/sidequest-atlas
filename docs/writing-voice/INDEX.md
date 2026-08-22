@@ -23,4 +23,6 @@ Source prompts Bob provided, mapped to files. Dates are archive dates, not origi
 
 ## Outputs
 
-Drafts written **for Bob** (future scholarships) live here. Empty until the next prompt.
+| File | Prompt / genre | Lang | Notes |
+|------|----------------|------|-------|
+| `outputs/glocal-connect-welcome-messages-2026.md` | GLOCAL Connect mentee WhatsApp / WeChat / email | EN+ZH | Templates only; roster stays out of git |

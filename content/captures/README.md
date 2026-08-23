@@ -8,3 +8,5 @@ Chat without a file here (or in `vault/life-canon/captures/`) does not compound.
 AAS UG named schemes ranked 2026-08-23: `2026-08-23-aas-ug-scholarships-rank` → `docs/aas-ug-scholarships-rank-2026-08.md`. Year-1 museum; live work is General Round + Youde local nomination.
 
 HKU Future Leader(s) Scholarship 2026-08-23: `2026-08-23-hku-future-leaders-scholarship` → `docs/hku-future-leaders-scholarship-2026-08.md`. Two branded schemes; GHD cannot apply to either.
+
+General Round form 2026-08-23: `2026-08-23-general-round-app` → `docs/general-round-app-2026-08.md`. Do not submit as-is; Q12/Q14/Q11 T&N packaging/Q29–Q30 contradictions.

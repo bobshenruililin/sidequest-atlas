@@ -1,0 +1,101 @@
+schemaVersion: 1.0.0
+id: 2026-08-23-general-round-app
+capturedAt: 2026-08-23T10:20:00.000Z
+title: General Round form is not submittable as pasted — fix Q12 Q14 Q11 T&N Q29 Q30
+rawText: "Pasted HKU General Round UG form. Q12 Not applicable. Q14 empty while Q13
+  radio is more than 300 hrs. Q11 lists Tung and Ngai as a round 500k lump with a
+  typo. Q29 claims the applicant covers all educational expenses. Q30 unpaid
+  research plus thesis. Q33 blank. Household and identity fields as on form —
+  not recopied here."
+spark: One honest form. Do not submit as-is. Grey-door closed on volunteer hours.
+  Copy the Tung and Ngai letter; do not invent campus offices or a Year-2 thesis.
+domains:
+  - career
+  - opportunity
+  - capital
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://aas.hku.hk/apply-scholarships/
+  - https://aas.hku.hk/for-ugstudies/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://tungngaifoundation.org/financial-awards-benefits/
+  - https://tl.hku.hk/horizons/laidlaw/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=501
+  - https://www.stjohns.hk/admissions/bursaries-and-scholarships
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-aas-ug-scholarships-rank
+  - 2026-08-23-hku-future-leaders-scholarship
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate, do not twin
+    - Grey-door closed; never invent hours, hardship, awards, or deadlines
+    - Family capital is an advantage and a distortion field — do not perform need
+    - Tung and Ngai already awarded; do not hide it or double-count tuition
+    - Thesis is heat-health at the HK–Mainland seam, not scholarship collecting
+    - Stay in BASc Global Health and Development; CS minor stays N/A until SIS
+    - Prestige hunger is an advantage and a distortion field
+  informationGaps:
+    - General Round Year-2 deadline is portal-only
+    - Tung and Ngai concurrent-award clause unread; letter only
+    - Official title of the listed Global Conference Scholarship
+    - Volunteer hour sum until certificates are counted
+    - Whether Martin paper says Scholarship, Prize, or Scholar
+    - Whether Laidlaw letter is stipend-only or also names LiA travel
+  opportunityGaps:
+    - One serious General Round form is the live HKU-administered door
+    - Honest Q12 from St John's, basketball, Laidlaw/Bishai
+    - Honest Q14 from Wu Zhi Qiao and Gannan Horizons with proof
+    - Q29/Q30 as time-versus-tutoring plus stacking caveat, not hardship
+  falseBargains:
+    - Submitting Q12 as Not applicable
+    - Keeping Q13 above 300 hours without certificates
+    - Listing Tung and Ngai as a 500k lump
+    - Claiming to cover all educational expenses while holding Tung and Ngai
+    - Calling Laidlaw unpaid research or inventing a Year-2 thesis
+    - Counting GEST invited talk or tutoring as volunteer hours
+    - Inventing JCR posts
+    - Declaring a CS minor before SIS
+    - Need theatre on a shared merit/need form
+  corrections:
+    - Published Tung and Ngai package is tuition plus living HK$40,000 plus
+      overseas/Mainland max HK$80,000 plus Endeavour up to HK$100,000
+    - Laidlaw local stipend published as HK$2,000/week up to 6 weeks; LiA travel
+      is a separate line
+    - GEST Valencia invited speaker is October 2026, upcoming, not service
+    - No undergraduate thesis in Year 2 GHD
+    - Minor CS remains N/A
+  suggestedImplementations:
+    - action: Do not submit the pasted form; apply the kill-list and paste-ready
+        blocks in docs/general-round-app-2026-08.md
+      rationale: Q12/Q14/Q11/Q29/Q30 fail a five-minute consistency check
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Sum volunteer certificates and lower the Q13 radio if the total is
+        not more than 300 hours
+      rationale: Grey-door closed; blank Q14 plus a top-band radio is fatal
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Copy Tung and Ngai, Laidlaw, Martin, and Global Conference letters
+        into Q11; read the concurrent-award clause before treating a win as
+        spendable
+      rationale: Packaging fiction and stacking risk; decline if forbidden
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Merge proofs into at most seven PDFs under 5MB; keep files off git
+      rationale: Portal cap; HKID and letters are not public-plane material
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane briefing. No HKID, family legal names, salaries,
+  rent, home size, phones, or emails. Household and financials remain as on the
+  form. Do not paste third-party application attachments into public paths.

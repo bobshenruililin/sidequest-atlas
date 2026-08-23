@@ -4,8 +4,8 @@ capturedAt: 2026-08-23T10:40:00.000Z
 title: One-page Youde CV rebuilt from canon — attach the LaTeX PDF
 rawText: End-to-end CV rebuild for Shen Ruililin. Uploaded PDF was outdated (GPA
   4.24, no Tung and Ngai, Wu Zhi Qiao not named as student coordinator). Produce
-  LaTeX and DOCX pipelines, one page, fact-accurate, ready to attach to the Youde
-  local nomination email. No new phones or addresses. No HKID in captures.
+  LaTeX and DOCX pipelines, one page, fact-accurate, ready to attach to the
+  Youde local nomination email. No new phones or addresses. No HKID in captures.
 spark: The missing Youde attachment is a one-page CV that already holds Tung and
   Ngai, Laidlaw, Martin, WZQ coordinator, Gannan, NEWDAY, and forthcoming GEST /
   London without a fake 500k lump.
@@ -32,21 +32,27 @@ relatedJournalEntries: []
 triangulation:
   againstCanon:
     - Never invent dates, GPAs, hours, or award lumps
-    - Tung and Ngai is awarded; copy package language, not a theatrical four-year total
-    - Wu Zhi Qiao was student coordinator in Macha, May-Jun 2026, after Gannan Horizons
+    - Tung and Ngai is awarded; copy package language, not a theatrical
+      four-year total
+    - Wu Zhi Qiao was student coordinator in Macha, May-Jun 2026, after Gannan
+      Horizons
     - NEWDAY 2026 is Nansen East-West Dialogue Academy, 29 Jul-6 Aug, participant
-    - GEST Valencia invited speaker and Laidlaw London conference are forthcoming Oct 2026
+    - GEST Valencia invited speaker and Laidlaw London conference are
+      forthcoming Oct 2026
     - CGPA 4.09/4.30 is operator-stated; 4.24 is dead
     - Grey-door closed; do not invent campus offices or volunteer hours
   informationGaps:
     - CGPA not checked against an SIS transcript in this session
     - Official wording on the Martin letter (Scholar / Scholarship / Prize)
     - Whether Tam Wun Tsun funded Gannan specifically
-    - GEST invitation letter not in repo; public conference dates 19-21 Oct not printed
+    - GEST invitation letter not in repo; public conference dates 19-21 Oct not
+      printed
     - Whether the Laidlaw letter names the London conference as a presentation
   opportunityGaps:
-    - Youde local nomination email is already written; the CV was the missing attachment
-    - One-page academic CV matches WFSFAA/AAS nomination optics better than a US resume
+    - Youde local nomination email is already written; the CV was the missing
+      attachment
+    - One-page academic CV matches WFSFAA/AAS nomination optics better than a US
+      resume
   falseBargains:
     - Packaging Tung and Ngai as HK$500,000
     - Listing MIT Hong Kong Innovation Node as a Cambridge, MA residential term
@@ -56,7 +62,8 @@ triangulation:
     - A two-page CV for a first Youde nomination email
   corrections:
     - Uploaded CV still showed 4.24 and Year-1 stack
-    - July repo CV omitted Tung and Ngai, Martin, NEWDAY, Tam Wun Tsun, GEST, London, CKY academic scholarships
+    - July repo CV omitted Tung and Ngai, Martin, NEWDAY, Tam Wun Tsun, GEST,
+      London, CKY academic scholarships
     - Honours two-column table collided titles with years
     - Forthcoming talks must use different verbs (invited speaker vs attending)
   suggestedImplementations:
@@ -76,4 +83,5 @@ triangulation:
       leverage: high
       owner: bob
 privacyNote: Operator-plane record. No phones, emails, UID, HKID, booking refs,
-  or award-letter internals. Contact details live only on the human CV under cv/.
+  or award-letter internals. Contact details live only on the human CV under
+  cv/.

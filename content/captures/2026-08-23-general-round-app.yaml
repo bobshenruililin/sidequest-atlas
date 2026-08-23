@@ -2,13 +2,14 @@ schemaVersion: 1.0.0
 id: 2026-08-23-general-round-app
 capturedAt: 2026-08-23T10:20:00.000Z
 title: General Round form is not submittable as pasted — fix Q12 Q14 Q11 T&N Q29 Q30
-rawText: "Pasted HKU General Round UG form. Q12 Not applicable. Q14 empty while Q13
-  radio is more than 300 hrs. Q11 lists Tung and Ngai as a round 500k lump with a
-  typo. Q29 claims the applicant covers all educational expenses. Q30 unpaid
-  research plus thesis. Q33 blank. Household and identity fields as on form —
-  not recopied here."
-spark: One honest form. Do not submit as-is. Grey-door closed on volunteer hours.
-  Copy the Tung and Ngai letter; do not invent campus offices or a Year-2 thesis.
+rawText: Pasted HKU General Round UG form. Q12 Not applicable. Q14 empty while
+  Q13 radio is more than 300 hrs. Q11 lists Tung and Ngai as a round 500k lump
+  with a typo. Q29 claims the applicant covers all educational expenses. Q30
+  unpaid research plus thesis. Q33 blank. Household and identity fields as on
+  form — not recopied here.
+spark: One honest form. Do not submit as-is. Grey-door closed on volunteer
+  hours. Copy the Tung and Ngai letter; do not invent campus offices or a Year-2
+  thesis.
 domains:
   - career
   - opportunity
@@ -78,15 +79,14 @@ triangulation:
       effort: M
       leverage: high
       owner: bob
-    - action: Sum volunteer certificates and lower the Q13 radio if the total is
-        not more than 300 hours
+    - action: Sum volunteer certificates and lower the Q13 radio if the total is not
+        more than 300 hours
       rationale: Grey-door closed; blank Q14 plus a top-band radio is fatal
       effort: S
       leverage: high
       owner: bob
-    - action: Copy Tung and Ngai, Laidlaw, Martin, and Global Conference letters
-        into Q11; read the concurrent-award clause before treating a win as
-        spendable
+    - action: Copy Tung and Ngai, Laidlaw, Martin, and Global Conference letters into
+        Q11; read the concurrent-award clause before treating a win as spendable
       rationale: Packaging fiction and stacking risk; decline if forbidden
       effort: S
       leverage: high

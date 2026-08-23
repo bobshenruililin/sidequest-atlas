@@ -1,0 +1,65 @@
+schemaVersion: 1.0.0
+id: 2026-08-23-hku-future-leaders-scholarship
+capturedAt: 2026-08-23T09:54:00.000Z
+title: HKU Future Leader(s) Scholarship — GHD cannot apply
+rawText: >-
+  research HKU Future Leader's Scholarship and whether I can apply.
+spark: >-
+  Two branded schemes, zero fit. Entrance Future Leaders is non-local Year-1.
+  FBE Future Leader cash is Business School Year 2–3 only. GHD collaboration
+  is not enrolment.
+domains:
+  - career
+  - opportunity
+ask: investigate
+visibility: operator
+status: triaged
+links:
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=631
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=711
+  - https://ug.hkubs.hku.hk/support-and-development/prizes-and-scholarships/hku-business-school-future-leader-scholarship-program
+  - https://hkubs.hku.hk/flsp/
+  - https://admissions.hku.hk/explore/news/four-international-awardees-of-hku-scholarship-future-leaders-pursue-dreams-hku
+  - https://ghd.sph.hku.hk/faculty-staff
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-aas-ug-scholarships-rank
+triangulation:
+  againstCanon:
+    - Stay in GHD; do not twin into FBE for a HK$20,000 sticker
+    - Tung & Ngai already awarded; do not collect scholar identities
+    - Thesis is heat-health at the HK–Mainland seam, not business-school leadership theatre
+    - Prestige hunger is an advantage and a distortion field
+  informationGaps:
+    - Whether AAS card (up to four awards) and HKUBS programme (~100 awards) are nested or divergent listings
+    - 2026/27 FBE application window unpublished; public page still shows 27 Jun 2025 deadline
+    - Current Admissions practice for scheme 631 beyond 2022 AAS card and 2023 leaflet
+  opportunityGaps:
+    - None on these two names for a Year-2 GHD
+    - Attention still belongs to General Round and Youde local nomination
+  falseBargains:
+    - Arguing GHD “collaborates with HKU Business School” into FBE eligibility
+    - Emailing FBE UG enrichment for an exception
+    - Drafting the 500-word FLSP essay as agency
+    - Confusing AFLSP / Bai Xian with HKU Future Leaders
+    - Treating entrance Future Leaders as a current-student apply button
+  corrections:
+    - Official names are HKU Scholarship for Future Leaders (entrance, non-local) and HKU Business School Future Leader Scholarship / Programme (FBE local Y2–Y3)
+    - BASc(GHD) is hosted by SPH, LKS Medicine; collaboration with FBE is teaching-into, not home faculty
+    - Last published FBE round is already closed (27 Jun 2025); even an open 2026/27 round would still exclude GHD
+    - HK$20,000 once is not a leadership identity
+  suggestedImplementations:
+    - action: Do not apply to either Future Leader(s) scheme; do not write FBE or Admissions for a waiver
+      rationale: Hard eligibility miss on year, residency track, and faculty; exception-seeking is prestige theatre
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep this week’s scholarship work on General Round and Youde local nomination
+      rationale: Those are the live, legal doors from the AAS ranking
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: >-
+  Operator-plane briefing. No phones, emails, booking refs, or application-form
+  internals. Public Qualtrics URL omitted from this file.

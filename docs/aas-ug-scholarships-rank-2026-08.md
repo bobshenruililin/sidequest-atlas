@@ -81,4 +81,8 @@ Faculty/department schemes exist off this board. AAS says check those offices an
 - Concurrent-award vs Laidlaw vs General Round vs I&T: **award letter**, not this memo.
 - HKSAR PR: T&N required it; treat as likely given the award, not re-proven here.
 
+## Not on that page: “Future Leader(s) Scholarship”
+
+Two real HKU instruments share the name. **Neither is open to BASc(GHD).** Entrance *HKU Scholarship for Future Leaders* is first-year **non-local**. *HKU Business School Future Leader Scholarship / Programme* is local Year 2–3 **reading FBE curricula** (AAS: up to four × HK$20,000; HKUBS site: ~100 × HK$20,000 — listings diverge; faculty does not). GHD’s collaboration with the Business School is not enrolment. Detail: `docs/hku-future-leaders-scholarship-2026-08.md`.
+
 Accessed 2026-08-23.

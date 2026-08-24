@@ -6,7 +6,7 @@
 
 **Headline:** The draft would fail a five-minute consistency check. Q12 says you have no campus life while you live in St John’s and do Laidlaw. Q13 claims **more than 300** volunteer hours while Q14 is blank. Q11 packages Tung & Ngai as **HK$500,000**. Q29 says you cover all educational expenses. AAS will see Q11 and Q29 on the same form. Fix the kill-list, paste the blocks below, merge proofs, then submit.
 
-Do not invent remaining Year-2 timestamps. They sit behind HKU Portal → Online Applications → Application for Awards → General Round (UG Year 2) → “Important Information.” Screenshot the deadline. Do not put HKID, award letters, or proofs in this repo.
+Do not invent remaining Year-2 timestamps. Public cycle page (accessed 24 Aug 2026): Year 2 closes **12:00 noon, 24 Sep 2026**. Portal FAQ still holds upload rules. Do not put HKID, award letters, or proofs in this repo.
 
 Operator memo, crawled/compiled **23 Aug 2026**. Household, rent, home size, salaries, family legal names, phones, and emails stay **as on the form** — not recopied here.
 

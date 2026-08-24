@@ -26,4 +26,4 @@ Panel notes that informed `docs/general-round-app-optimized-2026-08.md`. Facts m
 | `08-adversarial-facts.md` | Unprinted numbers and reject vectors |
 | `09-voice-editor.md` | Bob register without bureaucracy |
 | `10-edge-land-use.md` | Contiguous interiors, not more programmes |
-| `11-q29-q30-prose.md` | Time-versus-tutoring winner |
+| `12-live-aas.md` | Public deadline, 30 schemes, stacking silence |

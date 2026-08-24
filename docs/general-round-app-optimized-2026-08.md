@@ -4,7 +4,7 @@
 
 You: Year 2 BASc Global Health and Development, local, CGPA **4.09 / 4.30** (confirm in SIS). Tung & Ngai already awarded. Laidlaw with Prof. David Bishai ongoing. Martin Scholar, St John’s. Family **stable**. Grey-door **closed**.
 
-This is one form across 40+ internal schemes. Merit readers and need-aware readers see the same answers. “Unrejectable” here means internally consistent and distinctive. It does **not** mean invented hours, lumps, titles, or hardship.
+This is one form across **30** named internal schemes on the [2026–27 General Round page](https://aas.hku.hk/scholarships-gen-rnd-2026/) (accessed 24 Aug 2026). Merit readers and need-aware readers see the same answers. “Unrejectable” here means internally consistent and distinctive. It does **not** mean invented hours, lumps, titles, or hardship.
 
 Household figures, rent, salaries, legal names, phones, emails, UID, and HKID stay **as on the form** — not in this memo.
 
@@ -12,13 +12,13 @@ Household figures, rent, salaries, legal names, phones, emails, UID, and HKID st
 
 ## Human jobs before submit (panel cannot do these)
 
-1. Screenshot HKU Portal → Online Applications → Application for Awards → General Round (UG Year 2) → “Important Information.” **That is the deadline.** Do not invent one.
+1. Year-2 deadline is public: **12:00 noon, Thursday 24 Sep 2026** ([cycle page](https://aas.hku.hk/scholarships-gen-rnd-2026/), accessed 24 Aug 2026). Still open the portal FAQ for upload rules. Screenshot it.
 2. Copy Q11 titles, values, and awarding bodies from **letters**.
 3. Count certificated unpaid service hours, then pick the Q13 radio band.
-4. Read the Tung & Ngai concurrent-award clause. If stacking is forbidden, the pastes already say decline.
+4. Read the Tung & Ngai concurrent-award clause. Public pages still do not publish one. If stacking is forbidden, the pastes already say decline.
 5. Confirm CGPA in SIS.
 
-**Sequence:** screenshot the portal first. If General Round is not earlier, send the Youde **local** nomination email first (separate packet — not this form), then submit this form. Reverse if the portal closes sooner. Youde overseas (4 Sep 2026) is a different scheme.
+**Sequence:** send the Youde **local** nomination email first (separate packet — not this form). Youde overseas (4 Sep 2026) is leaving HKU, not this form. General Round Year 2 closes **24 Sep 2026**, so it is not the earlier door.
 
 **CV:** attach `cv/shen-ruililin-cv.pdf` to Youde. For General Round, attach the same PDF **only if the portal requests or permits a CV**. Do not invent a second CV.
 
@@ -215,6 +215,12 @@ Q31 stays Yes. Q32 stays Yes. You cannot edit after submit.
 
 ---
 
+## What this form can actually win
+
+The live 30 include Year-2 local any-faculty merit lines (Chater Memorial is the clean published example: beginning Year 2, any faculty, academic merit; need *may* be considered; card last updated 2022). Need-required schemes on the same form are a poor fit and the honest Q29 self-deselects them. Do not rewrite the file to chase those. Most of the 30 are hard mismatches (year, faculty, first-generation, SPACE, named programme). Tung and Ngai is **not** a General Round scheme.
+
+---
+
 ## What this form is not
 
 Not a Youde nomination. Not a second Tung & Ngai personal statement. Not a CEDARS bursary. Not HKU Future Leaders (GHD cannot apply). Not a place to plant LINK, LiA cities, ArtIntel, or a CS minor.
@@ -223,8 +229,8 @@ Not a Youde nomination. Not a second Tung & Ngai personal statement. Not a CEDAR
 
 ## Uncertainty (do not round into facts)
 
-- Year-2 General Round timestamp: portal-only as of 24 Aug 2026 (public apply board last updated **18 Aug 2026**).
-- Tung & Ngai concurrent-award clause: unread; letter only.
+- Year-2 deadline: **12:00 noon, Thursday 24 Sep 2026** (public cycle page, accessed 24 Aug 2026). Portal FAQ / upload how-to still unread.
+- Tung & Ngai concurrent-award clause: unread; letter only. Public donor and AAS cards still do not publish one. Public silence is not permission.
 - Official title of the HK$16,000 award.
 - Whether Martin paper says Scholarship, Prize, or Scholar.
 - Laidlaw award letter states HK$12,000 for the 2025–26 programme. LiA travel is still a separate line unless that same letter names it.
@@ -234,4 +240,4 @@ Not a Youde nomination. Not a second Tung & Ngai personal statement. Not a CEDAR
 - 2020 WZQ emails in the T&N pack are not proof of May–Jun 2026 coordination.
 - 2026/27 local tuition figure: letter / SIS, not invented here.
 
-Accessed 2026-08-24: [AAS apply board](https://aas.hku.hk/apply-scholarships/), [AAS UG schemes](https://aas.hku.hk/for-ugstudies/), [Tung and Ngai AAS card](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766), [Foundation benefits](https://tungngaifoundation.org/financial-awards-benefits/), [Laidlaw at HKU Horizons](https://tl.hku.hk/horizons/laidlaw/).
+Accessed 2026-08-24: [AAS General Round 2026–27](https://aas.hku.hk/scholarships-gen-rnd-2026/), [AAS apply board](https://aas.hku.hk/apply-scholarships/), [AAS UG schemes](https://aas.hku.hk/for-ugstudies/), [Tung and Ngai AAS card](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766), [Foundation benefits](https://tungngaifoundation.org/financial-awards-benefits/), [Laidlaw at HKU Horizons](https://tl.hku.hk/horizons/laidlaw/), [Chater Memorial card](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=33).

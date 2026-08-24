@@ -1,0 +1,57 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-cv-skills-trim
+capturedAt: 2026-08-24T16:39:00.000Z
+title: Trim CV skills, add Cantonese, drop Horizons trip and T&N ceiling clause
+rawText: Overall okay. Languages are Cantonese, Mandarin, and English. Tools and
+  skills are too extensive; keep most in-demand ones. I can do R, C++, Python,
+  and I learn fast. Great researcher. Delete the HKU Horizons line, make Young
+  Writers a new line, and drop the extensive not-one-single-reimbursement
+  language for Tung and Ngai. Others are all good.
+spark: The dense CV over-explained T&N money and dumped Qiskit/GraphCast onto
+  skills. Bob wants a short demand stack and spoken languages including
+  Cantonese.
+domains:
+  - career
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://tungngaifoundation.org/financial-awards-benefits/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-24-cv-density
+  - 2026-08-23-cv-rebuild
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Spoken languages are now Cantonese, Mandarin, and English; no CEFR claimed
+    - In-demand programming for this reader set is Python, R, C++
+    - Tung and Ngai components stay; ceiling disclaimer is memo-only
+    - Gannan Horizons trip is not required on the Youde page; Tam Wun Tsun is an
+      award name, not the trip
+    - Young Writers 1st/1400+ deserves its own honours line
+    - Learn-fast is shown by the research stack, not a skills slogan
+  informationGaps:
+    - Relative strength among Cantonese, Mandarin, and English is unstated
+    - No independent check of Python/R/C++ depth
+  opportunityGaps:
+    - Shorter skills line is what ATS and a trading-house first pass actually
+      scan
+  falseBargains:
+    - Keeping Qiskit and GraphCast on skills when they already sit in research
+    - Printing the T&N four-year ceiling disclaimer on the CV
+    - Putting I learn fast on a skills line
+    - Deleting the Tam Wun Tsun award because its official name contains Horizons
+  corrections:
+    - Prior skills line was a domain dump, not a demand stack
+    - Cantonese was withheld from the 23 Aug CV; Bob now states he speaks it
+    - T&N money on-page is components only
+  suggestedImplementations:
+    - action: Attach the updated cv/shen-ruililin-cv.pdf to the Youde email
+      rationale: Same one-pager path; this file is the trimmed version
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane record. No phones, emails, UID, HKID, or booking
+  refs. Contact details live only on the human CV under cv/.

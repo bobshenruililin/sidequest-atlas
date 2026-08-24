@@ -3,13 +3,18 @@
 % Compile: pdflatex -interaction=nonstopmode shen-ruililin-cv.tex
 \documentclass[a4paper,10pt]{article}
 
-\usepackage[margin=13.5mm,top=11.5mm,bottom=11.5mm]{geometry}
+\usepackage[margin=12mm,top=10mm,bottom=10mm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
 \usepackage{microtype}
 \usepackage[utf8]{inputenc}
+
+\hypersetup{
+  pdftitle={Shen Ruililin --- CV},
+  pdfauthor={Shen Ruililin}
+}
 
 \pagestyle{empty}
 \raggedright
@@ -19,31 +24,32 @@
 \pagenumbering{gobble}
 
 \titleformat{\section}
-  {\vspace{6.5pt}\normalsize\bfseries\uppercase}
+  {\vspace{5pt}\normalsize\bfseries\uppercase}
   {}{0em}{}
-  [\vspace{1.5pt}{\titlerule[0.6pt]}\vspace{4pt}]
+  [\vspace{1.2pt}{\titlerule[0.55pt]}\vspace{3pt}]
 \titlespacing*{\section}{0pt}{0pt}{0pt}
 
 \newcommand{\cvhead}[4]{%
-  \par\vspace{3.5pt}%
+  \par\vspace{2.4pt}%
   \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
-    \textbf{#1} & \textbf{#2} \\[-0.4pt]
+    \textbf{#1} & \textbf{#2} \\[-0.35pt]
     {\small #3} & {\small #4} \\
-  \end{tabular*}\par\vspace{1.2pt}%
+  \end{tabular*}\par\vspace{0.7pt}%
 }
 
 \newcommand{\cvone}[1]{%
-  \noindent\hspace{0.9em}{\small\textbullet}\ \hspace{0.4em}{\small #1}\par\vspace{0.8pt}%
+  \noindent\hspace{0.85em}{\small\textbullet}\ \hspace{0.35em}{\small #1}\par\vspace{0.45pt}%
 }
 
 \newcommand{\honor}[1]{%
-  \par\noindent{\small #1}\par\vspace{2.4pt}%
+  \par\noindent{\small #1}\par\vspace{1.35pt}%
 }
 
 \begin{document}
 
 \begin{center}
-  {\LARGE\bfseries Shen Ruililin}\\[4pt]
+  {\LARGE\bfseries Shen Ruililin}\\[2.5pt]
+  {\small\bfseries BASc Global Health and Development, HKU $\cdot$ Year 2 $\cdot$ CGPA 4.09/4.30}\\[2.2pt]
   {\small
     \href{mailto:bobshenruililin@gmail.com}{bobshenruililin@gmail.com}
     $\;\cdot\;$
@@ -59,26 +65,26 @@
 \cvhead
   {The University of Hong Kong}{Hong Kong}
   {BASc Global Health and Development, HKUMed $\cdot$ Year 2}{2025--2029}
-\cvone{CGPA 4.09/4.30. \textbf{St.\ John's College} (2025--).}
+\cvone{CGPA \textbf{4.09/4.30} (current). \textbf{St.\ John's College} (2025--). Public health, quantitative methods, and development.}
 \cvhead
   {Po Leung Kuk Choi Kai Yau School}{Hong Kong}
   {IBDP 41/45 $\cdot$ IGCSE 8A*, 2A}{2019--2025}
-\cvone{Academic Scholarships (2022--23, 2024--25). Co-founder, Medical Club (2023--24; membership to 80+).}
+\cvone{\textbf{Academic Scholarships} (2022--23, 2024--25). Co-founder, Medical Club (2023--24; membership to 80+).}
 
-\section{Selected honours}
-\honor{\textbf{Tung and Ngai Foundation Scholarship}, 2025--26 --- full tuition; living allowance HK\$40,000; overseas/Mainland learning subsidy (max HK\$80,000); Endeavour Support Fund (up to HK\$100,000).}
-\honor{\textbf{Laidlaw Undergraduate Research and Leadership Programme}, 2025--26.}
+\section{Honours and Awards}
+\honor{\textbf{Tung and Ngai Foundation Scholarship} (2025--; 1 of 4 HKU scholars). Full HKU tuition; living \textbf{HK\$40,000/year}; overseas/Mainland subsidy \textbf{max HK\$80,000}; Endeavour Support Fund \textbf{up to HK\$100,000}. Four-year package ceiling \textbf{up to $\sim$HK\$520,000} if duration and published maxima are drawn --- not a single disbursement.}
+\honor{\textbf{Laidlaw Undergraduate Research and Leadership Programme}, 2025--26. Heat $\times$ cardiovascular admissions among older adults; Prof.\ \textbf{David Bishai}, HKU School of Public Health.}
 \honor{\textbf{Martin Scholar}, St.\ John's College, The University of Hong Kong, 2025--26.}
 \honor{\textbf{Tam Wun Tsun HKU Horizons Student Enrichment Award}, 2025--26.}
-\honor{\textbf{MIT Hong Kong Innovation Node Youth Fellowship}, 2023.}
-\honor{\textbf{IYPT} (Hong Kong): Champion 2022; first runner-up 2021. \textbf{Hong Kong Young Writers' Award}, Bauhinia Club Award, 2024 (1st/1400+).}
+\honor{\textbf{MIT Hong Kong Innovation Node Youth Fellowship}, 2023, Hong Kong.}
+\honor{\textbf{IYPT} (Hong Kong): Champion 2022 (1st/16); first runner-up 2021 (2nd/8). \textbf{Hong Kong Young Writers' Award}, Bauhinia Club Award, 2024 (1st/1400+).}
 
-\section{Research}
+\section{Research Experience}
 \cvhead
   {Laidlaw Scholars Programme, HKU}{Hong Kong}
   {Undergraduate research scholar}{Jan 2026--present}
-\cvone{Heat and cardiovascular admissions among older adults (Hospital Authority data), with Prof.\ David Bishai, HKU School of Public Health.}
-\cvone{Forthcoming, Oct 2026: invited speaker at the Global Conference on Environmental Science and Technology (GEST), Valencia; attending the Laidlaw Scholars Annual Conference, London.}
+\cvone{Heat and cardiovascular admissions among older adults using \textbf{Hospital Authority} data, with Prof.\ David Bishai, HKU School of Public Health. Ongoing analysis toward dual-season hospital preparedness and cross-boundary heat-health surveillance.}
+\cvone{Forthcoming, Oct 2026: \textbf{invited speaker}, Global Conference on Environmental Science and Technology (GEST), Valencia; \textbf{attending} the Laidlaw Scholars Annual Conference, London.}
 \cvhead
   {Hong Kong Observatory and PolyU MicroLARGE Lab}{Hong Kong}
   {Research intern, Junior Researcher Mentoring Programme}{Feb--Jul 2024}
@@ -92,19 +98,19 @@
   {Youth Fellow}{Jul--Sep 2023}
 \cvone{Prototyped MEDocGPT, an LLM healthcare chatbot and mobile app for early health intervention.}
 
-\section{Fieldwork and leadership}
+\section{Leadership}
 \cvhead
-  {Wu Zhi Qiao (HKU)}{Macha, Gansu}
-  {Student Coordinator}{May--Jun 2026}
-\cvone{Coordinated on-site student service in rural health and infrastructure.}
+  {Wu Zhi Qiao (WZQ, HKU)}{Macha, Gansu}
+  {Student Coordinator (1 of 3)}{May--Jun 2026}
+\cvone{One of three student coordinators for on-site rural health and infrastructure service: logistics, listening, and turning village needs into feasible student work.}
 \cvhead
   {HKU Horizons}{Gannan, Gansu}
   {Participant}{Mar 2026}
-\cvone{Field observation of livelihoods and trust.}
+\cvone{Field observation of livelihoods and trust (Wudu industrial retirees; temple-as-clinic; grassland restoration).}
 \cvhead
   {NEWDAY --- Nansen East-West Dialogue Academy}{Lillehammer}
-  {Participant, Nansen Academy}{29 Jul--6 Aug 2026}
-\cvone{Nine-day residential East--West dialogue (East Asia and Nordics).}
+  {Selected participant, Nansen Academy (1 of 3 HKU)}{29 Jul--6 Aug 2026}
+\cvone{Nine-day residential East--West dialogue (East Asia $\times$ Nordics). Then independent Nordic fieldwork, Oslo--Stockholm--Helsinki, 6--20 Aug 2026 (not a second academy).}
 \cvhead
   {Hong Kong Laureate Forum}{Hong Kong}
   {Forum Ambassador}{Sep--Nov 2025}
@@ -113,5 +119,8 @@
   {Asian Spring Program on Rationality}{Taoyuan}
   {Fully-funded scholar (1 of 20)}{Feb 2025}
 \cvone{Ten-day programme in game theory, Bayesian inference, and Fermi estimation.}
+
+\section{Skills}
+{\small \textbf{Languages:} English; Mandarin. \textbf{Methods:} quantitative analysis; public-health fieldwork; student coordination. \textbf{Tools:} Qiskit; GraphCast. \textbf{Domain:} heat-health, ageing, Hospital Authority data, rural service.}
 
 \end{document}

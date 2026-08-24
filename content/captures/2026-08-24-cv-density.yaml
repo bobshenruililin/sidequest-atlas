@@ -1,0 +1,96 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-cv-density
+capturedAt: 2026-08-24T04:40:00.000Z
+title: Dense one-page Youde CV — honest T&N ceiling, not a 500k lump
+rawText: Bob said the 23 Aug one-page Youde CV was too empty, too little per
+  item, and nothing caught the eye. Rebuild for a human first pass and ATS.
+  Include Tung and Ngai 1 of 4 at HKU and 500k HKD cumulative if those can be
+  sourced honestly; NEWDAY 1 of 3 HKU plus 14-plus days Nordic; Wu Zhi Qiao 1 of
+  3 coordinators. Triangulate Silicon Valley VC, HK trading house, NYC prop
+  shop. Do not invent. Do not print secrets. Stay on the CV, not a new
+  scholarship scout.
+spark: A sparse one-page CV wastes Tung and Ngai, Laidlaw plus Bishai, Martin,
+  WZQ coordinator, and NEWDAY. Density with true numbers; refuse a fake 500k
+  cheque.
+domains:
+  - career
+  - opportunity
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://tungngaifoundation.org/financial-awards-benefits/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://tl.hku.hk/horizons/newday2024/
+  - https://nansenskolen.no/kurs/
+relatedTrips:
+  - nordics-2026
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-cv-rebuild
+  - 2026-08-23-aas-ug-scholarships-rank
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Never invent dates, GPAs, hours, or award lumps
+    - Tung and Ngai official benefits are full tuition for the duration of the
+      scholarship, living HK$40,000 per year, exchange subsidy max HK$80,000
+      shared across one Mainland plus optional international, Endeavour up to
+      HK$100,000 once
+    - Four-year package ceiling is arithmetic around HK$518,000 to HK$525,500,
+      not a Foundation slogan and not a Year-1 disbursement
+    - NEWDAY official dates 29 Jul-6 Aug 2026 are nine days; 14-plus Nordic days
+      require naming the 6-20 Aug Oslo-Stockholm-Helsinki atlas trip separately
+    - Wu Zhi Qiao is Student Coordinator, Macha, May-Jun 2026, not a generic
+      volunteer
+    - GEST Valencia invited speaker and Laidlaw London attending, Oct 2026
+    - CGPA 4.09/4.30 current operator-stated; 4.24 is dead; no CS minor
+    - Grey-door closed
+  informationGaps:
+    - CGPA not checked against an SIS transcript in this session
+    - Independent source for 1 of 4 HKU Tung and Ngai awards this cohort
+    - Independent source for 1 of 3 HKU NEWDAY seats in 2026
+    - Independent source for 1 of 3 WZQ coordinators
+    - Whether HKU composition fee is locked at the 2025-26 rate
+    - GEST invitation letter still not in git
+    - Official Martin letter wording
+  opportunityGaps:
+    - Youde local nomination still needs this one-page PDF attached
+    - Honest T&N ceiling plus selection ratios is the three-second scan
+  falseBargains:
+    - Printing HK$500,000 as if a cheque already cleared in Year 1
+    - Inflating NEWDAY from nine days to 14-plus
+    - Using Horizons 2024 three-seat copy as 2026 proof
+    - Listing MIT Hong Kong Innovation Node as Cambridge, MA
+    - Two-page CV for a Youde first attachment
+    - Inventing volunteer hours or a CS minor
+    - Claiming fluent Cantonese when canon says scripts are still required
+    - World Health Summit without a confirm
+  corrections:
+    - 23 Aug CV was fact-true and still too empty; density is the job
+    - 500k is the right order of magnitude for a four-year ceiling with maxima
+      drawn, and the wrong object if written as a received lump
+    - Nordic 14-plus is academy plus independent fieldwork, two named objects
+    - 1 of 4 / 1 of 3 / 1 of 3 are operator-stated this session, not
+      Foundation-page facts
+  suggestedImplementations:
+    - action: Attach cv/shen-ruililin-cv.pdf to the Youde local nomination email
+      rationale: Same send path as 23 Aug; this file is the denser one-pager
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Confirm CGPA 4.09/4.30 in SIS before send
+      rationale: Operator-stated figure; Youde email already requires the check
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Confirm 1 of 4 HKU T&N and 1 of 3 NEWDAY 2026 against award letter or
+        Horizons list when convenient
+      rationale: Those ratios are on the CV as operator-stated; a letter beats a chat
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane record. No phones, emails, UID, HKID, booking refs,
+  or award-letter internals. Contact details live only on the human CV under
+  cv/.

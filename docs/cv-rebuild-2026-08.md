@@ -1,5 +1,7 @@
 # CV rebuild — 23 Aug 2026
 
+**24 Aug density pass:** `docs/cv-density-2026-08.md`. Attach `cv/shen-ruililin-cv.pdf` (still one page). This 23 Aug note is the fact base the density pass tightened; it is not the attach instruction.
+
 **Attach to the Youde local nomination email:** `cv/shen-ruililin-cv.pdf`  
 **Pages:** 1 (A4). **Words:** 392 vs 527 on the uploaded PDF, 441 on the July repo PDF.  
 **Winner:** LaTeX. DOCX→PDF is the editable twin (`cv/shen-ruililin-cv.docx`, `cv/shen-ruililin-cv-docx.pdf`).

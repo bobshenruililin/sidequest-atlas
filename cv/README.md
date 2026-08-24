@@ -20,13 +20,11 @@ soffice --headless --convert-to pdf --outdir /tmp/cv-docx shen-ruililin-cv.docx
 # then copy the Writer PDF to shen-ruililin-cv-docx.pdf so it does not clobber the LaTeX PDF
 ```
 
-## What this version does (2026-08-23)
+## What this version does (2026-08-24 density)
 
-Adds Tung & Ngai (package language, not a fake lump), Laidlaw + Bishai, Martin Scholar, Wu Zhi Qiao **Student Coordinator** (Macha, May–Jun 2026), Gannan Horizons (Mar 2026), NEWDAY / Nansen East-West Dialogue Academy (29 Jul–6 Aug 2026), GEST Valencia invited speaker and Laidlaw London conference as **forthcoming**, Tam Wun Tsun, MIT Node Youth Fellowship, CKY academic scholarships, Year 2, CGPA 4.09/4.30.
+Keeps the 23 Aug fact lock (Tung & Ngai awarded; Laidlaw + Bishai; Martin; WZQ coordinator; Gannan; NEWDAY dates; GEST invited / London attending; Year 2; CGPA 4.09/4.30). Fills the empty page: identity line in the header, T&N components plus an honest **four-year package ceiling ~HK$520,000** (not a disbursed lump), selection ratios Bob stated (1 of 4 T&N HKU; 1 of 3 NEWDAY HKU; 1 of 3 WZQ coordinators), Nordic fieldwork named separately from the nine-day academy, Skills line for ATS.
 
-Cuts the generic intro, Class Monitor, World Scholars’ Cup, AI Formula Edge Racing, TVB/pageant side project, Cambridge-MA overclaim on the MIT Node, “published” for a seminar, and the fake HK$500,000 Tung & Ngai total.
-
-Full change log: `docs/cv-rebuild-2026-08.md`.
+Change log: `docs/cv-density-2026-08.md`. Prior fact table: `docs/cv-rebuild-2026-08.md`.
 
 ## Privacy
 

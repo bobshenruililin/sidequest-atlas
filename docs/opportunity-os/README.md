@@ -61,4 +61,4 @@ docs/opportunity-os/
 - Doctrine: [`agents/OPERATOR_DOCTRINE.md`](../../agents/OPERATOR_DOCTRINE.md)
 - Intake: [`docs/operator-intake.md`](../operator-intake.md)
 - CV source of truth: [`cv/README.md`](../../cv/README.md)
-- Money / P&L loop (not a Grok spray play): [`docs/money-playbook-bob-shen.md`](../money-playbook-bob-shen.md)
+- Money / 世界是一盘生意 (customers + P&L; internships optional, not a Grok spray play): [`docs/money-playbook-bob-shen.md`](../money-playbook-bob-shen.md)

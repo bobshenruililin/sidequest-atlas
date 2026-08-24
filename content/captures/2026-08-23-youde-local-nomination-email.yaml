@@ -1,0 +1,65 @@
+schemaVersion: 1.0.0
+id: 2026-08-23-youde-local-nomination-email
+capturedAt: 2026-08-23T10:11:00.000Z
+title: Youde local nomination email — ask AAS, do not self-apply
+rawText: email for Youde local please! Great email, polite and just really
+  motivated and have a narrative/story. Give in this repo.
+spark: Year 2+ Youde local is institution nomination in Aug/Sep. One polite
+  email to AAS, copy GHD, disclose Tung & Ngai, do not confuse with overseas
+  Youde.
+domains:
+  - career
+  - opportunity
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://www.wfsfaa.gov.hk/sfo/seymf/en/whatwedo/scholarships_local.htm
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=241
+  - https://aas.hku.hk/contact-us/
+  - https://ghd.sph.hku.hk/faculty-and-staff
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-aas-ug-scholarships-rank
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over spray; one correct door
+    - Thesis is heat-health at the HK–Mainland seam
+    - Stay in GHD
+    - Disclose concurrent awards; do not hide Tung & Ngai
+    - Prestige hunger is an advantage and a distortion field
+  informationGaps:
+    - Whether HKU is nominating this cycle, and the internal deadline
+    - 2026/27 Youde local amount unpublished; 2025/26 was HK$40,000
+    - Tung & Ngai letter concurrent-award clause unread here
+  opportunityGaps:
+    - Youde local is the rare prestigious UG award that WFSFAA says may sit with
+      other scholarships
+    - Year 2 is the first year the University, not the secondary school,
+      nominates
+  falseBargains:
+    - Applying to Youde overseas because the word Youde appears
+    - Self-nominating to the Fund secretariat
+    - A hardship story Youde local does not ask for
+    - Omitting Tung & Ngai to look needier
+  corrections:
+    - Local UG Youde is nomination-only for Year 2+
+    - Overseas Youde on the AAS board is a different scheme (4 Sep 2026)
+    - External award; not on the HKU transcript
+  suggestedImplementations:
+    - action: Send the email in docs/youde-local-nomination-email-2026-08.md from the
+        HKU account, with UID and SIS CGPA filled in
+      rationale: Aug/Sep nomination window; staff cannot guess you exist
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If no reply in five working days, one bump on the same thread, then stop
+      rationale: Persistence is one follow-up, not a campaign
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane briefing. No phones, personal emails, UIDs, or
+  award-letter internals. Public office inboxes live only in the docs memo, not
+  this file.

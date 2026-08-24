@@ -1,0 +1,117 @@
+schemaVersion: 1.0.0
+id: 2026-08-23-aas-ug-scholarships-rank
+capturedAt: 2026-08-23T09:47:00.000Z
+title: AAS UG list is a Year-1 museum — General Round and Youde local are the
+  live work
+rawText: "crawl these and rank by prestige, reward, etc. please:
+  https://aas.hku.hk/for-ugstudies/"
+spark: The nine named schemes are mostly closed or wrong-faculty for a Year-2
+  GHD Tung & Ngai scholar. Rank them honestly; point attention at what is
+  actually open.
+domains:
+  - career
+  - opportunity
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://aas.hku.hk/for-ugstudies/
+  - https://aas.hku.hk/apply-scholarships/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=642
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=472
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=345
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=129
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=139
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=144
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=395
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://www.wfsfaa.gov.hk/sfo/seymf/en/whatwedo/scholarships_local.htm
+  - https://hkfyg.org.hk/en/2026/06/02/its2026/
+relatedTrips:
+  - nordics-2026
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate, do not twin
+    - Thesis is HK–Mainland public-health seam / heat-health, not scholarship
+      collecting
+    - Stay in GHD; CS minor is the STEM add-on, not a second career
+    - Tung & Ngai already awarded (operator-stated 2026-08-16); do not re-apply
+    - Prestige hunger is an advantage and a distortion field
+    - Fukuda 28 Aug; term from 1 Sep; October talks; LINK-S winter; Laidlaw LiA
+      summer 2027
+  informationGaps:
+    - General Round Year-2 deadline is portal-only; public apply board (updated
+      2026-08-18) does not print the timestamp
+    - Tung & Ngai award-letter concurrent-award clause unread in this crawl
+    - Youde local 2026/27 dollar amount unpublished; 2025/26 was HK$40,000
+    - Whether I&T 2027 attachment window collides with Laidlaw LiA (LiA dates
+      unverified)
+    - Whether HSBC Greater Bay Area Scholarship returns this winter (present on
+      2024/25 AAS flyer, absent from the nine-name list)
+  opportunityGaps:
+    - General Round is the only HKU-administered open call on the board — one
+      form, 40+ internal schemes
+    - Youde local UG is nomination-based for Year 2+, stacks with other awards,
+      historic name, modest cash
+    - I&T Scholarship is the only named scheme still timed for a non-final-year
+      local student if a real InnoTech artefact exists
+  falseBargains:
+    - Treating the nine brochure names as a Year-2 to-do list
+    - Re-applying JC / Chen / AIA after the Year-1 gate
+    - Youde overseas (deadline 4 Sep 2026) because the word Youde appears
+    - C.Y. Tung / Semester at Sea as enrichment theatre
+    - HSBC Hong Kong Scholarship as prestige when tuition and living are already
+      covered
+    - I&T as a sticker on a GHD CV with no tech object
+    - Stacking another tuition scholarship against Tung & Ngai exclusivity
+  corrections:
+    - Five of nine named schemes are Year-1 only; two are wrong faculty; one is
+      already held
+    - JC is the prestige ceiling; Chen is the other comprehensive leadership
+      package; both exclusive and closed
+    - External awards (Youde, I&T) do not appear on the HKU transcript
+    - Entrance scholarships are Admissions Office, not this AAS page
+    - AEON is for Japanese students
+  suggestedImplementations:
+    - action: Open HKU Portal General Round (UG Year 2), screenshot the deadline,
+        submit one serious form
+      rationale: Only HKU-administered scheme currently calling; AAS Year-Two copy
+        says 40+ schemes on one form
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Ask AAS and GHD whether they will nominate a Year-2 GHD for Youde local
+        UG this cycle
+      rationale: Aug/Sep nomination window; HK$40,000 (2025/26) and concurrent awards
+        allowed
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Read Tung & Ngai award letter concurrent-award clause before treating
+        any General Round win as spendable
+      rationale: JC/Chen/AIA already publish exclusivity; T&N likely similar;
+        compliance beats a second badge
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Default-skip AIA, Chen, JC, Evergreen, HSBC Social Work, Semester at
+        Sea, Youde overseas, AEON
+      rationale: Closed, wrong faculty, wrong nationality, or off-thesis travel
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Revisit I&T only in Oct/Nov if a named InnoTech artefact exists that
+        does not smash Laidlaw LiA
+      rationale: 25 awards, up to HK$150,000, real network; prestige sticker without a
+        product is twinning
+      effort: M
+      leverage: medium
+      owner: shared
+privacyNote: Operator-plane briefing. No phones, emails, booking refs, or
+  award-letter internals. Do not paste third-party application forms into public
+  pages.

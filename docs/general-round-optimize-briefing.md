@@ -63,4 +63,4 @@ Q29 ≤ 200 words. Q30 ≤ 100 words. Count.
 - Youde **overseas** on the apply board: **4 Sep 2026** — different scheme (leaving HKU). Do not put it in Q33.
 
 
-Paste-ready Q4, Q11, Q12, Q13 radio **rule**, Q14, Q29, Q30, Q33; file-merge checklist; remaining letter-only gaps. One narrative spine that a mixed merit/need committee can believe in five minutes.
+Deliverable: `docs/general-round-app-optimized-2026-08.md`. Debate notes: `docs/general-round-debate/`.

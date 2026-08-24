@@ -1,5 +1,7 @@
 # General Round form — do not submit as-is
 
+**24 Aug paste-ready packet:** `docs/general-round-app-optimized-2026-08.md`. This file is the 23 Aug kill-list baseline. Do not paste the Q29/Q30 blocks here.
+
 **You:** Year 2 BASc Global Health and Development, local, CGPA **4.09 / 4.30** (operator-stated). Tung & Ngai already awarded. Laidlaw (Bishai, heat–health) ongoing. St John’s Martin Scholar. Family **stable** (your own Q29 first sentence). Grey-door **closed**.
 
 **Headline:** The draft would fail a five-minute consistency check. Q12 says you have no campus life while you live in St John’s and do Laidlaw. Q13 claims **more than 300** volunteer hours while Q14 is blank. Q11 packages Tung & Ngai as **HK$500,000**. Q29 says you cover all educational expenses. AAS will see Q11 and Q29 on the same form. Fix the kill-list, paste the blocks below, merge proofs, then submit.

@@ -1,0 +1,107 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-general-round-optimize
+capturedAt: 2026-08-24T18:30:00.000Z
+title: General Round rebuilt as an honest time-versus-tutoring packet, not a
+  second Tung and Ngai statement
+rawText: Revisit General Round. Optimize until the form is internally consistent
+  and distinctive without inventing hours, award lumps, volunteer totals, or
+  hardship. Review Tung and Ngai as complement only. CV is the fact lock. One
+  form serves more than forty internal schemes.
+spark: The 23 Aug paste would fail a five-minute check. The live door is one
+  honest General Round form plus a separate Youde local nomination, not a cloned
+  personal statement.
+domains:
+  - career
+  - opportunity
+  - capital
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://aas.hku.hk/apply-scholarships/
+  - https://aas.hku.hk/for-ugstudies/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://tungngaifoundation.org/financial-awards-benefits/
+  - https://tl.hku.hk/horizons/laidlaw/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-general-round-app
+  - 2026-08-24-cv-density
+  - 2026-08-24-cedars-educational-funds
+  - 2026-08-23-cv-rebuild
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; triangulate, do not twin
+    - Grey-door closed; never invent hours, hardship, awards, or deadlines
+    - Family capital is an advantage and a distortion field — do not perform need
+    - Tung and Ngai already awarded; do not hide it, rewrite the PS, or package
+      a lump
+    - Thesis is heat-health at the HK–Mainland seam; Q29/Q30 buy hours, not a
+      second identity
+    - Stay in BASc Global Health and Development; CS minor stays N/A until SIS
+    - Youde local nomination is a separate door; Youde overseas is leaving HKU
+  informationGaps:
+    - General Round Year-2 deadline remains portal-only as of 24 Aug 2026
+    - Tung and Ngai concurrent-award clause unread; letter only
+    - Official title of the listed HK$16,000 award
+    - Volunteer hour sum until certificates are counted
+    - Whether Martin paper says Scholarship, Prize, or Scholar
+    - Whether Laidlaw letter is stipend-only or also names LiA travel
+  opportunityGaps:
+    - One honest General Round form is the live HKU-administered door this week
+    - Q12 from St John's residence, basketball, Laidlaw/Bishai, Laureate Forum
+    - Q14 from Wu Zhi Qiao coordinator and Gannan Horizons with proof
+    - Q29/Q30 as contiguous time versus tutoring, with a decline-if-forbidden
+      clause
+    - Same one-page CV for Youde; attach to General Round only if the portal asks
+  falseBargains:
+    - Mixing Youde overseas 4 Sep into Q33
+    - Attaching a CV to General Round when the portal did not ask
+    - Cloning Tung and Ngai PS scenes into money questions
+    - Selecting more than 300 volunteer hours without a documented sum
+    - Counting GEST, tutoring, NEWDAY, or Nordic travel as service
+    - Printing 1 of N ratios, GEST calendar dates, or a Year-2 thesis
+    - Asking a need-aware reader to subsidise prestige travel
+    - Hiding Tung and Ngai or performing hardship
+    - Declaring a CS minor before SIS
+  corrections:
+    - Published Tung and Ngai package is tuition plus living HK$40,000 plus
+      overseas/Mainland max HK$80,000 plus Endeavour up to HK$100,000
+    - Laidlaw is funded research, not an unpaid post
+    - GEST Valencia invited speaker is October 2026, upcoming, not service
+    - Q13 radio must equal the verified Q14 hour sum; default is a lower band
+    - Identical facts across doors are required; identical prose is not
+  suggestedImplementations:
+    - action: Paste Q4 Q11 Q12 Q13-rule Q14 Q29 Q30 Q33 from
+        docs/general-round-app-optimized-2026-08.md after screenshotting the
+        portal deadline
+      rationale: Kill-list clean; mixed merit/need committee can believe it in five
+        minutes
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Count volunteer certificates then select the lowest true Q13 band
+      rationale: Grey-door closed; more than 300 without paper is fatal
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Copy letter-exact Q11 values and read the Tung and Ngai concurrent-award
+        clause before treating a win as spendable
+      rationale: Packaging fiction and stacking risk; decline if forbidden
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Send Youde local nomination separately unless the portal closes sooner;
+        do not mention Youde on this form
+      rationale: One form is not a nomination email
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane briefing. No HKID, UID, family legal names,
+  salaries, rent, home size, phones, or emails. Household and financials remain
+  as on the form. Do not paste award letters or identity scans into public
+  paths.

@@ -108,10 +108,16 @@ companiesForEducationLink:
     fieldworkUse: "Platform export case for Swedish engineering, design, licensing, and capital networks."
   - id: "nokia"
     name: "Nokia"
-    city: "Helsinki"
-    verificationStatus: "unresearched"
-    confidence: "low"
-    fieldworkUse: "Finnish technology reinvention and infrastructure case."
+    city: "Espoo"
+    verificationStatus: "researched"
+    confidence: "medium"
+    reverifyAfter: "2026-08-20"
+    fieldworkUse: >-
+      Live HQ/Bell Labs campus is Karaportti 3 (Karamalmi), exterior-only.
+      Public Nokia this week is Aalto’s Design Archive (handset era) plus
+      Tekniikan museo objects. Keilaniemi waterfront is former Nokia House,
+      not current HQ. No public tour; student visits are university-group.
+      See docs/helsinki-nokia-fieldwork-2026-08.md.
 questionsToCarryDaily:
   - "Which institutions are open enough for a non-member to learn from?"
   - "What do campuses reveal about the society's model of talent?"

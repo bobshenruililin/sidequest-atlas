@@ -1,84 +1,80 @@
 schemaVersion: 1.0.0
 id: moveops-hk
-title: MoveOps HK — no-van moving help + ops automation (90-day experiment)
+title: MoveOps HK — disclosed domestic-move coordinator (validating)
 owner: bob
-status: live
+status: validating
 priority: now
 home:
-  kind: new-repo-after-validation
-  proposedRepo: moveops
+  kind: existing-repo
+  repo: sidequest-atlas
 thesis: >-
-  A returning student can earn bounded, legal cash in HK's late-August
-  moving churn by selling evidence and coordination instead of muscle-plus-van
-  — photo audits, packing sprints, storage-return logistics, landlord handover
-  evidence packs — while a seven-evening automation ladder (intake,
-  photo-to-inventory, QuoteOps, evidence PDFs) turns every job into training
-  data and reusable ops tooling. Revenue is the test harness; the automation
-  and the operating evidence are the durable yield.
+  A disclosed Hong Kong domestic-move coordinator can test non-scholarship
+  earning without becoming a mover. The customer contracts and pays a licensed,
+  insured mover. Bob sells inventory, like-for-like quotes, building-rule
+  verification, and origin/destination condition packets. Insured movers own
+  transport and labour. Bob employs nobody, owns no van, holds no goods, keys,
+  or deposits, and carries nothing across the boundary. Skill residue and
+  optionality per hour outrank HKD per hour. This is not a cash emergency.
 nonGoals:
-  - Buying a van or any vehicle; owning resale inventory
-  - Carrying anyone's goods across the HK/Mainland boundary, ever
+  - Buying a van or any vehicle; owning resale inventory; taking title on consignment goods
+  - Employing anyone, including one-day helpers, without employees' compensation insurance already in force (ECO s.40)
+  - Solo packing as the default offer
+  - Carrying anyone's goods across the HK/Mainland boundary
   - Unlicensed short-stay arrangement or sublet brokering of any kind
   - Misdeclaration, undervaluation, or shipment-splitting advice
   - Acting for both sides of the same tenancy handover
-  - Legal, tax, or immigration advice to customers (evidence only)
-  - Engaging any employee or paid helper without employees' compensation
-    insurance in force first (ECO s.40 — every employee, including one-day and
-    part-time, minimum cover not less than $100m per event; max fine $100,000
-    and two years' imprisonment)
-  - Introducing a tenant or buyer to a property, or negotiating any acquisition
-    or disposition — unlicensed estate agency work carries up to $500,000 and
-    two years (EAO s.15). Handover evidence for an existing client is not that;
-    tenant-finding is
-  - Rebranding this as an Endeavour Fund project before a named owner + preflight
-  - Auto-sent messages, scraped contact lists, or bulk outreach
+  - Holding client goods, keys, deposits, or self-held escrow
+  - Legal, tax, or immigration advice to customers (evidence packets only)
+  - Introducing a tenant or buyer to a property, or negotiating any acquisition or disposition, until an EAA answer is in writing (EAO s.15)
+  - Passengers in goods vans; calling a job "fully insured" without reading the policy
+  - Classmate co-founders without each person's status confirmed in writing
+  - Helsinki presell, campus spam, or backfilling the closed 17-21 Aug grind
+  - Rebranding this as an Endeavour Fund project; merging with Seam Ready
+  - Treating paid move jobs as housing-tour-kit / flatfield activation
+  - A new public moveops repo, or scaffolding before the first completed paper job
+  - Multi-tenant QuoteOps SaaS; auto-sent messages; scraped contact lists; bulk outreach
+  - Publishing immigration or visa status, or inferring it from T&N eligibility
+  - HA-data or China CDC offer claims
 activationCriteria:
   - >-
-    GATE ZERO passed: written clarity on right-to-earn branch (local/PR:
-    business registration + MPF self-employed check; non-local: written
-    ImmD/CEDARS confirmation that solo freelancing is permitted, or an
-    employment wrapper via an existing licensed mover/storage/cleaning firm).
-    Likely already the local/PR branch — T&N eligibility requires HK permanent
-    residency with right of abode and T&N was awarded, so the non-local bar on
-    establishing a business should not apply. Confirm once; see capture
-    2026-08-17-earning-beyond-scholarships.
+    GATE ZERO (private checklist, not a Pages fact): award letter read for any
+    outside-work or outside-business clause; right-to-earn confirmed once in
+    private; BRO one-month-after-commencement clock understood. Do not publish
+    immigration status.
   - >-
-    STAFFING GATE: sole operator only, or employees' compensation insurance in
-    force before anyone is paid to help. Non-local classmates are not
-    recruitable as crew or co-founders without each status confirmed in writing.
-  - Award letter read for any outside-employment or outside-business condition
-  - At least 3 Helsinki journal entries exist before wheels-up (compounding precondition)
-  - Price-list hypotheses drafted and presell posted to 2-3 campus groups before landing
+    STAFFING: sole operator. No paid helper until employees' compensation
+    insurance is in force. Non-local classmates are not crew or co-founders
+    without each status in writing.
   - >-
-    Peak-churn premise verified against official hall notices and actual mover
-    conversations before the 22 Aug start is treated as a real window
+    22-31 Aug interviews (about 10 prospective clients, about 5 licensed
+    insured movers) plus hall/building-rule verification from official notices
+    before any paid job. Peak-churn remains UNCERTAIN until those conversations.
+  - >-
+    No Helsinki-presell activation. That window is closed. Do not treat missing
+    Helsinki journals as a reason to invent a backdated grind.
 successMetric:
-  measure: Non-family paying customers, blended hourly rate, automation reuse
+  measure: Paid non-family documented-packet jobs delivered (not customer count theatre)
   target: >-
-    10+ non-family paying customers by week 6; blended effective hourly rate
-    above the floor set after the first five quotes (all money UNCERTAIN);
-    photo-to-inventory + QuoteOps used on 80% of jobs by month 2.
+    Floor: two paid non-family pilots by 2026-09-30, Saturday or Sunday never
+    both (one if NatGeo x TNC is on). Stretch, not floor: ten customers.
+    All prices UNCERTAIN; no invented rates. Family purchases never count as
+    validation.
   window: 2026-08-22 through 2026-11-20
 killCriteria:
-  - Gate zero resolves against self-employment and no employment wrapper exists within 2 weeks
-  - >-
-    Any paid helper engaged before employees' compensation insurance is in force
-    — stop the whole line, not just that job
-  - >-
-    Fewer than 2 paid non-family jobs delivered by 2026-09-30. The 10-customer
-    target below is a stretch goal, not a floor; treating it as a floor during
-    add/drop and pre-October travel is what would push this into hired labour
-  - Fewer than 10 non-family paying customers by 2026-10-03 (stretch goal)
-  - Blended hourly rate below floor for 3 consecutive weeks
-  - Term hours exceed the weekly cap twice, or Oct talks / LINK-S prep degrades
-  - Any job pressures the no-list (carriage, unlicensed stays, misdeclaration) — kill that line instantly
+  - Gate zero resolves against self-employment and no employment wrapper exists
+  - Any paid helper engaged before employees' compensation insurance is in force — stop the whole line
+  - Fewer than two paid non-family jobs delivered by 2026-09-30
+  - Any job pressures the no-list (carriage, unlicensed stays, misdeclaration, escrow, both-sides tenancy, unlicensed estate agency)
+  - Term hours blow the weekly cap twice, or October talks / LINK-S prep degrades
+  - New bookings taken 1-15 Sep add/drop, or new bookings through October London/Valencia
+  - MoveOps reshaped to chase Endeavour, or fused with Seam Ready
 evidence:
-  - captureId: 2026-08-17-moveops-cash-stack
-    implication: Full triage — canon checks, gate zero, false bargains, 90-day stack.
   - captureId: 2026-08-17-earning-beyond-scholarships
     implication: >-
-      Gate zero probably already resolved in his favour; employer liability, not
-      demand, is the binding constraint; consolidate tooling with flatfield.
+      Operator-of-record. Paperwork coordinator; two-pilot floor; Helsinki
+      silence; no public immigration inference; Atlas board only until validation.
+  - captureId: 2026-08-17-moveops-cash-stack
+    implication: Archived same-day parallel pass. Do not execute.
   - captureId: 2026-07-22-four-sparks-portfolio
     implication: Housing venture framing killed; non-family reuse gate inherited.
 relatedProjects:
@@ -86,47 +82,47 @@ relatedProjects:
 privacy:
   classification: public-sanitized
   vaultOnly:
-    - Customer names, addresses, photos, quotes, and manifests
-    - Bob's immigration/residency status and any family capital terms
+    - Customer names, addresses, photos, quotes, manifests, invoices
+    - Bob's immigration or visa status and any family capital terms
+    - Award-letter internals
 buildPrompt: |-
-  Execute ONLY after gate zero. Ops tooling starts as local scripts inside a
-  private scratch space; NEW repo moveops (codename) only after 10 non-family
-  paying customers. No Atlas coupling; Atlas holds records, not customer data.
+  Execute ONLY after gate-zero. Home is this Atlas board until validation.
+  No new public repo. Paper packets and scripts live in private scratch.
 
-  Before proposing repo moveops, check housing-tour-kit / flatfield: offline
-  capture, provenance separation, and export packet are substantially the same
-  machine as ladder steps 2 and 4. One repo, not two. Paying move customers are
-  a harder activation test than that entry's five-non-family-users gate, so a
-  cleared pilot should activate flatfield rather than fork a sibling.
+  Do NOT treat paid MoveOps jobs as housing-tour-kit / flatfield activation.
+  Tour diligence is not move evidence. Shared photo-to-PDF patterns may be
+  reused later under separate gates.
 
-  Seven-evening ladder (one shippable artifact per evening, jobs feed data):
-  1. Intake: WhatsApp Business profile + saved templates + a structured quote
-     form (date, from/to, floors, lift, item count, photo upload).
-  2. Photo-to-inventory: phone photos -> vision model -> itemized manifest
-     (CSV/PDF) with box labels; human reviews every line.
-  3. QuoteOps: rule-based quote from manifest (items, stairs, distance,
-     window) -> draft PDF; Bob approves and sends every quote himself.
-  4. Evidence pack: handover photos + EXIF timestamps -> condition-grid PDF
-     with meter readings and key receipt.
-  5. Dispatch sheet: bookings calendar + licensed van-platform checklist;
-     costs passed through transparently.
-  6. Ledger: numbered invoices/receipts, FPS reconciliation, weekly P&L.
-  7. One-page site: published price list, booking link, review request
-     template (sent manually, never automated).
+  Offer: disclosed domestic-move coordinator. Customer contracts the mover.
+  Bob does not transport, employ, or hold property.
 
-  NEVER automate: outbound sending of any message or email; eligibility or
-  legality judgments; mass outreach; pricing exceptions; dispute handling;
-  anything touching customer IDs or documents.
+  After the first completed paid job, draft-only automation in private scratch:
+  1. Intake schema (date, from/to, floors, lift, item count, photo upload).
+  2. Photo-to-inventory with human line review (never auto-assert damage cause).
+  3. RFQ pack from one identical brief; quote-diff highlighter; Bob sends.
+  4. Condition-grid PDF (origin/destination, timestamps, signature blocks).
+  5. Invoice/records pack. Draft-only review ask. Calendar guard that refuses
+     colliding jobs (term, exams, travel, weekly cap, Sat+Sun).
+  Buy: forms, e-sign, accounting, calendar, secure storage.
 
-  Family capital rules: tools-only loan, written terms, hard cap; family
-  purchases may be revenue but never count toward validation metrics;
-  published prices for everyone; no family-brokered fake institutional
-  contracts.
+  NEVER automate: send; eligibility/legality; mass outreach; mover selection;
+  claims; escrow; storing raw home photos in public or generic AI prompts.
+
+  QuoteOps/TradeOps templates or done-for-you install only after two paying
+  trade users. No multi-tenant SaaS. No auto-send.
+
+  Family capital: tools-only if at all, written terms, hard cap; family
+  purchases may be revenue but never validation; published prices for everyone.
+
+  ~20 Nov 2026: kill, keep a bounded loop, or sell TradeOps templates.
+  Never merge with Seam Ready.
 uncertain:
   - Peak Hong Kong moving season and hall move-in / storage-return volumes
-  - Willingness to pay for evidence packs and coordination
-  - Whether landlord-facing handover work ever touches estate agency work
+  - Willingness to pay for a documented move packet (the two pilots test this)
+  - Whether landlord-facing handover work touches estate agency work (EAA in writing)
+  - Award-letter outside-work clause, GPA bar, Endeavour year
+  - Whether Endeavour would cover a domestic concierge (expect no)
   - Every price point; all revenue figures are hypotheses
 createdOn: 2026-08-17
-updatedOn: 2026-08-17
+updatedOn: 2026-08-24
 reviewOn: 2026-11-20

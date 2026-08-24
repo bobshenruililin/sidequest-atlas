@@ -1,146 +1,52 @@
 schemaVersion: 1.0.0
 id: 2026-08-17-moveops-cash-stack
 capturedAt: 2026-08-17T20:05:00.000Z
-title: MoveOps 90-day cash stack — plan again, weirder, no van
-rawText: "Bob (from Helsinki, 3 field days left, flying HK 20-21 Aug): PLAN
-  AGAIN how to earn money. Legal only, grey door stays closed. Do not box me
-  with prestige/CHP purity — I want crazy + house-moving + automation. Housing
-  venture is dead; moving-house HELP is the new spark. Prior Sol MoveOps model:
-  no van; sell photo audits, packing sprints, coordination, handover evidence;
-  automate the ops loop; productize QuoteOps. I'll do whatever."
-spark: Landing 21-22 Aug drops him into peak hall move-in /
-  summer-storage-return / end-of-August landlord-handover churn — the one week a
-  no-van operator selling evidence, sprints, and coordination can start with
-  zero capital.
+title: MoveOps 90-day cash stack — archived; see operator-of-record
+rawText: "Archived 24 Aug 2026. Same-day parallel triage. Operator-of-record is
+  2026-08-17-earning-beyond-scholarships. Do not execute this file. Original
+  spark (Helsinki, 17 Aug): PLAN AGAIN how to earn money. Legal only, grey door
+  stays closed. Housing venture is dead; moving-house HELP is the new spark.
+  Prior Sol MoveOps model: no van; sell photo audits, packing sprints,
+  coordination, handover evidence; automate the ops loop; productize QuoteOps."
+spark: Archived pointer. Locked decisions live on
+  2026-08-17-earning-beyond-scholarships (paperwork coordinator, Helsinki
+  silence, two paid pilots by 30 Sep, no public immigration inference, no
+  housing-tour-kit activation).
 domains:
   - opportunity
   - capital
   - career
   - idea
-ask: use
+ask: ignore
 visibility: operator
-status: triaged
-links:
-  - https://www.immd.gov.hk/eng/faq/imm-policy-study.html
+status: archived
+links: []
 relatedTrips:
   - nordics-2026
 relatedRepos: []
 relatedCaptures:
-  - 2026-07-22-four-sparks-portfolio
-  - 2026-07-22-floor-tests-law-path
-  - 2026-07-22-tung-ngai-interview
+  - 2026-08-17-earning-beyond-scholarships
 relatedJournalEntries: []
 triangulation:
   againstCanon:
-    - Grey door closed (2026-07-22). Carrying other people's goods across the
-      HK/Mainland boundary is the same door wearing a moving blanket — MoveOps
-      sells paper and pixels (manifests, declarations, coordination), never
-      carriage.
-    - Compounding over speed. The journal is still the missing asset (Nordics
-      metric failing at 0 entries); week-0 monetization gets one evening, not
-      the last field days.
-    - Family capital is an advantage and a distortion field. The named failure
-      mode here is the subsidized fake business — family purchases can be
-      revenue but never validation.
-    - Housing venture framing was killed. MoveOps is labor + evidence +
-      coordination + automation, not a property play, and inherits the same
-      non-family reuse gate.
-  informationGaps:
-    - "GATE ZERO — right to earn. ImmD FAQ confirms non-local students on
-      full-time locally-accredited UG+ programmes are temporarily exempted from
-      EMPLOYMENT restrictions under a No Objection Letter, but Cap 115A Reg 2's
-      separate bar on \"establish or join in any business\" is not mentioned as
-      lifted. Local/PR branch: business registration with IRD within 1 month of
-      commencement (verify) + MPF self-employed enrolment (verify). Non-local
-      branch: self-employment unresolved — get written ImmD/CEDARS confirmation
-      or use an employment wrapper. No paid dollar before this branch is
-      resolved."
-    - Actual hall check-in dates, summer-storage redelivery windows, and
-      end-of-Aug lease-churn volume for target campuses — verify against
-      official hall notices; do not assume.
-    - Licensed short-stay rule (Hotel and Guesthouse Accommodation Ordinance;
-      commonly stated as licences required below 28 consecutive days — verify
-      exact scope) before selling any gap-night coordination.
-    - Licensed cross-boundary removal operators and Mainland customs rules on
-      students' personal effects — verify official sources before the first
-      cross-border prep job.
-    - Every price point is a hypothesis; zero market quotes collected yet. All
-      revenue figures UNCERTAIN.
-  opportunityGaps:
-    - "Peak-week wedge: hall landing sprints, summer-storage return coordination
-      (vans rented per-job via licensed platforms, cost passed through),
-      landlord handover evidence packs, timed packing sprints — all startable 22
-      Aug with a trolley, a phone, and templates."
-    - Seven-evening automation ladder (intake form, photo-to-inventory, QuoteOps
-      calculator, evidence-pack PDF, dispatch sheet, ledger+invoices, landing
-      page) turns every paid job into training data and doubles as
-      capstone/LiA-grade ops evidence even if revenue is small.
-    - "October talks are honest distribution: a true story about automating a
-      tiny service business beats a policy brief and costs nothing extra."
-    - Cross-border GBA move-prep (bilingual manifests, declaration checklists,
-      licensed mover coordination) is on-thesis with the 2-year HK/Mainland
-      residency and feeds a possible — separate, named-owner, preflighted —
-      Endeavour Fund project later. Grant money is not earned income.
+    - Archived. Read 2026-08-17-earning-beyond-scholarships. Grey door remains
+      closed; family purchases are not validation.
+  informationGaps: []
+  opportunityGaps: []
   falseBargains:
-    - "\"I'll do whatever\" — willingness without floors produces spray, not
-      compounding. Rejected as an operating premise."
-    - Helsinki gig cash that costs the last field days while journals sit at 0.
-    - Family-purchased revenue counted as validation.
-    - Reshaping MoveOps into an Endeavour pitch to unlock <=HK$100k before a
-      named owner + preflight exist.
-    - Buying a van; holding resale inventory; both-sides deposit work on one
-      flat.
-    - Unlicensed short-stay arrangement of any kind.
+    - Executing this archived cash-stack (Helsinki presell, packing sprints as
+      default, 10-customer kill floor, new moveops repo, public PR inference)
+      instead of the locked operator-of-record.
   corrections:
-    - "\"I'll do whatever\" is replaced by a no-list and floors: no van, no
-      inventory, no carriage across the boundary, no unlicensed stays, no
-      misdeclaration, no both-sides conflicts, weekly hour cap in term, and an
-      hourly floor set after the first five quotes."
-    - CHP purity is not a reason to refuse gig work, and gig work is not an
-      identity — it is a 90-day bounded experiment with kill criteria whose
-      guaranteed yield is ops evidence, not cash.
-    - "Automation stops at the send button: no auto-sent messages, no
-      eligibility judgments, no mass outreach. Humans send; scripts assemble."
+    - Superseded by 2026-08-17-earning-beyond-scholarships after the 17 Aug
+      locked plan. Helsinki week is closed; do not backfill that grind.
   suggestedImplementations:
-    - action: "Resolve gate zero before the first paid job: local/PR branch = business
-        registration + MPF check; non-local branch = written ImmD/CEDARS answer
-        on self-employment or an employment wrapper via an existing licensed
-        mover/storage firm."
-      rationale: Everything downstream is illegal-or-legal at this fork; not automatable.
-      effort: S
-      leverage: high
-      owner: bob
-    - action: "One Helsinki evening only: draft price-list hypotheses + WhatsApp
-        templates and presell 22-31 Aug move-in slots to 2-3 campus groups."
-      rationale: Books peak-week demand at zero field-day cost; money UNCERTAIN.
-      effort: S
-      leverage: high
-      owner: bob
-    - action: Journal at least 3 Helsinki entries before wheels-up — precondition for
-        any week-0 monetization attention.
-      rationale: The journal is the compounding asset still missing; cash cannot
-        outrank it.
-      effort: S
-      leverage: high
-      owner: bob
-    - action: Ship the seven-evening automation ladder starting 22 Aug; every paid job
-        feeds photo-to-inventory and QuoteOps with real data.
-      rationale: Automation is the durable yield; revenue is the test harness.
-      effort: M
-      leverage: high
-      owner: shared
-    - action: Add content/projects/moveops-hk.yaml with activation gates, kill
-        criteria, no-list, and the 90-day review date.
-      rationale: Triage left only in chat does not compound.
+    - action: Use 2026-08-17-earning-beyond-scholarships as the only live 17 Aug
+        earning record.
+      rationale: Two same-day captures disagreed. The locked plan chose paperwork, two
+        pilots, Helsinki silence, and no published immigration status.
       effort: S
       leverage: high
       owner: agent
-    - action: "Decision gate around 2026-11-20: kill, keep as bounded cash loop, or
-        split QuoteOps toward a separately-owned Endeavour project."
-      rationale: Prevents drift into an unkillable identity project.
-      effort: S
-      leverage: medium
-      owner: shared
-privacyNote: Operator-plane record. No HKID, visa status, family finances, or
-  booking references. Immigration status is framed as an unresolved branch, not
-  a fact about Bob. All money figures are uncertain hypotheses.
+privacyNote: Archived operator-plane pointer. No HKID, visa status, family
+  finances, clients, or booking references.

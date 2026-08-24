@@ -89,6 +89,10 @@ Format the form asked for: year, name, value, awarding body. **Letter wins.** Am
 
 If the portal demands one number for Tung & Ngai, use **this year’s committed amount on the letter**. Put contingent pots in words as “as on letter, not yet drawn.” Do not write “1 of 4 HKU scholars” in Q11.
 
+**Tam Wun Tsun letter (31 Mar 2026):** HK$8,000 to support service as Student Co-ordinator on the HKU–Common Purpose Leadership Development Programme, Summer 2026. That is **not** Gannan Horizons. Do not file it as Gannan proof.
+
+Laidlaw award letter matches the listed **HK$12,000**. Copy title and body from that letter.
+
 List everything held. Hiding Tung & Ngai is a different lie.
 
 ---
@@ -104,7 +108,7 @@ St. John's College Basketball Team — player (not captain), 2025–26. Time dev
 
 Laidlaw Undergraduate Research and Leadership Programme — undergraduate research with Prof. David Bishai, HKU School of Public Health, on heat and cardiovascular admissions among older adults (Hospital Authority data), January 2026–present. Funded research, not a student-society office. Time devoted: [HOURS].
 
-Hong Kong Laureate Forum — Forum Ambassador, Sep–Nov 2025. University activity, not a hall JCR post. Time devoted: [HOURS].
+Hong Kong Laureate Forum — Forum Ambassador, [YEAR AND MONTHS AS ON THE LETTER]. University activity, not a hall JCR post. Time devoted: [HOURS].
 ```
 
 Optional **only if still true**:
@@ -132,12 +136,18 @@ GEST, tutoring, NEWDAY, MEDocGPT, basketball, Laidlaw, and Oslo–Stockholm–He
 ```
 1. Wu Zhi Qiao (HKU) — Student Coordinator; rural health and infrastructure service, Macha, Gansu; May–Jun 2026; coordinated on-site student service. Verified service hours: [HOURS]. Evidence: [PROOF].
 
-2. HKU Horizons — Gannan fieldwork (official activity name as on the Horizons / Tam Wun Tsun letter); participant; Mar 2026. Verified service hours: [HOURS]. Evidence: [PROOF]. Count only documented service sessions, not travel or meals.
+2. HKU Horizons — Gannan fieldwork (official activity name as on the Horizons confirmation); participant; Mar 2026. Verified service hours: [HOURS]. Evidence: [PROOF]. Count only documented service sessions, not travel or meals.
 
 Total verified volunteer service: [TOTAL HOURS] hours.
 ```
 
 Do not write “1 of 3” on this form. The Student Coordinator **title** is not itself an hour count. If the role was paid, stipend-compensated, or credit-bearing, do not count it unless the form rules explicitly permit that.
+
+Optional **only with proof and counted hours** (do not reconstruct CAS):
+
+```
+3. Society of True Light — volunteer helper, Hong Kong International LGBTQ+ Affirmative Practices Conference, 13–14 Jun 2025; hours: [HOURS from duty time only]; proof: certificate of appreciation.
+```
 
 ---
 
@@ -183,15 +193,23 @@ HKU email from the Academic Advising and Scholarships Office and the AAS “Appl
 
 ## File checklist (7 slots × 5MB) — merge PDFs; not in git
 
+Do **not** upload the 21-page Tung & Ngai supporting PDF as a General Round file. That pack was a pre-award spray (Laidlaw, Tam, IB, writing/WSC/racing, secondary enrichment, 2020 WZQ emails, projects). General Round only wants documents that back a box on this form.
+
 | Slot | Merge |
 | --- | --- |
-| 1 | HKID copy (Q1) |
-| 2 | IB results used for HKU admission (Q10) |
-| 3 | Scholarship letters in one PDF: CKY academic (both years), MIT Node, Martin, Global Conference (official title), Laidlaw, Tung & Ngai, Tam Wun Tsun |
-| 4 | Service proofs in one PDF: Wu Zhi Qiao + Gannan Horizons (only if line 2 is on Q14) |
+| 1 | HKID copy (Q1). Not in the T&N pack. |
+| 2 | IB Diploma results used for HKU admission (Q10). Pull **one** clean scan from the T&N pack (D3 or F4). Do not upload both. |
+| 3 | **Award letters only**, one PDF: CKY academic 2022–23 and 2024–25; MIT Hong Kong Innovation Node; Martin (letter title); the HK$16,000 award under its **official** title; Laidlaw (T&N pack D1); **Tung and Ngai award letter** (not this application pack); Tam Wun Tsun (T&N pack D2). |
+| 4 | **Service proofs that appear on Q14**, one PDF: Wu Zhi Qiao **May–Jun 2026** coordinator certificate (the one you have separately — not the 2020 WZQ emails in T&N pack F1); Gannan Horizons **only if** that line is on Q14. Optional: Society of True Light conference volunteer helper, 13–14 Jun 2025 (T&N pack F3) **only if** you add it to Q14 with counted hours. |
 | 5–7 | Overflow if a merge exceeds 5MB; SIS CGPA print **only if** the portal asks; CV **only if** the portal asks |
 
-Do **not** upload a GEST invitation as volunteer proof. Do **not** drop the Tung & Ngai letter.
+**From the T&N pack, reuse:** D1 Laidlaw letter; D2 Tam Wun Tsun letter; one IB page.
+
+**Have separately — must go into slot 3 or 4:** Tung and Ngai **award** letter (read the concurrent-award clause); Martin letter; MIT Node letter; both CKY academic letters; official HK$16,000 letter; 2026 WZQ certificate; Gannan proof if used on Q14.
+
+**Leave out of General Round** (true, just the wrong form): NEWDAY; GEST invitation as volunteer proof; World Scholar’s Cup; JetRacer; Young Writers trophy photos; Oxford St Anne’s summer-school email; PolyU JRMP; HKUST quantum / HKAGE physics certificates; HKLSS mentorship offer; World Health Summit invitation (visa letter, not attendance, not a form box); STaR enrolment; HipzHub proposal; SPCC teaching-assistant emails; MEDocGPT; 2020 WZQ emails treated as 2026.
+
+Do **not** drop the Tung & Ngai award letter to make the money story easier.
 
 Q31 stays Yes. Q32 stays Yes. You cannot edit after submit.
 
@@ -209,9 +227,11 @@ Not a Youde nomination. Not a second Tung & Ngai personal statement. Not a CEDAR
 - Tung & Ngai concurrent-award clause: unread; letter only.
 - Official title of the HK$16,000 award.
 - Whether Martin paper says Scholarship, Prize, or Scholar.
-- Whether Laidlaw’s letter is stipend-only or also names LiA travel.
-- Volunteer hour **sum**. Unknown until certificates are counted.
-- Whether Tam Wun Tsun funded Gannan specifically.
+- Laidlaw award letter states HK$12,000 for the 2025–26 programme. LiA travel is still a separate line unless that same letter names it.
+- Volunteer hour **sum**. Unknown until 2026 WZQ (and optional True Light / Gannan) certificates are counted.
+- Tam Wun Tsun funded Common Purpose Summer 2026 coordination, not Gannan.
+- Hong Kong Laureate Forum: the T&N pack letter is **2023**. Do not print Sep–Nov 2025 on Q12 unless a 2025 letter exists.
+- 2020 WZQ emails in the T&N pack are not proof of May–Jun 2026 coordination.
 - 2026/27 local tuition figure: letter / SIS, not invented here.
 
 Accessed 2026-08-24: [AAS apply board](https://aas.hku.hk/apply-scholarships/), [AAS UG schemes](https://aas.hku.hk/for-ugstudies/), [Tung and Ngai AAS card](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766), [Foundation benefits](https://tungngaifoundation.org/financial-awards-benefits/), [Laidlaw at HKU Horizons](https://tl.hku.hk/horizons/laidlaw/).

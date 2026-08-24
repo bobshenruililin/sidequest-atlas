@@ -1,0 +1,160 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-cedars-educational-funds
+capturedAt: 2026-08-24T04:20:00.000Z
+title: CEDARS Educational Funds hub is student-development money, not a second
+  scholar identity
+rawText: "scout opportunity from this please:
+  https://www.cedars.hku.hk/ssi/finances/educational-funds"
+spark: The CEDARS Educational Funds index looks like another scholarship round.
+  It is mostly closed cycles, wrong doors, and reimbursement after trips that
+  already have Tung and Ngai or Laidlaw money on them.
+domains:
+  - career
+  - opportunity
+  - capital
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.cedars.hku.hk/ssi/finances/educational-funds
+  - https://www.cedars.hku.hk/ssi/societiesactivities/financial
+  - https://www.cedars.hku.hk/ssi/societiesactivities/financial/yang-tuck-ming-wong-fung-ying-service-learning-fund
+  - https://www.cedars.hku.hk/ssi/societiesactivities/financial/law-sun-service-learning-fund
+  - https://www.cedars.hku.hk/finance/hsinchong2526_1st_HKU.pdf
+  - https://intlaffairs.hku.hk/government-subsidy-for-short-term-study-abroad-programme
+  - https://intlaffairs.hku.hk/government-subsidy-for-semester-exchange-programme
+  - https://intlaffairs.hku.hk/scholarships-for-semester-exchange
+  - https://www.chinavision.hku.hk/funding
+  - https://www.chinavision.hku.hk/non-means-tested-mainland-experienc
+  - https://www.chinavision.hku.hk/ghmua-student-interflow-scheme
+  - https://www.chinavision.hku.hk/subsidy-scheme-for-student-learning-acti
+  - https://tl.hku.hk/horizons/
+  - https://sen-support.cedars.hku.hk/inclusive-education-fund/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-23-aas-ug-scholarships-rank
+  - 2026-08-23-general-round-app
+  - 2026-08-23-cv-rebuild
+  - 2026-08-19-hkuww-premier-exchange
+  - 2026-08-19-ghd-exchange-tool-review
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; do not spray applications to look busy
+    - Never invent deadlines, fares, hours, or award lumps
+    - Tung and Ngai already funds tuition, living, and an overseas or Mainland
+      subsidy with a published maximum; do not treat CEDARS money as a second
+      scholar name
+    - Calendar locks remain Fukuda 28 Aug 2026, term 1 Sep, October Laidlaw
+      London plus GEST Valencia, winter LINK Shanghai or HCMC, summer 2027
+      Laidlaw LiA
+    - Wu Zhi Qiao Macha May-Jun 2026 and Horizons Gannan Mar 2026 are completed
+      field, not unused Mainland-experience inventory
+    - Local-track undergraduate; General Round paste said no TSFS or UFA unless
+      that was wrong
+    - Grey-door closed; do not invent SEN status, hall need, or Belt and Road
+      destination eligibility
+  informationGaps:
+    - Next Hsin Chong joint-project call for 2026-27 is unpublished; do not
+      invent an October 2026 opening date
+    - Yang Tuck Ming page still shows 15 Feb 2026; CEDARS catalog says early
+      February and September, but the next exact deadline is unpublished
+    - Law Sun page still shows 14 Feb 2025; catalog says early February and
+      September; next exact deadline unpublished
+    - Whether a 2026-27 Non-means-tested MES window is posted (current page is 1
+      Sep 2025 to 31 Aug 2026)
+    - Whether GEST Valencia or Laidlaw London official programme duration meets
+      the 5-day or 14-day government-subsidy floors
+    - Whether Spain, the United Kingdom, Mexico, or Colombia sit on the listed
+      Belt and Road destination table for SSEBR
+    - Whether the operator has ever received MES or any government-funded
+      exchange subsidy already
+    - Whether LINK winter 2026-27 is Shanghai or HCMC, and whether it is
+      HKU-organised for MES purposes
+    - Tung and Ngai award-letter stacking rules versus government subsidy on the
+      same receipts
+    - Whether the operator is registered with CEDARS SEN Support (do not assume)
+  opportunityGaps:
+    - Nothing on this hub beats finishing Youde local nomination and a cleaned
+      General Round
+    - China Vision MES reimbursement calendar for a future HKU-organised
+      Mainland trip of at least 3 days, once, if the next window is posted
+    - Short-term SSE or non-means-tested SSEBR after a real qualifying activity
+      in 2026-27, only if duration, destination list, and other-subsidy
+      declarations actually match
+    - Watch Hsin Chong and Yang Tuck Ming next calls only if a named project and
+      faculty advisor already exist
+    - Law Sun is the Mainland-or-abroad sibling of Yang Tuck Ming; useful later
+      for a real service project, not this week
+  falseBargains:
+    - Treating the CEDARS hub as another General Round or Youde identity
+    - Applying Hsin Chong this week for a project that must already finish by 31
+      Aug 2026
+    - Applying Yang Tuck Ming for a Mainland project (Chinese Mainland is
+      explicitly excluded)
+    - Claiming GEST as a 14-day exchange to max SSE
+    - Using government short-term subsidy and Tung and Ngai overseas money and
+      Laidlaw travel on the same receipts without declaring other subsidy
+    - Accommodation bursary as a local student
+    - Building a three-university Hsin Chong consortium before October 2026 just
+      to look busy
+    - Re-applying Laidlaw or inventing a Horizons Experience Award cycle
+    - Filing the still-labelled 2025-26 short-term Qualtrics form for an October
+      2026 activity
+    - GHMUA HK$500 for a Shanghai or HCMC LINK trip (not GBA)
+  corrections:
+    - This hub is student-development reimbursement and project subsidy, not
+      prestige scholarships
+    - Hsin Chong 2025-26 first round closed 12:00 noon 30 Oct 2025; project
+      window ends 31 Aug 2026
+    - Yang Tuck Ming 2025-26 second-semester form is closed
+    - UGC GBA internship subsidy window on the China Vision page runs to 1 Jun
+      2026 and is not a live 2026-27 call
+    - Mainland Experience Scheme is once per undergraduate and 30 days after the
+      activity; Gannan and Wu Zhi Qiao are outside that clock
+    - IAO semester-exchange scholarships are automatic after HKUWW acceptance at
+      CGPA 3.0 or above, largest Registry study-abroad merit award only
+    - Short-term government subsidy duration is official programme dates, not
+      travel days
+  suggestedImplementations:
+    - action: Do not apply anywhere on this hub this week; finish Youde local
+        nomination and the cleaned General Round first
+      rationale: Live prestige work is already queued; this index does not add a
+        scholar name
+      effort: S
+      leverage: high
+      owner: bob
+    - action: After GEST and Laidlaw London, check official programme duration and the
+        listed Belt and Road table before touching short-term SSE or
+        non-means-tested SSEBR
+      rationale: A three-day conference can fail the duration floor; Spain and the UK
+        are unverified as listed Belt and Road destinations
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: When LINK destination locks, check China Vision MES or GHMUA only if the
+        trip is HKU-organised Mainland or GBA and the matching window is posted
+      rationale: Shanghai can be MES; HCMC is not Mainland; GHMUA is GBA excluding
+        Hong Kong and caps round-trip cross-border transport at HK$500
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Watch CEDARS for the next Hsin Chong, Yang Tuck Ming, and Law Sun calls;
+        apply only with a named project, faculty advisor, and calendar that does
+        not collide with October talks or LINK
+      rationale: Catalog pattern is early February and September for the service
+        funds; exact next dates are unpublished
+      effort: M
+      leverage: low
+      owner: bob
+    - action: Keep office enquiry addresses on official pages; do not paste them into
+        public captures
+      rationale: Privacy scan flags emails in content/
+      effort: S
+      leverage: low
+      owner: agent
+privacyNote: Operator-plane record. No phones, emails, UID, HKID, booking refs,
+  or award-letter internals. Office enquiry addresses stay on official pages,
+  not in this YAML.

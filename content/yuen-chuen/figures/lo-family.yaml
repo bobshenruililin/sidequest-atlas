@@ -1,0 +1,20 @@
+schemaVersion: 1.0.0
+id: lo-family
+slug: lo-family
+name: Lo Family 羅
+role: Classic 四大家族 archetype
+kind: clan
+wealthBand: clan
+era: colonial-merchant
+cluster: hk-wealth
+hashtags:
+  - oldmoney
+  - marriagealliances
+  - beforetheipos
+  - linkedbywealthliterally
+body: |
+  Clan node #4. Completes the square so people can argue in the group chat about
+  whether these are “the” four families. We don’t settle that. We just draw the
+  lines and let you click.
+uncertainty:
+  - Archetype node for the classic four-family story; not a living-person dossier.

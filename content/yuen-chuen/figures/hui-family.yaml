@@ -1,0 +1,20 @@
+schemaVersion: 1.0.0
+id: hui-family
+slug: hui-family
+name: Hui Family 許
+role: Classic 四大家族 archetype
+kind: clan
+wealthBand: clan
+era: colonial-merchant
+cluster: hk-wealth
+hashtags:
+  - oldmoney
+  - marriagealliances
+  - beforetheipos
+  - linkedbywealthliterally
+body: |
+  Clan node #3. Exists so the wealth graph isn’t just one surname yelling.
+  Edges to the other three are the joke and the syllabus. Old money energy:
+  quieter than modern tycoon memes, louder than your rent.
+uncertainty:
+  - Archetype node for the classic four-family story; not a living-person dossier.

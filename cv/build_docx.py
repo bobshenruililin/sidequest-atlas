@@ -216,12 +216,7 @@ def main():
             ("max HK$80,000", True),
             ("; Endeavour Support Fund ", False),
             ("up to HK$100,000", True),
-            (". Four-year package ceiling ", False),
-            ("up to ~HK$520,000", True),
-            (
-                " if duration and published maxima are drawn — not a single disbursement.",
-                False,
-            ),
+            (".", False),
         ],
     )
     honor(
@@ -262,9 +257,14 @@ def main():
         [
             ("IYPT", True),
             (
-                " (Hong Kong): Champion 2022 (1st/16); first runner-up 2021 (2nd/8). ",
+                " (Hong Kong): Champion 2022 (1st/16); first runner-up 2021 (2nd/8).",
                 False,
             ),
+        ],
+    )
+    honor(
+        doc,
+        [
             ("Hong Kong Young Writers' Award", True),
             (", Bauhinia Club Award, 2024 (1st/1400+).", False),
         ],
@@ -376,16 +376,6 @@ def main():
             )
         ],
     )
-    head_row(doc, "HKU Horizons", "Gannan, Gansu", "Participant", "Mar 2026", width)
-    bullet(
-        doc,
-        [
-            (
-                "Field observation of livelihoods and trust (Wudu industrial retirees; temple-as-clinic; grassland restoration).",
-                False,
-            )
-        ],
-    )
     head_row(
         doc,
         "NEWDAY - Nansen East-West Dialogue Academy",
@@ -447,13 +437,9 @@ def main():
         skills,
         [
             ("Languages: ", True),
-            ("English; Mandarin. ", False),
-            ("Methods: ", True),
-            ("quantitative analysis; public-health fieldwork; student coordination. ", False),
-            ("Tools: ", True),
-            ("Qiskit; GraphCast. ", False),
-            ("Domain: ", True),
-            ("heat-health, ageing, Hospital Authority data, rural service.", False),
+            ("Cantonese, Mandarin, English. ", False),
+            ("Programming: ", True),
+            ("Python, R, C++.", False),
         ],
         size=10,
     )

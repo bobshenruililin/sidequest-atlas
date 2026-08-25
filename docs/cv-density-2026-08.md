@@ -113,6 +113,21 @@ Voice stays **undergrad fieldworker**, not a PE associate. No “spearheaded syn
 
 ---
 
+## 24 Aug evening pass (operator edits)
+
+Bob: languages are Cantonese, Mandarin, and English; skills were too long; delete HKU Horizons; Young Writers on its own line; drop the Tung and Ngai ceiling disclaimer.
+
+| Change | On the page |
+| --- | --- |
+| Tung and Ngai | 1 of 4 HKU; full tuition; HK$40,000/year; max HK$80,000; up to HK$100,000. **No** ~HK$520,000 ceiling and **no** “not a single disbursement.” Arithmetic stays in this memo only. |
+| Young Writers | Own honours line, after IYPT |
+| HKU Horizons / Gannan | Removed from Leadership. Tam Wun Tsun **award** stays (that is the fund name, not the Gannan trip) |
+| Skills | **Languages:** Cantonese, Mandarin, English. **Programming:** Python, R, C++. Dropped Qiskit / GraphCast / domain kitchen-sink. “Learns fast” stays off the page — research section already shows it |
+
+Cantonese is now operator-stated as spoken, listed without a CEFR or “native” claim.
+
+---
+
 ## Youde send note
 
 Confirm CGPA 4.09/4.30 in SIS. Fill `[UID]`. Attach **only** `cv/shen-ruililin-cv.pdf`. One line in the body: *A one-page CV is attached.*

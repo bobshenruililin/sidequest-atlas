@@ -1,0 +1,96 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-business-world-cash
+capturedAt: 2026-08-24T16:32:00.000Z
+title: World is a business — earn without requiring an intern
+rawText: as in, 你也会发现，世界是一盘生意. How to earn money in that perspective? Not saying
+  an internship is required.
+spark: "Recast the money playbook as customer-P&L: internships are an optional
+  classroom purchase, not the earning method."
+domains:
+  - capital
+  - career
+  - opportunity
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-08-24-world-is-a-business
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-four-sparks-portfolio
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; chat without a CaptureRecord does not compound
+    - Grey door closed 2026-07-22
+    - Family capital is advantage and distortion; family invoices are not fit
+    - Abundance is optionality rate, not a logo
+    - Stay GHD; CS is tooling, not a trading-firm identity
+    - LINK and Laidlaw LiA stay protected until killed in writing
+    - Atlas is router plus travel OS; playbook lives in docs plus captures
+  informationGaps:
+    - What a non-family buyer will actually pay for Offer A or B — unknown until
+      asked
+    - Endeavour year-eligibility and cost categories — unread award letter
+    - Whether Nordics journals exist to sell as field packs (vault still empty
+      on this machine)
+    - Outside-work clauses in the Tung & Ngai letter — unread
+  opportunityGaps:
+    - Uncertainty-removal packs (move docs) with insured movers owning labour
+    - Bilingual decision memos from Chinese primaries
+    - Workshop hours sold to institutions that already buy workshops
+    - Endeavour as grant conversion, not trader P&L
+    - Personal P&L log that does not need any intern offer
+  falseBargains:
+    - Reading “world is a business” as “must intern at Jane Street”
+    - Counting family as customers
+    - Van, uninsured crew, grey-door carriage, self-held escrow
+    - Merging Endeavour, moving-help, and trading-firm identity
+    - Inventing prices, stipends, or admit rates
+    - Dropping LINK or LiA for a classroom you can steal as a loop without the
+      badge
+  corrections:
+    - The first capture over-weighted Jane Street seats; the user correction is
+      binding — internship is not required
+    - Earning means a non-family counterparty pays, or an asset you own gets
+      more valuable
+    - A trading intern is calendar spent to buy a dense P&L school; that can be
+      a good trade and is still optional
+    - Empty journals cannot be productized
+    - July weekend moving-company launch remains calendar-illegal; Offer A is
+      paperwork, not a van
+  suggestedImplementations:
+    - action: Rewrite docs/money-playbook-bob-shen.md so internships are an appendix
+        and the body is hunt-size-bet-measure with Offers A–E
+      rationale: Matches the user’s correction; first playbook still useful as JS map
+      effort: S
+      leverage: high
+      owner: agent
+    - action: This week, name one non-family buyer for Offer A or B and write a
+        one-sentence offer; do not open a trading-firm application to satisfy
+        this capture
+      rationale: Forces a counterparty; intern is optional
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Run the weekly P&L page through 22 Nov 2026; family invoices stay on a
+        separate capital ledger
+      rationale: Steals the trader scoreboard without a desk
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep Jane Street appendix dated 2026-08-24; re-fetch if Bob later
+        chooses the optional school pipe
+      rationale: Pages rot; still not the plot
+      effort: S
+      leverage: low
+      owner: agent
+privacyNote: Operator plane. No award-letter internals, no immigration status,
+  no family balances, no booking refs, no invented prices or stipends.

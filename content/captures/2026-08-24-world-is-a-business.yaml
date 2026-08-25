@@ -1,0 +1,140 @@
+schemaVersion: 1.0.0
+id: 2026-08-24-world-is-a-business
+capturedAt: 2026-08-24T06:19:00.000Z
+title: World is a business — P&L loop vs Jane Street costume
+rawText: "If you care about the commercial value of a career, mindlessly choose
+  Jane Street research engineer. Elite trading-firm training is scarce. It
+  sounds metaphysical and is practical: find opportunity, catch it, size risk,
+  take risk. A trader who does not make money is junk with extra halos. Later
+  the world is one business. Edge is ability and instinct others lack. If you
+  care more about the ocean of knowledge, ignore this. World is a business. Do a
+  playbook on making money as Bob Shen."
+spark: Steal Jane Street's P&L scoreboard, not the research-engineer costume;
+  map live HK intern seats against LINK, LiA, and the PhD bar.
+domains:
+  - capital
+  - career
+  - opportunity
+  - idea
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.janestreet.com/join-jane-street/internships/
+  - https://www.janestreet.com/join-jane-street/position/8623868002/
+  - https://www.janestreet.com/join-jane-street/position/7582902002/
+  - https://www.janestreet.com/join-jane-street/position/8003273002/
+  - https://www.janestreet.com/join-jane-street/position/8374335002/
+relatedTrips:
+  - nordics-2026
+relatedRepos:
+  - https://github.com/bobshenruililin/My-Life
+  - https://github.com/bobshenruililin/LearnAI
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-four-sparks-portfolio
+  - 2026-07-22-tung-ngai-interview
+  - 2026-08-19-hkuww-premier-exchange
+  - 2026-08-19-ghd-exchange-tool-review
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; chat without a CaptureRecord does not compound
+    - Grey door closed 2026-07-22; no forgery, no Cluely-class cheating
+    - Family capital is advantage and distortion; family invoices are not fit
+    - Abundance is optionality rate, not a cash pile or a logo
+    - Medicine closed; ordinary law floor; do not twin prestige hunger
+    - Stay GHD; CS is a minor / artifact engine, not a second identity
+    - LINK and Laidlaw LiA are protected calendar until killed in writing
+    - Tung & Ngai is an operator-awarded fact; public CV may still omit it
+    - Opportunity OS hunts climate-health and dialogue, not trading-firm spray,
+      unless the constitution is amended
+    - Atlas is router plus travel OS, not a life dump — playbook lives in docs
+      plus this capture, not as a public Pages trip
+  informationGaps:
+    - Live Jane Street ATS state after 2026-08-24; intern pages rot
+    - Quantitative Trader intern HKG May–August — a searched URL 404'd; status
+      UNCERTAIN until a live page loads
+    - Award-letter clauses on outside work, GPA bar, and post-award HK/Mainland
+      residence — unread here; do not invent
+    - Whether LINK 2026/27 dates fully overlap a Dec–Feb 10–12 week intern
+    - Whether Laidlaw LiA 2027 dates fully overlap May–August internships
+    - Honest CS/Python depth versus QR intern "strong programmer" bar
+    - Whether equivalent empirical-ML research exists (it likely does not at
+      PhD-intern level)
+    - Stipends, admit rates, and interview timelines — unpublished; do not guess
+  opportunityGaps:
+    - HK Quantitative Researcher intern May–August is undergrad-shaped and was
+      live on 2026-08-24
+    - HK Software Engineer intern December–February and May–August were listed
+    - Personal P&L loop this term on public data plus one non-family customer
+      problem — does not need their offer
+    - Endeavour as grant conversion for a named GBA owner, not trader P&L
+    - Post-degree HK trading FT as a residency-compatible option — UNCERTAIN
+  falseBargains:
+    - Mindlessly choosing Jane Street research engineer as identity
+    - Applying to the PhD/postdoc ML intern as a brand move
+    - Dropping LINK or LiA without a dated kill to fit a 10–12 week desk
+    - Calling yourself research engineer on a form they did not write
+    - Van, uninsured crew, grey-door carriage, self-held escrow
+    - Counting family as customers or as P&L
+    - Putting Tung & Ngai on a Jane Street form before cv/ or Bob says so
+    - Merging Endeavour, moving-help, and Jane Street into one story
+    - Adding Jane Street to Grok-bot spray against Opportunity OS constitution
+    - Inventing stipends, odds, or "they are hiring me"
+  corrections:
+    - The P&L loop is the scarce good; the Jane Street badge is a dense school
+      for it, not the only school
+    - Public intern taxonomy has no distinct Research Engineer intern; closest
+      undergrad research seat in HK is QR intern; SWE intern is systems; ML
+      intern is PhD/postdoc-shaped
+    - A trader without P&L is junk; a scholar with only a reject email is the
+      same junk
+    - If the ocean of knowledge is the real scoreboard, still steal measurement;
+      do not fake a quant CV
+    - HK office is geographically closer to a residence clause than NY — clause
+      unread, so not a green light
+    - July weekend moving-company launch was calendar-illegal; any cash machine
+      must be dated against LINK, term, October talks, and LiA first
+  suggestedImplementations:
+    - action: Write a one-page scoreboard choice (P&L school vs knowledge-ocean vs
+        dual ledger) dated this week; if P&L school, apply only to live
+        undergrad-shaped HK Jane Street seats whose about-you lines are
+        defensible
+      rationale: Stops costume-identity; QR May–August HKG was live 2026-08-24; ML
+        intern is the wrong chair
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not accept a Dec–Feb or May–August 10–12 week intern without a
+        written kill of LINK or LiA
+      rationale: Protected calendar; internships are not two-week visits
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Ship one public-data Python artifact (HKO or C&SD, not HA microdata)
+        with a kill criterion and a mistake log before treating JS interviews as
+        a plan
+      rationale: QR intern copy asks for Python and quantitative thinking; GHD is not
+        a disqualifier and not a substitute for proof
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Run a weekly one-page hunt-size-bet-measure-update log through 22 Nov
+        2026; include cash, skill, door, and optionality rate; family does not
+        count as a customer
+      rationale: Steals the scoreboard without needing an offer
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep this playbook operator-plane; do not publish vault material or
+        invent compensation; re-fetch Jane Street URLs before any send
+      rationale: Pages rot; doctrine forbids invented numbers
+      effort: S
+      leverage: medium
+      owner: agent
+privacyNote: Operator plane. No award-letter internals, no immigration status
+  asserted, no family balances, no booking refs, no invented stipends or admit
+  rates. Tung & Ngai treated as operator-awarded; resume use waits on cv/ or
+  Bob.

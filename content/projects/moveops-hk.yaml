@@ -1,0 +1,128 @@
+schemaVersion: 1.0.0
+id: moveops-hk
+title: MoveOps HK — disclosed domestic-move coordinator (validating)
+owner: bob
+status: validating
+priority: now
+home:
+  kind: existing-repo
+  repo: sidequest-atlas
+thesis: >-
+  A disclosed Hong Kong domestic-move coordinator can test non-scholarship
+  earning without becoming a mover. The customer contracts and pays a licensed,
+  insured mover. Bob sells inventory, like-for-like quotes, building-rule
+  verification, and origin/destination condition packets. Insured movers own
+  transport and labour. Bob employs nobody, owns no van, holds no goods, keys,
+  or deposits, and carries nothing across the boundary. Skill residue and
+  optionality per hour outrank HKD per hour. This is not a cash emergency.
+nonGoals:
+  - Buying a van or any vehicle; owning resale inventory; taking title on consignment goods
+  - Employing anyone, including one-day helpers, without employees' compensation insurance already in force (ECO s.40)
+  - Solo packing as the default offer
+  - Carrying anyone's goods across the HK/Mainland boundary
+  - Unlicensed short-stay arrangement or sublet brokering of any kind
+  - Misdeclaration, undervaluation, or shipment-splitting advice
+  - Acting for both sides of the same tenancy handover
+  - Holding client goods, keys, deposits, or self-held escrow
+  - Legal, tax, or immigration advice to customers (evidence packets only)
+  - Introducing a tenant or buyer to a property, or negotiating any acquisition or disposition, until an EAA answer is in writing (EAO s.15)
+  - Passengers in goods vans; calling a job "fully insured" without reading the policy
+  - Classmate co-founders without each person's status confirmed in writing
+  - Helsinki presell, campus spam, or backfilling the closed 17-21 Aug grind
+  - Rebranding this as an Endeavour Fund project; merging with Seam Ready
+  - Treating paid move jobs as housing-tour-kit / flatfield activation
+  - A new public moveops repo, or scaffolding before the first completed paper job
+  - Multi-tenant QuoteOps SaaS; auto-sent messages; scraped contact lists; bulk outreach
+  - Publishing immigration or visa status, or inferring it from T&N eligibility
+  - HA-data or China CDC offer claims
+activationCriteria:
+  - >-
+    GATE ZERO (private checklist, not a Pages fact): award letter read for any
+    outside-work or outside-business clause; right-to-earn confirmed once in
+    private; BRO one-month-after-commencement clock understood. Do not publish
+    immigration status.
+  - >-
+    STAFFING: sole operator. No paid helper until employees' compensation
+    insurance is in force. Non-local classmates are not crew or co-founders
+    without each status in writing.
+  - >-
+    22-31 Aug interviews (about 10 prospective clients, about 5 licensed
+    insured movers) plus hall/building-rule verification from official notices
+    before any paid job. Peak-churn remains UNCERTAIN until those conversations.
+  - >-
+    No Helsinki-presell activation. That window is closed. Do not treat missing
+    Helsinki journals as a reason to invent a backdated grind.
+successMetric:
+  measure: Paid non-family documented-packet jobs delivered (not customer count theatre)
+  target: >-
+    Floor: two paid non-family pilots by 2026-09-30, Saturday or Sunday never
+    both (one if NatGeo x TNC is on). Stretch, not floor: ten customers.
+    All prices UNCERTAIN; no invented rates. Family purchases never count as
+    validation.
+  window: 2026-08-22 through 2026-11-20
+killCriteria:
+  - Gate zero resolves against self-employment and no employment wrapper exists
+  - Any paid helper engaged before employees' compensation insurance is in force — stop the whole line
+  - Fewer than two paid non-family jobs delivered by 2026-09-30
+  - Any job pressures the no-list (carriage, unlicensed stays, misdeclaration, escrow, both-sides tenancy, unlicensed estate agency)
+  - Term hours blow the weekly cap twice, or October talks / LINK-S prep degrades
+  - New bookings taken 1-15 Sep add/drop, or new bookings through October London/Valencia
+  - MoveOps reshaped to chase Endeavour, or fused with Seam Ready
+evidence:
+  - captureId: 2026-08-17-earning-beyond-scholarships
+    implication: >-
+      Operator-of-record. Paperwork coordinator; two-pilot floor; Helsinki
+      silence; no public immigration inference; Atlas board only until validation.
+  - captureId: 2026-08-17-moveops-cash-stack
+    implication: Archived same-day parallel pass. Do not execute.
+  - captureId: 2026-07-22-four-sparks-portfolio
+    implication: Housing venture framing killed; non-family reuse gate inherited.
+relatedProjects:
+  - housing-tour-kit
+privacy:
+  classification: public-sanitized
+  vaultOnly:
+    - Customer names, addresses, photos, quotes, manifests, invoices
+    - Bob's immigration or visa status and any family capital terms
+    - Award-letter internals
+buildPrompt: |-
+  Execute ONLY after gate-zero. Home is this Atlas board until validation.
+  No new public repo. Paper packets and scripts live in private scratch.
+
+  Do NOT treat paid MoveOps jobs as housing-tour-kit / flatfield activation.
+  Tour diligence is not move evidence. Shared photo-to-PDF patterns may be
+  reused later under separate gates.
+
+  Offer: disclosed domestic-move coordinator. Customer contracts the mover.
+  Bob does not transport, employ, or hold property.
+
+  After the first completed paid job, draft-only automation in private scratch:
+  1. Intake schema (date, from/to, floors, lift, item count, photo upload).
+  2. Photo-to-inventory with human line review (never auto-assert damage cause).
+  3. RFQ pack from one identical brief; quote-diff highlighter; Bob sends.
+  4. Condition-grid PDF (origin/destination, timestamps, signature blocks).
+  5. Invoice/records pack. Draft-only review ask. Calendar guard that refuses
+     colliding jobs (term, exams, travel, weekly cap, Sat+Sun).
+  Buy: forms, e-sign, accounting, calendar, secure storage.
+
+  NEVER automate: send; eligibility/legality; mass outreach; mover selection;
+  claims; escrow; storing raw home photos in public or generic AI prompts.
+
+  QuoteOps/TradeOps templates or done-for-you install only after two paying
+  trade users. No multi-tenant SaaS. No auto-send.
+
+  Family capital: tools-only if at all, written terms, hard cap; family
+  purchases may be revenue but never validation; published prices for everyone.
+
+  ~20 Nov 2026: kill, keep a bounded loop, or sell TradeOps templates.
+  Never merge with Seam Ready.
+uncertain:
+  - Peak Hong Kong moving season and hall move-in / storage-return volumes
+  - Willingness to pay for a documented move packet (the two pilots test this)
+  - Whether landlord-facing handover work touches estate agency work (EAA in writing)
+  - Award-letter outside-work clause, GPA bar, Endeavour year
+  - Whether Endeavour would cover a domestic concierge (expect no)
+  - Every price point; all revenue figures are hypotheses
+createdOn: 2026-08-17
+updatedOn: 2026-08-24
+reviewOn: 2026-11-20

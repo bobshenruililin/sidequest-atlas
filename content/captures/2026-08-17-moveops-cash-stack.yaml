@@ -1,0 +1,52 @@
+schemaVersion: 1.0.0
+id: 2026-08-17-moveops-cash-stack
+capturedAt: 2026-08-17T20:05:00.000Z
+title: MoveOps 90-day cash stack — archived; see operator-of-record
+rawText: "Archived 24 Aug 2026. Same-day parallel triage. Operator-of-record is
+  2026-08-17-earning-beyond-scholarships. Do not execute this file. Original
+  spark (Helsinki, 17 Aug): PLAN AGAIN how to earn money. Legal only, grey door
+  stays closed. Housing venture is dead; moving-house HELP is the new spark.
+  Prior Sol MoveOps model: no van; sell photo audits, packing sprints,
+  coordination, handover evidence; automate the ops loop; productize QuoteOps."
+spark: Archived pointer. Locked decisions live on
+  2026-08-17-earning-beyond-scholarships (paperwork coordinator, Helsinki
+  silence, two paid pilots by 30 Sep, no public immigration inference, no
+  housing-tour-kit activation).
+domains:
+  - opportunity
+  - capital
+  - career
+  - idea
+ask: ignore
+visibility: operator
+status: archived
+links: []
+relatedTrips:
+  - nordics-2026
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-17-earning-beyond-scholarships
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Archived. Read 2026-08-17-earning-beyond-scholarships. Grey door remains
+      closed; family purchases are not validation.
+  informationGaps: []
+  opportunityGaps: []
+  falseBargains:
+    - Executing this archived cash-stack (Helsinki presell, packing sprints as
+      default, 10-customer kill floor, new moveops repo, public PR inference)
+      instead of the locked operator-of-record.
+  corrections:
+    - Superseded by 2026-08-17-earning-beyond-scholarships after the 17 Aug
+      locked plan. Helsinki week is closed; do not backfill that grind.
+  suggestedImplementations:
+    - action: Use 2026-08-17-earning-beyond-scholarships as the only live 17 Aug
+        earning record.
+      rationale: Two same-day captures disagreed. The locked plan chose paperwork, two
+        pilots, Helsinki silence, and no published immigration status.
+      effort: S
+      leverage: high
+      owner: agent
+privacyNote: Archived operator-plane pointer. No HKID, visa status, family
+  finances, clients, or booking references.

@@ -16,6 +16,7 @@ nonGoals:
   - Valuation, mortgage advice, or public unit reviews
   - Cross-border HK/SZ/SH data product v1
   - Luxury-tour cosplay as “customer research”
+  - Treating MoveOps paid jobs as this kit's activation event
 activationCriteria:
   - At least three real legitimate tours expected within 30 days
   - Paper/phone-shortcut prototype used twice
@@ -33,14 +34,22 @@ killCriteria:
   - Venture framing returns without paid institutional demand
 evidence:
   - captureId: 2026-07-22-four-sparks-portfolio
-    implication: Commercial viability unknown; fieldwork first.
+    implication: Commercial viability unknown; fieldwork first. Venture framing killed.
+  - captureId: 2026-08-17-earning-beyond-scholarships
+    implication: >-
+      Related project only. Move evidence packs are not tour diligence.
+      Paid MoveOps jobs do not activate this kit. Shared photo-to-PDF
+      patterns may be reused later under separate gates.
+relatedProjects:
+  - moveops-hk
 privacy:
   classification: public-sanitized
   vaultOnly:
     - Addresses, photos, offers, budgets, agent identities
 buildPrompt: |-
-  Execute ONLY after activation. Create NEW repo flatfield (codename).
-  Branch cursor/flatfield-mvp-8004. Local-first PWA. No Atlas coupling.
+  Execute ONLY after this kit's own activation criteria pass. Create NEW repo
+  flatfield (codename). Branch cursor/flatfield-mvp-8004. Local-first PWA.
+  No Atlas coupling. Paid MoveOps jobs do not satisfy these gates.
 
   Mission: <30s offline capture between flats. Separate personally_observed /
   opinion / agent_claim / inference / document_verified / official_verified.
@@ -58,5 +67,5 @@ buildPrompt: |-
   Full Sol scaffold prompt (2026-07-22) may be pasted into the new repo README
   Issues when activated — keep this board entry as the gate + non-goals.
 createdOn: 2026-07-22
-updatedOn: 2026-07-22
+updatedOn: 2026-08-24
 reviewOn: 2026-10-01

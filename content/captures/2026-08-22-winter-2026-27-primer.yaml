@@ -1,0 +1,96 @@
+schemaVersion: 1.0.0
+id: 2026-08-22-winter-2026-27-primer
+capturedAt: 2026-08-22T20:00:00.000Z
+title: Winter 2026/27 LINK-S and Recognised Programmes primer
+rawText: Spend winter 2026/27 either at LINK-S or any winter programme on IAO
+  Recognised Programmes (last updated 21 May 2026). Maximise experience,
+  meaningfulness, and memory. Loved NEWDAY. Shanghai is home (grandparents) but
+  much of the world unseen. Review every opportunity with verdicts. Window 24
+  Dec 2026–17 Jan 2027. Primer at docs/winter-2026-27-primer.md.
+spark: NEWDAY cannot be bought in winter. LINK-S is the structurally winning HKU
+  course (12 credits, subsidy, grandparents, dates). World-not-seen fits that
+  actually calendar-fit are Hanyang Session A, Vilnius language, and HUWISU Term
+  1. Tübingen/Lille are the NEWDAY cousins and their dates lose. Do not spend
+  SSE on three weeks. Confirm HKUWW criterion 3 in writing before 4 Sep
+  enrolment.
+domains:
+  - opportunity
+  - travel
+  - research
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/recognized-programmes
+  - https://tl.hku.hk/link/
+  - https://nansenskolen.no/kurset/newday/
+  - https://intlaffairs.hku.hk/hku-worldwide-student-exchange
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-19-hkuww-premier-exchange
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; timestamped records; do not invent fees or hours
+    - NEWDAY DNA is residential dialogue, not a SKY credit mill
+    - Shanghai family is traveler-provided context, not identity drama
+    - One SSE per UG; do not spend it on a 3-week trip
+    - HKUWW slot is once; short-term should not burn it — confirm in writing
+  informationGaps:
+    - Whether LINK engages HKUWW criterion 3 (IAO goabroad inbox)
+    - Whether HKUWW interviews can be video from Shanghai
+    - Whether LINK-S satisfies T&N compulsory Mainland / draws on HK$80k
+    - 2026-27 MES window (China Vision page still showed 2025-26)
+    - Hanyang 1 Sep 2026 fee sheet and intern KRW
+    - Whether HKU is a partner for HIWS/KU/Yonsei winter discounts
+    - HUWISU and Vilnius housing for early January
+    - NEWDAY 2027 dates (unpublished)
+  opportunityGaps:
+    - LINK Round 2 closes 4 Sep 2026 23:59
+    - Hanyang Session A 26 Dec–9 Jan as first-Korea fit
+    - Vilnius 4–15 Jan as only small-Europe complete fit
+    - HUWISU Term 1 4–15 Jan as GHD-adjacent Berlin seminar
+    - Tübingen T-IES as NEWDAY cousin if Sem 2 window ever moves
+  falseBargains:
+    - Treating Fudan winter as a substitute for LINK-S
+    - Spending SSE on a 3-week winter school
+    - LINK-V June as a winter substitute (collides with LiA)
+    - Yonsei/KU as clean fits when 22 Dec is a full teaching day
+    - TFAS Santiago as unseen-world while LiA already spends the Americas
+    - Shopping for a winter NEWDAY
+  corrections:
+    - Official name is LINK with tracks LINK-S and LINK-V
+    - Most European winter schools begin after 17 Jan 2027
+    - HUWISU Term 1 (4–15 Jan) fits; Term 2 does not
+    - Hanyang Session B year string is internally inconsistent
+    - IAO Recognised list is a reference, not an exchange offer
+  suggestedImplementations:
+    - action: Enrol in LINK-S Round 2 before 4 Sep 2026 23:59
+      rationale: Miss it and winter LINK is gone; add/drop still exists after
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email IAO (goabroad inbox on the HKUWW page) on criterion 3 and video
+        interviews
+      rationale: Residual 'special visiting' risk costs the only slot
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Email Horizons LINK inbox for Shanghai project brief and form cap
+      rationale: Published curriculum is track-common, not city-specific
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Email AASO/T&N whether LINK satisfies compulsory Mainland
+      rationale: Stack A HKUWW year is conditional on that written yes
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Re-read Hanyang fees on 1 Sep 2026 if first-Korea remains live
+      rationale: Displayed early-bird line is still dated 1 Nov 2025
+      effort: S
+      leverage: medium
+      owner: shared
+privacyNote: Operator-plane record. No HKID, phones, address, DOB, booking refs,
+  or household income figures.

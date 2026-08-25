@@ -1,0 +1,12 @@
+id: claim-gest-speaker
+subjectType: listing
+subjectId: opp-gest-valencia-2026
+fieldPath: programme.speakers
+statement: "GEST 2026 speakers page lists Shen Ruililin, The University of Hong Kong."
+status: researched
+sourceIds:
+  - src-gest-speakers-2026-08-22
+verifiedAt: "2026-08-22"
+reverifyAfter: "2026-09-15"
+confidence: high
+notes: "Protected October hold. Do not speak of GEST as completed."

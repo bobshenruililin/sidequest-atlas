@@ -1,0 +1,14 @@
+id: claim-gest-dates
+subjectType: event
+subjectId: opp-gest-valencia-2026
+fieldPath: programme.dates
+statement: "GEST 2026 is 19–21 October 2026 at Barceló Valencia, hybrid."
+status: researched
+sourceIds:
+  - src-gest-speakers-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2026-10-19"
+validUntil: "2026-10-21"
+reverifyAfter: "2026-08-27"
+confidence: high
+notes: "Venue and hybrid status from the GEST index page. In-person vs remote for Bob is a human decision."

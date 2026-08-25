@@ -1,0 +1,14 @@
+id: claim-link-v-dates
+subjectType: event
+subjectId: opp-link-v-2027
+fieldPath: programme.dates
+statement: "HKU LINK-V immersion is 1–20 June 2027 (three weeks)."
+status: researched
+sourceIds:
+  - src-link-schedule-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2027-06-01"
+validUntil: "2027-06-20"
+reverifyAfter: "2027-04-01"
+confidence: high
+notes: "Semester 2 track. Only relevant if Bob takes LINK in Semester 2 instead of LINK-S. Flag against unpublished 2027 LiA; do not date LiA from 2026 makesense pages."

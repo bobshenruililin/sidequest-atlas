@@ -1,0 +1,12 @@
+id: claim-newday-no-2027
+subjectType: absence
+subjectId: opp-newday-2028-watch
+fieldPath: programme.dates.2027
+statement: "As of 22 August 2026 the Nansen Academy course listing still publishes NEWDAY only as 29 July–6 August 2026; no 2027 or 2028 call is listed."
+status: researched
+sourceIds:
+  - src-nansen-kurs-2026-08-22
+verifiedAt: "2026-08-22"
+reverifyAfter: "2026-11-01"
+confidence: high
+notes: "Absence of a listing is not a missing deadline. Do not hunt a 2027 application. Traveler-provided cadence is biennial; next plausible academy is summer 2028."

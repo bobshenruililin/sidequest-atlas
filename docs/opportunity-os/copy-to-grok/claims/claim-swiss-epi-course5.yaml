@@ -1,0 +1,14 @@
+id: claim-swiss-epi-course5
+subjectType: event
+subjectId: opp-swiss-epi-2027
+fieldPath: programme.course5
+statement: "Course 5 Advanced Methods in Climate Change Epidemiology runs 21–23 January 2027 with faculty at ISPM Bern and LSHTM; audience is PhD students, early career, or advanced researchers."
+status: researched
+sourceIds:
+  - src-swiss-epi-course5-2026-08-22
+verifiedAt: "2026-08-22"
+validFrom: "2027-01-21"
+validUntil: "2027-01-23"
+reverifyAfter: "2026-08-31"
+confidence: high
+notes: "Not listed as a BASc undergraduate course. Fee table is PhD / academic / industry. Watch, not a decided apply."

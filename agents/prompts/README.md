@@ -26,4 +26,4 @@ Specialist prompts for Cursor operators. All prompts must:
 
 ## Grok Bot Opportunity OS (external teammates)
 
-Prompts live in [`docs/opportunity-os/bots/`](../../docs/opportunity-os/bots/). They are for Grok Bot, not Cursor slash commands. Cursor operators drafting outreach in this repo still obey send-never / invent-never. Hub: [`docs/opportunity-os/README.md`](../../docs/opportunity-os/README.md).
+Prompts live in [`docs/opportunity-os/copy-to-grok/bots/`](../../docs/opportunity-os/copy-to-grok/bots/). Copy the parent folder [`copy-to-grok/`](../../docs/opportunity-os/copy-to-grok/START-HERE.md) onto the Grok computer as `~/opportunity-os/`. Cursor operators drafting outreach in this repo still obey send-never / invent-never. Hub: [`docs/opportunity-os/README.md`](../../docs/opportunity-os/README.md).

@@ -1,0 +1,162 @@
+schemaVersion: 1.0.0
+id: 2026-08-26-jardine-routes
+capturedAt: 2026-08-26T08:58:00.000Z
+title: Jardine has one live door for Bob and it opens in 2028, not this week
+rawText: "Can he realistically get into Jardine? Routes? Percentage? Objects on
+  the table: Jardine Foundation UG Oxbridge, Jardine Foundation PG Oxbridge,
+  Jardine HKU entrance scholarship, Sir Man Kam Lo/Jardine General Round
+  ss_id=242, Jardine Ho Tung ss_id=478, Jardine Matheson JETS graduate scheme."
+spark: Jardine is six different objects wearing one brand. Five are closed,
+  ineligible, or dead. The sixth is a postgraduate fork that only opens after an
+  Oxford or Cambridge offer, years from now, and only compounds if the course
+  serves the heat-health thesis rather than the colonial-brand itch.
+domains:
+  - career
+  - opportunity
+  - capital
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.jardine-foundation.org/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-24-cedars-educational-funds
+  - 2026-08-23-cv-rebuild
+  - 2026-08-22-winter-2026-27-primer
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; a scholarship is a rider on a decision already
+      right, never the reason for the decision
+    - Never invent admit rates, deadlines, or award counts; refuse the
+      percentage when no denominator is published
+    - Tung and Ngai already covers tuition and living; family stable; any
+      need-aware application is need theatre and grey-adjacent
+    - Prestige hunger is a named distortion field; a Jardine line on the CV is
+      not an operating goal
+    - Calendar locks stand -- Fukuda 28 Aug 2026, term 1 Sep, October Laidlaw
+      London plus GEST Valencia, winter LINK, summer 2027 Laidlaw LiA
+    - Thesis is HK trusted interface, heat-health, CHP and China CDC AIM; every
+      fork is scored against that, not against brand gravity
+  informationGaps:
+    - Whether Jardine Foundation PG Oxbridge is still running in the cycle Bob
+      would actually enter (final undergraduate year, application autumn of that
+      year); SCMP 2 Aug 2026 says UG ends after the 2026 cohort and PG
+      continues, but that must be reverified on the Foundation site at
+      application time, not assumed
+    - Partner college lists and first-choice rules drift year to year (Cambridge
+      Downing, Magdalene, Peterhouse, Trinity; Oxford Exeter, Oriel, Queen's,
+      Trinity as of the locked facts; Queen's 2026 closed, 2027 first-choice
+      Queen's) -- reverify in the application year
+    - Whether the PG award covers taught master's, research degrees, or both,
+      and how "early career" is defined in that year's terms
+    - Which Oxford or Cambridge heat-health or population-health course actually
+      fits the thesis, and its published course-level admit statistics -- those
+      exist and may be cited once a course is chosen
+    - Whether Jardine Matheson runs any ad hoc Hong Kong internships at all now
+      that the group graduate scheme is gone; careers page returned a server
+      error, so the honest state is "no published live scheme," not "no
+      internships ever"
+    - Bob's exact graduation year from GHD and therefore the exact autumn his PG
+      application window opens
+  opportunityGaps:
+    - The only live Jardine object for Bob is the Foundation PG Oxbridge
+      scholarship, applied via a partner college after a provisional Oxford or
+      Cambridge offer; he clears the published gates on paper -- Hong Kong
+      7-year residency as a local, early career as a fresh graduate, health
+      subject to check -- and the award is up to 4 years of fees plus stipend
+    - The binding filter is not Jardine, it is the Oxbridge PG offer itself;
+      building the heat-health record (Laidlaw output, CHP-adjacent work, Fukuda
+      relationship, LiA) is simultaneously the strongest Oxbridge PG application
+      and the strongest Jardine application, so no separate Jardine effort is
+      needed until the offer exists
+    - If a partner college happens to fit the chosen course and supervisor,
+      naming it first-choice costs nothing; the option is free when the course
+      is chosen on merit
+  falseBargains:
+    - Need theatre -- dressing a stable, T&N-funded family situation up for the
+      need-aware HKU Jardine entrance award, which is also wrong year (Year 1
+      entrance, listed deadline 5 Aug 2026 already past) and thus impossible
+      anyway
+    - Applying to Sir Man Kam Lo/Jardine (General Round ss_id 242) to "show
+      interest" -- it is Arts, Social Sciences, Law, FBE Year 2 only and GHD
+      sits in HKUMed; an ineligible application spends credibility and ranking
+      slots for zero expected value
+    - Jardine Ho Tung (ss_id 478) -- BA School of Chinese only; same hard no
+    - Chasing the UG Oxbridge scholarship -- Bob is the wrong life stage
+      (school-leaver UCAS pipeline, he is HKU Year 2) and SCMP reports the
+      scheme ends after the 2026 cohort; double-dead door
+    - Chasing JETS off stale 2022 Bright Network copy -- the group graduate
+      scheme was axed in 2024 per the March 2026 report; a dead scheme cannot be
+      networked back to life by a Year 2
+    - Choosing an Oxbridge PG course to fit the eight partner colleges rather
+      than choosing course and supervisor for the heat-health thesis and letting
+      the college fall where it falls -- that is twinning a 160-year-old
+      trading-house brand, the exact prestige-appearance anti-pattern the
+      doctrine names
+    - Quoting the aggregator "93 students 2025" number or treating Wikipedia's
+      293 awards by 2018 as a rate -- the first is untrusted, the second is
+      cumulative stock with no denominator
+  corrections:
+    - "\"Get into Jardine\" is not one question; it is six. Honest answers: UG
+      Oxbridge scholarship NO (wrong life stage and scheme ending); HKU entrance
+      scholarship NO (wrong year, need-aware, likely closed); Sir Man Kam
+      Lo/Jardine HARD NO (faculty-ineligible); Jardine Ho Tung HARD NO (School
+      of Chinese only); JETS graduate scheme NO (axed 2024, no published live
+      scheme); Foundation PG Oxbridge CONDITIONAL YES -- eligible on paper,
+      gated first on an Oxford or Cambridge provisional offer in his final year,
+      then on Jardine's own unpublished selection"
+    - No percentage may be stated for Jardine PG selection because none is
+      published; the only allowed percentage language is (a) refusal with reason
+      -- "unpublished, no denominator exists in public" -- and (b) published
+      course-level Oxbridge admit statistics once a specific course is chosen,
+      cited to the university's own data
+    - The PG route does not require any action, email, or application in 2026;
+      the application happens via a partner college after a provisional offer,
+      which cannot exist before his final undergraduate year
+    - Oxbridge PG Jardine compounds the thesis only if the course is chosen for
+      heat-health and population-health reasons first; in that case the
+      scholarship is free money on a path already correct. Chosen the other way
+      round, it is brand twinning and fails doctrine
+  suggestedImplementations:
+    - action: Take zero Jardine actions this week; prepare Fukuda for Friday 28 Aug
+        and start term on 1 Sep with the existing queue (Youde, cleaned General
+        Round) untouched by this thread
+      rationale: Nothing Jardine is applyable now; the only live object opens after a
+        final-year Oxbridge offer that does not yet exist
+      effort: S
+      leverage: high
+      owner: bob
+    - action: File the PG fork as a calendar tripwire for the autumn of his final
+        undergraduate year -- reverify on the Foundation site that PG continues,
+        reconfirm partner colleges and first-choice rules, and only then fold
+        Jardine into the Oxbridge PG application
+      rationale: Facts locked today (SCMP report, partner lists, Queen's rotation)
+        will be stale by then; the doctrine forbids acting on unverified drift
+      effort: S
+      leverage: high
+      owner: shared
+    - action: When choosing an Oxbridge PG course, choose supervisor and course for
+        the heat-health and CHP-AIM thesis first, then check whether a partner
+        college fits and name it first-choice if so
+      rationale: Course-first ordering keeps the scholarship a rider, not a driver;
+        college-first ordering is the twinning failure mode
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Strike ss_id 242 and ss_id 478 from any General Round working list
+        permanently
+      rationale: Faculty-restricted schemes Bob cannot hold; ineligible applications
+        are pure cost
+      effort: S
+      leverage: medium
+      owner: agent
+privacyNote: Operator-plane record. No emails, phones, UID, HKID, booking refs,
+  or award-letter internals. GPA and family-stability characterizations are
+  operator-stated. Facts about Jardine schemes come from untrusted external
+  pages locked by the operator and are flagged for reverification at decision
+  time.

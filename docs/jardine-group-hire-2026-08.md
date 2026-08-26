@@ -57,6 +57,21 @@ Tung and Ngai’s public eligibility page wants **two years in HK or Mainland af
 
 ---
 
+## Does DFI FRLP compound heat-health, or twin the house?
+
+**Twin, by default.** The six named tracks are retail-leadership functions — supply chain, operations, people & culture. None is a health track; do not invent one. Taking FRLP means spending 2029–31 rotating through retail operations under a house flag at exactly the career stage — early, cheap, credentialed — when the heat-health thesis is easiest to work: PG epi, CHP/HA-adjacent seats, the Oxbridge PG fork. Choosing the surname over the seam is the definition of twinning.
+
+**The narrow compound case exists and has two conditions, both unmet today:**
+
+1. **A named health-retail placement in the actual offer.** DFI's health-and-beauty arm (Mannings in HK) is a real community health-delivery channel — pharmacy access, OTC, elderly-facing retail. If a specific FRLP placement touches that channel's operations, the programme touches health delivery for real. Today no such track is published; "including Supply Chain / Operations / P&C" is the record.
+2. **A deliberate thesis revision, dated in the vault, before the application.** Moving the interface thesis from the public seam (CHP, HA, China CDC) to private retail delivery channels is a position someone could honestly hold — but it is a thesis **change**, not a compound of the current one. If Bob makes that change, it is made on Year-3 evidence, in writing, before the form — not discovered mid-interview because the panel liked him.
+
+If either condition fails, FRLP is a well-paid pivot wearing the house's name, and the honest label for taking it is "I changed careers," not "I compounded." One more instability: do not assume DFI's 2028 brand mix, programme, or tracks match today's page. Every compound argument gets re-made against the 2028 record, not this memo.
+
+**T&N note:** an HK-based FRLP seat satisfies the two-year HK/Mainland residence commitment. This route is residence-clean in a way the overseas PG fork is not. That is a feasibility point, not a reason.
+
+---
+
 ## Honest probability language
 
 | Phrase | Allowed? |
@@ -86,11 +101,15 @@ The only knowable zeros: JEC MT and JEC intern as **you are not an engineering s
 
 ## Panel
 
-Locked facts went to Fable and Sol. Fable is still running.
+Locked facts went to Fable and Sol. Both have returned.
+
+**Fable (binding):** Can he get into the group after graduation? **Yes on paper, through exactly one published door — DFI Future Retail Leaders — plus the unschedulable named-vacancy route the group itself points to since the 2025 capture. Probability: refused; no denominator exists anywhere.** The holding company has no graduate front door in evidence, so "get into the group" reduces to "get hired by a named Jardine company." FRLP **twins the house by default** and gets an application in the final year only if two preconditions are met — a named health-retail placement in the actual offer, and a dated thesis revision in the vault before the form (see the compound-or-twin section). Name the pattern, because the doctrine requires it: this goal arrived days after the scholar memo closed every mintable scholar door. When the scholar badge is out of reach, the employee badge is the substitute — same house, same hunger. The corrected formulation is **"which employer compounds heat-health after 2029,"** and if a Jardine company appears on that list it appears as a named function, never as the group's name. Zero group actions until Year 3. Jardine as an outcome is acceptable; Jardine as an objective is the distortion field working.
 
 **Sol (binding):** The only verified, degree-compatible structured graduate door is **DFI Future Retail Leaders** (any bachelor, 21 months) — a credible applicant, not an expected winner, and not a published rate. The Year-3 **4–6 month placement** is a better lever than a short summer intern. Holding-company hire is an alert, not a plan. JEC / Gammon / Hongkong Land China schemes are eligibility mismatches, not long shots. If no 2029-shaped opening exists, take a serious external first job and lateral later. Do not sacrifice LiA for a hypothetical DFI intern. Do not force heat-health into every retail pitch; translate it into operations or leave it out. Sol wrote “Food Retail Leadership”; the live page is **Future Retail Leaders**. Sol used **2029** as a graduation year from the 4-year curriculum; that is a sketch, not a congregation date.
 
-**Working call until Fable returns:** Sol is right that FRLP is the only any-degree *programme* found. That does not make retail the thesis. Rank FRLP as the eligible structured door, not the reason to become a supermarket operator. Named thesis-fit vacancies still outrank FRLP if they appear. Zero applications this week.
+**Where they agreed:** FRLP is the only any-degree structured graduate door found today; no percentage is derivable; zero applications this week; the Year-3 placement outranks any summer internship; JEC, Gammon, and HKL-China are eligibility mismatches, not long shots; a named thesis-fit vacancy outranks FRLP if one ever appears.
+
+**Where they differed (and the call):** Sol ranks the named-vacancy watch as the controllable path and treats FRLP as a credible fallback with an honest-choice caveat; Fable hardens the caveat into two preconditions that must both be met before FRLP even gets an application. **Call:** adopt the preconditions. FRLP is applied to in 2028–29 only if the Year-3 evidence made the compound case in writing; otherwise the post-2029 fork is the thesis fork (PG / CHP / HA), with the named-function watch as the standing fallback that never expires.
 
 ---
 

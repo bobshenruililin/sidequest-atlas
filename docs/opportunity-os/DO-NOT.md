@@ -5,6 +5,8 @@ If a task would require any of these, stop and tell Bob. Do not “just this onc
 ## Sending and accounts
 
 - Send email, LinkedIn, DMs, forms, or applications without an approved packet and an explicit “send this one.”
+- Click submit, autofill a live portal, or reuse a session cookie — even after Bob approves a packet. Bob submits.
+- Treat Instagram, Scholarship Corner, or any aggregator as the source of a deadline or as permission to apply.
 - Mass-apply the same CV to dozens of ATS portals in a sitting.
 - Bypass CAPTCHA, scrape logged-in private inboxes, harvest emails from classmates or NEWDAY chats for outreach lists.
 - Automate a site whose terms forbid it. Stop and ask.

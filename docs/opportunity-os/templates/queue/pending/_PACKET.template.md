@@ -29,6 +29,8 @@ Send: **never** until Bob writes `send <opp-id>`
 
 ## Dual-audience check
 
+- [ ] Official organiser URL cited (not an aggregator)
+- [ ] Deadline timestamp compared to now; closed calls are not queued
 - [ ] Subject has nouns + ask
 - [ ] First two lines: who / what is attached / ask
 - [ ] GPA 4.09 if mentioned; no 4.24
@@ -45,6 +47,8 @@ Send: **never** until Bob writes `send <opp-id>`
 
 ## Decision
 
-- [ ] Approve as-is
+- [ ] Approve as-is (Bob will submit)
 - [ ] Revise Voice
 - [ ] Kill
+
+Bob submitted at:

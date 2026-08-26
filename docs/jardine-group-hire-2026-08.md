@@ -86,9 +86,11 @@ The only knowable zeros: JEC MT and JEC intern as **you are not an engineering s
 
 ## Panel
 
-Locked facts went to Fable and Sol. If this section still reads as a draft when you open the file, their lines were not yet back; the table above does not wait on them.
+Locked facts went to Fable and Sol. Fable is still running.
 
-**Working call (doctrine, pending their quotes):** Do not make “get into Jardines” the thesis. The thesis is heat-health and the HK trusted interface. The group is one possible **platform**, and only at a legal entity whose function matches. DFI FRLP is the prestige-shaped off-ramp that will tempt you because it accepts any degree. That is the twinning test. JEC’s healthcare sector is bait. Zero applications this week.
+**Sol (binding):** The only verified, degree-compatible structured graduate door is **DFI Future Retail Leaders** (any bachelor, 21 months) — a credible applicant, not an expected winner, and not a published rate. The Year-3 **4–6 month placement** is a better lever than a short summer intern. Holding-company hire is an alert, not a plan. JEC / Gammon / Hongkong Land China schemes are eligibility mismatches, not long shots. If no 2029-shaped opening exists, take a serious external first job and lateral later. Do not sacrifice LiA for a hypothetical DFI intern. Do not force heat-health into every retail pitch; translate it into operations or leave it out. Sol wrote “Food Retail Leadership”; the live page is **Future Retail Leaders**. Sol used **2029** as a graduation year from the 4-year curriculum; that is a sketch, not a congregation date.
+
+**Working call until Fable returns:** Sol is right that FRLP is the only any-degree *programme* found. That does not make retail the thesis. Rank FRLP as the eligible structured door, not the reason to become a supermarket operator. Named thesis-fit vacancies still outrank FRLP if they appear. Zero applications this week.
 
 ---
 

@@ -3,6 +3,7 @@
 **Spark:** Can I realistically get into Jardine? Any routes? Percentage?  
 **Access date for pages in this memo:** 26 Aug 2026.  
 **Companion capture:** `content/captures/2026-08-26-jardine-routes.yaml`  
+**After-graduation firm map:** `docs/jardine-group-hire-2026-08.md`  
 **Fact-check:** `docs/jardine-fact-check-2026-08.md` (archive + live partner pages, 26 Aug 2026).  
 **Panel:** Claude Fable, GPT Sol, and an adversarial fact-check. Binding lines: [Panel](#panel-fable-sol-fact-check).
 
@@ -214,5 +215,5 @@ Locked facts went to Fable (blunt compounding), Sol (operator-grade), and an adv
 2. **On the General Round form, do not tick Sir Man Kam Lo/Jardine or Jardine Ho Tung.** Owner: Bob. Effort S. Published reading is ineligible. Optional: one sentence to AAS for a 2026 ruling. Not a blocker for Youde or the rest of the form.
 3. **If the Oxbridge PG fork is still real in the final undergraduate year, choose the course first and the college second.** Owner: Bob. Effort L. Queen’s needs first preference from 2027 cycles; Cambridge needs a partner college and a Trust opt-in.
 4. **Before any PG Jardine file: read the Tung and Ngai letter on overseas postgraduate flexibility and concurrent awards.** Owner: Bob. Effort S. Public eligibility copy is not the letter.
-5. **Watch portfolio-company careers later; do not hunt a group JETS.** Owner: Bob. Effort S. Only if a named function matches the thesis.
+5. **Watch portfolio-company careers later; do not hunt a group JETS.** Owner: Bob. Effort S. After-graduation map: `docs/jardine-group-hire-2026-08.md`. Only if a named function matches the thesis.
 6. **Keep Foundation and college enquiry addresses on official PDFs, not in public captures.** Owner: agent. Effort S. Privacy scan flags emails in `content/`.

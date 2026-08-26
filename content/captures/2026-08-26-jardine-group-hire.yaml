@@ -1,0 +1,112 @@
+schemaVersion: 1.0.0
+id: 2026-08-26-jardine-group-hire
+capturedAt: 2026-08-26T09:45:00.000Z
+title: After graduation you enter a named Jardines company, not JETS
+rawText: /goal like get into the Jardine Matheson group after graduation
+spark: Prestige hunger wants the house name. JETS is gone on the last primary
+  page. Most live trainee schemes want engineers. DFI Future Retail Leaders
+  accepts any degree and is off-thesis unless chosen on purpose.
+domains:
+  - career
+  - opportunity
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://careers.jardines.com/students/
+  - https://jardinematheson.avature.net/careers
+  - https://www.jec.com/people/
+  - https://www.jec.com/blog/job_openings/management-trainee/
+  - https://jec.com/blog/job_openings/summer-internship-program-jun-to-aug/
+  - https://www.dfiretailgroup.com/en/careers-at-dfi/talent-programmes/
+  - https://www.hkland.com/en/careers/graduate-opportunities
+  - https://www.gammonconstruction.com/en/graduate-training-programme.php
+  - https://www.gammonconstruction.com/en/fellowship-programme.php
+  - https://www.admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-sciences-global-health-and-development
+  - https://tungngaifoundation.org/eligibility/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-26-jardine-routes
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; a job is a rider on a decision already right
+    - Never invent hire rates, deadlines, or award lumps
+    - Prestige hunger is an advantage and a distortion field
+    - Stay in GHD; medicine closed; thesis is HK trusted interface / heat-health
+    - Grey-door closed
+    - Calendar locks remain Fukuda 28 Aug 2026, term 1 Sep, October Laidlaw
+      London plus GEST Valencia, winter LINK, summer 2027 Laidlaw LiA
+    - Bots draft; Bob always submits
+  informationGaps:
+    - Current-day group JETS status; live careers.jardines.com HTTP 500; last
+      primary capture 4 Jun 2025
+    - Next DFI Future Retail Leaders intake dates
+    - Whether GHD Year-3 field placement can sit in a Jardines operating company
+    - Whether JEC healthcare or environmental teams hire non-engineers
+    - Whether Hongkong Land still runs any Hong Kong graduate scheme not shown
+      on the China-programme page
+    - GHD congregation date; programme is 4-year as published
+  opportunityGaps:
+    - Named function vacancies in the final undergraduate year, only if the
+      posting matches heat-health or trusted-interface work
+    - DFI Future Retail Leaders is the only clearly any-degree graduate
+      programme found today; it is retail, not CHP
+    - Year-3 field placement as a thesis probe, host chosen for the problem not
+      the house name
+    - Summer 2028 internship only if the function matches; 2027 is LiA
+  falseBargains:
+    - Waiting for JETS to return
+    - Applying to JEC management trainee or JEC summer intern as a GHD student
+    - Applying to Gammon graduate training as a non-engineering graduate
+    - Using DFI Summer Internship 2026 which is ending or Summer 2027 over LiA
+    - Performing underrepresented status for DFI Diversity Student Initiative
+    - Treating Foundation scholar and group employee as the same win
+    - Leaving GHD or chasing an engineering shape to wear the house name
+    - Inventing a hire percentage
+  corrections:
+    - After graduation you enter a named legal entity, not a group JETS class
+    - JEC management trainee and summer intern require engineering disciplines
+    - Gammon graduate training is for engineering and geological graduates
+    - Hongkong Land's published graduate scheme on the fetched page is China
+    - DFI Future Retail Leaders accepts any bachelor and is off-thesis unless
+      chosen as a retail career
+    - DFI Summer Internship 2026 is dated 1 Jun to 28 Aug 2026
+    - Avature snapshot on 26 Aug 2026 had no Hong Kong graduate-trainee posting
+    - GHD is a 4-year BASc; field placement is at the end of Year 3
+  suggestedImplementations:
+    - action: Do not apply to any Jardine group posting this week
+      rationale: Youde local and General Round occupy the live queue; Fukuda is Friday
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not apply to JEC management trainee, JEC intern, or Gammon graduate
+        training as a GHD student
+      rationale: Published degree filters are engineering or geology
+      effort: S
+      leverage: high
+      owner: bob
+    - action: In the final undergraduate year, watch DFI Future Retail Leaders and
+        holding-company Avature only if the function is still the thesis or
+        retail is an honest choice
+      rationale: 2026 pages and dates will be stale; any-degree is not a reason to
+        twin the house
+      effort: M
+      leverage: medium
+      owner: bob
+    - action: Before Year-3 placement matching, ask GHD which hosts do heat, ageing,
+        or building-health
+      rationale: Do not ask for a Jardine seat; choose the problem
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Keep recruitment addresses on official pages, not in public captures
+      rationale: Privacy scan flags emails in content/
+      effort: S
+      leverage: low
+      owner: agent
+privacyNote: Operator-plane record. No phones, emails, UID, HKID, booking refs,
+  or award-letter internals. Recruitment addresses stay on official pages.

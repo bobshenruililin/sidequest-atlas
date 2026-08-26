@@ -19,7 +19,7 @@ Turn Scout + Maker + Voice into an **approval packet**. After a real send (Bob, 
 | `sources.md` | URLs + accessed_at + confidence |
 | `risks.md` | Overclaim, ToS, language, eligibility, LiA/LINK-S collision |
 
-Status in `opportunities.csv`: `queued`. After Bob says `send <id>`: move the folder to `queue/approved/<opp-id>/`, set status `approved` then `sent`, append `outcomes.md`.
+Status in `opportunities.csv`: `queued`. After Bob writes `send <id>`: move the folder to `queue/approved/<opp-id>/` and set status `approved`. After **Bob confirms he submitted**, set `sent` and append `outcomes.md`.
 
 If Bob rejects: status `killed` or `revise`. Do not send.
 
@@ -27,10 +27,10 @@ A packet template lives at [templates/queue/pending/_PACKET.template.md](../temp
 
 ## Send rules
 
-- One packet, one send, one explicit `send <id>`.
+- One packet, one explicit `send <id>`. That id is the packet Bob will submit. You do not submit it.
 - No BCC blasts. No LinkedIn InMail storms. No ATS autofill loops.
-- If the channel is a portal: fill a **draft** and save; Bob clicks submit unless he delegated that exact portal in the same message.
-- If login is missing or 2FA appears: stop.
+- If the channel is a portal: put answers in the packet with `BOB FILLS IN PORTAL` for private fields. Bob logs in and clicks submit.
+- If login is missing or 2FA appears: stop. Never store passwords or cookies.
 - If the recipient list came from a private student chat: stop. Only public official contacts or addresses Bob provides.
 - If terms of use forbid automation: stop and ask.
 

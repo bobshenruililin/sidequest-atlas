@@ -1,0 +1,36 @@
+# Watch sources for Opportunity OS Scout.
+# Aggregators are radar. Official pages are claims.
+# Review robots.txt / terms before any automated fetch. Never log in.
+
+- id: src-watch-apsig-site
+  url: https://www.apsig.asia/
+  role: official-organiser
+  method: public-page
+  cadence: weekly; daily 1 May–15 Sep
+  notes: Also https://www.apsig.asia/feed/
+
+- id: src-watch-apnic-fellowship-portal
+  url: https://fellowship.apnic.net/
+  role: official-application-owner
+  method: public-event-list
+  cadence: weekly; daily 1 May–15 Sep
+  notes: Compute open/closed from timestamps. Do not log in.
+
+- id: src-watch-horizons
+  url: https://tl.hku.hk/horizons/
+  role: official-funding
+  method: public-page
+  cadence: weekly in Dec–Jan and Apr–Jun
+
+- id: src-watch-nansen-kurs
+  url: https://nansenskolen.no/kurs/
+  role: official-organiser
+  method: public-page
+  cadence: weekly from Nov
+
+- id: src-watch-scholarships-corner-rss
+  url: https://scholarshipscorner.website/feed/
+  role: aggregator-radar
+  method: public-rss
+  cadence: weekly
+  notes: Discovery only. Confidence cap low. Reverify on official URL.

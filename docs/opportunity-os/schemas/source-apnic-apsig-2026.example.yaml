@@ -1,0 +1,11 @@
+id: src-apnic-portal-apsig-2026-2026-08-26
+title: APNIC Fellowship Management System public event list (APSIG 2026)
+publisher: APNIC
+url: https://fellowship.apnic.net/
+accessedAt: "2026-08-26"
+sourceType: official
+supports:
+  - "APSIG 2026 applications opened 7 August 2026 00:00 UTC+8 and closed 21 August 2026 23:59 UTC+8."
+confidence: high
+reverifyAfter: "2027-05-01"
+notes: "Public list still showed APSIG 2026 after close. Compute status from timestamps. Do not log in."

@@ -1,0 +1,13 @@
+# Discovery signal only. Never a deadline claim.
+
+id: src-scholarships-corner-apsig-2026-instagram
+title: Scholarship Corner Instagram post advertising APSIG Fellowship 2026
+publisher: Scholarships Corner (aggregator)
+url: https://scholarshipscorner.website/apsig-fellowship-taiwan/
+accessedAt: "2026-08-26"
+sourceType: community
+supports:
+  - "An aggregator advertised APSIG 2026 in Taipei via Instagram."
+confidence: low
+reverifyAfter: "2026-08-26"
+notes: "Not an official source. Deadline and eligibility must be read on apsig.asia and fellowship.apnic.net. Do not use this URL as opportunities.csv source_url."

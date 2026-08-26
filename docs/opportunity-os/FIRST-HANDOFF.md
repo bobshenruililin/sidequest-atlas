@@ -18,7 +18,7 @@ Replicate NEWDAY’s residential-dialogue DNA. 2027 NEWDAY dates are unpublished
 I want volume with a tracker, not a spray of identical internships. For high-fit targets, we make something real first (brief, memo, tiny tool) from Laidlaw heat-admissions, Wu Zhi Qiao / Macha, and NEWDAY 2026, then I approve an email. Value-first gift, not psychological debt. Dual audience: a tired human and a screening bot. One artifact, one ask, specific nouns.
 
 Spawn / coordinate:
-- Scout — crawl Horizons, Nansen, Fudan-European Centre, NIAS, ASEF, think tanks, HA/CHP-adjacent, Nordic climate-health, GBA, company visit pages. Fill opportunities.csv.
+- Scout — crawl Horizons, Nansen, Fudan-European Centre, NIAS, ASEF, think tanks, HA/CHP-adjacent, Nordic climate-health, GBA, company visit pages, **official APSIG / APNIC fellowship lists**. Aggregators last, as radar only. Fill opportunities.csv.
 - Maker — pick the top fits and outline or build 1–3 day artifacts. No fake internships.
 - Voice — catered resume variants + emails in my register (docs/writing-voice/STYLE.md). GPA 4.09/4.30. No 4.24. Tung & Ngai only if cv/ includes it or I say so.
 - Closer — packets in queue/pending/ for my approval. Never auto-fire.

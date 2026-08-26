@@ -2,7 +2,7 @@
 
 Operator docs for hunting **winter 2026/27** and **summer 2027** opportunities: internships, residential academies in the NEWDAY family, company visits, unpaid sprints, and value-first briefs.
 
-This Cursor environment cannot create Grok Bots or grant Google / LinkedIn. Copy these files onto the Grok computer, paste the prompts into named Bots, and keep **send** with Bob.
+This Cursor environment cannot create Grok Bots or grant Google / LinkedIn. Copy these files onto the Grok computer, paste the prompts into named Bots, and keep **send** with Bob. Pipeline: [PROTOCOL.md](PROTOCOL.md).
 
 ## Load order
 
@@ -11,6 +11,7 @@ This Cursor environment cannot create Grok Bots or grant Google / LinkedIn. Copy
 3. Spawn four named teammates from [bots/](bots/): Scout, Maker, Voice, Closer.
 4. Copy [templates/](templates/) onto the Grok computer as `~/opportunity-os/`.
 5. Read [DO-NOT.md](DO-NOT.md) before any crawl or draft.
+6. Read [PROTOCOL.md](PROTOCOL.md) — ingest → official reverify → packet → Bob submits.
 
 Cursor operators drafting outreach in this repo obey the same send-never / invent-never rules.
 
@@ -32,7 +33,7 @@ Protected tracks (hunt *around*, do not silently overwrite): **LINK-S** (winter 
 ```text
 Scout (crawl, claims) → Maker (real artifact) → Voice (resume + mail) → Closer (queue)
                                                                          ↓
-                                                                   Bob approves send
+                                                              Bob approves, then Bob submits
                                                                          ↓
                                                                    outcomes log
 ```
@@ -47,6 +48,7 @@ docs/opportunity-os/
   CONSTITUTION.md           paste first
   FIRST-HANDOFF.md          first task
   DO-NOT.md                 closed lanes
+  PROTOCOL.md               ingest → reverify → packet → Bob submits
   LAYOUT.md                 Grok disk layout
   bots/                     Scout, Maker, Voice, Closer
   schemas/                  claim + CSV contract

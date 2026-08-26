@@ -15,8 +15,12 @@ Source type: `official` | `primary` | `academic` | `government` | `reputable-sec
 | [source-record.example.yaml](source-record.example.yaml) | Nansen kurs page (NEWDAY 2026 dates) |
 | [source-fudan-newday-2026.example.yaml](source-fudan-newday-2026.example.yaml) | Fudan 2026 call (Fudan students only) |
 | [claim-record.example.yaml](claim-record.example.yaml) | NEWDAY 2026 dates (do not copy to 2027) |
+| [source-apsig-2026-call.example.yaml](source-apsig-2026-call.example.yaml) | Official APSIG 2026 call (closed) |
+| [source-apnic-apsig-2026.example.yaml](source-apnic-apsig-2026.example.yaml) | APNIC portal timestamps |
+| [source-scholarships-corner-apsig-2026.example.yaml](source-scholarships-corner-apsig-2026.example.yaml) | Aggregator discovery signal only |
+| [claim-apsig-2026-deadline.example.yaml](claim-apsig-2026-deadline.example.yaml) | Closed 21 Aug 2026 23:59 UTC+8 |
 | [opportunities.columns.md](opportunities.columns.md) | CSV column dictionary |
-| [../templates/opportunities.csv](../templates/opportunities.csv) | Header + seed **watch** rows (2026 pages ≠ 2027 facts) |
+| [../templates/opportunities.csv](../templates/opportunities.csv) | Header + seed **watch** / **closed** rows (2026 pages ≠ 2027 facts) |
 
 ## Rules
 

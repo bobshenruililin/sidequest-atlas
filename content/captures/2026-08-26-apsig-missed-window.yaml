@@ -1,0 +1,78 @@
+schemaVersion: 1.0.0
+id: 2026-08-26-apsig-missed-window
+capturedAt: 2026-08-26T03:10:00.000Z
+title: APSIG 2026 is closed; build a draft-never-send radar, not an auto-apply robot
+rawText: Instagram Scholarship Corner advertised APSIG Fellowship 2026 in
+  Taipei. Help apply, and think whether Grok bots can crawl Scholarship Corner
+  and auto-apply with our info. We want a system, not a one-off.
+spark: An aggregator post is not an official call. The official APSIG page had
+  already closed. Auto-apply would violate Opportunity OS. The miss should
+  become a watchlist plus a send-never pipeline.
+domains:
+  - career
+  - opportunity
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.apsig.asia/apsig-2026-fellowship-applications-now-open/
+  - https://www.apsig.asia/
+  - https://fellowship.apnic.net/
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-24-cv-density
+  - 2026-08-24-cedars-educational-funds
+  - 2026-08-22-winter-2026-27-primer
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Never invent deadlines; official pages beat aggregators
+    - Bots draft; Bob approves; Bob submits
+    - Grey-door closed; no ToS-breaking scrape or portal autofill
+    - Compounding over speed; conference-hopper trophies are a false bargain
+    - Thesis is heat-health at the HK–Mainland seam, not internet-governance
+      tourism
+  informationGaps:
+    - 2027 APSIG call dates unpublished
+    - Tentative 2026 Taipei dates never became a reason to late-apply
+    - Whether a real health-data-governance artifact will exist before a 2027
+      call
+  opportunityGaps:
+    - Official APSIG site feed and APNIC public event list as yearly radar
+    - Aggregator RSS as discovery only, confidence capped at low
+    - 2027 apply only with an IG artifact, a clear calendar, and a true
+      engagement plan
+  falseBargains:
+    - Late-applying or emailing APNIC for an exception
+    - Auto-submitting the APNIC portal with stored credentials
+    - Treating Scholarship Corner or Instagram as a deadline
+    - Spending one-shot alumni-ineligible eligibility on a thin first contact
+    - Missing a Year-2 teaching week after October GEST and London
+    - Calling fully funded airfare a free week
+  corrections:
+    - Official close was 21 Aug 2026 23:59 UTC+8; accessed 26 Aug 2026 the call
+      page countdown was already zero
+    - APNIC public list can still display a closed event under currently open
+    - Closer must not click submit even after send id
+  suggestedImplementations:
+    - action: Do not apply to APSIG 2026; do not request a late exception
+      rationale: Official countdown is zero; alumni rule makes a thin 2026 win expensive
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Copy updated Opportunity OS prompts to the Grok computer and run Scout
+        against official calendars, not Instagram
+      rationale: The miss was aggregator lag plus no official watch
+      effort: M
+      leverage: high
+      owner: bob
+    - action: If a 2027 call opens, produce one health-data-governance artifact before
+        drafting motivation
+      rationale: APSIG screens conference hoppers; adjacency is not a trajectory
+      effort: M
+      leverage: medium
+      owner: shared
+privacyNote: Operator-plane briefing. No UID, phone, portal passwords, or
+  application-form private fields.

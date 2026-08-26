@@ -37,6 +37,7 @@ DNA test (need most of these, not one): residential; East Asia × Europe/Nordics
 | HKU Horizons overseas + Mainland list | Funding vehicle Bob already knows | Deadlines move; never invent seats |
 | Common Purpose (Horizons has listed winter/summer leadership programmes in past years) | Short leadership intensives | Conference-shaped unless a page says residential |
 | APRU undergraduate leaders (Horizons has listed virtual ULP) | Pacific Rim universities | Often virtual; not NEWDAY DNA |
+| APSIG (Asia Pacific School on Internet Governance) | AP internet-governance school; APNIC portal | 2026 closed 21 Aug; alumni ineligible; conference hoppers not preferred; term-time dates. See [apsig-apnic.md](apsig-apnic.md) |
 
 Do not add a 2027 deadline for any row in this table without a new official URL.
 
@@ -60,5 +61,6 @@ Summer 26 May – 31 Aug 2027 can take a true internship **or** LiA **or** an ac
 | Jan–Apr 2027 | Fudan/NIAS/Nansen applications historically open in this band |
 | Mar–May 2027 | EASS-like rolling deadlines (2026 closed 20 May) |
 | Spring 2027 | ASEF open calls |
+| From May 2027 | [apsig.asia](https://www.apsig.asia/) and [APNIC fellowship portal](https://fellowship.apnic.net/) monthly until a 2027 call exists; daily once a call is live |
 
 If a page 404s, mark the claim `superseded`. Do not keep a dead URL as `high`.

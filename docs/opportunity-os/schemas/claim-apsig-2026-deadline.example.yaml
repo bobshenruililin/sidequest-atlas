@@ -1,0 +1,15 @@
+id: claim-apsig-2026-deadline
+subjectType: event
+subjectId: opp-apsig-2026-closed
+fieldPath: programme.applicationDeadline
+statement: "APSIG 2026 fellowship applications closed Friday 21 August 2026 at 23:59 UTC+8."
+status: researched
+sourceIds:
+  - src-apsig-2026-call-2026-08-26
+  - src-apnic-portal-apsig-2026-2026-08-26
+verifiedAt: "2026-08-26"
+validFrom: "2026-08-07"
+validUntil: "2026-08-21"
+reverifyAfter: "2027-05-01"
+confidence: high
+notes: "Do not copy this deadline to 2027. Do not late-apply. Aggregator posts are not sources for this claim."

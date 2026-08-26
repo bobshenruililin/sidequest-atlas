@@ -4,16 +4,18 @@
 
 **Answer:** **Not computable from any public source.** No Jardine scheme — Oxbridge UG,
 Oxbridge PG, Jardine-HKU, Jardine-UGM, Jardine-Fulbright — publishes an applicant
-count. Award *caps* exist for one scheme only (Jardine-HKU). Without a denominator
-there is no acceptance rate, and any percentage offered to you is fabricated.
-Two of the five claims put to me are **wrong as stated**; three are **confirmed with
-caveats**.
+count. Award *counts* are published for exactly two routes (Jardine-HKU, and the
+Cambridge Trust jointly-funded PG route). Without a denominator there is no acceptance
+rate, and any percentage offered to you is fabricated. Of the five claims put to me:
+**one is wrong as stated** (the SCMP framing), **one is only partly true** (published
+counts), and **three are confirmed with caveats**.
 
 **Method note:** `jardine-foundation.org` is behind a bot-challenge wall (Imperva-style
 `Challenge Validation`; `robots.txt` and `sitemap_index.xml` return 403). Foundation
-pages below are read from Internet Archive captures of the Foundation's own HTML —
-**12 May 2026** (pre-announcement) and **22 Aug 2026** (post-announcement). HKU,
-Queen's, Exeter and Magdalene pages were fetched live on 26 Aug 2026.
+HTML pages below are read from Internet Archive captures of the Foundation's own markup
+— **12 May 2026** (pre-announcement) and **22 Aug 2026** (post-announcement). The HKU,
+Queen's, Exeter, Magdalene and Cambridge Trust pages, and all three Jardine PDFs, were
+fetched live on 26 Aug 2026.
 
 ---
 
@@ -21,7 +23,7 @@ Queen's, Exeter and Magdalene pages were fetched live on 26 Aug 2026.
 
 | # | Claim put to me | Verdict |
 | --- | --- | --- |
-| 1 | Foundation publishes UG/PG award counts or acceptance rates | **Counts: partly. Rates: no, nowhere.** |
+| 1 | Foundation publishes UG/PG award counts or acceptance rates | **Counts: partly, and mostly by partners not the Foundation. Rates: no, nowhere.** |
 | 2 | SCMP 2 Aug 2026 is the best public source for the UG wind-down | **No — the Foundation posted it itself. And the claim is mis-scoped.** |
 | 3 | Sir Man Kam Lo/Jardine + Jardine Ho Tung still on HKU 2026–27 General Round, still faculty-restricted | **Confirmed on both counts — but the restriction text is from cards last updated 2022-06-30.** |
 | 4 | Jardine HKU Scholarship 2026/27 deadline 5 Aug 2026, Y1-only | **Both confirmed. Deadline has passed.** |
@@ -50,13 +52,19 @@ College, Oxford states the opposite of a number under "Number available":
 | **400+** total alumni | Cumulative | Foundation `/about` → "Key facts" |
 | **US$60 million** total value awarded | Cumulative | Foundation `/about` → "Key facts" |
 | **over 470** students since 1982 | Printed under the *Oxbridge UG Scheme* heading | Foundation `/scholarship-schemes` (capture 12 May 2026) |
+| **5 (approximately)** awards, year **2026/27** | **Jardine *Cambridge* Graduate Scholarship only** — the Cambridge Trust jointly-funded PG route, tenable at Downing, Magdalene, Peterhouse, Trinity | [Cambridge Trust funding entry](https://www.student-funding.cam.ac.uk/fund/jardine-cambridge-graduate-scholarship-2025) (last updated 29 Jun 2026) |
 | **Up to TEN** / **Up to FIFTEEN** new awards annually, of which **up to THREE** for Medical-related programmes | Jardine-HKU UG only | [AAS scheme card, Jardine HKU Scholarship](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=705) |
 | **HK$10,000 each** | Jardine Ho Tung | [AAS card 478](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=478) |
 
-Three cautions on that table:
+Four cautions on that table:
 
 - **The `≥ 50` figure is an aggregate, not a UG or PG number.** The Foundation never
   breaks it down by scheme or by level. You cannot allocate it to Oxbridge UG.
+- **The Cambridge Trust `~5` is the narrowest and most useful published count — and it
+  is still not a rate.** It covers *one* of at least four PG routes (standalone Jardine
+  PG, Jardine-Cambridge joint, Jardine-Oxford joint, plus Oxford standalone college
+  nomination). It says nothing about the Oxford side and nothing about applicants. It is
+  a count, not a percentage.
 - **The Jardine-HKU card contradicts itself.** The same page carries a block reading
   "Up to TEN new scholarships shall be awarded annually" *and* a block reading "Up to
   FIFTEEN new scholarships shall be awarded", both with "up to THREE" reserved for
@@ -64,7 +72,22 @@ Three cautions on that table:
   the later revision and **10** as superseded, but this is inference from page order,
   not a statement. Confirm with AAS.
 - **`470+` vs `600+` are different scopes**, most plausibly Oxbridge-only vs
-  all-schemes, but the Foundation does not say so. Do not subtract them.
+  all-schemes, but the Foundation does not say so. Do not subtract them. Likewise
+  `≥ 50/year` does not multiply out to `600+` over 44 years, because annual volume grew
+  sharply when Jardine-HKU and Jardine-UGM opened in 2022 and Jardine-Fulbright in 2025.
+  The two figures describe different eras. Neither is a quota.
+
+### Why no rate will ever appear
+
+This is structural, not an oversight. The Foundation's own PG guidelines state:
+
+> The decisions of the Foundation are final and under no circumstances will
+> representatives of the Foundation be required to explain to applicants or their
+> representatives why any application has been accepted or declined or has not passed
+> any part of the selection process.
+
+The Cambridge Trust adds: "We are not able to contact unsuccessful applicants."
+Institutions that decline to explain individual outcomes do not publish denominators.
 
 ### The specific pages named in the request
 
@@ -74,22 +97,35 @@ Three cautions on that table:
 | `jardine-foundation.org/about/faqs` | **No** | Eligibility, references, coverage. No numbers |
 | `jardine-foundation.org/scholarship-schemes` | Cumulative only | 22 Aug 2026 capture: UG Oxbridge block replaced by the closure notice |
 | `applyjf.jardine-foundation.org` | **No** | Document checklist + safety tips. Live fetch today returns an application error page; 14 Mar 2026 capture shows a nav item reading "Application Closed" under the title "Jardine Foundation Scholarship Awards 2026 Application" |
-| **Magdalene** | **No** | See below — and it is not a PDF |
+| **Magdalene PDF** | **No** | Exists, and is a *postgraduate* criteria document — see below |
 | Queen's Oxford | **No** | "Number available: Varies every year" (PG). UG page gave the 2026-entry deadline as 21 October 2025 |
 | Exeter Oxford | **No** | UG: "one of four colleges at which Jardine Scholarships can be held". PG: invite-only, deadline noon 13 March 2026 |
 
-**On "the Magdalene PDF": I could not confirm that such a document exists.** What
-exists is an HTML page,
-[Sources of Funding and Financial Support](https://www.magd.cam.ac.uk/study-magdalene/undergraduate-study/fees-funding-and-finance/sources-funding).
-Search-engine caches still show it containing "Jardine Foundation Scholarships:
-Magdalene is one of four Cambridge colleges…" — but **fetched live on 26 Aug 2026 that
-page no longer mentions Jardine at all.** Its "Support for Overseas students" list now
-runs Cambridge Trust, Magnifyed Bursary, Prince Philip Scholarship, YH2 Capital
-Scholarship and US Loans. That removal is consistent with the UG wind-down and is
-independent corroboration of it. Neither the cached nor the live version contains a
-count. The only genuine Jardine PDF I found at a partner college is Exeter's
+**The Magdalene PDF is real, and it is postgraduate.** It is
+[The Jardine Foundation Scholarships 2026 for Postgraduate Studies at the Universities of Oxford and Cambridge — Guidelines](https://www.magd.cam.ac.uk/sites/default/files/2026-01/Jardine%20Foundation%20General%20Postgraduate%20Criteria%202026.pdf),
+issued **November 2025** by "Jardine Matheson Limited, Secretaries". Two things worth
+knowing about it:
+
+- **It is byte-identical to the copy Queen's Oxford hosts** (`md5
+  7235eaf75df53a30de9b3f5d2c16da5a` for both). It is a single Foundation-issued document
+  distributed through partner colleges, not per-college criteria. Do not treat two
+  college copies as two sources.
+- **It contains no award count and no acceptance rate.** It sets out eligibility,
+  selection basis, value, application method, and the regulations. Its hardest clause is
+  the concurrent-award bar, which is stricter than the website's "generally not
+  permitted" phrasing: scholars agree "**not to accept any other scholarship either in
+  name or in substance** during the term of the Scholarship."
+
+Separately, Magdalene's **undergraduate** funding page,
+[Sources of Funding and Financial Support](https://www.magd.cam.ac.uk/study-magdalene/undergraduate-study/fees-funding-and-finance/sources-funding),
+**no longer mentions Jardine at all** when fetched live on 26 Aug 2026, although
+search-engine caches still show it containing "Jardine Foundation Scholarships:
+Magdalene is one of four Cambridge colleges…". Its overseas list now runs Cambridge
+Trust, Magnifyed Bursary, Prince Philip Scholarship, YH2 Capital Scholarship and US
+Loans. That removal is consistent with the UG wind-down and is independent
+corroboration of it. Neither version contained a count. Exeter's
 [Jardine Graduate Scholarship Guidelines 2024](https://www.exeter.ox.ac.uk/file/2024/02/Jardine-Graduate-Scholarship-Guidelines-2024.pdf)
-— guidelines, no counts.
+is the equivalent prior-year document — also no counts.
 
 ---
 
@@ -171,15 +207,26 @@ Results announced **by June 2027**.
 | [Sir Man Kam Lo/Jardine](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=242) | "students in the **second year**"; Faculty: **Arts, Business and Economics, Law, Social Sciences** | "To be determined by the Selection Committee" | 2022-06-30 |
 | [Jardine Ho Tung](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=478) | "**BA** students in **any year** of study pursuing a major in the **School of Chinese**" | HK$10,000 each | 2022-06-30 |
 
-Two caveats that matter more than the answer:
+Three caveats that matter more than the answer:
 
 - **Jardine Ho Tung is not merely "Arts".** The card requires a **School of Chinese
-  major** on a BA. The faculty tag understates the restriction substantially.
+  major** on a **BA**. The faculty tag understates the restriction substantially.
 - **Both cards were last updated 2022-06-30**, and both still describe the *2025-26*
   application cycle in their notes ("open in late August 2025 and close in late
   September 2025"). The General Round page itself does not restate faculty limits.
   So the restrictions are *still published* but **not freshly confirmed for 2026-27**.
   Do not treat a 2022 card as a 2026 eligibility ruling — ask AAS.
+- **BASc(GHD) appears to fall outside both.** BASc(GHD) is "hosted by the LKS Faculty of
+  Medicine in collaboration with Faculties of Architecture; Business and Economics; Law;
+  Science; and Social Sciences"
+  ([HKU Admissions](https://www.admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-sciences-global-health-and-development)).
+  The registered home faculty is therefore **Medicine**, which is not among Sir Man Kam
+  Lo/Jardine's four faculties — and collaboration is not enrolment, the same distinction
+  already recorded for the Business School Future Leader scholarship in
+  `docs/aas-ug-scholarships-rank-2026-08.md`. Jardine Ho Tung additionally requires a
+  **BA**, and GHD is a **BASc**. Both therefore read as **ineligible**. This is a reading
+  of published pages, not a ruling: get it in writing from AAS before either is treated
+  as closed or open.
 
 **Also on the books, not asked about:** a third HKU Jardine scheme,
 [Jardine/Henry Lo Scholarship](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=153)
@@ -292,12 +339,12 @@ matters more than the citation.
 - **Whether the 2026–27 Sir Man Kam Lo/Jardine and Jardine Ho Tung faculty
   restrictions still read as the 2022 cards state**: **unknown**. Cards are four years
   stale; the General Round page does not restate them.
-- **Whether BASc(GHD) falls inside "Arts, Business and Economics, Law, Social Sciences"
-  for Sir Man Kam Lo/Jardine purposes: unknown.** This is the load-bearing question for
-  a Year-2 GHD student and it cannot be answered from published pages. Ask AAS in
-  writing before spending effort on the form.
-- **Jardine Ho Tung for a non-BA, non-School-of-Chinese student:** reads as **ineligible**
-  on the published card. Confirm rather than assume.
+- **Whether AAS would treat BASc(GHD)'s collaborating faculties as qualifying** for Sir
+  Man Kam Lo/Jardine, despite the home faculty being Medicine: **unknown**. The published
+  reading is ineligible; only AAS can settle it.
+- **Combined Oxford + Cambridge PG award count: unknown.** Only the Cambridge Trust
+  jointly-funded route publishes a number (`~5` for 2026/27). The Oxford routes and the
+  standalone Jardine PG scheme publish none.
 - **Whether the Foundation will open new Asia-facing UG schemes** with the redirected
   Oxbridge money: the notice says "expanding opportunities for local students to study
   at leading universities in the region" and names no new scheme, no institution, no
@@ -317,15 +364,20 @@ There is no percentage. There is a **shape**:
    awards to autumn 2026 entrants. Chance of *applying*: zero. That is the one
    probability here that is actually knowable.
 2. **Jardine-HKU** is the live HK undergraduate money (**HK$90,000/yr**, renewable at
-   GPA 3.0, up to ~15 awards with 3 reserved for medical) but it is **Year-1 entrance
-   only** and **the 5 Aug 2026 window has closed**. Not available mid-degree.
+   GPA 3.0, up to ~15 awards with 3 reserved for Medical-related programmes — a bucket
+   BASc(GHD) would plausibly sit in, being hosted by LKS Medicine) but it is **Year-1
+   entrance only** and **the 5 Aug 2026 window has closed**. Not available mid-degree.
 3. **The General Round Jardine names** (Sir Man Kam Lo/Jardine, Jardine Ho Tung) are the
    only Jardine-branded awards a current HKU undergraduate can apply for, deadline
-   **24 Sep 2026** for Year 2 — and both carry published restrictions that may exclude
-   you. Resolve eligibility with AAS *before* treating either as a target.
+   **24 Sep 2026** for Year 2 — and on the published pages **BASc(GHD) reads as
+   ineligible for both** (home faculty Medicine; Ho Tung needs a BA in the School of
+   Chinese). Confirm with AAS rather than either assuming exclusion or ticking the box.
 4. **Oxbridge PG remains open** and is the one Jardine route that gets *wider* with
-   time rather than narrower. Note the concurrent-award bar: "Scholars are generally not
-   permitted to accept any other scholarships."
+   time rather than narrower — the Cambridge Trust route publishes **~5 awards for
+   2026/27**. Note the concurrent-award bar, which in the Foundation's own PG guidelines
+   is absolute: scholars agree "not to accept any other scholarship either in name or in
+   substance during the term of the Scholarship." Read the Tung & Ngai award letter
+   against that before treating PG Jardine as stackable.
 
 Anyone who quotes you a percentage for any of the above is inventing it.
 

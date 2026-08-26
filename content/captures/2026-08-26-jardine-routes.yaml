@@ -28,7 +28,9 @@ links:
   - https://www.admissions.hku.hk/fees-and-scholarships/scholarships/jardine-hku-scholarship
   - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=705
   - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=242
-  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=478
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=153
+  - https://web.archive.org/web/20260822/https://www.jardine-foundation.org/scholarship-schemes
+  - https://www.admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-sciences-global-health-and-development
   - https://aas.hku.hk/scholarships-gen-rnd-2026/
   - https://careers.jardines.com/students/
   - https://tungngaifoundation.org/eligibility/
@@ -59,22 +61,21 @@ triangulation:
       London plus GEST Valencia, winter LINK, summer 2027 Laidlaw LiA
     - Bots draft; Bob always submits
   informationGaps:
-    - First-party Foundation HTML for the UG Oxbridge shutdown was
-      challenge-walled on 26 Aug 2026; THE and SCMP attribute the line to the
-      Foundation
+    - First-party Foundation HTML for the Oxbridge UG shutdown recovered from
+      Internet Archive 22 Aug 2026; live site still challenge-walled
     - Combined Oxford plus Cambridge postgraduate award count is unpublished;
       Cambridge Trust prints approximately 5 for 2026/27 Cambridge-side only
     - AAS card 705 conflicts TEN versus FIFTEEN new entrance awards
-    - Sir Man Kam Lo and Ho Tung cards last updated 2022; 2025-26 dates on the
-      cards are stale
-    - Careers students page returned HTTP 500; JETS-closed claim rests on cached
-      extracts plus secondary press
+    - Sir Man Kam Lo and Ho Tung cards last updated 2022; 2026-27 General Round
+      list does not restate faculty limits
+    - Careers students page returned HTTP 500; last primary JETS capture is 4
+      Jun 2025; current-day group status unknown
     - Tung and Ngai award-letter wording on postgraduate overseas flexibility
       versus the two-year HK or Mainland residence commitment
     - GHD normative length and therefore the first honest Oxbridge postgraduate
       entry year
-    - Whether a future Asia-university Foundation undergraduate scheme would
-      ever apply to a continuing HKU student
+    - Whether a future unnamed Asia-university Foundation scheme would ever
+      apply to a continuing HKU student
   opportunityGaps:
     - The only remaining object that still says Jardine Scholar in the Oxbridge
       sense is postgraduate college nomination after a real Oxford or Cambridge
@@ -89,7 +90,10 @@ triangulation:
     - Ticking Sir Man Kam Lo/Jardine or Jardine Ho Tung because General Round is
       one form
     - Need theatre for the Jardine HKU entrance scholarship
-    - Treating JETS, Bright Network, or Rare Talent copy as live
+    - Treating JETS as a live 2026 group scheme from a 2025 archive or from
+      Bright Network copy
+    - Treating SCMP as the primary source for the Oxbridge UG closure
+    - Planning around an unnamed Asia-expansion programme
     - Oxford or Cambridge as a prestige patch that is not the heat-health seam
     - Youde overseas on 4 Sep 2026 because the word scholarship felt adjacent
     - Hiding Tung and Ngai from later Foundation or General Round declarations
@@ -104,16 +108,23 @@ triangulation:
       function actually fits the thesis"
     - GHD normative length is unpublished here; do not lock a 2028 or 2029
       application year as fact
-    - Foundation undergraduate Oxbridge is the wrong life-stage and, per THE 7
-      Aug 2026 and SCMP 2 Aug 2026, the final cohort is autumn 2026 starters
+    - Foundation undergraduate Oxbridge is the wrong life-stage and is closing
+      from the 2027 academic year on the Foundation's own 22 Aug 2026 page; HKU
+      and UGM undergraduate schemes continue
+    - "Fact-check: no percentage is derivable; numerators exist for some routes;
+      no applicant denominator is published anywhere"
+    - "Fact-check: Jardine-HKU Year 1 is on the AAS card, not the Admissions
+      page; deadline 5 Aug 2026 is verbatim and past"
+    - THE 50-scholarships-a-year line is the Foundation about-page aggregate
+      across all schemes, not an Oxbridge quota
+    - Foundation postgraduate concurrent-award bar is absolute in the November
+      2025 guidelines
     - Foundation postgraduate Oxbridge continues via partner colleges after a
       provisional offer; 2026 Magdalene and Queen’s clocks are already dead
     - From 2027, Queen’s requires first-preference college for its Jardine route
     - Jardine HKU Scholarship deadline 5 Aug 2026; Year 1; need-aware
     - General Round 2026-27 lists Sir Man Kam Lo/Jardine and Jardine Ho Tung;
-      GHD matches neither faculty line
-    - THE 50-scholarships-a-year line does not reconcile with 600-plus over
-      40-plus years; do not use it as a quota
+      published reading is GHD ineligible; 2022 cards are not a 2026 ruling
     - Cambridge Trust approximately 5 is a count, not a percentage
     - No published acceptance rate exists
   suggestedImplementations:
@@ -123,9 +134,10 @@ triangulation:
       effort: S
       leverage: high
       owner: bob
-    - action: On the General Round form, do not count on Sir Man Kam Lo/Jardine or
-        Jardine Ho Tung
-      rationale: Faculty and major mismatch; one form is not a waiver
+    - action: On the General Round form, do not tick Sir Man Kam Lo/Jardine or Jardine
+        Ho Tung
+      rationale: Published reading is ineligible; 2022 cards are not a 2026 ruling;
+        one AAS sentence is optional
       effort: S
       leverage: high
       owner: bob

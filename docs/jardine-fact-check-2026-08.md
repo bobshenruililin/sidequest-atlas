@@ -36,7 +36,9 @@ fetched live on 26 Aug 2026.
 ### Acceptance rates: none, anywhere
 
 No page on the Foundation site, the HKU sites, or any partner college page states an
-acceptance rate, an applicant count, or an applicant-to-award ratio. The Queen's
+acceptance rate, an **applicant** count, or an applicant-to-award ratio. Award counts do
+exist for some routes (next section) — those are numerators. The denominator is published
+nowhere, which is what makes a percentage impossible rather than merely hard. The Queen's
 College, Oxford states the opposite of a number under "Number available":
 
 > Varies every year.

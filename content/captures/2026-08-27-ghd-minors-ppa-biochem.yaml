@@ -1,0 +1,187 @@
+schemaVersion: 1.0.0
+id: 2026-08-27-ghd-minors-ppa-biochem
+capturedAt: 2026-08-27T07:45:00.000Z
+title: Year-2 mix is 3 PPA plus BIOC1600 if the Y3 ladder is real; not a dual minor
+rawText: Bob (27 Aug 2026), thinking of medical school or law school later. With
+  GHD plus Tung and Ngai plus Martin plus Laidlaw, would a minor in PPA or
+  biochemistry, or both, help? Definitely doing PPA. Thinking hard about
+  biochem, quote, Should help for med but it is quite challenging.
+spark: Morning memo answered dual-minor declaration and overweighted T&N 3.50.
+  Afternoon correction — the live object is 4 PPA versus 3 PPA plus one BIOC in
+  Year 2, to keep a Year-3 biochemistry ladder. IB Chemistry HL 6, Physics HL,
+  no Biology.
+domains:
+  - career
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://ghd.sph.hku.hk/overview
+  - https://ghd.sph.hku.hk/minor-options
+  - https://admissions.hku.hk/programmes/undergraduate-programmes/bachelor-of-arts-and-sciences-global-health-and-development
+  - https://ugaa.hku.hk/showonemm.php?acad_year=2025&mm_code=SS011
+  - https://ugaa.hku.hk/showonemm.php?acad_year=2025&mm_code=SI004
+  - https://ppa.hku.hk/wp-content/uploads/2025/08/Major_minor_PPA_2025-26.pdf
+  - https://webapp.science.hku.hk/sr4/servlet/enquiry?Type=Minor&Code=MinorInBiochemistry&AdmissionYear=2025
+  - https://webapp.science.hku.hk/sr4/servlet/enquiry?Type=Course&course_code=BIOC1600
+  - https://webapp.science.hku.hk/sr4/servlet/enquiry?Type=Course&course_code=BIOC2600
+  - https://hkumed-ugadmissions.hku.hk/ug_programmes/mbbsge/
+  - https://www.med.hku.hk/en/news/press/20250303-hkumed-launches-first-four-year-mbbs-graduate-entry-track
+  - https://jd.law.hku.hk/applicants/admission-criteria/
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://aas.hku.hk/exa-and-ass/
+  - https://aas.hku.hk/3minterm101/fulltext.html
+  - https://www.scifac.hku.hk/current/ug/academic/requirement
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-tung-ngai-interview
+  - 2026-08-24-cv-density
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Floor test 2026-07-22 — medicine without surgery is no; medicine closed
+      unless real clinical exposure and the floor changes
+    - Ordinary law without Magic Circle is acceptable; JD framed in T&N
+      materials as a regulatory tool only if asked
+    - Thesis is HK as trusted interface, heat-health, CHP-China CDC aim
+    - T&N is 1 of 4 at HKU — real status; public renewal yearly GPA at least
+      3.50 is not the live constraint at CGPA 4.09/4.30
+    - HKU first class is GGPA 3.60 to 4.30; 4.09 is inside the band, 0.21 below
+      4.30, not a class above first class
+    - Doctrine bans treating I can excel at anything as an operating premise;
+      missing IB Biology is a BIOC1600 content gap, not an intelligence gap
+    - IB Chemistry HL 6; Physics HL; no Biology — operator-stated 27 Aug
+      afternoon; Science table treats IB Chemistry SL/HL as HKDSE Chemistry 3+;
+      GHD is non-science so OASS still applies
+    - GHD 2025-26 intake has 84 elective credits; PPA 36 plus biochem 36 leaves
+      12; double-counting not allowed for double-minors; incomplete minor
+      becomes free electives not on transcript
+    - HKU JD regs 2026-27 want a non-law bachelor with at least second class
+      honours; expected 2:1 or equivalent; no minor requirement; LSAT encouraged
+      not mandatory
+    - MBBS-GE official page shows a 4-year track with quota 25; honours degree;
+      admission requirements in Chinese, English and science subjects such as
+      chemistry or biology; Chinese proficiency; no published GPA cutoff, no
+      published biochem-minor requirement
+    - The roughly 300 degree-holder applications figure was for the six-year
+      MBBS, not a GE denominator — never turned into a rate
+    - BIOC1600 prereq is HKDSE L3 Biology, Chemistry, or Combined Science or
+      equivalent; BIOC1600 and BIOC2600 both run 2026-27 first semester, so
+      BIOC2600 cannot be the same semester as a first BIOC1600; biochem is a
+      sequenced ladder colliding with Year-3 placement and summer 2027 LiA
+  informationGaps:
+    - Whether SIS/OASS accepts IB Chemistry HL 6 as the BIOC1600 equivalent for
+      a GHD non-science student without filing extra chemistry
+    - Physics HL level number — operator stated Physics HL, not the grade
+    - Whether POLI1003 is already completed in Year 1
+    - Whether GHD 2025-26 electives are 84 (ghd.sph overview) or 90 (older SPH
+      page) in the Faculty syllabus that actually binds this cohort
+    - POLI1003 semester capacity and enrolment window for this term
+    - Overlap and double-counting between the Faculty of Social Sciences PPA
+      minor and GHD's in-curriculum Global Development in Asia minor (POLI2106,
+      POLI3080, GHAD2002)
+    - How minors sequence against the 6-month capstone placement — ask at the
+      Fukuda GHD sharing Fri 28 Aug 2026
+    - MBBS-GE published requirements for Bob's actual cycle (~2029) — the
+      2026/27 documents are too early to bind him
+  opportunityGaps:
+    - PPA compounds the governance thesis directly — POLI2108 public
+      administration, POLI3035 PA in HK, POLI3064/LLAW3080 governance and law
+      are the coursework version of trusted-interface work and support the
+      JD-as-regulatory-tool framing
+    - If the Year-3 BIOC ladder is wanted, BIOC1600 must be 2026-27 first
+      semester or the chain waits until 2027-28; three PPA courses in Year 2
+      still finish the six-course PPA minor
+    - Keeping unused elective credits after PPA preserves exchange, thesis
+      electives, and placement flexibility
+  falseBargains:
+    - 36 biochem credits as a hedge on a door the 2026-07-22 floor test closed —
+      a minor is not clinical exposure and cannot reopen medicine on Bob's own
+      stated terms
+    - Turning roughly 300 six-year-MBBS applications into a GE admit rate
+    - Treating PPA as a JD admissions ticket — the JD reads honours class and
+      GPA, not minors
+    - Both minors at 72 of 84 credits — paper-feasible, not livable against
+      placement, LiA, and the 3.50 renewal floor
+    - Declaring biochem to keep options open when an undeclared BIOC1600
+      elective preserves the identical option
+    - Answering dual-minor declaration when the operator object was 4 PPA versus
+      3 PPA plus one BIOC
+    - Treating 4.09 as a Tung and Ngai 3.50 renewal scare
+    - Treating 4.09 as miles above first class — the band is 3.60 to 4.30
+    - Treating intelligence as GPA invariance or as a substitute for missing IB
+      Biology inside BIOC1600
+    - Four PPA this year if the Year-3 BIOC ladder is already a real want — that
+      delays BIOC1600 a full year
+  corrections:
+    - PPA is right, and it is right because it compounds the thesis already
+      chosen, not because law or medicine admissions read minors
+    - Morning memo overweighted T&N 3.50 and misread the object as dual-minor
+      declaration; withdrawn as the Year-2 headline
+    - "Afternoon call: 3 PPA plus BIOC1600 if the Year-3 ladder is a real want;
+      do not declare the biochem minor; four PPA only if the ladder can wait
+      until 2027-28 first semester"
+    - Should help for med remains a distortion tell on a full minor; one
+      BIOC1600 is a ladder token, not a reopened identity
+    - Fable morning question kept for the minor-declaration layer; afternoon
+      operating question is 4 PPA versus 3 PPA plus BIOC1600 given Chem HL 6 and
+      no Biology
+    - "Sol corrected question: which Year-2 choices strengthen the GHD thesis,
+      GPA, and HK health-governance position, while generating enough real
+      evidence to decide later between ordinary law and a genuinely reopened
+      medical route"
+    - Call on BIOC1600 — morning no this semester; afternoon yes this first
+      semester if the Year-3 ladder is wanted, via Science OASS as non-science,
+      not as a declared minor
+    - Do not convert CGPA 4.09/4.30 to a 4.0 scale for JD expected-language
+      comparisons
+    - HKU JD regulations say at least second class honours; the admissions page
+      expected language is upper second / 3.3 of 4.0 — those are different
+      sentences; neither is a published admit rate
+  suggestedImplementations:
+    - action: If the Year-3 BIOC ladder is wanted, enrol BIOC1600 in 2026-27 first
+        semester via Science OASS as a GHD non-science student, plus three PPA
+        courses this year
+      rationale: BIOC1600 is first-semester only; delaying it a year compresses
+        BIOC2600 into Year 4; three PPA still finishes the six-course minor
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not declare the biochem minor
+      rationale: Incomplete-minor rules mean a single BIOC1600 already keeps the
+        ladder; a declared minor is the identity-insurance layer
+      effort: S
+      leverage: high
+      owner: shared
+    - action: File Science OASS for BIOC1600 with IB Chemistry HL 6 as the equivalent;
+        do not assume SIS auto-clears GHD students
+      rationale: Non-science non-JUPAS students need adviser approval even with IB
+        Chemistry SL/HL on the equivalence table
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Resolve PPA vs Global Development in Asia overlap before locking the
+        governance home
+      rationale: Double-counting not allowed; buying two overlapping governance minors
+        wastes credits
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: At Fukuda sharing Fri 28 Aug, ask how a first-semester BIOC1600
+        sequences into Year-3 BIOC2600 against the capstone placement
+      rationale: Placement window constrains the advanced BIOC year
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not attempt BIOC2600 in the same first semester as a first BIOC1600
+      rationale: Both run 2026-27 first semester; the ladder is sequential
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane record. No booking refs, phones, emails, HKID, or
+  award-letter internals. IB Chemistry HL 6, Physics HL, and no Biology are
+  operator-stated; Physics HL grade number not recorded.

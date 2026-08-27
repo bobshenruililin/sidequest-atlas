@@ -1,0 +1,184 @@
+schemaVersion: 1.0.0
+id: 2026-08-27-md-hk-practice
+capturedAt: 2026-08-27T08:15:00.000Z
+title: Practise-in-HK is MCHK, not collecting an MD; local GE first
+rawText: Given family investable assets, a saleable property, a primary home,
+  and yearly saving, I do have the financial means to do further studies.
+  Thinking of whether I am able to do an MD somewhere so to practise medicine in
+  HK, and likely financial situation versus typical doctors of my age. Give as
+  many options of pursuing MD or doctor qualifications as possible. Australia?
+  UK? Canada? HK? Prices? Will I come ahead in the end even if I have a primary
+  degree in global health?
+spark: Family capital is enough to fund further study. The live object is
+  practise rights in Hong Kong, not an MD title. Floor test 22 Jul 2026 still
+  closed medicine without surgery unless intern rotations including surgery
+  become wanted.
+domains:
+  - career
+  - capital
+  - opportunity
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://www.mchk.org.hk/english/exam/general_information.html
+  - https://www.mchk.org.hk/english/registration/special_registration.html
+  - https://www.mchk.org.hk/english/registration/recognised_medical_qualifications.html
+  - https://www.mchk.org.hk/files/Full_List_(1st_to_7th_batch)_(Jun_2026)_eng.pdf
+  - https://www.info.gov.hk/gia/general/202606/17/P2026061700379.htm
+  - https://leip.mchk.org.hk/mchkdocs/Guidance%20Notes%20to%20Candidates-English%202026SS.pdf
+  - https://leip.mchk.org.hk/mchkdocs/guidelines1_eligibility.pdf
+  - https://hkumed-ugadmissions.hku.hk/ug_programmes/mbbsge/
+  - https://www.med.hku.hk/en/news/press/20250303-hkumed-launches-first-four-year-mbbs-graduate-entry-track
+  - https://www.med.cuhk.edu.hk/study/prospective-students/undergraduate-study/programme-and-admission/mbchb-and-gps/admissions/non-jupas
+  - https://www.info.gov.hk/gia/general/202406/20/P2024062000250.htm
+  - https://www.info.gov.hk/gia/general/202511/18/P2025111800644.htm
+  - https://hkust.edu.hk/news/hkust-announces-appointment-prof-king-li-founding-dean-medicine
+  - https://warwick.ac.uk/services/finance/studentfinance/fees/overseasfees/
+  - https://warwick.ac.uk/study/postgraduate/courses/mbchb-medicine/
+  - https://study.uq.edu.au/study-options/programs/doctor-medicine-5740
+  - https://www.ha.org.hk/haho/ho/mgd/281805.pdf
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-08-27-ghd-minors-ppa-biochem
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Floor test 2026-07-22 — medicine without surgery is no; mapping MD doors
+      is not a reopened identity
+    - Grey-door closed — unrecognized degrees are not extra options
+    - Family capital is scarce advantage and distortion field; public copy
+      records it as sufficient to fund further study without borrowing as the
+      binding constraint; primary home is not tuition; saleable property is not
+      automatically liquid
+    - GHD is not MBBS; Faculty of Medicine host does not skip MCHK
+    - IB Chemistry HL 6, Physics HL, no Biology — operator-stated; Chem covers
+      HKU GE high-school science-subject language; missing biology is a content
+      gap for UQ-style tertiary prereqs and for some UK science-gated GEM
+    - HKU first class is GGPA 3.60 to 4.30; 4.09 is inside the band, not a class
+      above first class; do not convert onto a 4.0 scale
+    - Thesis remains HK as trusted interface / heat-health / CHP-China CDC aim
+    - Tung and Ngai public copy is two years HK or Mainland after the
+      scholarship with flexibility for overseas postgraduate; a second primary
+      medical qualification is not automatically postgraduate — read the letter
+    - Calendar locks remain Fukuda 28 Aug 2026, term 1 Sep, Youde local, General
+      Round noon 24 Sep 2026, October Laidlaw London plus GEST Valencia
+    - Only HKU and CUHK primary medical graduates are excepted from the MCHK
+      Licensing Examination
+    - Schedule 1A recognition is programme-specific and enrolment-date specific
+      under s.14D; 166 qualifications after the seventh batch gazetted 18 Jun
+      2026; 161 doctors on special registration locally as of end May 2026
+    - HKPR holding a recognized qualification may sit LE under s.7A(1)(b)(ii)
+      Form 1B; 4-year GEM alone is not assumed to satisfy the 5-year including
+      internship Form 1A rule
+  informationGaps:
+    - Whether HKU GE treats BASc Global Health and Development as a relevant
+      discipline on the 2029 cycle page
+    - Whether CUHK GET treats GHD as health science relevant to medicine
+    - Whether 4.09/4.30 maps to CUHK top 10 percent — unpublished
+    - Whether a 4-year GEM plus prior bachelor ever satisfies s.7A(1)(b)(i)
+    - Official HA intern / houseman pay scale — Resident Trainee band is
+      sourced; intern blogs are untrusted
+    - 2028/29 and 2029/30 UGC local tuition — published table ends 2027/28
+    - 2029 HKU/CUHK GE quotas, deadlines, and science-subject lists
+    - HKUST MCHK in-principle accreditation and published admissions
+    - Whether Bristol still runs a live 4-year A101 despite a Schedule 1A row
+    - Warwick/Newcastle overseas equivalent of 4.09/4.30 and 70-hour care-log
+      clock
+    - Tung and Ngai award-letter treatment of a second MBBS/MD
+    - Physics HL grade number
+  opportunityGaps:
+    - HKU MBBS GE quota 25 and CUHK GET extra 25 are the only LE-excepted doors
+      today; apply in GHD final year if the floor reopens
+    - UK any-degree plus Schedule 1A 4-year pair is Warwick A101 and Newcastle
+      A101
+    - Australia Schedule 1A 4-year cluster is Melbourne, UQ, Sydney Metropolitan
+      Stream, UWA, ANU, Monash 4-year
+    - HKUST planned 50-place 2028/29 graduate-entry MBBS is a watch, not a door
+    - Family investable capital can fund listed overseas GEM without selling the
+      primary home; yearly saving cannot
+  falseBargains:
+    - Spray every school to land one
+    - Unrecognized or Caribbean MBBS
+    - Canada because McMaster and Calgary 3-year MDs are on Schedule 1A
+    - Ireland GEM, Duke-NUS, UOW, Deakin, Griffith, or Swansea 4-year as HK
+      practise shortcuts — not on the 18 Jun 2026 list
+    - Nottingham 4-year as listed — the list has the 5-year BMBS/BMedSci
+    - Assuming 4-year GEM satisfies Form 1A five-year training
+    - Treating today's Schedule 1A as a 2029 enrolment guarantee
+    - Selling the primary home to fund tuition
+    - Treating yearly saving as sufficient for Warwick or Melbourne stickers
+    - Treating GHD-in-Medicine as MBBS or as skip-MCHK
+    - Reopening medicine on money after the surgery floor test
+    - Turning about 300 six-year degree-holder applications into a GE rate
+    - Counting HKUST 2028/29 as a live offer
+    - NHS bursary or Australian CSP pricing for an overseas HKPR
+    - Tung and Ngai as an automatic overseas-MD fund
+    - Inventing HA intern pay, admit rates, or lifetime NPV
+  corrections:
+    - Practise in Hong Kong is an MCHK problem; an MD title is not a practising
+      certificate
+    - You can pay; that does not reopen the floor and does not skip LE unless
+      the qualification is HKU or CUHK
+    - Come ahead splits in three — already-ahead family net worth, later HA
+      income, junior clinical seniority versus the 2025 local MBBS cohort
+    - GHD is an any-degree fit at Warwick-type GEM and a question mark for HKU
+      relevant discipline and CUHK health science — not a clinical head start
+    - Local UGC-funded GE is the cheap practise-rights path; international GEM
+      is a high-six-figure GBP or AUD tuition purchase that still dumps into
+      MCHK
+    - Zero medical-school applications this week
+    - Fable question — is this identity hunger after the floor closed
+    - Sol question — which listed door actually yields HK practise rights at the
+      lowest year-and-tuition price if the floor later moves
+  suggestedImplementations:
+    - action: This week Fukuda, Youde, General Round, term — zero MD applications
+      rationale: Calendar locks beat a 2029 admissions problem
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Stay in GHD; do not transfer into a six-year MBBS fantasy
+      rationale: Degree holders are GE-only at HKU and CUHK; GHD is the live degree
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If the Year-3 BIOC ladder is wanted, take BIOC1600 via Science OASS as a
+        ladder token not a declared med-hedge minor
+      rationale: UQ-style tertiary bio is a real gap; a full biochem minor is still
+        not a published HKU GE requirement
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Read the Tung and Ngai letter before treating overseas MD as
+        postgraduate flexibility
+      rationale: A second primary medical qualification is usually not PG
+      effort: S
+      leverage: high
+      owner: bob
+    - action: In 2028 re-read HKU GE, CUHK GET, Schedule 1A, and HKUST accreditation
+        on then-current pages
+      rationale: Enrolment-date and quota facts from 2026 do not bind 2029
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If the floor reopens, apply HKU GE and CUHK GET first; keep Warwick or
+        Newcastle and listed Australian MD as listed overseas backup
+      rationale: Only HKU/CUHK skip LE; listed 4-year plus HKPR Form 1B is the
+        overseas residual
+      effort: M
+      leverage: high
+      owner: bob
+    - action: Do not sell the primary home; do not treat saleable property as
+        already-liquid tuition; do not apply to Canada or off-list 4-year MDs to
+        land one
+      rationale: Capital buys optionality; off-list and closed doors do not buy
+        practise rights
+      effort: S
+      leverage: high
+      owner: shared
+privacyNote: Operator-plane record. No family asset figures, booking refs,
+  phones, emails, HKID, or award-letter internals. Exact capital lives only in
+  the vault capture with the same date slug suffix capital.

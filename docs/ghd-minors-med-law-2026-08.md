@@ -6,7 +6,32 @@
 **Access date:** 27 Aug 2026.  
 **Panel:** Fable and Sol in parallel on locked facts. Binding lines: [Panel](#panel).
 
-**Call:** Take the **PPA minor**. Do **not** declare biochemistry as a medical-school hedge. Do **not** take both. Scholarships do not mint a doctor or a lawyer. GPA does.
+**Call (corrected same day):** The live Year-2 question is **4 PPA courses versus 3 PPA + one BIOC**, not a dual-minor declaration. If Year-3 biochemistry is a real want, take **3 PPA + `BIOC1600`**. Do **not** declare the biochemistry minor. Four PPA only if you are willing to delay `BIOC1600` a full year. Tung and Ngai is a top-HKU lane. 4.09 sits **inside** first class (GGPA **3.60–4.30**), near the top of that band — not a class above it. The 3.50 renewal scare was the wrong instrument.
+
+---
+
+## Correction — Year-2 mix, 27 Aug afternoon
+
+The operator object was misread this morning. The debate is **four PPA courses in Year 2** versus **three PPA plus one BIOC**, the latter to keep a Year-3 biochemistry ladder because many BIOC courses have prerequisites. IB is now stated: **Chemistry HL 6**, **Physics HL**, **no Biology**.
+
+Tung and Ngai (1 of 4 at HKU) is a real status fact. 4.09/4.30 is a real academic fact. HKU first class is **3.60–4.30** GGPA ([AAS Examination and Assessment](https://aas.hku.hk/exa-and-ass/); UG9). 4.09 is strong first class. It is not “miles above first class”; that phrase treats first class as a UK 2:1 ceiling. On this scale first class **is** the top class, and 4.09 is 0.21 below 4.30. Tung and Ngai yearly renewal at **3.50** is far below 4.09. One 6-credit course cannot move 4.09 to the renewal line. That part of this morning’s memo is withdrawn.
+
+What does not follow: “GPA has nothing on me” because of intelligence. Doctrine treats “I can excel at anything” as a closed operating premise. `BIOC1600` is not a PPA exam. Its own syllabus teaches chemistry-for-biochemistry **and** biology-for-biochemistry (proteins, DNA, central dogma). Chemistry HL 6 covers the chemistry gate. Missing biology is a **content** gap, not an IQ gap. Physics HL does not substitute for biology on the Science equivalence table.
+
+Science Faculty equivalence: IB Chemistry SL/HL counts as HKDSE Chemistry 3 or above ([Science academic requirement](https://www.scifac.hku.hk/current/ug/academic/requirement)). GHD is **not** on the Science-student list (BSc and named variants). Non-science non-JUPAS students still file **OASS** for course-selection-adviser approval even with an equivalent qualification, then forward it to the home faculty to add the course.
+
+`BIOC1600` and `BIOC2600` both run **2026–27 first semester**. You cannot take `BIOC2600` in the same first semester as a first `BIOC1600`. If the Year-3 ladder is the point, `BIOC1600` has to be **this** first semester or you wait until 2027–28 first semester and compress `BIOC2600` into Year 4.
+
+PPA minor is six courses (POLI1003 + 30 advanced). Three PPA in Year 2 still finishes the minor across Year 3–4 around placement. Four PPA is denser thesis, not required to keep PPA alive.
+
+**Mix call**
+
+| Year-2 mix | Take it if | Do not take it if |
+| --- | --- | --- |
+| **3 PPA + `BIOC1600`** | You actually want Year-3 `BIOC2600` / further BIOC. This is the only way to start the ladder in 2026–27. | You are using one BIOC as a ritual to keep medicine open. Medicine is still closed on the surgery floor test until clinical evidence changes it. |
+| **4 PPA** | The biochemistry ladder is a curiosity you can start in 2027–28 first semester. | You already know you want more BIOC in Year 3 — waiting costs a year of prerequisite chain. |
+
+Default, given the stated Year-3 option: **3 PPA + `BIOC1600`**. Do not declare the minor. Do not take four BIOC later unless the thesis or a reopened floor asks for them.
 
 ---
 
@@ -14,11 +39,11 @@
 
 **Would PPA help?** Yes — for the **thesis you already chose** (HK as trusted interface, governance, CHP–China CDC aim) and as honest preparation if JD-after-GHD remains the regulatory-tool fork. It is **not** a published JD admissions requirement. It does almost nothing for MBBS Graduate Entry science requirements.
 
-**Would biochemistry help for medicine?** A full 36-credit minor is **not a published MBBS-GE requirement**. Press copy wants an honours degree and university science subjects such as chemistry or biology. That is not the same as a biochem transcript line. The honest cost is GPA risk against Tung and Ngai’s published yearly renewal of **3.50**, plus a course ladder that collides with the Year-3 placement. “Should help for med” is the tell that medicine is trying to re-enter through electives after the 22 Jul 2026 floor test closed it (medicine without surgery = no), unless real clinical exposure changes the floor.
+**Would biochemistry help for medicine?** A full 36-credit **minor** is **not a published MBBS-GE requirement**. Press copy wants an honours degree and university science subjects such as chemistry or biology. One `BIOC1600` is a prerequisite token, not that minor. “Should help for med” is still the tell that medicine is trying to re-enter through electives after the 22 Jul 2026 floor test (medicine without surgery = no), unless real clinical exposure changes the floor. The Year-2 mix can still be 3+1 **as a ladder**, not as a reopened identity.
 
-**Both?** On paper, 36 + 36 = 72 of **84** elective credits, leaving 12. That is not a livable plan against placement, Laidlaw LiA, Youde/General Round, and the 3.50 floor.
+**Both minors?** On paper, 36 + 36 = 72 of **84** elective credits, leaving 12. That is still not the Year-2 question. Do not declare both.
 
-**Do the scholarships help later school?** They help the **story** and they make GPA precious. They are not published selection criteria for JD or MBBS-GE.
+**Do the scholarships help later school?** Tung and Ngai, Martin, and Laidlaw help the **story**. They are not published selection criteria for JD or MBBS-GE. They do not make `BIOC1600` the same course as PPA.
 
 ---
 
@@ -74,17 +99,16 @@ Tung and Ngai public copy: two years in Hong Kong or Mainland after the scholars
 
 | Choice | Law later | Med later | Current thesis | GPA / T&N |
 | --- | --- | --- | --- | --- |
-| **PPA** | Honest prep (PA, HK governance, governance-and-law). Not a JD ticket. | Near-zero on science prereqs. | **Strong.** This is coursework that looks like the seam. | Manageable if you do not overload. Renewal still **3.50**. |
-| **Biochem** | None. | Science *coursework*, not clinical evidence, not a published required minor. | Weak unless the heat-health artefact actually needs lab methods. | **High.** Challenging ladder + unknown IB science gate. |
+| **PPA** | Honest prep (PA, HK governance, governance-and-law). Not a JD ticket. | Near-zero on science prereqs. | **Strong.** This is coursework that looks like the seam. | 4.09 is already first-class territory. Three PPA this year still finishes the minor. |
+| **One `BIOC1600` (not the minor)** | None for JD. | Prerequisite token; not a published required minor; not clinical evidence. | Weak unless methods are real. | Not a 3.50 event. Content gap is missing biology, not intelligence. Chem HL 6 is the chemistry gate. |
+| **Biochem minor** | None. | Science *coursework*, not clinical evidence, not a published required minor. | Weak unless the heat-health artefact actually needs lab methods. | Ladder collides with Year-3 placement. Do not declare it to keep an option. |
 | **Both** | PPA benefit unchanged. | Adds lines, not a reopened floor. | Dilutes. | 72/84 credits. 12-credit buffer. False bargain. |
 
 ---
 
 ## Distortion field
 
-Medicine failed the surgery floor test on 22 Jul 2026. A biochem minor does not create surgery attraction and is not clinical exposure. Using 36 credits to keep the doctor story warm is identity insurance, premium paid in the GPA that renews Tung and Ngai.
-
-Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to smash Year 2.
+Medicine failed the surgery floor test on 22 Jul 2026. A biochem **minor** does not create surgery attraction and is not clinical exposure. One `BIOC1600` can be a ladder token. Using a full minor to keep the doctor story warm is still identity insurance. Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to dump PPA.
 
 ---
 
@@ -92,11 +116,10 @@ Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to s
 
 **This week**
 
-1. Fukuda GHD sharing, **Friday 28 Aug 2026**. Ask how minors sit against the capstone placement. Do not ask “how do I get into MBBS from GHD.”
-2. Term **1 Sep**. If SIS still has **POLI1003**, take it. That is the PPA declare prereq.
+1. Fukuda GHD sharing, **Friday 28 Aug 2026**. Ask how minors sit against the capstone placement, and how a first-semester `BIOC1600` sequences into Year-3 `BIOC2600`. Do not ask “how do I get into MBBS from GHD.”
+2. Term **1 Sep**. If the Year-3 BIOC ladder is wanted: `BIOC1600` this first semester, via Science **OASS** (GHD is non-science for that table), plus **three** PPA courses this year (`POLI1003` if not already done). If the ladder is not wanted: four PPA, no BIOC.
 3. Youde local and General Round (noon **24 Sep 2026**) still occupy the live queue.
-4. Do **not** declare biochemistry. Do **not** enrol BIOC1600 this first semester as a med hedge. It is offered 2026–27 first semester; missing it delays the ladder a year — that is acceptable if the minor is not the plan.
-5. Pull the IB transcript. Record science subjects and levels in canon. Unknown chemistry/biology is an information gap, not a reason to guess.
+4. Do **not** declare the biochemistry minor. Do **not** attempt `BIOC2600` in the same first semester as a first `BIOC1600`.
 
 **Next 12 months**
 
@@ -104,7 +127,7 @@ Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to s
 - Confirm 84 vs 90 in the 2025 Faculty syllabus.
 - Resolve PPA vs GHD Global Development in Asia overlap before locking both.
 - Laidlaw artefact over extra branded lines.
-- Biochem only if (a) the thesis needs lab methods, dated in writing, or (b) the medicine floor actually reopens after real clinical exposure. Then one BIOC1600 as a **free elective** in a GPA-safe semester is a probe. Incomplete-minor rules mean you do not need to declare first.
+- If `BIOC1600` is taken this year, treat it as a **probe**. Year-3 `BIOC2600` only if the course was actually useful (methods or a reopened floor), not because the seat exists. Incomplete-minor rules mean you still do not declare.
 
 **~2029**
 
@@ -119,7 +142,9 @@ Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to s
 
 **Sol (binding on the table and sequencing):** PPA yes. Biochem no as a medical-school hedge. Both no. Do not take BIOC1600 speculatively until IB sciences are known. 2029 decisions use then-current pages. Corrected question: which Year-2 choices strengthen the GHD thesis, GPA, and HK health-governance position, while generating enough real evidence to decide later between ordinary law and a *genuinely* reopened medical route.
 
-**Where they differed (and the call):** Fable allows a later BIOC1600 probe as a free elective; Sol blocks speculative BIOC1600 until the IB check. **Call:** no BIOC1600 this week or this first semester. After the IB transcript, a single elective is allowed only for thesis methods, not as a med hedge. Do not declare the minor to “keep the option.”
+**Where they differed (and the morning call):** Fable allows a later BIOC1600 probe as a free elective; Sol blocks speculative BIOC1600 until the IB check. Morning call was no BIOC1600 this first semester.
+
+**Same-day correction:** IB sciences are now stated (Chem HL 6, Physics HL, no Biology). The operator object is 4 PPA vs 3 PPA + one BIOC. **Call:** 3 + `BIOC1600` if the Year-3 ladder is a real want; OASS as a non-science student; do not declare the minor. The 3.50-renewal headline is withdrawn. “Miles above first class” is still false on UG9. “GPA has nothing on me” remains a closed operating premise; the live gap is missing biology inside `BIOC1600`, not Tung and Ngai.
 
 ---
 
@@ -143,6 +168,8 @@ Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to s
 | [HKU JD admission criteria](https://jd.law.hku.hk/applicants/admission-criteria/) | Expected 2:1 / 3.3/4.0 language |
 | [T&N AAS card](https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766) | Renewal yearly GPA **3.50** |
 | [T&N eligibility](https://tungngaifoundation.org/eligibility/) | Two-year HK/Mainland; overseas PG flexibility |
+| [AAS Examination and Assessment](https://aas.hku.hk/exa-and-ass/) | First class GGPA **3.60–4.30** |
+| [Science academic requirement / IB equivalence](https://www.scifac.hku.hk/current/ug/academic/requirement) | IB Chemistry SL/HL ≡ HKDSE Chemistry 3+; non-science students still need OASS |
 
 ---
 
@@ -150,7 +177,9 @@ Quota 25 will read as elite scarcity. That is prestige hunger, not a reason to s
 
 - Invent a JD or MBBS-GE admit rate or GPA cutoff.
 - Convert 4.09/4.30 onto a 4.0 scale.
+- Treat 4.09 as a class above HKU first class (the band is 3.60–4.30).
 - Treat GHD-in-Medicine as MBBS.
 - Print SIS enrolment clocks, course coordinator emails, or award-letter internals.
 - Reopen medicine on coursework alone.
 - Tell you to transfer into LLB this week.
+- Treat intelligence as a substitute for a biology prerequisite.

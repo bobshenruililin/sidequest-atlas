@@ -1,15 +1,15 @@
 schemaVersion: 1.0.0
 id: 2026-08-27-ghd-minors-ppa-biochem
-capturedAt: 2026-08-27T07:15:00.000Z
-title: PPA minor yes for the thesis; biochem minor is medicine re-entering
-  through the elective budget
+capturedAt: 2026-08-27T07:45:00.000Z
+title: Year-2 mix is 3 PPA plus BIOC1600 if the Y3 ladder is real; not a dual minor
 rawText: Bob (27 Aug 2026), thinking of medical school or law school later. With
   GHD plus Tung and Ngai plus Martin plus Laidlaw, would a minor in PPA or
   biochemistry, or both, help? Definitely doing PPA. Thinking hard about
   biochem, quote, Should help for med but it is quite challenging.
-spark: Minor selection for Year 2 is a 36-to-72-credit allocation of the
-  84-credit elective budget, colliding with T&N yearly GPA 3.50 renewal, Year-3
-  capstone placement, and the closed-medicine floor test.
+spark: Morning memo answered dual-minor declaration and overweighted T&N 3.50.
+  Afternoon correction — the live object is 4 PPA versus 3 PPA plus one BIOC in
+  Year 2, to keep a Year-3 biochemistry ladder. IB Chemistry HL 6, Physics HL,
+  no Biology.
 domains:
   - career
   - idea
@@ -30,7 +30,9 @@ links:
   - https://www.med.hku.hk/en/news/press/20250303-hkumed-launches-first-four-year-mbbs-graduate-entry-track
   - https://jd.law.hku.hk/applicants/admission-criteria/
   - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+  - https://aas.hku.hk/exa-and-ass/
   - https://aas.hku.hk/3minterm101/fulltext.html
+  - https://www.scifac.hku.hk/current/ug/academic/requirement
 relatedTrips: []
 relatedRepos:
   - https://github.com/bobshenruililin/Laidlaw-Heat-Project
@@ -46,7 +48,15 @@ triangulation:
     - Ordinary law without Magic Circle is acceptable; JD framed in T&N
       materials as a regulatory tool only if asked
     - Thesis is HK as trusted interface, heat-health, CHP-China CDC aim
-    - T&N public renewal needs yearly GPA at least 3.50 or equivalent
+    - T&N is 1 of 4 at HKU — real status; public renewal yearly GPA at least
+      3.50 is not the live constraint at CGPA 4.09/4.30
+    - HKU first class is GGPA 3.60 to 4.30; 4.09 is inside the band, 0.21 below
+      4.30, not a class above first class
+    - Doctrine bans treating I can excel at anything as an operating premise;
+      missing IB Biology is a BIOC1600 content gap, not an intelligence gap
+    - IB Chemistry HL 6; Physics HL; no Biology — operator-stated 27 Aug
+      afternoon; Science table treats IB Chemistry SL/HL as HKDSE Chemistry 3+;
+      GHD is non-science so OASS still applies
     - GHD 2025-26 intake has 84 elective credits; PPA 36 plus biochem 36 leaves
       12; double-counting not allowed for double-minors; incomplete minor
       becomes free electives not on transcript
@@ -63,12 +73,11 @@ triangulation:
       equivalent; BIOC1600 and BIOC2600 both run 2026-27 first semester, so
       BIOC2600 cannot be the same semester as a first BIOC1600; biochem is a
       sequenced ladder colliding with Year-3 placement and summer 2027 LiA
-    - Bob's IB science subjects are unknown in canon (IB 41, English A 7,
-      Chinese A 6 known); do not invent chemistry HL
   informationGaps:
-    - Bob's IB science subjects and levels — decides BIOC1600 eligibility and
-      whether MBBS-GE science-subject university admission requirements are
-      satisfiable; pull the IB transcript and record in canon
+    - Whether SIS/OASS accepts IB Chemistry HL 6 as the BIOC1600 equivalent for
+      a GHD non-science student without filing extra chemistry
+    - Physics HL level number — operator stated Physics HL, not the grade
+    - Whether POLI1003 is already completed in Year 1
     - Whether GHD 2025-26 electives are 84 (ghd.sph overview) or 90 (older SPH
       page) in the Faculty syllabus that actually binds this cohort
     - POLI1003 semester capacity and enrolment window for this term
@@ -84,11 +93,10 @@ triangulation:
       administration, POLI3035 PA in HK, POLI3064/LLAW3080 governance and law
       are the coursework version of trusted-interface work and support the
       JD-as-regulatory-tool framing
-    - After the IB check, one BIOC1600 as a free elective in a later GPA-safe
-      semester is a probe at one-sixth the cost of a declared minor, and only if
-      the thesis needs lab methods; incomplete-minor rules mean declaring early
-      buys nothing
-    - Keeping 48 elective credits free after PPA preserves exchange, thesis
+    - If the Year-3 BIOC ladder is wanted, BIOC1600 must be 2026-27 first
+      semester or the chain waits until 2027-28; three PPA courses in Year 2
+      still finish the six-course PPA minor
+    - Keeping unused elective credits after PPA preserves exchange, thesis
       electives, and placement flexibility
   falseBargains:
     - 36 biochem credits as a hedge on a door the 2026-07-22 floor test closed —
@@ -101,45 +109,58 @@ triangulation:
       placement, LiA, and the 3.50 renewal floor
     - Declaring biochem to keep options open when an undeclared BIOC1600
       elective preserves the identical option
-    - Enrolling BIOC1600 in 2026-27 first semester as a med hedge during Fukuda,
-      term start, Youde local, and General Round
+    - Answering dual-minor declaration when the operator object was 4 PPA versus
+      3 PPA plus one BIOC
+    - Treating 4.09 as a Tung and Ngai 3.50 renewal scare
+    - Treating 4.09 as miles above first class — the band is 3.60 to 4.30
+    - Treating intelligence as GPA invariance or as a substitute for missing IB
+      Biology inside BIOC1600
+    - Four PPA this year if the Year-3 BIOC ladder is already a real want — that
+      delays BIOC1600 a full year
   corrections:
     - PPA is right, and it is right because it compounds the thesis already
       chosen, not because law or medicine admissions read minors
-    - Should help for med is the distortion tell — biochem here is identity
-      insurance on the doctor story, premium paid in GPA risk to T&N, the asset
-      actually compounding; quota 25 reads as elite scarcity to prestige hunger
-    - "Fable corrected question: which use of 84 elective credits best compounds
-      the thesis while keeping every yearly GPA at or above 3.50 — not which
-      minor helps med or law"
+    - Morning memo overweighted T&N 3.50 and misread the object as dual-minor
+      declaration; withdrawn as the Year-2 headline
+    - "Afternoon call: 3 PPA plus BIOC1600 if the Year-3 ladder is a real want;
+      do not declare the biochem minor; four PPA only if the ladder can wait
+      until 2027-28 first semester"
+    - Should help for med remains a distortion tell on a full minor; one
+      BIOC1600 is a ladder token, not a reopened identity
+    - Fable morning question kept for the minor-declaration layer; afternoon
+      operating question is 4 PPA versus 3 PPA plus BIOC1600 given Chem HL 6 and
+      no Biology
     - "Sol corrected question: which Year-2 choices strengthen the GHD thesis,
       GPA, and HK health-governance position, while generating enough real
       evidence to decide later between ordinary law and a genuinely reopened
       medical route"
-    - Call on BIOC1600 — Fable allows a later free-elective probe; Sol blocks
-      speculative enrolment until IB sciences are known; no BIOC1600 this week
-      or this first semester; a later single elective only for thesis methods,
-      not as a med hedge; do not declare the minor to keep the option
+    - Call on BIOC1600 — morning no this semester; afternoon yes this first
+      semester if the Year-3 ladder is wanted, via Science OASS as non-science,
+      not as a declared minor
     - Do not convert CGPA 4.09/4.30 to a 4.0 scale for JD expected-language
       comparisons
     - HKU JD regulations say at least second class honours; the admissions page
       expected language is upper second / 3.3 of 4.0 — those are different
       sentences; neither is a published admit rate
   suggestedImplementations:
-    - action: Enrol POLI1003 this semester if capacity exists (PPA declare prereq)
-      rationale: Starts the only minor that serves the thesis; term begins 1 Sep
+    - action: If the Year-3 BIOC ladder is wanted, enrol BIOC1600 in 2026-27 first
+        semester via Science OASS as a GHD non-science student, plus three PPA
+        courses this year
+      rationale: BIOC1600 is first-semester only; delaying it a year compresses
+        BIOC2600 into Year 4; three PPA still finishes the six-course minor
       effort: S
       leverage: high
       owner: bob
-    - action: Do not declare the biochem minor this week or as a med hedge
-      rationale: Floor test closed medicine; minor is not clinical exposure; GPA risk
-        to T&N renewal
+    - action: Do not declare the biochem minor
+      rationale: Incomplete-minor rules mean a single BIOC1600 already keeps the
+        ladder; a declared minor is the identity-insurance layer
       effort: S
       leverage: high
       owner: shared
-    - action: Pull IB transcript, record science subjects and levels in canon
-      rationale: Decides BIOC1600 eligibility and MBBS-GE science-requirement
-        satisfiability at near-zero cost
+    - action: File Science OASS for BIOC1600 with IB Chemistry HL 6 as the equivalent;
+        do not assume SIS auto-clears GHD students
+      rationale: Non-science non-JUPAS students need adviser approval even with IB
+        Chemistry SL/HL on the equivalence table
       effort: S
       leverage: high
       owner: bob
@@ -150,20 +171,17 @@ triangulation:
       effort: S
       leverage: medium
       owner: bob
-    - action: At Fukuda sharing Fri 28 Aug, ask how minors sequence against the
-        6-month capstone placement
-      rationale: Placement window constrains any advanced-course ladder
+    - action: At Fukuda sharing Fri 28 Aug, ask how a first-semester BIOC1600
+        sequences into Year-3 BIOC2600 against the capstone placement
+      rationale: Placement window constrains the advanced BIOC year
       effort: S
       leverage: high
       owner: bob
-    - action: After the IB transcript, take BIOC1600 as a single free elective only in
-        a later GPA-safe semester if the thesis needs lab methods — probe, not
-        declaration, not this first semester
-      rationale: Sol blocks speculative BIOC1600; Fable probe survives only as thesis
-        methods; incomplete-minor rules mean declaring early buys nothing
-      effort: M
-      leverage: medium
+    - action: Do not attempt BIOC2600 in the same first semester as a first BIOC1600
+      rationale: Both run 2026-27 first semester; the ladder is sequential
+      effort: S
+      leverage: high
       owner: bob
 privacyNote: Operator-plane record. No booking refs, phones, emails, HKID, or
-  award-letter internals. IB subject details deliberately left as an information
-  gap until Bob supplies the transcript.
+  award-letter internals. IB Chemistry HL 6, Physics HL, and no Biology are
+  operator-stated; Physics HL grade number not recorded.

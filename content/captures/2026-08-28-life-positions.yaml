@@ -1,0 +1,159 @@
+schemaVersion: 1.0.0
+id: 2026-08-28-life-positions
+capturedAt: 2026-08-28T04:20:00.000Z
+title: Life-as-portfolio essay is 看懂持仓, not 不断调仓
+rawText: |-
+  Analyze mine.
+
+  人从出生开始，其实就已经有仓位了
+  出生家庭，是你的初始资本。
+  出生城市，是你天然暴露的市场 Beta。
+  父母买学区房，是加杠杆做多教育；
+  从小报一堆兴趣班，是早期 VC 撒网，十个项目里赌一个爆款。
+  高考选专业，是买入一只至少锁仓四年的行业 ETF。
+  选错赛道，毕业的时候可能刚好赶上行业熊市；
+  选对赛道，相当于在产业周期启动前拿到了低成本筹码。
+  找工作，其实是在选成长股。
+  进对公司，比一开始多拿那几千块工资重要得多。
+  你加入一家高速增长的公司，本质上是在用自己的时间和职业生涯，做多它未来几年的增长。
+
+  公司涨，你的职位、薪资、人脉、认知一起涨。
+  公司跌，哪怕你能力没变，也可能被行业 Beta 一起拖下去。
+  所以跳槽，本质上也是调仓。
+  有人频繁追涨杀跌，有人拿着一只十倍股很多年。
+  买房，是人生里最大的一笔杠杆交易之一。
+  首付是本金，房贷是融资，城市是标的，职业收入是保证金。
+
+  结婚就更有意思了。
+
+  它不只是“两张资产负债表合并”，更像是选择一个长期合伙人，共同经营一家无限存续期公司。
+  你选的不只是对方现在有多少钱，
+  还包括他的性格、信用、消费习惯、家庭背景、抗风险能力，以及未来二三十年的现金流创造能力。
+
+  好的婚姻是并购以后产生协同效应，1+1>2；
+  坏的婚姻，则可能是一次带着无限连带责任的灾难性并购。
+  生孩子，是一只封闭期二十年以上、持续追加资本、无法提前赎回的基金。
+  不保本，不承诺收益，但很多人依然愿意把人生最宝贵的时间和现金流定投进去。
+
+  甚至健康也是仓位。年轻的时候疯狂透支身体，相当于不断从未来借钱；睡眠、运动、饮食，则是在给自己最重要的生产性资产做 CapEx。
+
+  养老金，则是你用几十年的现金流，去做多未来的国家信用、人口结构和社会制度。
+
+  所以这个世界根本不存在所谓的“我不投资”。你不买股票，不代表你没有仓位。
+
+  你的城市、专业、职业、公司、房子、婚姻、孩子、健康，全部都是仓位。
+
+  真正的区别只是：
+  有些仓位是你主动选的，
+  有些仓位，是默认配置给你的。
+
+  而人生最重要的能力之一，就是尽早看懂自己的持仓，然后不断调仓。
+spark: Flattering life-as-portfolio OS pasted the day after an MD-everywhere
+  map. The true instruction is see the book. The false instruction for this
+  operator is keep rebalancing identity.
+domains:
+  - career
+  - capital
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links: []
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-07-22-four-sparks-portfolio
+  - 2026-08-27-md-hk-practice
+  - 2026-07-22-tung-ngai-interview
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed — 不断调仓 is the anti-doctrine punchline for a funded
+      operator
+    - Family capital is scarce advantage and distortion field; public copy stays
+      qualitative; primary home is not tuition
+    - Floor tests 2026-07-22 — no medicine without surgery; ordinary law without
+      Magic Circle acceptable; grey door closed
+    - GHD 2025-2029 is the four-year lockup already bought; Year 2 starts 1 Sep
+      2026
+    - Thesis is HK as trusted interface / heat-health / CHP-China CDC aim
+    - Tung and Ngai 1 of 4 at HKU, Laidlaw, Martin are one correlated HK-gateway
+      health stack, not diversification
+    - 4.09/4.30 sits inside HKU first class 3.60 to 4.30, not above it
+    - Yesterday 27 Aug MD map is a practise-rights encyclopaedia, not a live
+      rebalance
+    - Calendar 28 Aug 2026 Fukuda sharing is today; Youde local; General Round
+      noon 24 Sep; October Laidlaw London plus GEST Valencia; winter LINK;
+      summer 2027 LiA
+  informationGaps:
+    - Childhood 学区房 and 兴趣班 — not in canon; do not invent
+    - Health CapEx — no sleep or training log in this session
+    - Marriage and children — unopened; do not mark to market
+    - Tung and Ngai letter versus a second primary medical qualification
+    - Physics HL grade number
+  opportunityGaps:
+    - The liquid sleeve is attention this week — Fukuda, Youde, General Round
+    - GHD plus thesis plus scholar stack is the ten-bagger only if held through
+      the lockup
+    - LINK and LiA are growth-stock probes, not a company long yet
+    - Ordinary law remains an acceptable later overlay if asked
+  falseBargains:
+    - 不断调仓 as the adult skill when initial capital is already funded
+    - Treating GHD as a failed pre-med ETF to rotate in Year 2
+    - Lifting the medicine stop-loss because family NAV can pay
+    - Mixing household assets with doctor salary paths
+    - Treating unopened marriage and kids as underweight
+    - Inventing 学区房 or 兴趣班 to complete the metaphor
+    - Treating T&N, Laidlaw, and Martin as uncorrelated alphas
+    - Grey-door leverage
+    - Paper-trading the primary home as MD margin
+  corrections:
+    - The essay is right that you already have a book and wrong that the skill
+      is constant rebalancing
+    - See the book; do not rebalance identity; rebalance today's attention
+    - Stop-losses are the book — medicine, grey door, ordinary-law floor
+    - Concentration in HK interface is the thesis, not a bug
+    - Fable question — which single position held through 2030 compounds the
+      thesis, and which 调仓 urge is churn
+    - Sol question — which verifiable Fukuda action produces external evidence
+      on the GHD core
+  suggestedImplementations:
+    - action: At Fukuda today, get one person, one question, one next step on
+        placement or thesis sequencing
+      rationale: The only liquid 调仓 this week is attention, not identity
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Finish Youde local and General Round by noon 24 Sep
+      rationale: Live windows beat a metaphorical portfolio
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Treat 22 Jul floors as written stop-losses
+      rationale: Yesterday's MD map was 追涨杀跌 against a delisted name
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Hold GHD through 2029; do not rotate into a second four-year medical
+        lockup this year
+      rationale: Leaving GHD is a new lockup, not a rebalance
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not paper-trade marriage, children, or household property as personal
+        leverage
+      rationale: Unopened is not underweight
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Re-read 2029 GE and MCHK pages in 2028 only if the surgery floor has
+        actually moved
+      rationale: Sol allows an OTM call; Fable would not even keep the ticker; neither
+        spends this week on it
+      effort: S
+      leverage: medium
+      owner: bob
+privacyNote: Operator-plane record. No family asset figures, phones, emails,
+  HKID, or award-letter internals. No invented 学区房, 兴趣班, marriage, or children.

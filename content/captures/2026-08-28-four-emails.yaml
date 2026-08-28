@@ -1,0 +1,116 @@
+schemaVersion: 1.0.0
+id: 2026-08-28-four-emails
+capturedAt: 2026-08-28T16:05:00.000Z
+title: Four emails tomorrow; GE confidence is not a seat
+rawText: >
+  So we have 4 emails to write: 1 to Bishai, on getting back the paper of
+  comment of my laidlaw project; 2 to hku exchange office asking why I was
+  rejected first year depsite a 4.24 gpa and what to do to prevent that, whether
+  it's linked to block by my faculty; 3 to named chat handle, keiji is the
+  previous founder of my degree and would benefit as a great recommender/mentor;
+  4 to GHD office applying to overload. It's really late so tmr? Remind me to
+  give you all infos. But I'm really confident now to get into graduate entry
+  medicine especially with a biochemistry minor and great ghd.
+spark: Late-night four-mail queue is real. The last sentence tries to reopen
+  medicine through confidence plus a minor. Hold send until a 29 Aug info dump.
+  Current CGPA in canon is 4.09/4.30; 4.24 is not a living number.
+domains:
+  - career
+  - opportunity
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/hku-worldwide-student-exchange
+relatedTrips: []
+relatedRepos:
+  - https://github.com/bobshenruililin/Laidlaw-Heat-Project
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-08-27-md-hk-practice
+  - 2026-08-28-life-positions
+  - 2026-08-27-ghd-minors-ppa-biochem
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Bots draft; Bob sends; no mail tonight
+    - Floor 2026-07-22 — no medicine without surgery; mapping GE is not a seat
+    - Biochem minor is not a published HKU or CUHK graduate-entry requirement
+    - GHD is not MBBS; Faculty of Medicine host does not skip MCHK
+    - Current CGPA 4.09/4.30 after Semester 2 2025/26; do not revive 4.24 as who
+      he is now; a Year-1 form may have shown a Semester-1 figure
+    - HKUWW official page — Year 2 or above higher placement priority than Year
+      1; faculty support required; CGPA as of Semester 1 in the year of
+      application; 2027/28 main round 12 Oct to 11 Dec 2026
+    - Voice — first two lines who attach ask; no synergy; no psychological debt
+    - Calendar — term 1 Sep; Youde local; General Round noon 24 Sep; Fukuda was
+      28 Aug
+    - Grey-door closed; do not harvest or print staff addresses
+  informationGaps:
+    - Laidlaw file name, last send date, comment deadline
+    - Which HKUWW round, hosts, rejection wording, GPA on that form, faculty
+      support tick
+    - Whether Fukuda 28 Aug produced an actual conversation with Keiji
+    - Overload course codes, current vs target credits, official GHD form
+    - Whether Youde is still unsent
+  opportunityGaps:
+    - Year-2 HKUWW main round 12 Oct 2026 is the published intended window
+    - Bishai comments keep the Laidlaw artefact compounding
+    - Keiji is a GHD sequencing mentor if the ask is GHD, not MBBS-GE
+    - Overload only if the credit arithmetic is real (placement, PPA, BIOC1600
+      as ladder not med hedge)
+  falseBargains:
+    - Sending four tired emails tonight
+    - Accusing GHD of blocking Year-1 exchange when Year 2+ priority is published
+    - 4.24 as current CGPA
+    - Biochem minor plus great GHD as a GE admit
+    - Recruiting Keiji as a medical referee this week
+    - Telling GHD office the overload is for medical school
+    - Lifting the surgery floor because confidence returned
+    - Inventing overload deadlines or Laidlaw paper titles
+  corrections:
+    - Hold until 29 Aug info dump; then draft; Bob sends
+    - Year-1 miss is compatible with published Year 2+ priority; faculty block
+      is a question not a charge
+    - Living GPA in letters is 4.09/4.30 unless quoting the historical form
+    - GE confidence is distortion; do not put medicine in these four letters
+    - Fable — late stack is work with a prestige payload in the last sentence
+    - Sol — IAO letter cites Year 2+ priority and asks process; next window Oct
+  suggestedImplementations:
+    - action: Do not send any of the four tonight
+      rationale: Missing facts plus tired Bishai/Keiji mail is the expensive error
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Tomorrow paste the four labelled info packs (file names, rejection body
+        without addresses, Fukuda one-liner, course codes)
+      rationale: Then drafts can be true
+      effort: S
+      leverage: high
+      owner: bob
+    - action: IAO draft tomorrow cites Year 2+ priority and asks whether faculty
+        support was recorded; does not accuse
+      rationale: Official page already explains Year-1 deprioritisation
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Do not mention graduate-entry medicine or a biochem-minor hedge in any
+        of the four letters
+      rationale: Floor closed; minor not a published GE ticket; Keiji is GHD
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Use 4.09/4.30 as current CGPA; quote 4.24 only if it was on the Year-1
+        form
+      rationale: Canon killed 4.24 as a living number
+      effort: S
+      leverage: high
+      owner: shared
+    - action: If Youde is still unsent, do it before polishing Keiji
+      rationale: Live nomination window beats a mentor cold open
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane. No staff emails, UID, phones, or award-letter
+  internals. Named chat handles are not to be expanded into addresses in git.

@@ -401,6 +401,29 @@ Oct 2025 semester spots (all `***` unless noted):
 
 **PKU as a GHD play:** You get Weiming, general departments, Chinese- and some English-taught UG. You do **not** get BJMU/HSC by default. Min 4 courses/semester on the 港澳台 fact sheet; application in Simplified Chinese. Faculty-specific HKUMed–PKU channels exist in the news (MoU Dec 2024) — those are **not** HKUWW. If the point is China CDC adjacency, a **Y4 capstone** at CDC beats a Y3 Beida semester in a non-health faculty. If the point is Mandarin institutional fluency + AFPLA + T&N optics, Beida still works.
 
+**PKU spring travel physics (analog calendars, not a 2027/28 promise).** A Y3 Semester 2 HKUWW placement follows **PKU’s spring**, not HKU’s January–May. PKU **2027–28 校历 is unpublished** as of 28 Aug 2026. So is the State Council 2028 holiday package. What follows is shape from published analogs. Do not treat the dates as your dates.
+
+Analog A — PKU **2026–27 校历** (NSD Chinese PDF and GSM English PDF, accessed 2026-08-28): spring classes resume **22 Feb 2027**; current-student registration **22–26 Feb**; campus sports meet **23–25 Apr** (an on-campus event, not a travel week); Labour Day and university anniversary **1 May** no class, **2–7 May** no class, **8–9 May** makeup with classes in session; 停课复习考试 **14–27 Jun 2027**; student summer from **28 Jun**. Qingming and Dragon Boat 2027 packages wait on the State Council; PKU says it will update.
+
+Analog B — HKU-hosted **港澳台** inbound fact sheet, Spring 2026 (IAO PDF, accessed 2026-08-28): report **26 Feb 2026**; classes **2 Mar**; exams **15–27 Jun**; leave **5 Jul**. Undergraduates: **at least four courses** per semester. Auto-assigned **quad dorm** on the main campus, cannot switch; off-campus only if the home university informs PKU. Host living colour: **RMB 7,200 per semester** all-in, including RMB 750 dorm — canteen-and-quad, not a travel budget. **No part-time work or internship** during the exchange. Write a reflection at the end.
+
+Analog C — HKU **2026–27** (IAO Academic Information): Sem 1 assessment through **23 Dec 2026**; Sem 2 teaching **18 Jan – 30 Apr 2027**. A spring PKU inbound is **not** sitting that HKU Sem 2.
+
+| Window | Shape on the analogs | Travel? |
+|---|---|---|
+| Before report | After HKU Sem 1 exams (~late Dec analog) until PKU report (~late Feb analog). Lunar New Year **2028** falls **26 Jan** as a calendar date, not as a published 放假 package. | The only **multi-week** block. Family, Chunyun, visa, and housing check-in can eat it. This is *before* Beida, not instead of class. |
+| During teaching | Weekends. Qingming, once 调休 is published, is typically a long weekend. Labour Day analog is **one full week** off, then two makeup days. Sports meet is campus. | About **1.5–2 weeks** of overnight travel, fragmented. Not a month on a train. |
+| Exams | Two weeks of 停课复习考试. | Not travel. |
+| After exams | Analog: exams end ~27 Jun; 港澳台 leave ~5 Jul; then `GHAD4010` is *normally* Y3 summer through Y4 Sem 1. | Days to maybe one week still on the host clock. Capstone start in summer 2028 is **UNVERIFIED**. |
+
+**Academic pressure is course diet, not PKU mystique.** Host grades do not enter HKU GPA. **Fails do not transfer** (Senate credit-accumulation policy; Faculty science/business implementations of the same rule). Four courses still have 点名, midterms, group work, and June exams. 元培 / 国关 / 光华 with degree students will kill travel. A 公选 diet will not, but still requires presence. ISD visiting-student (GVS) pages describe a **different door**; do not import their numeric absence caps onto the 港澳台 sheet, which is silent on a percentage. Mainland UG 点名 remains the working assumption.
+
+**Fall vs spring.** Fall analog has National Day **1–7 Oct** with no class — a bigger in-term holiday — but PKU fall exams run to ~10 Jan, against an HKU Sem 2 start ~18 Jan analog. Spring is the semester with a fat winter *before* report.
+
+**Staycation.** Beijing is the destination. 燕园, 颐和园, 圆明园, Haidian ordinary life, weekend Tianjin or a Great Wall day. Do not spend the semester treating Weiming as a hotel between 高铁 trips. Do not invent fares or opening hours.
+
+**Money.** The 港澳台 colour is RMB 7,200/semester. An ISD international-student handbook colour is about RMB 6,000/month including housing (different population, different housing). A comfortable semester in Beijing is not scarce relative to a five-figure HKD living envelope. **Calendar and attendance are the scarce goods.**
+
 **Fudan:** Shanghai, which you already touch via LINK. A Fudan semester *plus* LINK is a lot of Shanghai and little geographic diversity. AFPLA member. English-taught list exists (OGP). Tracks: Chinese Language / General Advanced (UG) / Senior Advanced (EMA grad) — **cannot combine** EMA with UG exchange. HSK 5 often required for Chinese-taught tracks for non-native speakers; HK local / native Mandarin status may change that — **verify on the year’s fact sheet**. SPH access **UNVERIFIED** — email `incoming@fudan.edu.cn` before ranking Fudan above PKU *for coursework*. T&N Future Doctor Leadership Camp (Fudan + HKU Med) is a **separate** quota programme, not HKUWW.
 
 **Channel vs ISD English pages.** International-exchange pages at PKU/Tsinghua describe nationality gates (GVS1: non-Chinese nationality; Tsinghua sheets exclude some PRC/hukou categories). HKUWW may use the **港澳台** partner track instead. This is a one-email question to IAO, not a self-diagnosis of identity.
@@ -645,6 +668,8 @@ Falsifiers, so this primer can be killed by evidence.
 | 10 | AFPLA chapters admit inbound exchange | Network upside becomes real, still not a reason to pick the host alone |
 | 11 | BXAI counts HK as a distinct region and a partner master’s is realistic | AFLSP becomes a postgraduate target |
 | 12 | T&N reads host grades despite HKU GPA exclusion | Restores “rigor risk” as a scholarship issue |
+| 13 | PKU 2027–28 校历 and 港澳台 report/leave dates | Locks the winter-gap and post-exam travel windows |
+| 14 | SPH writes a GHAD4010 start date for summer 2028 | Tells you whether late June after PKU exams is usable |
 
 **Deadline that governs the first two:** main round opens 12 Oct 2026. Questions 1, 2, 6, 7 should be answered before you write the 100 words.
 
@@ -660,7 +685,7 @@ Operator-plane research, 19 Aug 2026.
 - Community/student-club pages used only as texture and labelled.
 - No invented fees, quotas, or admit rates. 27/28 partner PDF, if posted during a later cycle, **replaces** 26/27 quotas.
 
-Companion review: `docs/exchange-review-ghd-hkuww.md`. Capture: `content/captures/2026-08-19-hkuww-premier-exchange.yaml`.
+Companion review: `docs/exchange-review-ghd-hkuww.md`. Captures: `content/captures/2026-08-19-hkuww-premier-exchange.yaml`; PKU travel windows `content/captures/2026-08-28-pku-semester-travel.yaml` (2026-08-28).
 
 ---
 
@@ -685,6 +710,9 @@ Companion review: `docs/exchange-review-ghd-hkuww.md`. Capture: `content/capture
 - Worldwide Plus Visiting (Oxford fees); Yale Y-VISP closure page  
 - China Vision PKU/Fudan summer programme pages; LINK about page  
 - PKU ISD exchange page / HKU-hosted PKU & Fudan fact sheets (medicine/HSC restrictions)  
+- PKU 港澳台 Spring 2026 fact sheet (IAO-hosted PDF, accessed 2026-08-28): https://intlaffairs.hku.hk/backend/wp-content/uploads/2025/09/Peking-University-Factsheet-Spring-2026.pdf  
+- PKU 2026–27 校历 (accessed 2026-08-28): https://nsd.pku.edu.cn/docs/2026-07/fe04db79054846f994dfabf70240e2b8.pdf and http://futureleaders.gsm.pku.edu.cn/PKU2026-2027SchoolCalendar.pdf  
+- HKU IAO Academic Information 2026–27: https://intlaffairs.hku.hk/academic-information  
 - UBC Go Global restrictions; UBC SPPH calendar  
 - BXAI AFLSP overview / exchange scholarship  
 - JIHS (NIID merger 1 Apr 2025)  
@@ -692,7 +720,7 @@ Companion review: `docs/exchange-review-ghd-hkuww.md`. Capture: `content/capture
 
 **Reverify:** 2027/28 partner PDF when IAO posts it (likely Oct 2026); host fact sheets after nomination; T&N Mainland definition; GHD faculty code; IELTS slots; GHAD course codes; Fudan SPH; AFPLA inbound rules; capstone geography.
 
-Machine-readable claims: `.tmp/hkuww-primer/claims.jsonl` (52 rows: `sourceId`, accessed date, confidence, `reverifyAfter`). Reprint the register when the 27/28 partner PDF drops rather than editing numbers in prose first.
+Machine-readable claims: `.tmp/hkuww-primer/claims.jsonl` (`sourceId`, accessed date, confidence, `reverifyAfter`). Reprint the register when the 27/28 partner PDF drops rather than editing numbers in prose first.
 
 ---
 

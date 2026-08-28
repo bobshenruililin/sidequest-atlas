@@ -1,0 +1,85 @@
+schemaVersion: 1.0.0
+id: 2026-08-28-pku-semester-travel
+capturedAt: 2026-08-28T16:15:00.000Z
+title: PKU spring exchange travel windows
+rawText: "When exchanging at PKU, is there time to travel in the semester?
+  Academic pressure? How many weeks? Staycations in Beijing versus leaving
+  the city? Living budget is not the scarce input."
+spark: A PKU spring semester has about 1.5–2 fragmented in-term travel weeks
+  plus a fat winter gap before report and a thin post-exam sliver. Pressure is
+  course diet, not Beida mystique. Beijing staycation is the load-bearing
+  memory. Analog calendars only; 2027/28 unpublished.
+domains:
+  - travel
+  - opportunity
+  - career
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://intlaffairs.hku.hk/backend/wp-content/uploads/2025/09/Peking-University-Factsheet-Spring-2026.pdf
+  - http://futureleaders.gsm.pku.edu.cn/PKU2026-2027SchoolCalendar.pdf
+  - https://nsd.pku.edu.cn/docs/2026-07/fe04db79054846f994dfabf70240e2b8.pdf
+  - https://intlaffairs.hku.hk/academic-information
+  - https://intlaffairs.hku.hk/programmes/peking-university-exchange-programme
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-19-hkuww-premier-exchange
+  - 2026-08-19-ghd-exchange-tool-review
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Travel is fieldwork; ordinary life is a destination
+    - Never invent fares, hours, or unpublished calendars
+    - Host grades do not enter HKU GPA; fails do not transfer
+    - PKU on HKUWW is a university semester, not SPH / China CDC
+    - Family capital is an advantage and a distortion; living colour is not
+      a travel thesis
+  informationGaps:
+    - PKU 2027–28 校历 unpublished
+    - State Council 2028 holiday 调休 unpublished
+    - 2027/28 港澳台 report, class-start, exam, and leave dates unpublished
+    - Whether GHAD4010 summer 2028 starts before or after a late-June PKU exam
+      end
+    - Whether 港澳台 inbound may arrive materially before the report date
+    - Numeric attendance cap for the 港澳台 track (sheet is silent)
+  opportunityGaps:
+    - Spring (not fall) is the semester with a multi-week winter before report
+    - Labour Day analog is the only full in-term week
+    - Beijing itself is the scarce texture if weekends are used as staycation
+      rather than 高铁
+  falseBargains:
+    - Treating the semester as a funded travel season with classes attached
+    - Importing ISD GVS attendance percentages onto the 港澳台 door
+    - Using the 港澳台 RMB 7200/semester colour as a lifestyle budget
+    - Counting sports meet or makeup weekends as travel weeks
+    - Planning internships or CDC adjacency during the exchange (host forbids
+      part-time work and internships)
+  corrections:
+    - In-term overnight travel is about 1.5–2 weeks fragmented, not a month
+    - The only multi-week block is before PKU report, after HKU Sem 1 exams
+    - Academic pressure is which four courses, not whether PKU is hard
+    - Auto quad dorm cannot be swapped; off-campus needs home-university notice
+  suggestedImplementations:
+    - action: Confirm with IAO which inbound door HKUWW nominees walk (港澳台 vs
+        ISD GVS) and whether report dates can precede the published analog
+      rationale: Door choice changes housing, language of application, and when
+        you must be in Beijing
+      effort: S
+      leverage: high
+      owner: bob
+    - action: When 2027/28 校历 and 港澳台 sheet drop, replace analog dates in
+        docs/hkuww-exchange-primer.md
+      rationale: Travel windows are calendar physics; stale analogs become lies
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Ask SPH whether GHAD4010 may start after a late-June host exam
+        window in 2028
+      rationale: Post-exam travel and capstone are the same weeks
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane record. No HKID, phones, address, DOB, booking refs,
+  companion funding, or household income figures.

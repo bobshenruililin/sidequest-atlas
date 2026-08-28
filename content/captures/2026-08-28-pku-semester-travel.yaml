@@ -2,9 +2,9 @@ schemaVersion: 1.0.0
 id: 2026-08-28-pku-semester-travel
 capturedAt: 2026-08-28T16:15:00.000Z
 title: PKU spring exchange travel windows
-rawText: "When exchanging at PKU, is there time to travel in the semester?
-  Academic pressure? How many weeks? Staycations in Beijing versus leaving
-  the city? Living budget is not the scarce input."
+rawText: When exchanging at PKU, is there time to travel in the semester?
+  Academic pressure? How many weeks? Staycations in Beijing versus leaving the
+  city? Living budget is not the scarce input.
 spark: A PKU spring semester has about 1.5–2 fragmented in-term travel weeks
   plus a fat winter gap before report and a thin post-exam sliver. Pressure is
   course diet, not Beida mystique. Beijing staycation is the load-bearing
@@ -34,8 +34,8 @@ triangulation:
     - Never invent fares, hours, or unpublished calendars
     - Host grades do not enter HKU GPA; fails do not transfer
     - PKU on HKUWW is a university semester, not SPH / China CDC
-    - Family capital is an advantage and a distortion; living colour is not
-      a travel thesis
+    - Family capital is an advantage and a distortion; living colour is not a
+      travel thesis
   informationGaps:
     - PKU 2027–28 校历 unpublished
     - State Council 2028 holiday 调休 unpublished
@@ -62,10 +62,10 @@ triangulation:
     - Academic pressure is which four courses, not whether PKU is hard
     - Auto quad dorm cannot be swapped; off-campus needs home-university notice
   suggestedImplementations:
-    - action: Confirm with IAO which inbound door HKUWW nominees walk (港澳台 vs
-        ISD GVS) and whether report dates can precede the published analog
-      rationale: Door choice changes housing, language of application, and when
-        you must be in Beijing
+    - action: Confirm with IAO which inbound door HKUWW nominees walk (港澳台 vs ISD GVS)
+        and whether report dates can precede the published analog
+      rationale: Door choice changes housing, language of application, and when you
+        must be in Beijing
       effort: S
       leverage: high
       owner: bob
@@ -75,8 +75,8 @@ triangulation:
       effort: S
       leverage: high
       owner: shared
-    - action: Ask SPH whether GHAD4010 may start after a late-June host exam
-        window in 2028
+    - action: Ask SPH whether GHAD4010 may start after a late-June host exam window in
+        2028
       rationale: Post-exam travel and capstone are the same weeks
       effort: S
       leverage: high

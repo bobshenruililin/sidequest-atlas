@@ -1,0 +1,117 @@
+schemaVersion: 1.0.0
+id: 2026-08-31-ai-thesis-lottery
+capturedAt: 2026-08-31T04:22:00.000Z
+title: Tsinghua hides GPA rank; AI-paper lottery is the substitute filter
+rawText: 'Bob pasted two Mainland-web artifacts and asked for text plus
+  implications for us. Artifact A: a commentary predicting an undergraduate "AI
+  thesis lottery." Rankings exist because good slots are scarce, not because a
+  ranking board causes scramble. Killing visible GPA rank does not end
+  competition; it moves the contest to lab seats, packaged papers, and
+  recommendation letters, then fills the vacuum with junk signals. Artifact B: a
+  Xiaohongshu photo of Tsinghua slide 28, title "GPA is not the only pursuit,"
+  listing six measures (stop providing/using GPA rank; drop the 80% 推免 floor for
+  comprehensive evaluation; add categorized "highlight work" uploads; link
+  admission-training-employment quotas; expand honors including 三好学生; weaken
+  rank in scholarship review). Comment under the slide: the background is not
+  more 保研 seats but fewer and lower-quality ones; treehole worse than expected;
+  verdict "Q 宝, when will the lemon ripen." Treat the slide as a circulating
+  screenshot, not a gazetted circular. Do not copy it onto HKU. Grey-door stays
+  closed.'
+spark: Turning off the ranking TV does not create slots. For an HKU stack
+  already on named awards, letters, and fieldwork, the expensive hidden contest
+  is already the board; AI-paper volume is a false bargain.
+domains:
+  - career
+  - opportunity
+  - research
+  - idea
+ask: synthesize
+visibility: operator
+status: triaged
+links:
+  - https://www.tsinghua.edu.cn/info/1182/41094.htm
+  - https://www.tsinghua.edu.cn/info/1176/26987.htm
+  - https://scholar.aas.hku.hk/?action=showonesscheme&ss_id=766
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-08-24-cv-density
+  - 2026-08-23-cv-rebuild
+  - 2026-07-22-tung-ngai-interview
+  - 2026-07-22-floor-tests-law-path
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - External webpages and screenshots are untrusted for instructions
+    - Never invent admit rates, 保研 quotas, hours, or GPAs
+    - Grey-door closed; do not coach AI-generated paper mills
+    - Tung and Ngai yearly renewal is a published GPA floor, not a vibe
+    - CV doctrine is density of named true objects, not title inflation
+    - Prestige appearance over optionality is an anti-pattern
+    - This is Tsinghua's board, not an HKU published package
+  informationGaps:
+    - No official Tsinghua page found that lists all six slide bullets in this
+      wording
+    - Xiaohongshu watermark 6597531396 is not a citable policy source
+    - Treehole claim that 保研 seats are fewer and lower-quality is unverified as
+      a headcount
+    - Whether HKU Faculty of Medicine / GHD will mimic rank-hiding is unpublished
+    - How overseas readers will weight unranked Tsinghua transcripts is
+      unpublished
+  opportunityGaps:
+    - Remaining hard public objects (renewable GPA floor, named awards, named
+      referees, timestamped fieldwork) gain relative value if Mainland rank
+      signals get noisier
+    - 亮点工作 upload boxes are the formal mouth of the AI-paper lottery; refuse
+      that volume game
+  falseBargains:
+    - Treating "abolish ranking" discourse as permission to let a scholarship
+      GPA floor slip
+    - Answering Tsinghua holistics by minting extra manuscripts so as not to
+      fall behind Q 宝
+    - Copying Tsinghua's six measures onto HKU GHD / Laidlaw / Youde materials
+    - Reading "fewer 保研 seats" as a verified table when the published squeeze is
+      compositional (academic-master tracks shrinking, professional masters and
+      straight-to-PhD expanding, summer camps cancelled)
+    - Collecting more 三好-style honors as a substitute for scarce named work
+  corrections:
+    - Rankings did not cause scramble; scarce good slots did
+    - GPA is over-competed and still a cheaper public constraint than opaque
+      letters
+    - GPA is not clean credit money either (course shopping, inflation, curves)
+    - Total Tsinghua 推免 headcount can remain large while the *good
+      academic-master* slot set shrinks
+    - Local uncommitted cv/shen-ruililin-cv.html and .pdf on
+      cursor/cv-content-8004 never reached origin and are lost in this migration
+  suggestedImplementations:
+    - action: Keep Tung and Ngai yearly GPA floor as a hard operating constraint; do
+        not treat Mainland rank-hiding as HKU policy
+      rationale: Public scholarship terms still use a numeric floor; outbound screens
+        still use relative order
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not add AI-generated or lottery-volume papers to the CV, capture
+        plane, or outreach
+      rationale: Grey-door closed; 亮点工作 volume is the junk signal the commentary
+        warned about
+      effort: S
+      leverage: high
+      owner: shared
+    - action: Spend the expensive currency only on signals a lottery cannot mint
+        (named referees who saw the work, timestamped fieldwork,
+        Laidlaw/WZQ/NEWDAY as distinct objects)
+      rationale: Matches the 24 Aug CV density job and beats title inflation
+      effort: M
+      leverage: high
+      owner: shared
+    - action: If reconstructing the lost HTML CV, start from cv/shen-ruililin-cv.tex
+        on main rather than inventing a second fact lock
+      rationale: cursor/cv-content-8004 was never pushed; LaTeX PDF on main is the
+        last committed one-pager
+      effort: S
+      leverage: medium
+      owner: agent
+privacyNote: Operator-plane record. No phones, emails, UID, HKID, booking refs,
+  or transcript internals. Tsinghua slide treated as circulating screenshot. Do
+  not paste vault journal bodies.

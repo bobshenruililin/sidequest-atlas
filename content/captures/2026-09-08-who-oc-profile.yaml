@@ -1,0 +1,80 @@
+schemaVersion: 1.0.0
+id: 2026-09-08-who-oc-profile
+capturedAt: 2026-09-08T11:30:00.000Z
+title: Missing a WHO regional-meeting OC is not a profile hole
+rawText: Is not getting spot at organising committee of WHO regional meeting
+  detrimental to my profile?
+spark: A missed committee title is being read as damage. The live book does not
+  have a hole there. Which meeting is unnamed in canon.
+domains:
+  - career
+  - opportunity
+  - idea
+ask: use
+visibility: operator
+status: triaged
+links:
+  - https://www.who.int/westernpacific/about/governance/regional-committee/session-77
+relatedTrips: []
+relatedRepos: []
+relatedCaptures:
+  - 2026-07-22-floor-tests-law-path
+  - 2026-08-24-cv-density
+  - 2026-08-23-cv-rebuild
+  - 2026-08-28-life-positions
+relatedJournalEntries: []
+triangulation:
+  againstCanon:
+    - Compounding over speed; prestige hunger is a distortion field
+    - Thesis is HK as trusted interface / heat-health / CHP-China CDC aim
+    - Medicine without surgery is closed; GHD is not MBBS
+    - Youde CV already keeps World Health Summit off until confirmed
+    - Load-bearing nouns are Tung and Ngai, Laidlaw plus Bishai, Martin, WZQ
+      coordinator, NEWDAY, GEST invited speaker
+    - Calendar — term started 1 Sep 2026; October Laidlaw London attending plus
+      GEST Valencia invited speaker
+    - Leadership in voice is connection and translation, not title collection
+  informationGaps:
+    - Which meeting and which organising committee
+    - Applied versus rejected versus never eligible
+    - Whether any named 2026-27 door listed this OC as a prerequisite
+  opportunityGaps:
+    - Laidlaw written comments and GHD sequencing still compound
+    - WZQ coordinator already is organising-ability with field consequence
+    - October talks are the live public-health rooms
+  falseBargains:
+    - Reading a missed student OC as a WHO career veto
+    - Joining AMSAHK or IFMSA to look like a medical student
+    - Putting almost-selected on the CV
+    - Replacing Laidlaw artefact time with a consolation committee
+    - Treating WPRO Regional Committee organising as a student product
+  corrections:
+    - Not detrimental to this profile
+    - Name the object before a second pass
+    - IFMSA APRM 2026 in Hong Kong was a medical-student meeting that already
+      happened; WPRO RC77 in Manila in October is Secretariat-run
+    - Fable question — which work this semester evidences the thesis
+    - Sol question — did this committee gate a named door, yes or no
+  suggestedImplementations:
+    - action: Do not hunt a replacement organising-committee seat this month
+      rationale: Term and October talks outrank a title
+      effort: S
+      leverage: high
+      owner: bob
+    - action: Do not add the miss or the meeting name to the CV
+      rationale: Absence is not a hole; almost-selected is worse
+      effort: S
+      leverage: high
+      owner: bob
+    - action: If a second pass is wanted, paste the exact committee name, call, and
+        outcome
+      rationale: Canon has no OC object under this phrase
+      effort: S
+      leverage: medium
+      owner: bob
+    - action: Spend the hours on Laidlaw comments or GHD sequencing instead
+      rationale: Those compound the book the OC would only decorate
+      effort: S
+      leverage: high
+      owner: bob
+privacyNote: Operator-plane. No staff or student-org emails, UID, or rejection letters.

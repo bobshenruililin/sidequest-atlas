@@ -23,4 +23,9 @@ Source prompts Bob provided, mapped to files. Dates are archive dates, not origi
 
 ## Outputs
 
-Drafts written **for Bob** (future scholarships) live here. Empty until the next prompt.
+| File | What |
+|------|------|
+| `outputs/glocal-connectors-2026-27.md` | CEDARS GLOCAL Connectors 2026–27 — support list + reasons/expectations |
+
+Drafts written **for Bob** live here.
+
